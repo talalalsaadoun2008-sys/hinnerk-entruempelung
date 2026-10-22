@@ -25,6 +25,7 @@ BASE = SITE["base_url"]
 ORTE = json.loads((SRC / "stadtteile.json").read_text(encoding="utf-8"))
 LEIST = json.loads((SRC / "leistungen.json").read_text(encoding="utf-8"))
 FOTOS = json.loads((SRC / "fotos.json").read_text(encoding="utf-8"))
+RAT = json.loads((SRC / "ratgeber.json").read_text(encoding="utf-8"))
 _KURZ = {l["slug"]: l for l in SITE["leistungen"]}
 for _l in LEIST:
     _l["kurz"] = _KURZ[_l["slug"]]["kurz"]
@@ -375,6 +376,7 @@ def anfrage(seite, ort=""):
 def fuss():
     leist = "".join(f'<li><a href="{l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)
     bez = "".join(f'<li><a href="einsatzgebiet.html#{slugify(b)}">{E(b)}</a></li>' for b in BEZIRKE)
+    rat = "".join(f'<li><a href="{r["slug"]}.html">{E(r["kurz_titel"])}</a></li>' for r in RAT)
     return f"""</main>
 <footer class="fuss">
 <div class="fuss-oben">
@@ -382,6 +384,7 @@ def fuss():
 <a class="knopf knopf-gelb" href="{mailto('Anfrage Entrümpelung', ANFRAGE_TEXT)}">Kostenlos anfragen</a></div>
 <ul><li class="titel">Leistungen</li><li><a href="./">Entrümpelung Hamburg</a></li>{leist}</ul>
 <ul><li class="titel">Bezirke</li>{bez}<li><a href="einsatzgebiet.html">Alle 99 Stadtteile</a></li></ul>
+<ul><li class="titel">Ratgeber</li>{rat}</ul>
 <ul><li class="titel">Kontakt</li><li>Inh. {E(F['inhaber'])}</li><li>{E(F['strasse'])}</li><li>{F['plz']} {E(F['ort'])}</li><li><a href="mailto:{F['email']}">{F['email']}</a></li></ul>
 </div>
 <div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg</span><span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
@@ -427,6 +430,58 @@ START_FAQ = [
 ]
 
 
+def weitere_fragen(ausser=None, titel="Weitere Fragen"):
+    k = "".join(f'<li><a href="{r["slug"]}.html"><span>{E(r["frage"])}</span>{PFEIL}</a></li>' for r in RAT if r["slug"] != ausser)
+    return f"""<section class="abschnitt" aria-labelledby="wf-h">
+<div class="weitere"><div><p class="eyebrow">Ratgeber</p><h2 id="wf-h" data-auf>{E(titel)}</h2></div><ul class="frageliste" data-auf>{k}</ul></div>
+</section>
+"""
+
+
+def kontakt_karte(frage):
+    tel = (f'<a class="kontakt-zeile" href="tel:{F["telefon_link"]}">{icon("post", 24)}<span><b>Telefon</b>{E(F["telefon"])}</span></a>' if F["telefon"] else "")
+    return f"""<section class="abschnitt" aria-labelledby="kk-h">
+<div class="kontakt-karte">
+<div><span class="kreisicon">{mascot(64)}</span><h2 id="kk-h">Fragen Sie Hinnerk direkt</h2>
+<p>Sie möchten wissen, was es bei Ihnen kostet? Schreiben Sie uns kurz, was geräumt werden soll. Die Besichtigung ist kostenlos, danach bekommen Sie einen festen Preis.</p></div>
+<div class="kontakt-wege">
+{tel}<a class="kontakt-zeile" href="{mailto('Frage: ' + frage, ANFRAGE_TEXT)}">{icon("post", 24)}<span><b>E-Mail</b>{F['email']}</span></a>
+<a class="kontakt-zeile" href="#anfrage">{icon("kalender", 24)}<span><b>Besichtigung anfragen</b>Formular ausfüllen</span></a>
+<div class="kontakt-zeile">{icon("pin", 24)}<span><b>Hinnerk – Entrümpelung Hamburg</b>{E(F['strasse'])}, {F['plz']} {E(F['ort'])}</span></div>
+</div>
+</div>
+</section>
+"""
+
+
+def ratgeberseite(r):
+    k, ld = krumen([("Startseite", "./"), (r["kurz_titel"], None)])
+    text_kurz = r["kurz"]
+    schema = [ld, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": r["frage"],
+              "acceptedAnswer": {"@type": "Answer", "text": text_kurz}}]},
+              {"@type": "Article", "headline": r["frage"], "inLanguage": "de", "dateModified": HEUTE,
+               "author": {"@id": BASE + "#firma"}, "publisher": {"@id": BASE + "#firma"}, "image": BASE + "img/" + FOTOS[r["foto"]]["datei"]}]
+    page = head(r["title"], r["description"], r["slug"] + ".html", schema, preload=r["foto"]) + bar()
+    page += held(E(r["frage"]), "Die kurze Antwort, Hamburger Fakten und wie Sie bei Hinnerk zu einem festen Preis kommen.",
+                 "Kostenlos besichtigen lassen", "#anfrage", r["foto"], eyebrow="Ratgeber", klein=True)
+    secs = "".join(f'<h2>{E(a["h2"])}</h2>{a["html"]}' for a in r["abschnitte"])
+    quellen = ("<details class=\"quellen\"><summary>Quellen</summary><ul>" + "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in r["quellen"]) + "</ul></details>") if r["quellen"] else ""
+    page += f"""<section class="abschnitt" aria-label="Antwort">
+<div class="lesen"><article class="text">{k}
+<div class="antwort"><p class="eyebrow">Kurz gesagt</p><p>{E(text_kurz)}</p><p class="antwort-cta"><a href="#anfrage">Kostenlose Besichtigung anfragen</a> · <a href="mailto:{F['email']}">{F['email']}</a></p></div>
+{secs}
+<p class="stand">Stand: {date.today().strftime('%m/%Y')}</p>
+{quellen}
+</article>{seitenkasten('Kostenlose Besichtigung', 'Besichtigung anfragen')}</div>
+</section>
+"""
+    page += kontakt_karte(r["frage"])
+    page += weitere_fragen(ausser=r["slug"])
+    page += anfrage("Ratgeber: " + r["frage"])
+    page += fuss()
+    write(r["slug"] + ".html", page)
+
+
 # ---------------------------------------------------------------- Startseite
 def startseite():
     t = "Entrümpelung Hamburg ✓ Haushaltsauflösung ✓ Festpreis | Hinnerk"
@@ -445,6 +500,7 @@ def startseite():
     page += vergleich()
     page += finder()
     page += fragen("Häufige Fragen", START_FAQ)
+    page += weitere_fragen(titel="Mehr Antworten")
     page += anfrage("Startseite")
     page += fuss()
     write("index.html", page)
@@ -467,6 +523,7 @@ def leistungsseite(l):
     page += ablauf("So läuft’s", "Erst kostenlos besichtigen, dann ein fester Preis – auch bei einer " + l["name"] + ".")
     page += leistungs_reihe("Auch das räumt Hinnerk", ausser=l["slug"])
     page += fragen("Häufige Fragen", l["faq"])
+    page += weitere_fragen()
     page += anfrage(l["name"])
     page += fuss()
     write(l["slug"] + ".html", page)
@@ -612,11 +669,13 @@ if __name__ == "__main__":
     startseite()
     for l in LEIST:
         leistungsseite(l)
+    for r in RAT:
+        ratgeberseite(r)
     for o in ORTE:
         ortsseite(o, [x for x in ORTE if x["bezirk"] == o["bezirk"]])
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
