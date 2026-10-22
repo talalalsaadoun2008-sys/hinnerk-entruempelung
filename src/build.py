@@ -355,7 +355,7 @@ def leistungsseite(l):
 </div></section>
 <section class="band band-weiss"><div class="wrap text">{secs}</div></section>
 {ablauf_html()}
-<section class="band"><div class="wrap text"><h2>Häufige Fragen zur {E(l['name'])}</h2>{faq_html(l['faq'])}</div></section>
+<section class="band"><div class="wrap text"><h2>Häufige Fragen: {E(l['name'])}</h2>{faq_html(l['faq'])}</div></section>
 {anfrage(l['name'])}
 """
     page += fuss()

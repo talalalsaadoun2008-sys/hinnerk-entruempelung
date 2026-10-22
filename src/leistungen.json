@@ -7,15 +7,36 @@
   "h1": "Haushaltsauflösung in Hamburg",
   "lead": "Ein ganzer Haushalt muss aufgelöst werden – oft in einer schweren Zeit. Hinnerk nimmt Ihnen die Arbeit ab: in Ruhe besprochen, sorgfältig geräumt, zum festen Preis.",
   "sections": [
-   {"h2": "Wann eine Haushaltsauflösung nötig wird", "html": "<p>Meist gibt es einen klaren Anlass: Ein Angehöriger ist gestorben, die Eltern ziehen ins Pflegeheim oder zu den Kindern, oder ein Haus wird verkauft. Dann muss ein ganzer Hausstand aufgelöst werden – Möbel, Küche, Kleidung, Bücher, Keller und Dachboden.</p>"},
-   {"h2": "Was vorher geklärt wird", "html": "<p>Bevor wir räumen, gehen wir mit Ihnen durch die Räume. Papiere, Fotos, Schmuck und Erinnerungsstücke legen Sie vorher beiseite oder sagen uns, wonach wir beim Räumen achten sollen. Was Familie oder Freunde behalten möchten, bleibt stehen.</p><p>Danach bekommen Sie einen festen Preis. Der hängt davon ab, wie viel geräumt wird, in welchem Stockwerk und wie weit der Weg zum Wagen ist.</p>"},
-   {"h2": "Räumung und Entsorgung", "html": "<p>Am vereinbarten Tag räumen wir den Haushalt aus und trennen dabei nach Sperrmüll, Holz, Metall, Elektrogeräten und anderen Abfällen. Entsorgt wird über die zugelassenen Wege, zum Beispiel die Recyclinghöfe der Stadtreinigung Hamburg. Welcher Recyclinghof in Ihrer Nähe liegt, steht auf der <a href=\"einsatzgebiet.html\">Seite Ihres Stadtteils</a>.</p>"},
-   {"h2": "Haushaltsauflösung oder Wohnungsauflösung?", "html": "<p>Die Begriffe werden oft gleich benutzt. Bei einer Haushaltsauflösung geht es um den ganzen Hausstand eines Menschen. Wenn es vor allem darum geht, Räume leer zu bekommen, ist eine <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a> gemeint. Für einzelne Räume gibt es die <a href=\"keller-entruempeln-hamburg.html\">Entrümpelung von Keller, Dachboden und Garage</a>.</p>"}
+   {
+    "h2": "Wann eine Haushaltsauflösung nötig wird",
+    "html": "<p>Meist gibt es einen klaren Anlass: Ein Angehöriger ist gestorben, die Eltern ziehen ins Pflegeheim oder zu den Kindern, oder ein Haus wird verkauft. Dann muss ein ganzer Hausstand aufgelöst werden – Möbel, Küche, Kleidung, Bücher, Keller und Dachboden.</p>"
+   },
+   {
+    "h2": "Was vorher geklärt wird",
+    "html": "<p>Bevor wir räumen, gehen wir mit Ihnen durch die Räume. Papiere, Fotos, Schmuck und Erinnerungsstücke legen Sie vorher beiseite oder sagen uns, wonach wir beim Räumen achten sollen. Was Familie oder Freunde behalten möchten, bleibt stehen.</p><p>Danach bekommen Sie einen festen Preis. Der hängt davon ab, wie viel geräumt wird, in welchem Stockwerk und wie weit der Weg zum Wagen ist.</p>"
+   },
+   {
+    "h2": "Räumung und Entsorgung",
+    "html": "<p>Am vereinbarten Tag räumen wir den Haushalt aus und trennen dabei nach Sperrmüll, Holz, Metall, Elektrogeräten und anderen Abfällen. Entsorgt wird über die zugelassenen Wege, zum Beispiel die Recyclinghöfe der Stadtreinigung Hamburg. Welcher Recyclinghof in Ihrer Nähe liegt, steht auf der <a href=\"einsatzgebiet.html\">Seite Ihres Stadtteils</a>.</p>"
+   },
+   {
+    "h2": "Haushaltsauflösung oder Wohnungsauflösung?",
+    "html": "<p>Die Begriffe werden oft gleich benutzt. Bei einer Haushaltsauflösung geht es um den ganzen Hausstand eines Menschen. Wenn es vor allem darum geht, Räume leer zu bekommen, ist eine <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a> gemeint. Für einzelne Räume gibt es die <a href=\"keller-entruempeln-hamburg.html\">Entrümpelung von Keller, Dachboden und Garage</a>.</p>"
+   }
   ],
   "faq": [
-   {"q": "Muss ich bei der Haushaltsauflösung dabei sein?", "a": "Nein. Wichtig ist, dass vorher klar ist, was bleiben soll. Den Schlüssel können Sie uns übergeben."},
-   {"q": "Was passiert mit Dokumenten und persönlichen Sachen?", "a": "Am besten nehmen Sie wichtige Papiere und Erinnerungsstücke vorher an sich. Finden wir beim Räumen noch etwas, das wichtig aussieht, legen wir es für Sie zur Seite."},
-   {"q": "Wie schnell kann die Haushaltsauflösung stattfinden?", "a": "Das hängt vom Umfang und von unseren freien Terminen ab. Nennen Sie uns Ihren Wunschtermin in der Anfrage."}
+   {
+    "q": "Muss ich bei der Haushaltsauflösung dabei sein?",
+    "a": "Nein. Wichtig ist, dass vorher klar ist, was bleiben soll. Den Schlüssel können Sie uns übergeben."
+   },
+   {
+    "q": "Was passiert mit Dokumenten und persönlichen Sachen?",
+    "a": "Am besten nehmen Sie wichtige Papiere und Erinnerungsstücke vorher an sich. Finden wir beim Räumen noch etwas, das wichtig aussieht, legen wir es für Sie zur Seite."
+   },
+   {
+    "q": "Wie schnell kann die Haushaltsauflösung stattfinden?",
+    "a": "Das hängt vom Umfang und von unseren freien Terminen ab. Nennen Sie uns Ihren Wunschtermin in der Anfrage."
+   }
   ]
  },
  {
@@ -26,14 +47,32 @@
   "h1": "Wohnungsauflösung in Hamburg",
   "lead": "Die Wohnung muss leer werden – für die Übergabe an den Vermieter, vor einer Renovierung oder vor dem Verkauf. Hinnerk räumt sie zum festen Preis.",
   "sections": [
-   {"h2": "Typische Anlässe", "html": "<p>Ein Mietvertrag endet, eine Wohnung wurde geerbt und soll verkauft werden, oder vor einer Sanierung muss alles raus. In allen Fällen zählt am Ende, dass die Räume leer und übergabebereit sind.</p>"},
-   {"h2": "Hamburger Wohnungen sind verschieden", "html": "<p>Im Altbau geht es oft über enge Treppen ohne Aufzug. In Hochhäusern gibt es meist einen Aufzug, dafür lange Flure und Wege zum Wagen. Bei der kostenlosen Besichtigung sehen wir uns genau das an – und nennen danach einen festen Preis, an den sich beide Seiten halten.</p>"},
-   {"h2": "Was bei der Übergabe wichtig ist", "html": "<p>Welcher Zustand bei der Übergabe verlangt wird, steht in Ihrem Mietvertrag oder Kaufvertrag. Sagen Sie uns vorher, was genau raus muss – zum Beispiel auch Teppiche, Lampen, Einbauküche oder Kellerabteil. Dann ist es im Preis enthalten.</p><p>Soll ein ganzer Hausstand aufgelöst werden, lesen Sie auch unsere Seite zur <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"}
+   {
+    "h2": "Typische Anlässe",
+    "html": "<p>Ein Mietvertrag endet, eine Wohnung wurde geerbt und soll verkauft werden, oder vor einer Sanierung muss alles raus. In allen Fällen zählt am Ende, dass die Räume leer und übergabebereit sind.</p>"
+   },
+   {
+    "h2": "Hamburger Wohnungen sind verschieden",
+    "html": "<p>Im Altbau geht es oft über enge Treppen ohne Aufzug. In Hochhäusern gibt es meist einen Aufzug, dafür lange Flure und Wege zum Wagen. Bei der kostenlosen Besichtigung sehen wir uns genau das an – und nennen danach einen festen Preis, an den sich beide Seiten halten.</p>"
+   },
+   {
+    "h2": "Was bei der Übergabe wichtig ist",
+    "html": "<p>Welcher Zustand bei der Übergabe verlangt wird, steht in Ihrem Mietvertrag oder Kaufvertrag. Sagen Sie uns vorher, was genau raus muss – zum Beispiel auch Teppiche, Lampen, Einbauküche oder Kellerabteil. Dann ist es im Preis enthalten.</p><p>Soll ein ganzer Hausstand aufgelöst werden, lesen Sie auch unsere Seite zur <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+   }
   ],
   "faq": [
-   {"q": "Räumt ihr auch das Kellerabteil mit?", "a": "Ja, wenn Sie es uns vorher sagen. Keller, Dachboden und Abstellräume gehören dann mit zum Festpreis."},
-   {"q": "Kümmert ihr euch um eine Halteverbotszone?", "a": "Wenn vor dem Haus kaum Platz für den Wagen ist, besprechen wir das bei der Besichtigung."},
-   {"q": "Was ist, wenn die Wohnung sehr voll ist?", "a": "Das sehen wir bei der Besichtigung und rechnen es in den Festpreis ein."}
+   {
+    "q": "Räumt ihr auch das Kellerabteil mit?",
+    "a": "Ja, wenn Sie es uns vorher sagen. Keller, Dachboden und Abstellräume gehören dann mit zum Festpreis."
+   },
+   {
+    "q": "Kümmert ihr euch um eine Halteverbotszone?",
+    "a": "Wenn vor dem Haus kaum Platz für den Wagen ist, besprechen wir das bei der Besichtigung."
+   },
+   {
+    "q": "Was ist, wenn die Wohnung sehr voll ist?",
+    "a": "Das sehen wir bei der Besichtigung und rechnen es in den Festpreis ein."
+   }
   ]
  },
  {
@@ -44,14 +83,176 @@
   "h1": "Keller, Dachboden und Garage entrümpeln in Hamburg",
   "lead": "Nicht der ganze Haushalt, nur ein Raum ist voll? Hinnerk räumt Keller, Dachboden, Garage oder Abstellraum – und Sie haben wieder Platz.",
   "sections": [
-   {"h2": "Ein Raum, der über Jahre voll geworden ist", "html": "<p>In Kellern, auf Dachböden und in Garagen sammelt sich über die Jahre viel an: alte Möbel, Kartons, Fahrräder, Farbreste, Elektrogeräte. Oft fehlt die Zeit oder ein passendes Auto, um alles selbst wegzubringen.</p>"},
-   {"h2": "Worauf wir achten", "html": "<p>Dachböden sind oft nur über steile Treppen oder Luken erreichbar, Keller über schmale Gänge. Das sehen wir bei der Besichtigung und planen es mit ein. Farben, Lacke oder Chemikalien sind Sonderabfall und werden getrennt entsorgt – sagen Sie uns vorher, wenn so etwas dabei ist.</p>"},
-   {"h2": "Und wenn mehr dazukommt?", "html": "<p>Soll später doch die ganze Wohnung oder das Haus geräumt werden, finden Sie alles zur <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a> und zur <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"}
+   {
+    "h2": "Ein Raum, der über Jahre voll geworden ist",
+    "html": "<p>In Kellern, auf Dachböden und in Garagen sammelt sich über die Jahre viel an: alte Möbel, Kartons, Fahrräder, Farbreste, Elektrogeräte. Oft fehlt die Zeit oder ein passendes Auto, um alles selbst wegzubringen.</p>"
+   },
+   {
+    "h2": "Worauf wir achten",
+    "html": "<p>Dachböden sind oft nur über steile Treppen oder Luken erreichbar, Keller über schmale Gänge. Das sehen wir bei der Besichtigung und planen es mit ein. Farben, Lacke oder Chemikalien sind Sonderabfall und werden getrennt entsorgt – sagen Sie uns vorher, wenn so etwas dabei ist.</p>"
+   },
+   {
+    "h2": "Und wenn mehr dazukommt?",
+    "html": "<p>Soll später doch die ganze Wohnung oder das Haus geräumt werden, finden Sie alles zur <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a> und zur <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+   }
   ],
   "faq": [
-   {"q": "Lohnt sich das auch für einen kleinen Keller?", "a": "Ja. Wir schauen uns den Raum an und nennen Ihnen einen festen Preis. Sie entscheiden danach."},
-   {"q": "Nehmt ihr auch Farbeimer und Batterien mit?", "a": "Solche Sachen sind Sonderabfall und werden getrennt entsorgt. Sagen Sie uns vorher, was dabei ist, dann planen wir das ein."},
-   {"q": "Muss ich den Keller vorher sortieren?", "a": "Nein. Legen Sie nur beiseite, was Sie behalten möchten. Den Rest räumen wir."}
+   {
+    "q": "Lohnt sich das auch für einen kleinen Keller?",
+    "a": "Ja. Wir schauen uns den Raum an und nennen Ihnen einen festen Preis. Sie entscheiden danach."
+   },
+   {
+    "q": "Nehmt ihr auch Farbeimer und Batterien mit?",
+    "a": "Solche Sachen sind Sonderabfall und werden getrennt entsorgt. Sagen Sie uns vorher, was dabei ist, dann planen wir das ein."
+   },
+   {
+    "q": "Muss ich den Keller vorher sortieren?",
+    "a": "Nein. Legen Sie nur beiseite, was Sie behalten möchten. Den Rest räumen wir."
+   }
+  ]
+ },
+ {
+  "slug": "nachlassaufloesung-hamburg",
+  "name": "Nachlassauflösung",
+  "title": "Nachlassauflösung Hamburg ✓ Besichtigung gratis ✓ Festpreis | Hinnerk",
+  "description": "Nachlassauflösung in Hamburg für Erben, Familien und Nachlassverwalter. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Sorgfältig und diskret. Hinnerk.",
+  "h1": "Nachlassauflösung in Hamburg",
+  "lead": "Nach einem Todesfall bleibt oft eine ganze Wohnung oder ein Haus voller Dinge zurück. Hinnerk räumt den Nachlass sorgfältig – nach Ihren Vorgaben und zum festen Preis.",
+  "sections": [
+   {
+    "h2": "Für wen eine Nachlassauflösung gedacht ist",
+    "html": "<p>Meist kümmern sich Kinder, Enkel oder andere Erben um den Nachlass. Manchmal wohnen sie nicht in Hamburg oder haben neben Beruf und Trauer keine Zeit für die Räumung. Auch Nachlassverwalter oder Betreuer beauftragen eine Nachlassauflösung.</p>"
+   },
+   {
+    "h2": "Was vorher geklärt wird",
+    "html": "<p>Wichtige Unterlagen wie Testament, Versicherungen, Kontoauszüge oder Grundbuchpapiere sollten die Erben vorher an sich nehmen. Erinnerungsstücke und Dinge, die in der Familie bleiben sollen, markieren Sie oder stellen sie beiseite. Finden wir beim Räumen noch Papiere oder Fotos, legen wir sie für Sie zur Seite.</p>"
+   },
+   {
+    "h2": "Ablauf und Preis",
+    "html": "<p>Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis. Sie müssen bei der Räumung nicht dabei sein – den Schlüssel können Sie uns übergeben. Am Ende ist die Wohnung oder das Haus leer und kann übergeben, verkauft oder renoviert werden. Mehr zur Auflösung eines ganzen Hausstands lesen Sie unter <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Wer darf eine Nachlassauflösung beauftragen?",
+    "a": "In der Regel die Erben oder eine Person, die von ihnen oder vom Gericht dazu befugt ist, zum Beispiel ein Nachlassverwalter. Klären Sie das vorher in der Familie."
+   },
+   {
+    "q": "Muss ich aus einer anderen Stadt anreisen?",
+    "a": "Nicht unbedingt. Die Besichtigung können wir mit Ihnen oder einer Vertrauensperson vor Ort machen, den Schlüssel können Sie uns übergeben."
+   },
+   {
+    "q": "Was passiert mit persönlichen Unterlagen?",
+    "a": "Wichtige Papiere nehmen Sie am besten vorher an sich. Was wir beim Räumen finden und wichtig aussieht, legen wir für Sie zur Seite."
+   }
+  ]
+ },
+ {
+  "slug": "messie-wohnung-raeumen-hamburg",
+  "name": "Messie-Wohnung räumen",
+  "title": "Messie-Wohnung räumen Hamburg ✓ Diskret ✓ Festpreis | Hinnerk",
+  "description": "Messie-Wohnung räumen in Hamburg: diskret, ohne Vorwürfe und zum festen Preis. ✓ Kostenlose Besichtigung ✓ Entsorgung inklusive. Hinnerk – Entrümpelung Hamburg.",
+  "h1": "Messie-Wohnung räumen in Hamburg",
+  "lead": "Wenn eine Wohnung so voll ist, dass man kaum noch durchkommt, braucht es Hilfe ohne Vorwürfe. Hinnerk räumt diskret und zum festen Preis.",
+  "sections": [
+   {
+    "h2": "Diskret und ohne Urteil",
+    "html": "<p>Ob für Sie selbst, für Angehörige oder als Vermieter: Eine stark vermüllte oder vollgestellte Wohnung ist für alle Beteiligten unangenehm. Wir sprechen mit niemandem über den Auftrag, machen Ihnen keine Vorwürfe und räumen Schritt für Schritt.</p>"
+   },
+   {
+    "h2": "Was bei der Besichtigung wichtig ist",
+    "html": "<p>Bei einer sehr vollen Wohnung ist die Besichtigung besonders wichtig. Wir schauen uns an, wie viel geräumt werden muss, ob es Wege bis zu den Fenstern und zur Tür gibt und ob Abfälle dabei sind, die getrennt entsorgt werden müssen. Danach bekommen Sie einen festen Preis.</p><p>Geht es nur um das Leerräumen, ohne dass der Haushalt aufgelöst wird, finden Sie mehr unter <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a>.</p>"
+   },
+   {
+    "h2": "Was wir nicht machen",
+    "html": "<p>Desinfektion, Schädlingsbekämpfung oder eine Grundreinigung sind eigene Fachgebiete. Wenn so etwas nötig ist, sagen wir es Ihnen bei der Besichtigung, damit Sie einen passenden Fachbetrieb beauftragen können.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Muss ich vorher aufräumen?",
+    "a": "Nein. Genau dafür sind wir da. Sagen Sie uns nur, was Sie behalten möchten."
+   },
+   {
+    "q": "Bekommen die Nachbarn etwas mit?",
+    "a": "Wir arbeiten zügig und sprechen mit niemandem über den Auftrag. Ganz unbemerkt lässt sich eine Räumung im Mehrfamilienhaus aber nicht machen."
+   },
+   {
+    "q": "Kann ich auch für einen Angehörigen anfragen?",
+    "a": "Ja. Wichtig ist, dass die betroffene Person oder die zuständige Person einverstanden ist und uns Zugang zur Wohnung gibt."
+   }
+  ]
+ },
+ {
+  "slug": "bueroaufloesung-hamburg",
+  "name": "Büro- & Firmenauflösung",
+  "title": "Büroauflösung Hamburg ✓ Firmenauflösung ✓ Festpreis | Hinnerk",
+  "description": "Büroauflösung und Firmenauflösung in Hamburg: Büro, Laden oder Lager leer räumen. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Entsorgung. Hinnerk – Entrümpelung Hamburg.",
+  "h1": "Büroauflösung und Firmenauflösung in Hamburg",
+  "lead": "Büro, Praxis, Laden oder Lager müssen leer werden? Hinnerk räumt Gewerbeflächen zum festen Preis – damit Sie pünktlich übergeben können.",
+  "sections": [
+   {
+    "h2": "Typische Anlässe",
+    "html": "<p>Ein Mietvertrag endet, die Firma zieht um, wird verkleinert oder aufgegeben. Dann müssen Schreibtische, Schränke, Regale, Technik und Lagerbestände raus – oft bis zu einem festen Übergabetermin.</p>"
+   },
+   {
+    "h2": "Akten und Daten",
+    "html": "<p>Akten mit persönlichen Daten dürfen nicht einfach im Container landen. Klären Sie vorher, welche Unterlagen Sie aufbewahren müssen und wie der Rest datenschutzgerecht vernichtet werden soll. Datenträger wie Festplatten nehmen Sie am besten vorher an sich.</p>"
+   },
+   {
+    "h2": "Ablauf",
+    "html": "<p>Bei der kostenlosen Besichtigung sehen wir uns Flächen, Zugänge und Aufzüge an. Danach bekommen Sie einen festen Preis und einen Termin, der zu Ihrer Übergabe passt. Welchen Zustand der Vermieter bei der Rückgabe verlangt, steht in Ihrem Mietvertrag – sagen Sie uns das vorher.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Könnt ihr auch nach Feierabend oder am Wochenende räumen?",
+    "a": "Sagen Sie uns Ihren Wunsch in der Anfrage. Wir besprechen den Termin bei der Besichtigung."
+   },
+   {
+    "q": "Nehmt ihr auch Elektrogeräte und Computer mit?",
+    "a": "Ja. Elektrogeräte werden getrennt entsorgt. Daten auf Festplatten sollten Sie vorher selbst löschen oder die Datenträger an sich nehmen."
+   },
+   {
+    "q": "Räumt ihr auch Lager und Keller der Firma?",
+    "a": "Ja, wenn Sie es uns vorher sagen. Dann ist es im Festpreis enthalten."
+   }
+  ]
+ },
+ {
+  "slug": "sperrmuell-abholen-hamburg",
+  "name": "Sperrmüll abholen",
+  "title": "Sperrmüll abholen Hamburg ✓ Wir tragen ✓ Festpreis | Hinnerk",
+  "description": "Sperrmüll abholen lassen in Hamburg: Sofa, Schrank, Matratze – wir tragen aus der Wohnung und entsorgen. ✓ Kostenlose Besichtigung ✓ Festpreis. Hinnerk.",
+  "h1": "Sperrmüll abholen lassen in Hamburg",
+  "lead": "Ein altes Sofa, ein Schrank oder ein paar Matratzen sollen weg – aber niemand kann sie tragen? Hinnerk holt Sperrmüll direkt aus der Wohnung ab.",
+  "sections": [
+   {
+    "h2": "Wir tragen – auch aus dem 4. Stock",
+    "html": "<p>Bei vielen Abholungen muss der Sperrmüll an die Straße gestellt werden. Wir holen ihn dort ab, wo er steht: aus der Wohnung, dem Keller oder vom Dachboden. Möbel bauen wir dafür bei Bedarf auseinander.</p>"
+   },
+   {
+    "h2": "Selbst wegbringen geht auch",
+    "html": "<p>Wer ein passendes Auto und Helfer hat, kann Sperrmüll auch selbst zu einem der zwölf Recyclinghöfe der Stadtreinigung Hamburg bringen. Welcher in Ihrer Nähe liegt, steht auf der <a href=\"einsatzgebiet.html\">Seite Ihres Stadtteils</a>. Die Stadtreinigung bietet außerdem eine eigene Sperrmüllabfuhr an.</p>"
+   },
+   {
+    "h2": "Wenn es mehr wird",
+    "html": "<p>Ist es mehr als ein paar Möbel, lohnt sich oft eine richtige Entrümpelung – zum Beispiel von <a href=\"keller-entruempeln-hamburg.html\">Keller, Dachboden oder Garage</a> oder eine <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a>.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Lohnt sich das auch für ein einzelnes Möbelstück?",
+    "a": "Fragen Sie einfach an und schicken Sie am besten ein Foto mit. Dann sagen wir Ihnen, ob und zu welchem Preis wir es mitnehmen."
+   },
+   {
+    "q": "Muss ich die Möbel vorher abbauen?",
+    "a": "Nein. Wenn ein Möbelstück nicht durch Tür oder Treppenhaus passt, bauen wir es auseinander."
+   },
+   {
+    "q": "Was zählt nicht als Sperrmüll?",
+    "a": "Farben, Lacke, Chemikalien und Batterien sind Sonderabfall. Elektrogeräte werden ebenfalls getrennt entsorgt. Sagen Sie uns vorher, was dabei ist."
+   }
   ]
  }
 ]
