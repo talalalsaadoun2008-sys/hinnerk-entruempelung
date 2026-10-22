@@ -1,0 +1,34 @@
+{
+  "base_url": "https://hinnerk-entruempelung.de/",
+  "firma": {
+    "name": "Hinnerk – Entrümpelung Hamburg",
+    "kurz": "Hinnerk",
+    "inhaber": "Talal Al Saadoun",
+    "strasse": "Dosestraße 11",
+    "plz": "22767",
+    "ort": "Hamburg",
+    "telefon": "",
+    "telefon_link": "",
+    "email": "info@hinnerk-entruempelung.de",
+    "beschreibung": "Entrümpelung, Haushaltsauflösung und Wohnungsauflösung in Hamburg und Umgebung."
+  },
+  "versprechen": [
+    "Kostenlose Besichtigung",
+    "Festpreis vor Beginn",
+    "Entsorgung über die Recyclinghöfe der Stadtreinigung"
+  ],
+  "zu_bestaetigen": [
+    "Telefonnummer (Seite zeigt bis dahin nur E-Mail und Formular)",
+    "Kostenlose Besichtigung und Festpreis – so wie bei T&A?",
+    "Leistungen: Haushaltsauflösung, Wohnungsauflösung, Keller/Dachboden/Garage – stimmt das? Weitere (Messie, Büro, Garten, Umzugshilfe)?",
+    "Besichtigungszeiten"
+  ],
+  "leistungen": [
+    {"slug": "haushaltsaufloesung-hamburg", "name": "Haushaltsauflösung",
+     "kurz": "Ein ganzer Haushalt wird aufgelöst, zum Beispiel nach einem Todesfall oder vor dem Umzug ins Pflegeheim."},
+    {"slug": "wohnungsaufloesung-hamburg", "name": "Wohnungsauflösung",
+     "kurz": "Die Wohnung wird leer geräumt, damit sie übergeben, renoviert oder neu vermietet werden kann."},
+    {"slug": "keller-entruempeln-hamburg", "name": "Keller, Dachboden & Garage",
+     "kurz": "Einzelne Räume werden entrümpelt, ohne dass der ganze Haushalt aufgelöst wird."}
+  ]
+}

@@ -1,0 +1,132 @@
+@font-face{font-family:"Zilla Slab";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/zilla-slab-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/archivo-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/archivo-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/archivo-latin-700-normal.woff2) format("woff2")}
+
+:root{
+  --blau:#1F2A44; --nacht:#121A2E; --gelb:#F2C230; --kreide:#FBF6EA; --karton:#C9965A;
+  --text:#1F2A44; --leise:#4A5470; --linie:#E4DCC8; --weiss:#FFFFFF;
+  --breite:1120px; --r:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--kreide);color:var(--text);font:400 17px/1.6 "Archivo",system-ui,sans-serif;-webkit-text-size-adjust:100%}
+img,svg{max-width:100%;display:block}
+a{color:var(--blau);text-decoration-thickness:2px;text-underline-offset:3px}
+a:hover{color:var(--nacht);text-decoration-color:var(--gelb)}
+h1,h2,h3{font-family:"Zilla Slab",Georgia,serif;font-weight:700;line-height:1.1;margin:0 0 .5em;color:var(--blau)}
+h1{font-size:clamp(34px,6vw,58px);letter-spacing:-.5px}
+h2{font-size:clamp(26px,3.6vw,38px)}
+h3{font-size:22px}
+p{margin:0 0 1em}
+.wrap{max-width:var(--breite);margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;background:var(--gelb);padding:8px 12px;z-index:99}
+
+/* Kopf */
+.kopf{background:var(--kreide);border-bottom:1px solid var(--linie);position:sticky;top:0;z-index:20}
+.kopf .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px;flex-wrap:wrap}
+.marke{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--blau)}
+.marke svg{width:46px;height:46px;flex:none}
+.marke b{font:700 30px/1 "Zilla Slab",serif;display:block}
+.marke small{font:700 11px/1.2 "Archivo";letter-spacing:2px;text-transform:uppercase;display:block;margin-top:3px}
+.nav{display:flex;gap:6px 20px;flex-wrap:wrap;align-items:center}
+.nav a{font-weight:500;text-decoration:none;padding:6px 0}
+.nav a:hover{text-decoration:underline}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;font:700 16px/1 "Archivo";text-decoration:none;border:2px solid var(--blau);cursor:pointer}
+.btn-gelb{background:var(--gelb);color:var(--nacht);border-color:var(--gelb)}
+.btn-gelb:hover{background:#e6b41f;color:var(--nacht)}
+.btn-hell{background:transparent;color:var(--blau)}
+.btn-dunkel{background:var(--blau);color:var(--kreide)}
+.btn-dunkel:hover{background:var(--nacht);color:var(--kreide)}
+
+/* Hero */
+.hero{padding:56px 0 48px}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:40px;align-items:center}
+.ober{font:700 13px/1.3 "Archivo";letter-spacing:3px;text-transform:uppercase;margin-bottom:14px;color:var(--leise)}
+.lead{font-size:19px;color:var(--leise);max-width:60ch}
+.haken{list-style:none;padding:0;margin:20px 0 26px;display:grid;gap:8px}
+.haken li{padding-left:30px;position:relative;font-weight:500}
+.haken li::before{content:"";position:absolute;left:0;top:4px;width:20px;height:20px;border-radius:50%;background:var(--gelb) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5 10.5l3 3 7-7' fill='none' stroke='%23121A2E' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat}
+.knoepfe{display:flex;gap:12px;flex-wrap:wrap}
+.hero-bild{background:var(--blau);border-radius:28px;padding:36px;display:flex;flex-direction:column;align-items:center;gap:14px;color:var(--kreide);text-align:center}
+.hero-bild svg{width:min(240px,70%);height:auto}
+.hero-bild p{margin:0;font:700 22px/1.25 "Zilla Slab",serif}
+.hero-bild small{font-size:14px;opacity:.85}
+
+/* Abschnitte */
+.band{padding:56px 0}
+.band-weiss{background:var(--weiss);border-top:1px solid var(--linie);border-bottom:1px solid var(--linie)}
+.band-blau{background:var(--blau);color:var(--kreide)}
+.band-blau h2,.band-blau h3,.band-blau a{color:var(--kreide)}
+.raster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.karte{background:var(--kreide);border:1px solid var(--linie);border-radius:var(--r);padding:24px}
+.band-weiss .karte{background:var(--kreide)}
+.karte h3{margin-bottom:.35em}
+.karte p:last-child{margin-bottom:0}
+.schritte{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.schritte li{counter-increment:s;background:var(--nacht);border-radius:var(--r);padding:24px}
+.schritte li::before{content:counter(s);display:inline-flex;width:40px;height:40px;border-radius:50%;background:var(--gelb);color:var(--nacht);font:700 22px/40px "Zilla Slab";justify-content:center;margin-bottom:12px}
+.schritte b{display:block;font:700 21px/1.2 "Zilla Slab";margin-bottom:6px}
+.text{max-width:72ch}
+.text h2{margin-top:1.2em}
+.text h2:first-child{margin-top:0}
+.info{background:var(--weiss);border:1px solid var(--linie);border-left:0;border-radius:var(--r);padding:20px 24px;margin:20px 0}
+.info b{color:var(--blau)}
+.pillen{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:12px 0 0}
+.pillen a,.pillen span{display:inline-block;padding:7px 14px;border-radius:999px;border:1px solid var(--linie);background:var(--weiss);text-decoration:none;font-weight:500;font-size:15px}
+.pillen a:hover{border-color:var(--blau)}
+.bezirke{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:24px}
+.bezirke h3{font-size:24px;margin-bottom:8px}
+.bezirke ul{list-style:none;padding:0;margin:0;columns:1}
+.bezirke li{padding:3px 0}
+
+/* FAQ */
+.faq details{border-bottom:1px solid var(--linie);padding:16px 0}
+.faq summary{cursor:pointer;font:700 19px/1.35 "Zilla Slab",serif;color:var(--blau);list-style:none;padding-right:30px;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:4px;top:-2px;font-size:26px}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:10px 0 0}
+
+/* Anfrage */
+.anfrage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:36px;align-items:start}
+form{display:grid;gap:14px}
+label{font-weight:700;font-size:15px;display:grid;gap:6px}
+input,select,textarea{font:inherit;padding:12px 14px;border-radius:10px;border:1px solid #B9B3A2;background:var(--weiss);color:var(--text);width:100%}
+textarea{min-height:110px;resize:vertical}
+.klein{font-size:14px;color:var(--leise)}
+.band-blau .klein{color:#DCE1EC}
+
+/* Quellen, Brotkrumen */
+.krumen{font-size:14px;color:var(--leise);padding:18px 0 0}
+.krumen ol{list-style:none;display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0}
+.krumen li+li::before{content:"›";margin-right:6px}
+.quellen{font-size:14px;color:var(--leise)}
+.quellen ul{padding-left:18px}
+
+/* Fuß */
+.fuss{background:var(--nacht);color:#DCE1EC;padding:44px 0;font-size:15px}
+.fuss a{color:var(--kreide)}
+.fuss .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.fuss h3{color:var(--kreide);font-size:20px}
+.fuss ul{list-style:none;padding:0;margin:0;display:grid;gap:6px}
+
+/* Handy-Leiste */
+.leiste{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--nacht)}
+.leiste a{flex:1}
+
+@media (max-width:880px){
+  .hero .wrap,.anfrage{grid-template-columns:minmax(0,1fr)}
+  .hero-bild{order:-1;padding:16px 20px;flex-direction:row;text-align:left;border-radius:18px}
+  .hero-bild svg{width:72px;flex:none}
+  .hero-bild p{font-size:18px}
+  .hero-bild small{display:none}
+  .fuss{padding-bottom:110px}
+  .raster,.schritte,.fuss .wrap{grid-template-columns:minmax(0,1fr)}
+  .nav{display:none}
+  .leiste{display:flex}
+  body{font-size:16px}
+  .hero{padding:28px 0 36px}
+  .band{padding:40px 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
