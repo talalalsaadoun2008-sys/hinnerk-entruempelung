@@ -688,6 +688,8 @@ def sitemap(pfade):
     r = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)
     write("robots.txt", r + f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
     write("CNAME", "hinnerk-entruempelung.de\n")
+    key = (SRC / "indexnow.key").read_text().strip()
+    write(f"{key}.txt", key)
 
 
 def favicon():
