@@ -1,0 +1,68 @@
+{
+ "speicherstadt": {
+  "datei": "speicherstadt-1900.webp",
+  "w": 1600,
+  "h": 1156,
+  "alt": "Die Speicherstadt am Sandthorquai um 1900, Farbdruck (Photochrom)",
+  "unterschrift": "Speicherstadt am Sandthorquai, um 1900",
+  "titel": "Die Speicherstadt am Sandthorquai, um 1900",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Die_Speicherstadt_in_Hamburg-Altstadt,_hier_der_Sandthorquai_(ca._1900).jpg",
+  "urheber": "Photochrom, Library of Congress",
+  "lizenz": "gemeinfrei"
+ },
+ "hafen": {
+  "datei": "hafen-1890.webp",
+  "w": 1600,
+  "h": 1178,
+  "alt": "Segelschiffe und Dampfer im Hamburger Hafen um 1890, Farbdruck (Photochrom)",
+  "unterschrift": "Schiffe im Hamburger Hafen, um 1890",
+  "titel": "Hamburger Hafen, um 1890",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Hamburger_Hafen_1890.jpg",
+  "urheber": "Photochrom, Library of Congress",
+  "lizenz": "gemeinfrei"
+ },
+ "landungsbruecken": {
+  "datei": "landungsbruecken-1905.webp",
+  "w": 1600,
+  "h": 1208,
+  "alt": "Die Landungsbrücken in St. Pauli mit Straßenbahn um 1900, Farbdruck (Photochrom)",
+  "unterschrift": "Landungsbrücken bei St. Pauli, um 1905",
+  "titel": "Landungsbrücken bei St. Pauli, um 1905",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Landing_Bridge_near_St._Paul%27s,_Hamburg,_Germany-LCCN2002713694.jpg",
+  "urheber": "Detroit Publishing Co., Library of Congress",
+  "lizenz": "gemeinfrei"
+ },
+ "dovenfleet": {
+  "datei": "dovenfleet-1890.webp",
+  "w": 1600,
+  "h": 1150,
+  "alt": "Häuserzeile am Dovenfleet mit Booten um 1890, Farbdruck (Photochrom)",
+  "unterschrift": "Dovenfleet, um 1890",
+  "titel": "Dovenfleet, um 1890",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Hamburg_Dovenfleet_1890.jpg",
+  "urheber": "Photochrom, Library of Congress",
+  "lizenz": "gemeinfrei"
+ },
+ "hollaendischer_brook": {
+  "datei": "hollaendischer-brook-1895.webp",
+  "w": 1600,
+  "h": 1130,
+  "alt": "Alte Speicherhäuser am Holländischen Brook vor dem Bau der Speicherstadt, Farbdruck (Photochrom)",
+  "unterschrift": "Holländischer Brook, um 1895",
+  "titel": "Holländischer Brook, um 1890–1900",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Hamburg_Holl%C3%A4ndischer_Brook_(1890-1900).jpg",
+  "urheber": "Photochrom, Library of Congress",
+  "lizenz": "gemeinfrei"
+ },
+ "plan": {
+  "datei": "plan-1890.webp",
+  "w": 1800,
+  "h": 973,
+  "alt": "Alter Stadtplan von Hamburg und Altona um 1890",
+  "unterschrift": "Plan von Hamburg und Altona, um 1890",
+  "titel": "Plan von Hamburg und Altona, um 1890",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Hamburg.Plan.1890.png",
+  "urheber": "Gustav Neumann, Wilhelm Keil (Neumanns Orts-Lexikon)",
+  "lizenz": "gemeinfrei"
+ }
+}
