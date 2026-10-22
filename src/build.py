@@ -690,6 +690,8 @@ def sitemap(pfade):
     write("CNAME", "hinnerk-entruempelung.de\n")
     key = (SRC / "indexnow.key").read_text().strip()
     write(f"{key}.txt", key)
+    for g in SRC.glob("google*.html"):
+        write(g.name, g.read_text())
     if (SRC / "BingSiteAuth.xml").exists():
         write("BingSiteAuth.xml", (SRC / "BingSiteAuth.xml").read_text())
 
