@@ -192,7 +192,7 @@ def bar():
     return f"""<div class="laufband" aria-label="Unsere Versprechen"><div class="lauf">{band}{band.replace('<span>', '<span aria-hidden="true">')}</div></div>
 <header class="kopf">
 <details class="menue"><summary aria-label="Menü öffnen"><span></span><span></span><span></span></summary>
-<nav aria-label="Menü">{nav}<hr>{menue_leist}<a class="knopf" href="{mailto('Anfrage Entrümpelung', ANFRAGE_TEXT)}">Kostenlos anfragen</a></nav></details>
+<nav aria-label="Menü">{nav}<a href="ueber-hinnerk.html">Über Hinnerk</a><a href="kontakt.html">Kontakt</a><hr>{menue_leist}<a class="knopf" href="{mailto('Anfrage Entrümpelung', ANFRAGE_TEXT)}">Kostenlos anfragen</a></nav></details>
 <nav class="haupt" aria-label="Hauptmenü">{nav}</nav>
 <a class="wort" href="./" aria-label="Hinnerk – Entrümpelung Hamburg, zur Startseite">{mascot(34)}<span>HINNERK</span></a>
 <a class="kopf-knopf" href="#anfrage">{icon('post', 22)}<span>Anfrage</span></a>
@@ -395,7 +395,7 @@ def fuss():
 <ul><li class="titel">Ratgeber</li>{rat}</ul>
 <ul><li class="titel">Kontakt</li><li>Inh. {E(F['inhaber'])}</li><li>{E(F['strasse'])}</li><li>{F['plz']} {E(F['ort'])}</li><li><a href="mailto:{F['email']}">{F['email']}</a></li></ul>
 </div>
-<div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg</span><span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
+<div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg</span><span><a href="ueber-hinnerk.html">Über Hinnerk</a> · <a href="kontakt.html">Kontakt</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
 </footer>
 <script src="assets/site.js" defer></script>
 </body>
@@ -490,6 +490,61 @@ def ratgeberseite(r):
     write(r["slug"] + ".html", page)
 
 
+def ueber_uns():
+    k, ld = krumen([("Startseite", "./"), ("Über Hinnerk", None)])
+    t = "Über Hinnerk – Entrümpelung aus Hamburg-Altona | Hinnerk"
+    d = "Wer hinter Hinnerk steht: ein Entrümpelungsbetrieb aus Hamburg-Altona. Unsere Grundsätze: kostenlose Besichtigung, fester Preis, getrennte Entsorgung, Diskretion."
+    schema = [ld, {"@type": "AboutPage", "url": BASE + "ueber-hinnerk.html", "name": t, "about": {"@id": BASE + "#firma"}}]
+    page = head(t, d, "ueber-hinnerk.html", schema, preload="hero") + bar()
+    page += held("Moin, wir sind Hinnerk.", "Ein Entrümpelungsbetrieb aus Hamburg-Altona – für ganz Hamburg.", "Kostenlos besichtigen lassen", "#anfrage", "hero", eyebrow="Über uns", klein=True)
+    page += f"""<section class="abschnitt" aria-label="Über Hinnerk">
+<div class="lesen"><div class="text">{k}
+<h2>Wer hinter Hinnerk steht</h2>
+<p>Hinnerk ist ein Entrümpelungsbetrieb aus Hamburg. Inhaber ist {E(F['inhaber'])}, der Betrieb sitzt in der {E(F['strasse'])} in Altona. Von hier aus räumen wir in allen sieben Bezirken und allen 99 Hamburger Stadtteilen.</p>
+<h2>Warum „Hinnerk“?</h2>
+<p>Hinnerk ist Plattdeutsch für Heinrich – ein alter norddeutscher Name, so hamburgisch wie Speicher und Fleet. Der freundliche Kerl mit der Schiffermütze in unserem Logo ist unser Maskottchen.</p>
+<h2>Woran wir uns halten</h2>
+<ul>
+<li><b>Erst ansehen:</b> Jede Räumung beginnt mit einer kostenlosen Besichtigung.</li>
+<li><b>Fester Preis:</b> Sie kennen den Preis, bevor wir anfangen. Was vereinbart ist, gilt.</li>
+<li><b>Getrennt entsorgt:</b> Sperrmüll, Holz, Metall und Elektrogeräte gehen getrennt zu den Recyclinghöfen.</li>
+<li><b>Diskret und ohne Vorwürfe:</b> Ob Todesfall, Pflegeheim oder Messie-Wohnung – wir reden nicht darüber und urteilen nicht.</li>
+<li><b>Sorgfältig:</b> Papiere, Fotos und Dinge, die wichtig aussehen, legen wir für Sie zur Seite.</li>
+</ul>
+<h2>Was wir machen</h2>
+<ul class="chips">{''.join(f'<li><a href="{l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)}</ul>
+<h2>Fragen?</h2>
+<p>Viele Antworten finden Sie in unserem <a href="ratgeber.html">Ratgeber</a>. Oder schreiben Sie uns direkt: <a href="kontakt.html">Kontakt</a>.</p>
+</div>{seitenkasten('Kostenlose Besichtigung', 'Besichtigung anfragen')}</div>
+</section>
+"""
+    page += vorteile() + anfrage("Über Hinnerk") + fuss()
+    write("ueber-hinnerk.html", page)
+
+
+def kontakt():
+    k, ld = krumen([("Startseite", "./"), ("Kontakt", None)])
+    t = "Kontakt – Entrümpelung Hamburg anfragen | Hinnerk"
+    d = "Entrümpelung in Hamburg anfragen: Schreiben Sie Hinnerk per E-Mail oder über das Formular. Kostenlose Besichtigung, danach ein fester Preis."
+    schema = [ld, {"@type": "ContactPage", "url": BASE + "kontakt.html", "name": t, "about": {"@id": BASE + "#firma"}}]
+    page = head(t, d, "kontakt.html", schema, preload="wohnung") + bar()
+    page += held("Kontakt", "Schreiben Sie kurz, was geräumt werden soll. Hinnerk meldet sich, besichtigt kostenlos und nennt einen festen Preis.", "Zum Formular", "#anfrage", "wohnung", eyebrow="Hinnerk anfragen", klein=True)
+    page += f'<section class="abschnitt" aria-label="Kontaktwege">{k}</section>'
+    page += kontakt_karte("Kontakt").replace('<section class="abschnitt"', '<section class="abschnitt" style="padding-top:24px"', 1)
+    page += f"""<section class="abschnitt" aria-label="Gut zu wissen">
+<div class="lesen"><div class="text">
+<h2>Was in Ihre Anfrage gehört</h2>
+<ul><li>Was geräumt werden soll: Wohnung, Haus, Keller, Dachboden, Büro …</li><li>Stadtteil und Stockwerk, gibt es einen Aufzug?</li><li>Ihr Wunschtermin oder der Übergabetermin</li><li>Wie wir Sie erreichen</li></ul>
+<p>Ein paar Fotos helfen, sind aber kein Muss. Die Besichtigung vor Ort ist kostenlos und unverbindlich.</p>
+<h2>Einsatzgebiet</h2>
+<p>Ganz Hamburg: alle sieben Bezirke und <a href="einsatzgebiet.html">alle 99 Stadtteile</a>.</p>
+</div></div>
+</section>
+"""
+    page += anfrage("Kontakt") + fuss()
+    write("kontakt.html", page)
+
+
 def ratgeber_uebersicht():
     k, ld = krumen([("Startseite", "./"), ("Ratgeber", None)])
     t = "Ratgeber Entrümpelung Hamburg: Antworten auf häufige Fragen | Hinnerk"
@@ -515,6 +570,7 @@ def llms_txt():
     zeilen += [f"- [{l['name']}]({BASE}{l['slug']}.html): {l['kurz']}" for l in LEIST]
     zeilen += ["", "## Ratgeber", ""]
     zeilen += [f"- [{r['frage']}]({BASE}{r['slug']}.html): {r['kurz']}" for r in RAT]
+    zeilen += ["", "## Über uns und Kontakt", "", f"- [Über Hinnerk]({BASE}ueber-hinnerk.html)", f"- [Kontakt]({BASE}kontakt.html)"]
     zeilen += ["", "## Stadtteile", "", f"- [Alle 99 Stadtteile mit Recyclinghof in der Nähe]({BASE}einsatzgebiet.html)", ""]
     write("llms.txt", "\n".join(zeilen))
 
@@ -679,7 +735,7 @@ def rechtliches():
                  ('href="./', 'href="/'), ('href="einsatzgebiet', 'href="/einsatzgebiet'), ('href="impressum', 'href="/impressum'),
                  ('href="datenschutz', 'href="/datenschutz')):
         p = p.replace(a, b)
-    for x in [l["slug"] for l in LEIST] + [r["slug"] for r in RAT] + ["ratgeber"]:
+    for x in [l["slug"] for l in LEIST] + [r["slug"] for r in RAT] + ["ratgeber", "ueber-hinnerk", "kontakt"]:
         p = p.replace(f'href="{x}', f'href="/{x}')
     write("404.html", p)
 
@@ -718,12 +774,14 @@ if __name__ == "__main__":
     for r in RAT:
         ratgeberseite(r)
     ratgeber_uebersicht()
+    ueber_uns()
+    kontakt()
     llms_txt()
     for o in ORTE:
         ortsseite(o, [x for x in ORTE if x["bezirk"] == o["bezirk"]])
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
