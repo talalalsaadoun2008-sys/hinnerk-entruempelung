@@ -35,11 +35,13 @@ E = html.escape
 BEZIRKE = ["Hamburg-Mitte", "Altona", "Eimsbüttel", "Hamburg-Nord", "Wandsbek", "Bergedorf", "Harburg"]
 
 # Foto und Icon je Leistung
-L_FOTO = {"haushaltsaufloesung-hamburg": "haushalt", "wohnungsaufloesung-hamburg": "wohnung",
+L_FOTO = {"hausaufloesung-hamburg": "hero", "dachboden-entruempeln-hamburg": "speicher", "garage-entruempeln-hamburg": "keller",
+          "firmenaufloesung-hamburg": "transporter", "entruempelung-fuer-vermieter-hamburg": "kartons","haushaltsaufloesung-hamburg": "haushalt", "wohnungsaufloesung-hamburg": "wohnung",
           "keller-entruempeln-hamburg": "keller", "nachlassaufloesung-hamburg": "nachlass",
           "messie-wohnung-raeumen-hamburg": "messie", "bueroaufloesung-hamburg": "buero",
           "sperrmuell-abholen-hamburg": "sperrmuell"}
-L_ICON = {"haushaltsaufloesung-hamburg": "lampe", "wohnungsaufloesung-hamburg": "haus",
+L_ICON = {"hausaufloesung-hamburg": "haus", "dachboden-entruempeln-hamburg": "dach", "garage-entruempeln-hamburg": "rad",
+          "firmenaufloesung-hamburg": "kisten", "entruempelung-fuer-vermieter-hamburg": "schluessel","haushaltsaufloesung-hamburg": "lampe", "wohnungsaufloesung-hamburg": "haus",
           "keller-entruempeln-hamburg": "treppe", "nachlassaufloesung-hamburg": "rahmen",
           "messie-wohnung-raeumen-hamburg": "kisten", "bueroaufloesung-hamburg": "koffer",
           "sperrmuell-abholen-hamburg": "sofa"}
@@ -239,10 +241,12 @@ def leistungs_reihe(titel="Was Hinnerk räumt", ausser=None):
 """
 
 
-AUSWAHL = [("haus", "Ganze Wohnung", "wohnungsaufloesung-hamburg"), ("lampe", "Haushalt", "haushaltsaufloesung-hamburg"),
-           ("treppe", "Keller", "keller-entruempeln-hamburg"), ("dach", "Dachboden", "keller-entruempeln-hamburg"),
-           ("rahmen", "Nachlass", "nachlassaufloesung-hamburg"), ("kisten", "Messie-Wohnung", "messie-wohnung-raeumen-hamburg"),
-           ("koffer", "Büro & Firma", "bueroaufloesung-hamburg"), ("sofa", "Sperrmüll", "sperrmuell-abholen-hamburg")]
+AUSWAHL = [("haus", "Ganze Wohnung", "wohnungsaufloesung-hamburg"), ("haus", "Ganzes Haus", "hausaufloesung-hamburg"),
+           ("lampe", "Haushalt", "haushaltsaufloesung-hamburg"), ("rahmen", "Nachlass", "nachlassaufloesung-hamburg"),
+           ("treppe", "Keller", "keller-entruempeln-hamburg"), ("dach", "Dachboden", "dachboden-entruempeln-hamburg"),
+           ("rad", "Garage", "garage-entruempeln-hamburg"), ("kisten", "Messie-Wohnung", "messie-wohnung-raeumen-hamburg"),
+           ("koffer", "Büro", "bueroaufloesung-hamburg"), ("akten", "Laden & Lager", "firmenaufloesung-hamburg"),
+           ("sofa", "Sperrmüll", "sperrmuell-abholen-hamburg"), ("schluessel", "Für Vermieter", "entruempelung-fuer-vermieter-hamburg")]
 
 
 def auswahl():
@@ -363,7 +367,7 @@ def anfrage(seite, ort=""):
 <p class="klein">E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
 </div>
 <form id="anfrage-form" data-mail="{F['email']}" data-seite="{E(seite)}">
-<label>Was soll geräumt werden?<select name="was"><option>Ganze Wohnung</option><option>Ganzes Haus</option><option>Haushaltsauflösung</option><option>Nachlass</option><option>Messie-Wohnung</option><option>Büro oder Firma</option><option>Keller, Dachboden oder Garage</option><option>Sperrmüll</option></select></label>
+<label>Was soll geräumt werden?<select name="was"><option>Ganze Wohnung</option><option>Ganzes Haus</option><option>Haushaltsauflösung</option><option>Nachlass</option><option>Messie-Wohnung</option><option>Büro</option><option>Laden, Lager oder Werkstatt</option><option>Keller</option><option>Dachboden</option><option>Garage oder Schuppen</option><option>Sperrmüll</option></select></label>
 <label>Ort oder Stadtteil<input name="ort" value="{E(ort)}" autocomplete="address-level2"></label>
 <label>Wunschtermin<input name="termin" placeholder="z. B. Ende November"></label>
 <label class="breit">Kurze Beschreibung<textarea name="nachricht" placeholder="Wie viele Zimmer? Welches Stockwerk? Gibt es einen Aufzug?"></textarea></label>
@@ -524,7 +528,7 @@ def startseite():
     page += held("Entrümpelung in Hamburg", "Wohnung, Haus, Keller oder Nachlass: Hinnerk besichtigt kostenlos und räumt zum festen Preis.",
                  "Kostenlos besichtigen lassen", "#anfrage", "hero", eyebrow="Platz schaffen")
     page += zwei_karten([("nachlassaufloesung-hamburg.html", "nachlass", "Sorgfältig und mit Ruhe", "Nachlass auflösen"),
-                         ("keller-entruempeln-hamburg.html", "speicher", "Endlich wieder Platz", "Keller & Dachboden")])
+                         ("dachboden-entruempeln-hamburg.html", "speicher", "Endlich wieder Platz", "Dachboden & Speicher")])
     page += vorteile()
     page += leistungs_reihe()
     page += auswahl()

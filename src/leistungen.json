@@ -77,23 +77,23 @@
  },
  {
   "slug": "keller-entruempeln-hamburg",
-  "name": "Keller, Dachboden & Garage",
-  "title": "Keller entrümpeln Hamburg ✓ Dachboden ✓ Garage ✓ Festpreis | Hinnerk",
-  "description": "Keller, Dachboden oder Garage entrümpeln in Hamburg. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Wir tragen und entsorgen. Hinnerk – Entrümpelung Hamburg.",
-  "h1": "Keller, Dachboden und Garage entrümpeln in Hamburg",
-  "lead": "Nicht der ganze Haushalt, nur ein Raum ist voll? Hinnerk räumt Keller, Dachboden, Garage oder Abstellraum – und Sie haben wieder Platz.",
+  "name": "Keller entrümpeln",
+  "title": "Keller entrümpeln Hamburg ✓ Kostenlose Besichtigung ✓ Festpreis | Hinnerk",
+  "description": "Keller entrümpeln in Hamburg: Kellerabteil oder ganzer Keller. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Wir tragen und entsorgen getrennt. Hinnerk – Entrümpelung Hamburg.",
+  "h1": "Keller entrümpeln in Hamburg",
+  "lead": "Nicht der ganze Haushalt, nur der Keller ist voll? Hinnerk räumt Kellerabteil oder ganzen Keller – und Sie haben wieder Platz.",
   "sections": [
    {
-    "h2": "Ein Raum, der über Jahre voll geworden ist",
-    "html": "<p>In Kellern, auf Dachböden und in Garagen sammelt sich über die Jahre viel an: alte Möbel, Kartons, Fahrräder, Farbreste, Elektrogeräte. Oft fehlt die Zeit oder ein passendes Auto, um alles selbst wegzubringen.</p>"
+    "h2": "Ein Keller, der über Jahre voll geworden ist",
+    "html": "<p>Im Keller sammelt sich über die Jahre viel an: alte Möbel, Kartons, Fahrräder, Farbreste, Elektrogeräte. Oft fehlt die Zeit oder ein passendes Auto, um alles selbst wegzubringen. In vielen Hamburger Mehrfamilienhäusern kommt dazu: schmale Kellergänge und Treppen ohne Aufzug.</p>"
    },
    {
     "h2": "Worauf wir achten",
-    "html": "<p>Dachböden sind oft nur über steile Treppen oder Luken erreichbar, Keller über schmale Gänge. Das sehen wir bei der Besichtigung und planen es mit ein. Farben, Lacke oder Chemikalien sind Sonderabfall und werden getrennt entsorgt – sagen Sie uns vorher, wenn so etwas dabei ist.</p>"
+    "html": "<p>Keller sind oft nur über schmale Gänge und steile Treppen erreichbar. Das sehen wir bei der Besichtigung und planen es mit ein. Farben, Lacke oder Chemikalien sind Sonderabfall und werden getrennt entsorgt – sagen Sie uns vorher, wenn so etwas dabei ist.</p>"
    },
    {
-    "h2": "Und wenn mehr dazukommt?",
-    "html": "<p>Soll später doch die ganze Wohnung oder das Haus geräumt werden, finden Sie alles zur <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a> und zur <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+    "h2": "Dachboden oder Garage auch?",
+    "html": "<p>Dafür gibt es eigene Seiten: <a href=\"dachboden-entruempeln-hamburg.html\">Dachboden entrümpeln</a> und <a href=\"garage-entruempeln-hamburg.html\">Garage entrümpeln</a>. Soll später doch die ganze Wohnung geräumt werden, finden Sie alles zur <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a>.</p>"
    }
   ],
   "faq": [
@@ -185,10 +185,10 @@
  },
  {
   "slug": "bueroaufloesung-hamburg",
-  "name": "Büro- & Firmenauflösung",
-  "title": "Büroauflösung Hamburg ✓ Firmenauflösung ✓ Festpreis | Hinnerk",
+  "name": "Büroauflösung",
+  "title": "Büroauflösung Hamburg ✓ Kostenlose Besichtigung ✓ Festpreis | Hinnerk",
   "description": "Büroauflösung und Firmenauflösung in Hamburg: Büro, Laden oder Lager leer räumen. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Entsorgung. Hinnerk – Entrümpelung Hamburg.",
-  "h1": "Büroauflösung und Firmenauflösung in Hamburg",
+  "h1": "Büroauflösung in Hamburg",
   "lead": "Büro, Praxis, Laden oder Lager müssen leer werden? Hinnerk räumt Gewerbeflächen zum festen Preis – damit Sie pünktlich übergeben können.",
   "sections": [
    {
@@ -202,6 +202,10 @@
    {
     "h2": "Ablauf",
     "html": "<p>Bei der kostenlosen Besichtigung sehen wir uns Flächen, Zugänge und Aufzüge an. Danach bekommen Sie einen festen Preis und einen Termin, der zu Ihrer Übergabe passt. Welchen Zustand der Vermieter bei der Rückgabe verlangt, steht in Ihrem Mietvertrag – sagen Sie uns das vorher.</p>"
+   },
+   {
+    "h2": "Laden, Lager oder Werkstatt?",
+    "html": "<p>Für Läden, Lager, Werkstätten und Praxen gibt es eine eigene Seite: <a href=\"firmenaufloesung-hamburg.html\">Firmenauflösung in Hamburg</a>.</p>"
    }
   ],
   "faq": [
@@ -252,6 +256,186 @@
    {
     "q": "Was zählt nicht als Sperrmüll?",
     "a": "Farben, Lacke, Chemikalien und Batterien sind Sonderabfall. Elektrogeräte werden ebenfalls getrennt entsorgt. Sagen Sie uns vorher, was dabei ist."
+   }
+  ]
+ },
+ {
+  "slug": "hausaufloesung-hamburg",
+  "name": "Hausauflösung",
+  "title": "Hausauflösung Hamburg ✓ Keller bis Dachboden ✓ Festpreis | Hinnerk",
+  "description": "Hausauflösung in Hamburg: Einfamilienhaus, Reihenhaus oder Doppelhaushälfte komplett räumen – mit Keller, Dachboden, Garage und Gartenhaus. ✓ Kostenlose Besichtigung ✓ Festpreis.",
+  "h1": "Hausauflösung in Hamburg",
+  "lead": "Ein ganzes Haus soll leer werden – vom Keller bis zum Dachboden? Hinnerk besichtigt kostenlos und räumt zum festen Preis.",
+  "sections": [
+   {
+    "h2": "Mehr als eine Wohnung",
+    "html": "<p>Ein Haus hat oft mehr Räume, als man denkt: Keller, Dachboden, Garage, Schuppen, Gartenhaus. Gerade in den Hamburger Einfamilienhaus-Gegenden wie den Walddörfern, den Elbvororten oder Bergedorf hat sich über Jahrzehnte viel angesammelt. Bei einer Hausauflösung wird alles geräumt – oder nur das, was Sie vorher festlegen.</p>"
+   },
+   {
+    "h2": "Typische Anlässe",
+    "html": "<ul><li>Das Haus soll verkauft oder vermietet werden.</li><li>Die Eltern ziehen in eine kleinere Wohnung oder ins Pflegeheim.</li><li>Ein Erbfall: Das Haus muss für die Übergabe leer sein.</li></ul>"
+   },
+   {
+    "h2": "So gehen wir vor",
+    "html": "<p>Bei der kostenlosen Besichtigung gehen wir gemeinsam durch alle Räume, auch Keller, Dachboden und Nebengebäude. Was bleiben soll, wird klar markiert. Danach bekommen Sie einen festen Preis. Am Räumungstag bringen wir alles getrennt zur Entsorgung.</p><p>Mehr dazu: <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>, <a href=\"nachlassaufloesung-hamburg.html\">Nachlassauflösung</a>, <a href=\"umzug-ins-pflegeheim-wohnung-aufloesen.html\">Umzug ins Pflegeheim</a>.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Räumt ihr auch Garage und Gartenhaus mit?",
+    "a": "Ja, wenn Sie das möchten. Wir sehen uns bei der Besichtigung alle Gebäude an, und alles ist im festen Preis enthalten."
+   },
+   {
+    "q": "Müssen wir beim Räumen dabei sein?",
+    "a": "Nein. Wichtig ist, dass vorher klar abgesprochen ist, was bleiben soll. Den Schlüssel können Sie uns übergeben."
+   },
+   {
+    "q": "Was passiert mit Dingen, die wir behalten wollen?",
+    "a": "Die markieren Sie vorher oder stellen sie in einen Raum, den wir nicht räumen. Papiere und Fotos, die wir beim Räumen finden, legen wir für Sie zur Seite."
+   }
+  ]
+ },
+ {
+  "slug": "dachboden-entruempeln-hamburg",
+  "name": "Dachboden entrümpeln",
+  "title": "Dachboden entrümpeln Hamburg ✓ Speicher räumen ✓ Festpreis | Hinnerk",
+  "description": "Dachboden oder Speicher entrümpeln in Hamburg – auch über steile Treppen und Bodenluken. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Getrennte Entsorgung.",
+  "h1": "Dachboden entrümpeln in Hamburg",
+  "lead": "Der Dachboden ist voll und keiner will die steile Treppe hoch? Hinnerk räumt Dachboden und Speicher und bringt alles getrennt zur Entsorgung.",
+  "sections": [
+   {
+    "h2": "Der Speicher: Hamburgs Abstellkammer",
+    "html": "<p>In Hamburg sagt man oft Speicher statt Dachboden. In Altbauten gibt es häufig ein eigenes Abteil unter dem Dach, im Einfamilienhaus den ganzen Spitzboden. Dort landen Kisten, alte Möbel, Koffer, Weihnachtsdeko und vieles, das niemand mehr braucht.</p>"
+   },
+   {
+    "h2": "Steile Treppen, enge Luken",
+    "html": "<p>Dachböden sind oft nur über eine Bodentreppe oder eine schmale Luke erreichbar. Große Teile müssen manchmal zerlegt werden. Das sehen wir bei der kostenlosen Besichtigung und planen es in den festen Preis ein. Im Sommer kann es unter dem Dach sehr heiß werden – auch das berücksichtigen wir bei der Terminplanung.</p>"
+   },
+   {
+    "h2": "Vorher kurz prüfen",
+    "html": "<p>Auf Dachböden liegen manchmal alte Unterlagen, Fotos oder Erbstücke. Schauen Sie vorher durch, was Ihnen wichtig ist. Was wir beim Räumen finden und wichtig aussieht, legen wir zur Seite. Mehr Platz im Keller? <a href=\"keller-entruempeln-hamburg.html\">Keller entrümpeln</a>.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Räumt ihr auch Dachböden ohne feste Treppe?",
+    "a": "Ja, wenn der Zugang sicher ist. Wir sehen uns die Luke oder Bodentreppe bei der Besichtigung an und planen die Räumung danach."
+   },
+   {
+    "q": "Was ist mit alter Dämmung oder Asbest?",
+    "a": "Dämmstoffe und mögliche Gefahrstoffe wie Asbest gehören nicht zu einer normalen Entrümpelung. Sagen Sie uns vorher Bescheid – dafür ist ein Fachbetrieb nötig."
+   },
+   {
+    "q": "Muss ich den Dachboden vorher sortieren?",
+    "a": "Nein. Legen Sie nur beiseite, was Sie behalten möchten. Den Rest räumen wir."
+   }
+  ]
+ },
+ {
+  "slug": "garage-entruempeln-hamburg",
+  "name": "Garage entrümpeln",
+  "title": "Garage entrümpeln Hamburg ✓ Schuppen ✓ Gartenhaus ✓ Festpreis | Hinnerk",
+  "description": "Garage, Schuppen oder Gartenhaus entrümpeln in Hamburg. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Getrennte Entsorgung von Holz, Metall und Sperrmüll.",
+  "h1": "Garage entrümpeln in Hamburg",
+  "lead": "Das Auto steht draußen, weil die Garage voll ist? Hinnerk räumt Garage, Schuppen und Gartenhaus – zum festen Preis.",
+  "sections": [
+   {
+    "h2": "Was in Garagen landet",
+    "html": "<p>Fahrräder, Gartengeräte, alte Möbel, Reifen, Werkzeug, Kartons – die Garage wird schnell zum Lager. Oft ist sie so voll, dass kein Auto mehr hineinpasst.</p>"
+   },
+   {
+    "h2": "Getrennt entsorgt",
+    "html": "<p>Metall, Holz, Sperrmüll und Elektrogeräte gehen getrennt zur Entsorgung. Einige Dinge haben eigene Wege: Altreifen, Kfz-Teile, Altöl, Farben und Lacke nehmen die Recyclinghöfe nicht wie normalen Sperrmüll an. Sagen Sie uns vorher, was dabei ist – dann klären wir den richtigen Weg, bevor Sie einen Preis bekommen.</p>"
+   },
+   {
+    "h2": "Auch Schuppen und Gartenhaus",
+    "html": "<p>Wir räumen auch Schuppen und Gartenhäuser. Ein Gartenhaus selbst abzubauen gehört nicht zu einer normalen Entrümpelung – das besprechen wir bei der Besichtigung. Wird das ganze Haus geräumt? Dann lesen Sie bei der <a href=\"hausaufloesung-hamburg.html\">Hausauflösung</a> weiter.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Nehmt ihr auch Altreifen und Autoteile mit?",
+    "a": "Altreifen und Kfz-Teile haben eigene Entsorgungswege. Sagen Sie uns vorher Bescheid, dann klären wir das bei der Besichtigung."
+   },
+   {
+    "q": "Lohnt sich das auch für eine einzelne Garage?",
+    "a": "Ja. Wir schauen uns die Garage an und nennen einen festen Preis. Sie entscheiden danach."
+   },
+   {
+    "q": "Muss ich bei der Räumung dabei sein?",
+    "a": "Nein, wenn vorher klar ist, was bleiben soll, und wir Zugang zur Garage haben."
+   }
+  ]
+ },
+ {
+  "slug": "firmenaufloesung-hamburg",
+  "name": "Firmenauflösung",
+  "title": "Firmenauflösung Hamburg ✓ Laden ✓ Lager ✓ Werkstatt ✓ Festpreis | Hinnerk",
+  "description": "Firmenauflösung in Hamburg: Laden, Lager, Werkstatt, Praxis oder Gastronomie räumen – passend zum Übergabetermin. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Rechnung.",
+  "h1": "Firmenauflösung in Hamburg",
+  "lead": "Laden, Lager oder Werkstatt muss bis zu einem festen Termin leer sein? Hinnerk besichtigt kostenlos und räumt zum festen Preis.",
+  "sections": [
+   {
+    "h2": "Was wir räumen",
+    "html": "<ul><li>Läden und Verkaufsräume</li><li>Lager und Lagerhallen</li><li>Werkstätten</li><li>Praxen und Kanzleien</li><li>Gastronomie: Gastraum, Lager, Keller</li></ul><p>Reine Büros? Dafür gibt es die Seite <a href=\"bueroaufloesung-hamburg.html\">Büroauflösung</a>.</p>"
+   },
+   {
+    "h2": "Der Übergabetermin zählt",
+    "html": "<p>Bei Gewerbeflächen steht meist ein fester Termin für die Rückgabe an den Vermieter. Wir planen die Räumung so, dass vorher noch Zeit bleibt. Den festen Preis kennen Sie nach der Besichtigung, und Sie bekommen eine Rechnung.</p>"
+   },
+   {
+    "h2": "Was vorher geklärt werden sollte",
+    "html": "<ul><li>Unterlagen mit Aufbewahrungspflicht und Datenträger: Die nehmen Sie oder Ihr Steuerberater vorher an sich.</li><li>Geleaste oder gemietete Geräte gehen an den Vermieter zurück.</li><li>Einbauten, Kühlanlagen oder Maschinen: Was abgebaut werden muss, besprechen wir bei der Besichtigung.</li></ul>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Könnt ihr bis zu einem festen Übergabetermin räumen?",
+    "a": "Ja, darum planen wir den Räumungstag mit Puffer vor der Übergabe. Den Termin legen wir nach der Besichtigung gemeinsam fest."
+   },
+   {
+    "q": "Bekomme ich eine Rechnung?",
+    "a": "Ja, Sie bekommen eine Rechnung über den vereinbarten Festpreis."
+   },
+   {
+    "q": "Nehmt ihr auch Regale, Theken und Lagerware mit?",
+    "a": "Ja, Möbel, Regale, Theken und Restware räumen wir. Gefährliche Stoffe oder fest eingebaute Anlagen besprechen wir vorher."
+   }
+  ]
+ },
+ {
+  "slug": "entruempelung-fuer-vermieter-hamburg",
+  "name": "Für Vermieter & Hausverwaltungen",
+  "title": "Entrümpelung für Vermieter & Hausverwaltungen in Hamburg | Hinnerk",
+  "description": "Entrümpelung für Vermieter und Hausverwaltungen in Hamburg: zurückgelassene Möbel nach Auszug, Wohnungen nach Todesfall, Sperrmüll in Keller und Hof. ✓ Festpreis ✓ Rechnung.",
+  "h1": "Entrümpelung für Vermieter und Hausverwaltungen in Hamburg",
+  "lead": "Ein Mieter ist ausgezogen und hat Möbel zurückgelassen? Im Keller steht Sperrmüll, den keiner gehört? Hinnerk räumt zum festen Preis – mit Rechnung.",
+  "sections": [
+   {
+    "h2": "Typische Aufträge",
+    "html": "<ul><li>Zurückgelassene Möbel und Sperrmüll nach einem Auszug</li><li>Wohnungen nach einem Todesfall, wenn die Erben räumen lassen</li><li>Gemeinschaftskeller, Dachböden und Fahrradkeller</li><li>Sperrmüll im Hof oder Müllraum</li></ul>"
+   },
+   {
+    "h2": "Wichtig: Eigentum klären",
+    "html": "<p>Bevor Sachen eines Mieters entfernt werden, muss rechtlich klar sein, dass Sie das dürfen – zum Beispiel nach Rückgabe der Wohnung oder mit Zustimmung der Erben. Bei Unsicherheit fragen Sie Ihren Anwalt oder Verband. Eine Zwangsräumung läuft über den Gerichtsvollzieher.</p>"
+   },
+   {
+    "h2": "So arbeiten wir",
+    "html": "<p>Kostenlose Besichtigung, fester Preis, Räumung zum vereinbarten Termin, getrennte Entsorgung und eine Rechnung. Den Schlüssel können Sie uns übergeben. Ihre Mieter fragen nach dem Thema? Unser Ratgeber erklärt, <a href=\"wohnung-besenrein-uebergeben.html\">was besenrein heißt</a> und <a href=\"wohnung-nach-todesfall-aufloesen.html\">wer nach einem Todesfall räumen muss</a>.</p>"
+   }
+  ],
+  "faq": [
+   {
+    "q": "Arbeitet ihr auch regelmäßig für Hausverwaltungen?",
+    "a": "Ja, gern. Schreiben Sie uns, dann besprechen wir, wie Aufträge am einfachsten ablaufen."
+   },
+   {
+    "q": "Bekomme ich eine Rechnung für die Nebenkostenabrechnung?",
+    "a": "Sie bekommen eine Rechnung über den Festpreis. Ob die Kosten umlagefähig sind, klären Sie bitte mit Ihrem Verband oder Steuerberater."
+   },
+   {
+    "q": "Räumt ihr auch, wenn der Mieter noch Sachen in der Wohnung hat?",
+    "a": "Nur, wenn rechtlich geklärt ist, dass die Sachen entfernt werden dürfen – zum Beispiel nach der Rückgabe der Wohnung oder mit Zustimmung der Erben."
    }
   ]
  }

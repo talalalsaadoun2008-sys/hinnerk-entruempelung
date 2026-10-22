@@ -37,9 +37,9 @@
     },
     {
       "slug": "keller-entruempeln-hamburg",
-      "name": "Keller, Dachboden & Garage",
-      "kurz": "Einzelne Räume werden entrümpelt, ohne dass der ganze Haushalt aufgelöst wird.",
-      "plakat": "Keller & Speicher"
+      "name": "Keller entrümpeln",
+      "kurz": "Kellerabteil oder ganzer Keller wird geräumt, ohne dass der ganze Haushalt aufgelöst wird.",
+      "plakat": "Keller"
     },
     {
       "slug": "nachlassaufloesung-hamburg",
@@ -55,15 +55,45 @@
     },
     {
       "slug": "bueroaufloesung-hamburg",
-      "name": "Büro- & Firmenauflösung",
-      "kurz": "Büro, Praxis, Laden oder Lager werden leer geräumt – passend zum Übergabetermin.",
-      "plakat": "Büro & Firma"
+      "name": "Büroauflösung",
+      "kurz": "Büros werden leer geräumt – Möbel, Technik und Kartons, passend zum Übergabetermin.",
+      "plakat": "Büro"
     },
     {
       "slug": "sperrmuell-abholen-hamburg",
       "name": "Sperrmüll abholen",
       "kurz": "Sofa, Schrank, Matratze: Wir tragen Sperrmüll direkt aus der Wohnung und entsorgen ihn.",
       "plakat": "Sperrmüll"
+    },
+    {
+      "slug": "hausaufloesung-hamburg",
+      "name": "Hausauflösung",
+      "kurz": "Ein ganzes Haus mit Keller, Dachboden, Garage und Garten wird geräumt – zum Beispiel vor dem Verkauf.",
+      "plakat": "Haus"
+    },
+    {
+      "slug": "dachboden-entruempeln-hamburg",
+      "name": "Dachboden entrümpeln",
+      "kurz": "Dachboden oder Speicher wird geräumt – auch über steile Treppen und Luken.",
+      "plakat": "Dachboden"
+    },
+    {
+      "slug": "garage-entruempeln-hamburg",
+      "name": "Garage entrümpeln",
+      "kurz": "Garage, Schuppen oder Gartenhaus wird leer geräumt – damit das Auto wieder reinpasst.",
+      "plakat": "Garage"
+    },
+    {
+      "slug": "firmenaufloesung-hamburg",
+      "name": "Firmenauflösung",
+      "kurz": "Laden, Lager, Werkstatt oder Praxis werden geräumt – passend zum Übergabetermin.",
+      "plakat": "Laden & Lager"
+    },
+    {
+      "slug": "entruempelung-fuer-vermieter-hamburg",
+      "name": "Für Vermieter & Hausverwaltungen",
+      "kurz": "Wohnung nach Auszug, Todesfall oder Sperrmüll im Keller: Hinnerk räumt für Vermieter und Hausverwaltungen.",
+      "plakat": "Vermieter"
     }
   ]
 }
