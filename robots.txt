@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hinnerk-entruempelung.de/sitemap.xml

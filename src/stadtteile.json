@@ -1097,9 +1097,7 @@
  {
   "name": "Iserbrook",
   "bezirk": "Altona",
-  "quartiere": [
-   "Senator-Paul-Neumann-Siedlung"
-  ],
+  "quartiere": [],
   "nachbarn": [
    "Sülldorf",
    "Osdorf",
@@ -1107,9 +1105,9 @@
    "Nienstedten",
    "Schenefeld (Schleswig-Holstein)"
   ],
-  "bebauung": "Iserbrook ist ein ruhiges Wohngebiet mit vielen Ein- und Zweifamilienhäusern und Gärten. Ein Teil der Häuser stammt aus Siedlungen der 1930er-Jahre, einige Siedlungshäuser sind noch älter.",
-  "raeumung": "In Ein- und Zweifamilienhäusern sind häufig Keller, Dachboden, Garage und Gartenschuppen mit zu leeren. In Wohnstraßen kann man meist nah am Haus parken.",
-  "geschichte": "Iserbrook kam erst 1951 offiziell zu Hamburg. Das erste Gebäude soll ein Bahnwärterhaus an der 1883 eröffneten Bahnstrecke Blankenese–Wedel gewesen sein.",
+  "bebauung": "Iserbrook ist ein Wohngebiet aus mehreren Siedlungen. Ab 1924 entstanden an der Sülldorfer Landstraße die ersten Häuser, dahinter Siedlungen mit großen Gartenparzellen. Ab 1936 kamen kleine Doppelhäuser am Wisserweg dazu, in den 1960er-Jahren Reihenhäuser am Wientapperweg und in den 1970er-Jahren eine größere Wohnsiedlung am Schenefelder Holt.",
+  "raeumung": "In Doppel- und Reihenhäusern sind häufig Keller, Dachboden, Garage und Gartenschuppen mit zu leeren. In den Wohnstraßen kann man meist nah am Haus halten.",
+  "geschichte": "Die Bahnstrecke Blankenese–Wedel führt seit 1883 durch das Gebiet, der Bahnhof Iserbrook kam 1950 dazu. Ein eigener Stadtteil ist Iserbrook erst seit 1951.",
   "recyclinghof": {
    "ort": "Osdorf",
    "adresse": "Brandstücken 36"
@@ -1120,21 +1118,21 @@
     "a": "Am nächsten liegt der Recyclinghof Osdorf am Brandstücken 36."
    },
    {
-    "q": "Was ist bei Siedlungshäusern in Iserbrook zu beachten?",
-    "a": "Ältere Siedlungshäuser haben oft kleine Räume, steile Treppen und Nebengebäude im Garten. Es hilft, diese Bereiche vorher mit einzuplanen."
+    "q": "Was ist bei älteren Siedlungshäusern in Iserbrook zu beachten?",
+    "a": "Kleine Siedlungshäuser haben oft enge Räume, steile Treppen und Schuppen im Garten. Es hilft, diese Bereiche vorher mit einzuplanen."
    }
   ],
   "quellen": [
    {
-    "titel": "hamburg.de – Iserbrook",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-altona/iserbrook-370596"
+    "titel": "Wikipedia – Hamburg-Iserbrook",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Iserbrook"
    },
    {
     "titel": "Wikipedia (en) – Iserbrook",
     "url": "https://en.wikipedia.org/wiki/Iserbrook"
    }
   ],
-  "unsicher": "Die Angabe 1951 stammt von hamburg.de; sie bezieht sich wohl auf die Bildung des eigenen Stadtteils."
+  "unsicher": ""
  },
  {
   "name": "Sülldorf",
@@ -1142,13 +1140,13 @@
   "quartiere": [],
   "nachbarn": [
    "Rissen",
-   "Iserbrook",
    "Blankenese",
-   "Schleswig-Holstein (Norden)"
+   "Iserbrook",
+   "Schenefeld (Schleswig-Holstein)"
   ],
-  "bebauung": "Sülldorf ist locker bebaut, vor allem mit Ein- und Zweifamilienhäusern und viel Grün. Im alten Dorfkern gibt es noch einige reetgedeckte Häuser, am Rand zur Feldmark stehen neuere Einfamilienhäuser auf großen Grundstücken.",
-  "raeumung": "Große Grundstücke bringen oft Garage, Schuppen und Gartengeräte mit sich. Ältere Häuser im Dorfkern haben häufig niedrige Räume und enge Treppen.",
-  "geschichte": "",
+  "bebauung": "Nördlich der Bahn ist der alte Dorfkern mit Bauernhöfen und reetgedeckten Katen erhalten, dahinter liegt die offene Feldmark. Südlich davon gibt es vor allem neuere Wohngebiete mit Einzel- und Reihenhäusern. Am S-Bahnhof Iserbrook und an der Straße Op'n Hainholt stehen Mehrfamilienhäuser, meist aus den 1960er- und 1970er-Jahren, dazu eine Reihenhaussiedlung aus den 1950er-Jahren.",
+  "raeumung": "Bei Einzel- und Reihenhäusern kommen oft Keller, Dachboden, Garage und Gartenschuppen dazu. In alten Katen und Bauernhäusern sind Räume und Treppen oft eng – das sollte man vorher ansehen.",
+  "geschichte": "Sülldorf wird 1256 als „Suldorpe“ zum ersten Mal in einer Urkunde genannt. 1927 kam der Ort zu Altona und 1938 mit Altona zu Hamburg.",
   "recyclinghof": {
    "ort": "Osdorf",
    "adresse": "Brandstücken 36"
@@ -1160,20 +1158,20 @@
    },
    {
     "q": "An welche Stadtteile grenzt Sülldorf?",
-    "a": "Sülldorf grenzt an Rissen, Iserbrook und Blankenese; im Norden beginnt Schleswig-Holstein."
+    "a": "Sülldorf grenzt an Rissen, Blankenese und Iserbrook. Im Norden liegt Schenefeld in Schleswig-Holstein."
    }
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Sülldorf",
-    "url": "https://en.wikipedia.org/wiki/S%C3%BClldorf"
+    "titel": "Wikipedia – Hamburg-Sülldorf",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-S%C3%BClldorf"
    },
    {
-    "titel": "ImmobilienScout24 – Sülldorf: Leben und Wohnen",
-    "url": "https://www.immobilienscout24.de/regional/de/hamburg/hamburg/altona/suelldorf/"
+    "titel": "Wikipedia (en) – Sülldorf",
+    "url": "https://en.wikipedia.org/wiki/S%C3%BClldorf"
    }
   ],
-  "unsicher": "Bebauung nur aus einer Immobilienseite (teils KI-erstellt) belegt. Keine belegte historische Tatsache gefunden – Feld 'geschichte' leer gelassen."
+  "unsicher": ""
  },
  {
   "name": "Rissen",
@@ -1185,11 +1183,13 @@
    "Sülldorf",
    "Blankenese",
    "Wedel (Schleswig-Holstein)",
-   "Schenefeld (Schleswig-Holstein)"
+   "Appen (Schleswig-Holstein)",
+   "Schenefeld (Schleswig-Holstein)",
+   "Pinneberg (Schleswig-Holstein)"
   ],
-  "bebauung": "Rissen ist der westlichste Stadtteil Hamburgs und vor allem von Einfamilienhäusern und älteren Villen auf großen, grünen Grundstücken geprägt. Im Ortskern rund um die Wedeler Landstraße ist es dichter, mit kleineren Mehrfamilienhäusern.",
-  "raeumung": "Bei Einfamilienhäusern sind oft Keller, Garage und Garten mit zu räumen. Bis zum nächsten Recyclinghof (Osdorf) ist der Weg aus Rissen relativ weit.",
-  "geschichte": "Rissen wurde 1255 als „Risne“ zum ersten Mal erwähnt. Der Wald Klövensteen im Norden ist seit dem späten 18. Jahrhundert Staatsforst.",
+  "bebauung": "Rissen ist der westlichste Stadtteil Hamburgs. Typisch sind frei stehende Häuser auf oft sehr großen, parkartigen Grundstücken. Größere Wohnhäuser mit mehreren Etagen gibt es nur an wenigen Stellen. Der alte Ortskern mit vielen Geschäften liegt an der Wedeler Landstraße.",
+  "raeumung": "Bei Einzelhäusern sind oft Keller, Garage und Garten mit zu räumen. Bis zum nächsten Recyclinghof (Osdorf) ist der Weg aus Rissen relativ weit.",
+  "geschichte": "Rissen wurde 1255 als „Risne“ zum ersten Mal in einer Urkunde erwähnt. 1927 kam der Ort zu Altona und 1938 mit Altona zu Hamburg.",
   "recyclinghof": {
    "ort": "Osdorf",
    "adresse": "Brandstücken 36"
@@ -1201,24 +1201,24 @@
    },
    {
     "q": "Gehört Wittenbergen zu Rissen?",
-    "a": "Ja. Wittenbergen mit der Wittenbergener Heide und den Elbwiesen liegt in Rissen."
+    "a": "Ja. Wittenbergen mit dem bekannten Leuchtturm liegt am Elbufer im Stadtteil Rissen."
    }
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Rissen",
-    "url": "https://en.wikipedia.org/wiki/Rissen"
+    "titel": "Wikipedia – Hamburg-Rissen",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Rissen"
    },
    {
-    "titel": "Wikivoyage – Hamburg/Altona und westliche Stadtteile",
-    "url": "https://de.wikivoyage.org/wiki/Hamburg/Altona_und_westliche_Stadtteile"
+    "titel": "Wikipedia – Leuchtturm Wittenbergen",
+    "url": "https://de.wikipedia.org/wiki/Leuchtturm_Wittenbergen"
    },
    {
-    "titel": "ImmobilienScout24 – Rissen: Leben und Wohnen",
-    "url": "https://www.immobilienscout24.de/regional/de/hamburg/hamburg/altona/rissen/"
+    "titel": "Wikipedia (en) – Klövensteen",
+    "url": "https://en.wikipedia.org/wiki/Kl%C3%B6vensteen"
    }
   ],
-  "unsicher": "Bebauung nur aus Immobilienseite belegt; hamburg.de-Seite zu Rissen war nicht abrufbar. Nachbargemeinde laut Wikipedia auch 'Pinneberg' (vermutlich Kreis Pinneberg)."
+  "unsicher": ""
  },
  {
   "name": "Eimsbüttel",
@@ -1272,9 +1272,9 @@
    "Neustadt",
    "St. Georg (über die Außenalster)"
   ],
-  "bebauung": "Am Ufer der Außenalster stehen große Stadtvillen und Herrenhäuser, im Inneren viele Altbau-Etagenhäuser. Im Grindelviertel stehen die Grindelhochhäuser: zwölf Wohnhochhäuser, gebaut von 1946 bis 1956.",
+  "bebauung": "Am Westufer der Außenalster stehen große Villen mit Parks, viele davon aus dem 19. Jahrhundert. Im Grindelviertel rund um die Universität gibt es viele alte Gebäude, in der Straße Grindelhof stehen zahlreiche unter Denkmalschutz.",
   "raeumung": "In Altbauten ohne Aufzug muss oft durchs Treppenhaus getragen werden. Rund um Universität und Grindel sind Parkplätze knapp.",
-  "geschichte": "Die Grindelhochhäuser gelten als die ersten Wohnhochhäuser, die nach dem Krieg in Deutschland gebaut wurden. Im Curiohaus an der Rothenbaumchaussee fanden 1946 bis 1948 britische Kriegsverbrecherprozesse statt.",
+  "geschichte": "Das Grindelviertel war vor 1933 ein Zentrum des jüdischen Lebens in Hamburg; die große Bornplatzsynagoge wurde 1939 abgerissen. Im Curiohaus an der Rothenbaumchaussee hielten die Briten von 1946 bis 1948 Prozesse gegen Kriegsverbrecher ab.",
   "recyclinghof": {
    "ort": "St. Pauli",
    "adresse": "Feldstraße 69"
@@ -1286,20 +1286,24 @@
    },
    {
     "q": "Gehört das Grindelviertel zu Rotherbaum?",
-    "a": "Ja, das Grindelviertel liegt in Rotherbaum. Ein Teil der Grindelhochhäuser liegt nach anderen Angaben in Harvestehude."
+    "a": "Ja, der Kern des Grindelviertels liegt in Rotherbaum. Der nördliche Teil am Grindelberg mit den Grindelhochhäusern gehört schon zu Harvestehude."
    }
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Rotherbaum",
-    "url": "https://en.wikipedia.org/wiki/Rotherbaum"
+    "titel": "hamburg.de – Rotherbaum",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/rotherbaum-372614"
    },
    {
-    "titel": "hamburg.de – Grindelhochhäuser: Bewegte Geschichte",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/behoerde-fuer-kultur-und-medien/grindelhochhaeuser-1196582"
+    "titel": "Wikipedia – Grindel (Hamburg)",
+    "url": "https://de.wikipedia.org/wiki/Grindel_(Hamburg)"
+   },
+   {
+    "titel": "Wikipedia (en) – Rotherbaum",
+    "url": "https://en.wikipedia.org/wiki/Rotherbaum"
    }
   ],
-  "unsicher": "Grindelhochhäuser: hamburg.de ordnet sie Rotherbaum zu, dewiki (Harvestehude) zählt sie zu Harvestehude – Grenzlage."
+  "unsicher": ""
  },
  {
   "name": "Harvestehude",
@@ -1313,12 +1317,11 @@
    "Eimsbüttel",
    "Hoheluft-West",
    "Hoheluft-Ost",
-   "Eppendorf",
-   "Winterhude"
+   "Eppendorf"
   ],
-  "bebauung": "Harvestehude ist ein Gründerzeitviertel mit Villen und herrschaftlichen Etagenhäusern, ab etwa 1870 zuerst im Historismus, nach 1900 im Jugendstil. Nach dem Krieg kamen Neubauten der 1950er-Jahre dazu, in den 1970er-Jahren wurden manche Villen durch Apartmenthäuser ersetzt.",
+  "bebauung": "Ab etwa 1870 entstanden in Harvestehude Villen und Etagenhäuser im Stil des Historismus, nach 1900 im Jugendstil. Nach dem Krieg wurde auf zerstörten Grundstücken neu gebaut, in den 1970er-Jahren wichen viele Villen Apartmenthäusern. Am Grindelberg stehen die zwölf Grindelhochhäuser, gebaut bis 1956.",
   "raeumung": "In Altbau-Etagenwohnungen gibt es oft hohe Räume, aber nicht immer einen Aufzug. An der Alster und in Pöseldorf sind Parkplätze knapp.",
-  "geschichte": "Der Name kommt vom Kloster Harvestehude, das von 1293 bis 1530 hier stand. Um 1860 wurde das Land in Parzellen verkauft – so entstand eines der vornehmsten Wohnviertel Hamburgs.",
+  "geschichte": "Der Name kommt vom Kloster Harvestehude, das von 1293 bis 1530 bestand. 1860 kauften Hamburger Bürger das Gut, legten Straßen an und verkauften das Land in Grundstücken weiter.",
   "recyclinghof": {
    "ort": "St. Pauli",
    "adresse": "Feldstraße 69"
@@ -1326,7 +1329,7 @@
   "faq": [
    {
     "q": "Gehört Pöseldorf zu Harvestehude?",
-    "a": "Ja, zum größten Teil. Pöseldorf liegt zwischen Mittelweg und Außenalster überwiegend in Harvestehude."
+    "a": "Zum größten Teil ja. Ein kleiner Rest von Pöseldorf liegt in Rotherbaum."
    },
    {
     "q": "Was ist bei Altbauten in Harvestehude zu beachten?",
@@ -1335,15 +1338,15 @@
   ],
   "quellen": [
    {
-    "titel": "dewiki.de – Harvestehude",
-    "url": "https://dewiki.de/Lexikon/Harvestehude"
+    "titel": "Wikipedia – Hamburg-Harvestehude",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
    },
    {
-    "titel": "Wikipedia (en) – Harvestehude",
-    "url": "https://en.wikipedia.org/wiki/Harvestehude"
+    "titel": "Wikipedia – Grindel (Hamburg)",
+    "url": "https://de.wikipedia.org/wiki/Grindel_(Hamburg)"
    }
   ],
-  "unsicher": "Recyclinghof geschätzt (St. Pauli am nächsten, aber mehrere Kilometer). hamburg.de-Seite war nicht abrufbar."
+  "unsicher": "Recyclinghof geschätzt (St. Pauli am nächsten, aber mehrere Kilometer)."
  },
  {
   "name": "Hoheluft-West",
@@ -1386,7 +1389,10 @@
  {
   "name": "Lokstedt",
   "bezirk": "Eimsbüttel",
-  "quartiere": [],
+  "quartiere": [
+   "Zylinderviertel",
+   "Lenzsiedlung"
+  ],
   "nachbarn": [
    "Niendorf",
    "Hoheluft-West",
@@ -1395,9 +1401,9 @@
    "Eppendorf",
    "Groß Borstel"
   ],
-  "bebauung": "Lokstedt war um 1900 ein Villenvorort, aus dieser Zeit stehen noch Villen mit Gärten. Daneben gibt es Einfamilienhäuser, Mehrfamilienhäuser und die Lenzsiedlung, eine Plattenbausiedlung aus den Jahren 1976 bis 1978.",
-  "raeumung": "Die Bebauung ist gemischt: von Häusern mit Garten und Keller bis zu Mietwohnungen in größeren Wohnanlagen. Vorher klären, ob es einen Aufzug gibt und wo der Transporter halten kann.",
-  "geschichte": "Lokstedt bekam 1891 als erstes Dorf in Deutschland elektrische Straßenbeleuchtung. Seit 1953 hat der Norddeutsche Rundfunk hier ein großes Gelände.",
+  "bebauung": "Um 1900 wurde Lokstedt zum Villenvorort; einzelne Villengebiete wie das Zylinderviertel sind erhalten. Heute prägen Ein- und Zweifamilienhäuser und Mehrfamilienhäuser aus den 1950er- und 1960er-Jahren das Bild. Im Südwesten liegt die Lenzsiedlung (1976 bis 1978) mit bis zu 15 Etagen hohen Häusern. In den letzten Jahren wurde viel neu gebaut.",
+  "raeumung": "Die Bebauung ist gemischt: von Häusern mit Garten und Keller bis zu Wohnungen in Hochhäusern. Vorher klären, ob es einen Aufzug gibt und wo der Transporter halten kann.",
+  "geschichte": "Lokstedt bekam 1891 elektrische Straßenbeleuchtung. Seit 1953 hat das Fernsehen des NDR hier seinen Sitz. 1937 kam Lokstedt durch das Groß-Hamburg-Gesetz zu Hamburg.",
   "recyclinghof": {
    "ort": "Niendorf",
    "adresse": "Krähenweg 22"
@@ -1414,15 +1420,19 @@
   ],
   "quellen": [
    {
-    "titel": "de-academic.com (dewiki) – Lokstedt",
-    "url": "https://de-academic.com/dic.nsf/dewiki/875680"
+    "titel": "Wikipedia – Hamburg-Lokstedt",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
    },
    {
-    "titel": "ImmobilienScout24 – Lokstedt: Leben und Wohnen",
-    "url": "https://www.immobilienscout24.de/regional/de/hamburg/hamburg/eimsbuettel/lokstedt/"
+    "titel": "Bezirksamt Eimsbüttel – Lokstedt",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/lokstedt-60288"
+   },
+   {
+    "titel": "Wikipedia – Hamburg-Hoheluft-West",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Hoheluft-West"
    }
   ],
-  "unsicher": "Quelle ist eine ältere Wikipedia-Kopie. Die Lenzsiedlung wird dort Lokstedt zugeordnet; je nach Quelle wird sie auch Eimsbüttel zugerechnet. 'Hoheluft' als Nachbar wurde als Hoheluft-West gedeutet."
+  "unsicher": ""
  },
  {
   "name": "Niendorf",
@@ -1462,7 +1472,10 @@
  {
   "name": "Schnelsen",
   "bezirk": "Eimsbüttel",
-  "quartiere": [],
+  "quartiere": [
+   "Burgwedel",
+   "Spanische Furt"
+  ],
   "nachbarn": [
    "Eidelstedt",
    "Niendorf",
@@ -1471,9 +1484,9 @@
    "Bönningstedt (Schleswig-Holstein)",
    "Norderstedt (Schleswig-Holstein)"
   ],
-  "bebauung": "Ein großer Teil der Häuser in Schnelsen stammt aus den 1960er- und 1970er-Jahren, viele davon Einfamilienhäuser. In einigen Straßen gibt es noch Gründerzeitbauten, und manche ältere Häuser wurden durch Neubauten ersetzt.",
-  "raeumung": "Bei Einfamilienhäusern aus den 60er- und 70er-Jahren sind oft voller Keller, Dachboden und Garage zu räumen. Der Recyclinghof Niendorf ist nicht weit.",
-  "geschichte": "Über der Autobahn A7 wurde in Schnelsen ein 560 Meter langer Lärmschutzdeckel gebaut. Darauf liegen seit 2022 ein Park und Kleingärten.",
+  "bebauung": "Schnelsen ist ein Wohnstadtteil am Nordwestrand Hamburgs. In den 1990er-Jahren entstanden die Neubaugebiete Burgwedel im Nordwesten und an der Süntelstraße. Die Autobahn A7 führt durch den Stadtteil; ein Teil davon liegt heute unter einem Deckel.",
+  "raeumung": "Je nach Lage geht es um Häuser mit Keller, Dachboden und Garage oder um Wohnungen in größeren Anlagen. Der Recyclinghof Niendorf ist nicht weit.",
+  "geschichte": "Der Ort lässt sich bis 1253 zurückverfolgen und kam 1937 durch das Groß-Hamburg-Gesetz zu Hamburg. Über der A7 liegt ein 560 Meter langer Lärmschutzdeckel; darauf wurden im September 2022 ein Park und Kleingärten eröffnet.",
   "recyclinghof": {
    "ort": "Niendorf",
    "adresse": "Krähenweg 22"
@@ -1484,25 +1497,25 @@
     "a": "Am nächsten liegt der Recyclinghof Niendorf am Krähenweg 22."
    },
    {
-    "q": "Was ist bei älteren Einfamilienhäusern in Schnelsen zu beachten?",
-    "a": "Häuser aus den 60er- und 70er-Jahren haben oft einen vollen Keller. Bei sehr alten Bauteilen oder Dämmstoffen sollte man prüfen, ob Schadstoffe dabei sein könnten."
+    "q": "Was ist bei älteren Häusern in Schnelsen zu beachten?",
+    "a": "Ältere Häuser haben oft einen vollen Keller und Dachboden. Bei alten Bauteilen oder Dämmstoffen sollte man vorher prüfen, ob Schadstoffe dabei sein könnten."
    }
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Schnelsen",
-    "url": "https://en.wikipedia.org/wiki/Schnelsen"
+    "titel": "Wikipedia – Hamburg-Schnelsen",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Schnelsen"
    },
    {
-    "titel": "hamburg.de – Überdeckelung der A7 (Deckel Schnelsen)",
+    "titel": "Bezirksamt Eimsbüttel – A7-Deckel in Schnelsen",
     "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/themen/umwelt-natur-klima/deckel-schnelsen-59218"
    },
    {
-    "titel": "Homeday Preisatlas – Schnelsen",
-    "url": "https://www.homeday.de/de/preisatlas/hamburg/schnelsen"
+    "titel": "Wikipedia – Hamburger Deckel",
+    "url": "https://de.wikipedia.org/wiki/Hamburger_Deckel"
    }
   ],
-  "unsicher": "Bebauung nur aus Immobilienportal (Homeday) belegt. Quartiere wie Burgwedel nicht geprüft."
+  "unsicher": "Zu Haustypen und Baujahren außerhalb der Neubaugebiete keine gute Quelle gefunden – Text bewusst allgemein."
  },
  {
   "name": "Eidelstedt",
@@ -1516,11 +1529,13 @@
    "Niendorf",
    "Stellingen",
    "Bahrenfeld",
-   "Lurup"
+   "Lurup",
+   "Halstenbek (Schleswig-Holstein)",
+   "Rellingen (Schleswig-Holstein)"
   ],
-  "bebauung": "Eidelstedt ist gemischt: rund um den Eidelstedter Platz Wohn- und Geschäftshäuser, Richtung Feldmark viele Ein- und Zweifamilienhäuser. Im Westen liegen Siedlungen aus den 1950er- und 1960er-Jahren, etwa die Lohkampsiedlung mit kleinen Doppelhäusern und großen Gärten und Reihenhäuser am Edelweißweg.",
-  "raeumung": "In den Siedlungshäusern gibt es oft Schuppen, Dachboden und große Gärten. Am Eidelstedter Platz sind Parkplätze eher knapp.",
-  "geschichte": "Eidelstedt wird um 1266/69 erstmals als Dorf erwähnt, damals unter Namen wie Eilstede. Durch das Groß-Hamburg-Gesetz kam es 1937/38 zu Hamburg.",
+  "bebauung": "Die meisten Wohnhäuser in Eidelstedt stammen aus den 1950er- bis 1970er-Jahren: Hochhäuser, Wohnblöcke und Einfamilienhäuser, viele davon aus gelbem Klinker. Im Westen liegt die Lohkampsiedlung aus den 1950er-Jahren mit kleinen Doppelhäusern auf großen Grundstücken, direkt daneben Reihenhäuser am Edelweißweg. Das Zentrum am Eidelstedter Platz ist ein Verkehrsknoten mit Geschäften.",
+  "raeumung": "In den Siedlungshäusern gibt es oft Schuppen, Dachboden und große Gärten. Am Eidelstedter Platz ist viel Verkehr, dort sollte man den Halteplatz vorher klären.",
+  "geschichte": "Eidelstedt wird 1347 zum ersten Mal erwähnt, damals unter Namen wie Eilstede. 1927 kam es zu Altona und durch das Groß-Hamburg-Gesetz zu Hamburg.",
   "recyclinghof": {
    "ort": "Bahrenfeld",
    "adresse": "Rondenbarg 52 a"
@@ -1532,24 +1547,20 @@
    },
    {
     "q": "Was ist bei Siedlungshäusern in Eidelstedt zu beachten?",
-    "a": "Die Häuser der 1950er- und 60er-Jahre sind oft klein und haben steile Treppen zum Dachboden. Gartenhäuser und Schuppen sollten bei der Planung mitgedacht werden."
+    "a": "Die Siedlungshäuser sind oft klein, die Treppen zum Dachboden steil. Viele frühere Ställe sind heute Garagen oder Schuppen – auch sie sollte man bei der Planung mitdenken."
    }
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Eidelstedt",
-    "url": "https://en.wikipedia.org/wiki/Eidelstedt"
+    "titel": "Wikipedia – Hamburg-Eidelstedt",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
    },
    {
     "titel": "hamburg.de – Begründung Erhaltungsverordnung Lohkamp",
     "url": "https://www.hamburg.de/resource/blob/59946/955b0c6b9a588142066af91a68785ca5/d-erhvo-staedt-ervo-begruendung-lohkamp-data.pdf"
-   },
-   {
-    "titel": "ImmobilienScout24 – Eidelstedt: Leben und Wohnen",
-    "url": "https://www.immobilienscout24.de/regional/de/hamburg/hamburg/eimsbuettel/eidelstedt/"
    }
   ],
-  "unsicher": "Recyclinghof geschätzt: Bahrenfeld und Niendorf etwa gleich nah. Aussagen zum Eidelstedter Platz aus KI-gestützter Immobilienseite."
+  "unsicher": ""
  },
  {
   "name": "Stellingen",
@@ -1560,11 +1571,12 @@
   "nachbarn": [
    "Eidelstedt",
    "Lokstedt",
-   "Eimsbüttel"
+   "Eimsbüttel",
+   "Altona-Nord"
   ],
-  "bebauung": "Stellingen hat eine gemischte Bebauung mit älteren Häusern und neueren Wohnanlagen. An der Kieler Straße ist es dicht bebaut, in ruhigeren Straßen gibt es Reihenhäuser und kleinere Mehrfamilienhäuser.",
-  "raeumung": "Bei Mehrfamilienhäusern an der Kieler Straße sind Halten und Parken oft schwierig. In Reihenhäusern sind Keller und Dachboden häufig mit zu räumen.",
-  "geschichte": "1907 eröffnete Carl Hagenbeck hier seinen Tierpark. Außerdem steht in Stellingen die Fazl-e-Omar-Moschee von 1957, die erste nach dem Zweiten Weltkrieg in Deutschland gebaute Moschee.",
+  "bebauung": "Stellingen hat ruhige Wohngebiete, laute Lagen an großen Straßen und Gewerbeflächen. Viele Einzel- und Reihenhäuser stammen aus den 1950er-Jahren, größere Mehrfamilienhäuser aus den 1960er- und 1970er-Jahren. In Langenfelde liegt die Wohnsiedlung „Linse“ zwischen den Bahngleisen. Am Sportplatzring entstehen seit 2020 neue Wohnblöcke.",
+  "raeumung": "An der stark befahrenen Kieler Straße kann das Halten mit dem Transporter schwierig sein, eine Halteverbotszone hilft. In Einzel- und Reihenhäusern sind Keller und Dachboden häufig mit zu räumen.",
+  "geschichte": "Stellingen wird 1347 zum ersten Mal erwähnt. 1907 eröffnete Carl Hagenbeck hier seinen Tierpark. 1957 wurde die Fazle-Omar-Moschee eingeweiht, der erste Moschee-Neubau in Deutschland nach dem Zweiten Weltkrieg.",
   "recyclinghof": {
    "ort": "Bahrenfeld",
    "adresse": "Rondenbarg 52 a"
@@ -1581,15 +1593,23 @@
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Stellingen",
-    "url": "https://en.wikipedia.org/wiki/Stellingen"
+    "titel": "Wikipedia – Hamburg-Stellingen",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
    },
    {
-    "titel": "ImmobilienScout24 – Stellingen: Leben und Wohnen",
-    "url": "https://www.immobilienscout24.de/regional/de/hamburg/hamburg/eimsbuettel/stellingen/"
+    "titel": "Bezirksamt Eimsbüttel – Stellingen",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/stellingen-60304"
+   },
+   {
+    "titel": "Wikipedia – Langenfelde (Hamburg)",
+    "url": "https://de.wikipedia.org/wiki/Langenfelde_(Hamburg)"
+   },
+   {
+    "titel": "Wikipedia – Hamburg-Altona-Nord",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Altona-Nord"
    }
   ],
-  "unsicher": "Bebauung nur aus Immobilienseite (teils KI-erstellt). Nachbarn unvollständig (Bahrenfeld/Altona-Nord nicht geprüft)."
+  "unsicher": "Nachbarliste evtl. unvollständig (Grenze zu Bahrenfeld/Niendorf nicht belegt, daher weggelassen)."
  },
  {
   "name": "Hoheluft-Ost",
@@ -1722,11 +1742,12 @@
   "nachbarn": [
    "Groß Borstel",
    "Winterhude",
+   "Eppendorf",
    "Ohlsdorf"
   ],
-  "bebauung": "Typisch sind vier- bis fünfgeschossige Wohnblocks aus dunkelrotem Backstein aus den 1920er- und 1930er-Jahren an baumbestandenen Straßen. Daneben gibt es kleine Villengebiete und eine Gartenstadt mit Reihen- und Zweifamilienhäusern.",
-  "raeumung": "In den älteren Backsteinblocks fehlt oft ein Aufzug, dann muss alles durchs Treppenhaus getragen werden. Bei Villen und Zweifamilienhäusern kommen häufig Keller, Dachboden und Garten dazu.",
-  "geschichte": "Bis ins 19. Jahrhundert war Alsterdorf ein Bauerndorf. 1860 eröffnete Pastor Heinrich Matthias Sengelmann hier ein Heim für Menschen mit Behinderung, aus dem die heutige Evangelische Stiftung Alsterdorf hervorging.",
+  "bebauung": "Im ganzen Stadtteil gibt es Siedlungen aus rotem Klinker. Ab 1920 entstanden erste Villengebiete, etwa an der Brabandstraße und der Inselstraße, und von 1935 bis 1938 eine Gartenstadt. An der Alsterdorfer Straße mischen sich alte und neue Häuser.",
+  "raeumung": "In älteren Mehrfamilienhäusern vorher klären, ob es einen Aufzug gibt – sonst muss alles durchs Treppenhaus. Bei Villen und Häusern in der Gartenstadt kommen häufig Keller, Dachboden und Garten dazu.",
+  "geschichte": "Alsterdorf wird 1219 zum ersten Mal erwähnt und war lange ein kleines Bauerndorf. Um 1860 gründete Pastor Heinrich Matthias Sengelmann hier ein Heim für Menschen mit Behinderung, aus dem die heutige Evangelische Stiftung Alsterdorf hervorging.",
   "recyclinghof": {
    "ort": "Hummelsbüttel",
    "adresse": "Lademannbogen 32"
@@ -1737,21 +1758,21 @@
     "a": "Nach Luftlinie kommen Hummelsbüttel (Lademannbogen 32), Niendorf (Krähenweg 22) und Steilshoop (Schwarzer Weg 10) in Frage; welcher am schnellsten erreichbar ist, hängt von der Straße ab."
    },
    {
-    "q": "Was ist bei den Backsteinblocks in Alsterdorf zu beachten?",
-    "a": "Viele Häuser aus den 1920er- und 1930er-Jahren haben keinen Aufzug. Möbel und Kartons müssen dann über das Treppenhaus getragen werden."
+    "q": "Was ist bei Klinkerbauten in Alsterdorf zu beachten?",
+    "a": "In älteren Mehrfamilienhäusern gibt es nicht immer einen Aufzug. Dann müssen Möbel und Kartons über das Treppenhaus getragen werden."
    }
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Alsterdorf",
-    "url": "https://en.wikipedia.org/wiki/Alsterdorf"
+    "titel": "Wikipedia – Hamburg-Alsterdorf",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Alsterdorf"
    },
    {
-    "titel": "The Red Relocators – District Profile Alsterdorf",
-    "url": "https://the-red-relocators.com/relocation-guides-germany/real-estate-germany/hamburg-district-profiles/district-profile-alsterdorf/"
+    "titel": "Wikipedia (en) – Alsterdorf",
+    "url": "https://en.wikipedia.org/wiki/Alsterdorf"
    }
   ],
-  "unsicher": "Bebauung und Geschichte nur aus einem Relocation-Portal (keine amtliche Quelle). Nachbarliste evtl. unvollständig (Fuhlsbüttel, Eppendorf nicht belegt). Recyclinghof-Zuordnung geschätzt, drei Höfe etwa gleich weit."
+  "unsicher": "Recyclinghof-Zuordnung geschätzt, drei Höfe etwa gleich weit."
  },
  {
   "name": "Winterhude",
@@ -2009,9 +2030,9 @@
    "Alsterdorf",
    "Fuhlsbüttel"
   ],
-  "bebauung": "Den größten Teil der Fläche nimmt der Friedhof Ohlsdorf ein. Gewohnt wird vor allem in Klein Borstel und am Rand des Friedhofs.",
-  "raeumung": "Wegen des großen Friedhofs liegen die Wohngebiete verteilt; die Anfahrt sollte vorher geplant werden.",
-  "geschichte": "Der Friedhof Ohlsdorf gilt als größter Parkfriedhof der Welt. Auch die Justizvollzugsanstalt Fuhlsbüttel („Santa Fu“) liegt verwaltungsmäßig in Ohlsdorf.",
+  "bebauung": "Den größten Teil der Fläche nimmt der Friedhof Ohlsdorf ein. Gewohnt wird vor allem in Klein Borstel: dort gibt es kleine Mehrfamilienhäuser, Reihenhäuser und an der Wellingsbütteler Landstraße Villen aus dem späten 19. Jahrhundert. Die Frank'sche Siedlung mit rund 550 Reihenhäusern steht unter Denkmalschutz.",
+  "raeumung": "Wegen des großen Friedhofs liegen die Wohngebiete verteilt; die Anfahrt sollte vorher geplant werden. In Reihenhäusern sind Keller und Dachboden oft eng.",
+  "geschichte": "Ohlsdorf wird 1303 zum ersten Mal erwähnt. Der Friedhof Ohlsdorf gilt als größter Parkfriedhof der Welt. Auch die Justizvollzugsanstalt Fuhlsbüttel („Santa Fu“) gehört verwaltungsmäßig zu Ohlsdorf.",
   "recyclinghof": {
    "ort": "Steilshoop",
    "adresse": "Schwarzer Weg 10"
@@ -2019,7 +2040,7 @@
   "faq": [
    {
     "q": "Gehört Klein Borstel zu Ohlsdorf?",
-    "a": "Ja, Klein Borstel ist ein Teil des Stadtteils Ohlsdorf."
+    "a": "Ja, Klein Borstel ist seit 1938 ein Teil des Stadtteils Ohlsdorf."
    },
    {
     "q": "Wo ist der nächste Recyclinghof für Ohlsdorf?",
@@ -2028,11 +2049,15 @@
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Ohlsdorf, Hamburg",
-    "url": "https://en.wikipedia.org/wiki/Ohlsdorf,_Hamburg"
+    "titel": "Wikipedia – Hamburg-Ohlsdorf",
+    "url": "https://de.wikipedia.org/wiki/Ohlsdorf_(Hamburg)"
+   },
+   {
+    "titel": "Wikipedia – Klein Borstel",
+    "url": "https://de.wikipedia.org/wiki/Klein_Borstel"
    }
   ],
-  "unsicher": "Zur Wohnbebauung (Haustypen, Baujahre) keine Quelle gefunden – Text bewusst allgemein. Recyclinghof geschätzt."
+  "unsicher": "Recyclinghof geschätzt."
  },
  {
   "name": "Fuhlsbüttel",
@@ -2150,27 +2175,31 @@
  {
   "name": "Wandsbek",
   "bezirk": "Wandsbek",
-  "quartiere": [],
+  "quartiere": [
+   "Wandsbeker Gartenstadt"
+  ],
   "nachbarn": [
-   "Dulsberg",
-   "Barmbek-Nord",
    "Bramfeld",
    "Farmsen-Berne",
    "Tonndorf",
+   "Jenfeld",
    "Marienthal",
-   "Eilbek"
+   "Eilbek",
+   "Barmbek-Süd",
+   "Barmbek-Nord",
+   "Dulsberg"
   ],
-  "bebauung": "Der Kernstadtteil Wandsbek ist dicht bebaut, mit viel Verkehr rund um den Wandsbeker Markt und die Wandsbeker Marktstraße. Gewohnt wird überwiegend in Mehrfamilienhäusern.",
+  "bebauung": "Wandsbek ist Wohnort und Geschäftszentrum zugleich, mit viel Verkehr rund um den Wandsbeker Markt. Gewohnt wird fast nur in Mehrfamilienhäusern; Ein- und Reihenhäuser sind selten. Nach Kriegsschäden entstanden viele schlichte Neubauten. Älter sind die denkmalgeschützte Wandsbeker Gartenstadt aus dem frühen 20. Jahrhundert und einzelne Villen abseits der Hauptstraßen.",
   "raeumung": "Rund um den Wandsbeker Markt ist Halten und Parken oft schwierig, eine Halteverbotszone kann helfen. In älteren Mehrfamilienhäusern gibt es nicht immer einen Aufzug.",
-  "geschichte": "Der Dichter Matthias Claudius gab hier von 1771 bis 1775 die Zeitung „Wandsbecker Bote“ heraus. Wandsbek gehörte lange zu Holstein und kam erst 1937 mit dem Groß-Hamburg-Gesetz zu Hamburg.",
+  "geschichte": "Wandsbek wird 1296 als „Wantesbeke“ erwähnt und gehörte lange zu Dänemark. Matthias Claudius gab hier von 1771 bis 1775 den „Wandsbecker Bothen“ heraus. Durch das Groß-Hamburg-Gesetz kam die Stadt 1938 zu Hamburg.",
   "recyclinghof": {
    "ort": "Wandsbek",
    "adresse": "Wilma-Witte-Stieg 6"
   },
   "faq": [
    {
-    "q": "Gibt es in Wandsbek einen Recyclinghof?",
-    "a": "Ja, der Recyclinghof Wandsbek liegt im Wilma-Witte-Stieg 6. Öffnungszeiten und angenommene Stoffe stehen bei der Stadtreinigung Hamburg."
+    "q": "Wo ist der nächste Recyclinghof für Wandsbek?",
+    "a": "Der Recyclinghof Wandsbek der Stadtreinigung liegt im Wilma-Witte-Stieg 6. Öffnungszeiten und angenommene Stoffe stehen bei der Stadtreinigung Hamburg."
    },
    {
     "q": "Was ist bei Räumungen nahe dem Wandsbeker Markt zu beachten?",
@@ -2179,22 +2208,20 @@
   ],
   "quellen": [
    {
-    "titel": "Wikipedia (en) – Wandsbek (quarter)",
-    "url": "https://en.wikipedia.org/wiki/Wandsbek_(quarter)"
+    "titel": "hamburg.de – Wandsbek",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-wandsbek/wandsbek-377106"
    },
    {
-    "titel": "Wikivoyage – Hamburg/Wandsbek",
-    "url": "https://de.wikivoyage.org/wiki/Hamburg/Wandsbek"
+    "titel": "Bezirksamt Wandsbek – Stadtteilbeschreibung Wandsbek (PDF)",
+    "url": "https://www.hamburg.de/resource/blob/1128532/acf6b5a43e9f9b8e5d52c654c176d146/stadtteilbeschreibung-wandsbek-2025-data.pdf"
    }
   ],
-  "unsicher": "Keine Quelle zu Haustypen/Baujahren gefunden, Bebauungstext bewusst allgemein. Dass der Recyclinghof Wilma-Witte-Stieg im Stadtteil Wandsbek liegt, nicht geprüft. Nachbarn Barmbek-Nord/Eilbek aus deren Quellen ergänzt."
+  "unsicher": "Genaue Lage des Recyclinghofs (Stadtteil) nicht geprüft."
  },
  {
   "name": "Marienthal",
   "bezirk": "Wandsbek",
-  "quartiere": [
-   "Wandsbeker Gehölz"
-  ],
+  "quartiere": [],
   "nachbarn": [
    "Wandsbek",
    "Eilbek",
@@ -2202,9 +2229,9 @@
    "Hamm",
    "Horn"
   ],
-  "bebauung": "Marienthal ist ein grünes Wohngebiet mit vielen Villen und Einfamilienhäusern und deutlich lockerer bebaut als das benachbarte Wandsbek. Der Stadtteil entstand als Villenkolonie auf einem aufgeteilten Gut.",
-  "raeumung": "Bei Villen und Einfamilienhäusern sind häufig Keller, Dachboden, Garage und Garten mit zu räumen, das bedeutet oft viel Volumen. Vor den Häusern ist meist Platz zum Halten.",
-  "geschichte": "1857 kaufte Johann Anton Wilhelm von Carstenn das Gut, teilte es in Grundstücke auf und benannte es nach dem Haus „Marienthal“. Den Wald wollte er auch verkaufen, doch die Gemeinde erwarb ihn – so blieb das Wandsbeker Gehölz erhalten.",
+  "bebauung": "Marienthal ist ein grünes Wohngebiet mit Einfamilienhäusern und Villen auf großen Grundstücken: Villen aus der Gründerzeit, Jugendstilhäuser, Bungalows und Klinkerhäuser. Neubauten dürfen hier meist nur ein oder zwei Geschosse haben. An der Husarenstraße entstanden 2007 Wohnungen und Reihenhäuser.",
+  "raeumung": "Bei Villen und Einfamilienhäusern sind häufig Keller, Dachboden, Garage und Garten mit zu räumen, das bedeutet oft viel Volumen. In ruhigen Wohnstraßen ist meist Platz zum Halten.",
+  "geschichte": "1857 kaufte Johann Anton Wilhelm von Carstenn einen Teil des Guts Wandsbek und verkaufte es in Grundstücken für eine Villenkolonie. Der Name geht auf das Haus Marienthal zurück, einen Witwensitz von 1680. Den Wald kaufte der Ort Wandsbek – so blieb das Wandsbeker Gehölz erhalten.",
   "recyclinghof": {
    "ort": "Wandsbek",
    "adresse": "Wilma-Witte-Stieg 6"
@@ -2212,7 +2239,7 @@
   "faq": [
    {
     "q": "Gehört das Wandsbeker Gehölz zu Marienthal?",
-    "a": "Ja. Der etwa zwei Kilometer lange Waldstreifen zwischen Wandsbeker Markt und Osterkamp liegt im Stadtteil Marienthal."
+    "a": "Zum Teil. Der knapp drei Kilometer lange Waldstreifen liegt in Marienthal und Wandsbek."
    },
    {
     "q": "Was ist bei Räumungen von Villen in Marienthal zu beachten?",
@@ -2221,19 +2248,27 @@
   ],
   "quellen": [
    {
-    "titel": "hamburg.de – Wandsbeker Gehölz",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/hamburgs-gruen/parkanlagen/wandsbeker-gehoelz-276926"
+    "titel": "hamburg.de – Marienthal",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-wandsbek/marienthal-376732"
    },
    {
-    "titel": "hamburg-magazin.de – Stadtteil Marienthal",
-    "url": "https://www.hamburg-magazin.de/artikel/stadtteil-marienthal"
+    "titel": "Wikipedia – Wandsbeker Gehölz",
+    "url": "https://de.wikipedia.org/wiki/Wandsbeker_Geh%C3%B6lz"
    },
    {
-    "titel": "Wikivoyage – Hamburg/Wandsbek",
-    "url": "https://de.wikivoyage.org/wiki/Hamburg/Wandsbek"
+    "titel": "Wikipedia – Hamburg-Hamm",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Hamm_Nord"
+   },
+   {
+    "titel": "Wikipedia – Hamburg-Eilbek",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Eilbek"
+   },
+   {
+    "titel": "Wikipedia (en) – Horn, Hamburg",
+    "url": "https://en.wikipedia.org/wiki/Horn,_Hamburg"
    }
   ],
-  "unsicher": "Nachbarn nur teilweise belegt (Wandsbek belegt; Eilbek, Jenfeld, Hamm, Horn aus Allgemeinwissen – bitte prüfen). Wandsbeker Gehölz ist ein Wald, kein Wohnquartier. Recyclinghof geschätzt."
+  "unsicher": "Recyclinghof geschätzt."
  },
  {
   "name": "Jenfeld",
@@ -2243,12 +2278,14 @@
   ],
   "nachbarn": [
    "Tonndorf",
+   "Rahlstedt",
    "Marienthal",
-   "Rahlstedt"
+   "Billstedt",
+   "Barsbüttel (Schleswig-Holstein)"
   ],
-  "bebauung": "Im Osten ist Jenfeld dicht mit Hochhäusern und Plattenbauten aus den 1960er- und 1970er-Jahren bebaut, viele davon Sozialwohnungen. Der Westen ist grüner mit Einfamilienhäusern und Vorgärten. Im Norden entstand das neue Quartier Jenfelder Au auf einer früheren Kaserne.",
-  "raeumung": "In den Hochhäusern gibt es meist einen Aufzug, der für den Transport reserviert oder geschützt werden sollte. Bei Einfamilienhäusern im Westen kommen oft Keller, Garage und Garten dazu.",
-  "geschichte": "Jenfeld wurde 1304 als „Gelevelde“ erstmals erwähnt; der Name bedeutet „gelbes Feld“ und bezieht sich auf den sandigen Boden. Zu Hamburg kam der Ort 1937 mit dem Groß-Hamburg-Gesetz.",
+  "bebauung": "Im Osten prägen Hochhäuser aus den 1970er-Jahren das Bild, viele davon Sozialwohnungen. Der Westen ist grüner, mit Einfamilienhäusern und Gartensiedlungen. Auf dem Gelände der früheren Lettow-Vorbeck-Kaserne entsteht das neue Wohnquartier Jenfelder Au.",
+  "raeumung": "In Hochhäusern vorher klären, ob der Aufzug für den Transport genutzt und geschützt werden kann. Bei Einfamilienhäusern im Westen kommen oft Keller, Garage und Garten dazu.",
+  "geschichte": "Jenfeld wurde 1304 als „Gelevelde“ erstmals erwähnt; der Name bedeutet „gelbes Feld“ und bezieht sich auf den sandigen Boden. 1927 kam der Ort zu Wandsbek und 1937 mit dem Groß-Hamburg-Gesetz zu Hamburg.",
   "recyclinghof": {
    "ort": "Wandsbek",
    "adresse": "Wilma-Witte-Stieg 6"
@@ -2256,11 +2293,11 @@
   "faq": [
    {
     "q": "Gehört die Jenfelder Au zu Jenfeld?",
-    "a": "Ja. Das Neubauquartier liegt im Norden von Jenfeld auf dem Gelände der früheren Lettow-Vorbeck-Kaserne."
+    "a": "Ja. Das Neubauquartier liegt in Jenfeld auf dem Gelände der früheren Lettow-Vorbeck-Kaserne."
    },
    {
     "q": "Was ist bei Räumungen in Jenfelder Hochhäusern zu beachten?",
-    "a": "Der Aufzug ist meist vorhanden, wird aber von vielen Mietern genutzt. Oft ist es sinnvoll, die Hausverwaltung vorher zu informieren."
+    "a": "Den Aufzug nutzen viele Mieter. Oft ist es sinnvoll, die Hausverwaltung vorher zu informieren."
    }
   ],
   "quellen": [
@@ -2269,11 +2306,11 @@
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-wandsbek/jenfeld-376636"
    },
    {
-    "titel": "hamburg.de – Tonndorf",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-wandsbek/tonndorf-376952"
+    "titel": "Wikipedia – Hamburg-Jenfeld",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Jenfeld"
    }
   ],
-  "unsicher": "Nachbarn: nur Tonndorf belegt; Marienthal und Rahlstedt aus Allgemeinwissen, im Osten grenzt Schleswig-Holstein. Recyclinghof geschätzt."
+  "unsicher": "Recyclinghof geschätzt."
  },
  {
   "name": "Tonndorf",
@@ -3180,19 +3217,20 @@
   "nachbarn": [
    "Allermöhe",
    "Neuengamme",
-   "Ochsenwerder"
+   "Ochsenwerder",
+   "Kirchwerder"
   ],
-  "bebauung": "Reitbrook ist ein dünn besiedeltes Straßendorf ohne richtigen Ortskern; die Häuser stehen an Deichstraßen wie Vorderdeich und Hinterdeich. Prägend sind historische Bauernhöfe, neuere Klinkerhäuser, Milchviehhaltung und Ackerbau. Bekannt sind die Reitbrooker Mühle und das Fährhaus von 1605.",
+  "bebauung": "Reitbrook ist ein dünn besiedeltes Straßendorf ohne richtigen Ortskern; die Häuser stehen an Deichstraßen wie Vorderdeich und Hinterdeich. Dazwischen liegen alte Bauernhöfe, neuere Klinkerhäuser und weite Felder. Bekannt sind die Reitbrooker Mühle und das denkmalgeschützte Fährhaus von 1605.",
   "raeumung": "Häufig geht es um Höfe mit Scheunen, Ställen und Nebengebäuden auf großen Grundstücken. Die Lage ist abgelegen, die Wege sind entsprechend lang.",
-  "geschichte": "Reitbrook kam 1768 als letztes Gebiet der Marschlande in Hamburger Besitz. Ab 1937 wurde hier Erdöl gefördert, 1940 waren es rund 350.000 Tonnen.",
+  "geschichte": "Reitbrook kam 1768 durch den Gottorper Vertrag in Hamburger Besitz. 1937 wurde hier Erdöl entdeckt; 1940 wurden rund 350.000 Tonnen gefördert, so viel wie nie wieder.",
   "recyclinghof": {
    "ort": "Bergedorf",
    "adresse": "Kampweg 9"
   },
   "faq": [
    {
-    "q": "Gibt es in Reitbrook noch Erdöl?",
-    "a": "Im Stadtteil gibt es Erdölfelder mit Pferdekopfpumpen. Die größte Förderung lag um 1940."
+    "q": "Gibt es in Reitbrook Erdöl?",
+    "a": "Ja, unter dem Marschboden gibt es Erdöl und Erdgas, zu sehen an den Pferdekopfpumpen. Am meisten wurde um 1940 gefördert."
    },
    {
     "q": "Wo ist der nächste Recyclinghof für Reitbrook?",
@@ -3201,15 +3239,19 @@
   ],
   "quellen": [
    {
-    "titel": "Stadtteil Reitbrook – hamburg.de",
+    "titel": "hamburg.de – Reitbrook",
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-bergedorf/reitbrook-371948"
    },
    {
-    "titel": "Hamburg-Reitbrook – Wikipedia",
+    "titel": "Wikipedia – Hamburg-Reitbrook",
     "url": "https://de.wikipedia.org/wiki/Hamburg-Reitbrook"
+   },
+   {
+    "titel": "Wikipedia (en) – Reitbrook",
+    "url": "https://en.wikipedia.org/wiki/Reitbrook"
    }
   ],
-  "unsicher": "Ochsenwerder als Nachbar nur über hamburg.de-Ochsenwerder-Seite (NSG Die Reit im „Nachbarstadtteil Reitbrook“) belegt. Ob heute noch gefördert wird, ist nicht sicher belegt – FAQ-Antwort entsprechend vorsichtig."
+  "unsicher": ""
  },
  {
   "name": "Allermöhe",
@@ -3395,9 +3437,9 @@
    "Wilhelmsburg",
    "Rothenburgsort"
   ],
-  "bebauung": "Spadenland ist ein kleiner, ländlicher Stadtteil an der Norderelbe in den Vier- und Marschlanden. Die Landwirtschaft spielt hier eine große Rolle; wie in Tatenberg und Moorfleet gibt es viele Gemüse- und Blumenbetriebe. Gewohnt wird meist am Deich.",
+  "bebauung": "Spadenland ist ein kleiner, dünn besiedelter und ländlicher Stadtteil direkt an der Norderelbe in den Marschlanden. Die Deiche prägen das Bild, gewohnt wird meist am Deich. Landwirtschaft und Gemüseanbau spielen eine große Rolle, viele Betriebe haben einen Hofladen.",
   "raeumung": "Bei Höfen und Häusern am Deich kommen oft Nebengebäude wie Scheunen oder Schuppen dazu. Die Deichstraßen sind häufig schmal, das sollte man bei der Anfahrt einplanen.",
-  "geschichte": "Der Name geht vermutlich auf den Spaten zurück: Früher war jeder Anwohner für sein Stück Deich selbst verantwortlich. Wer es vernachlässigte, bekam einen Spaten hineingesteckt – das bedeutete praktisch, dass er sein Land verlor.",
+  "geschichte": "Den heutigen Namen trägt das Gebiet seit 1465. Er geht auf das alte Spatenrecht zurück: Wer sein Stück Deich nicht pflegte, konnte sein Land verlieren – als Zeichen wurde ein Spaten in den Deich gesteckt.",
   "recyclinghof": {
    "ort": "Billbrook",
    "adresse": "Liebigstraße 66"
@@ -3409,20 +3451,20 @@
    },
    {
     "q": "Woher hat Spadenland seinen Namen?",
-    "a": "Der Name kommt vermutlich vom Spaten. Wer sein Deichstück nicht pflegte, bekam früher einen Spaten hineingesteckt und verlor damit sein Land."
+    "a": "Der Name kommt vom Spatenrecht. Wer sein Deichstück nicht pflegte, konnte sein Land verlieren; als Zeichen steckte man einen Spaten in den Deich."
    }
   ],
   "quellen": [
    {
-    "titel": "hamburg.de – Vier- und Marschlande",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/vier-und-marschlande-306216"
+    "titel": "Wikipedia – Hamburg-Spadenland",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Spadenland"
    },
    {
     "titel": "Wikipedia (en) – Spadenland",
     "url": "https://en.wikipedia.org/wiki/Spadenland"
    }
   ],
-  "unsicher": "Zur Bebauung (Haustypen) gab es keine belastbare Quelle; nur allgemeine Angaben zu Landwirtschaft und Deichlage."
+  "unsicher": "Zu Haustypen gibt es keine genaue Quelle; nur allgemeine Angaben zu Deichlage und Landwirtschaft."
  },
  {
   "name": "Neuallermöhe",
@@ -3671,16 +3713,18 @@
  {
   "name": "Langenbek",
   "bezirk": "Harburg",
-  "quartiere": [],
+  "quartiere": [
+   "Langenbeker Feld"
+  ],
   "nachbarn": [
    "Wilstorf",
    "Marmstorf",
    "Rönneburg",
    "Sinstorf"
   ],
-  "bebauung": "Langenbek ist ein sehr kleiner, ruhiger Wohnstadtteil im Süden von Harburg. Gewohnt wird überwiegend in Ein- und Zweifamilienhäusern sowie Reihenhäusern mit Gärten.",
-  "raeumung": "Bei Einfamilien- und Reihenhäusern kommen oft Keller, Dachboden, Garage und Garten dazu.",
-  "geschichte": "Wahrzeichen des Stadtteils ist ein Hügelgrab aus der Bronzezeit. Durch Langenbek fließt der Bach Engelbek.",
+  "bebauung": "Langenbek ist ein kleiner Wohnstadtteil im Süden von Harburg. In den 1950er-Jahren entstanden viele Reihenhäuser an Ringstraßen, deren Namen an Orte in der Lüneburger Heide erinnern, etwa Walsroder Ring. Von 1987 bis 1994 kam das Neubaugebiet Langenbeker Feld dazu.",
+  "raeumung": "Bei Reihen- und Einfamilienhäusern kommen oft Keller, Dachboden, Garage und Garten dazu.",
+  "geschichte": "Langenbek wird 1306 zum ersten Mal erwähnt, damals als Hof mit Wassermühle an einem langen Bach. 1937 kam der Ort durch das Groß-Hamburg-Gesetz zu Hamburg. In einem kleinen Buchenwald liegt ein Grabhügel aus der Bronzezeit.",
   "recyclinghof": {
    "ort": "Harburg",
    "adresse": "Neuländer Kamp 6"
@@ -3691,21 +3735,21 @@
     "a": "Am nächsten liegt der Recyclinghof Harburg der Stadtreinigung Hamburg am Neuländer Kamp 6."
    },
    {
-    "q": "Was ist das Wahrzeichen von Langenbek?",
-    "a": "Ein Hügelgrab aus der Bronzezeit gilt als Wahrzeichen des Stadtteils."
+    "q": "Gibt es in Langenbek ein Bodendenkmal?",
+    "a": "Ja, zwischen Blättnerring und Buchholzer Weg liegt ein Grabhügel aus der Bronzezeit. Er steht seit 1999 unter Denkmalschutz."
    }
   ],
   "quellen": [
    {
-    "titel": "hamburg.de – Stadtteile im Bezirk Harburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-harburg"
+    "titel": "Wikipedia – Hamburg-Langenbek",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Langenbek"
    },
    {
     "titel": "Wikipedia (en) – Langenbek",
     "url": "https://en.wikipedia.org/wiki/Langenbek"
    }
   ],
-  "unsicher": "Wenig Quellenlage: Bebauung nur aus einem KI-gestützten Immobilienportal (ImmobilienScout24) abgeleitet; Nachbarn aus den Seiten von Wilstorf, Marmstorf und Rönneburg erschlossen, Grenze zu Sinstorf nicht direkt belegt."
+  "unsicher": ""
  },
  {
   "name": "Sinstorf",
@@ -3713,13 +3757,13 @@
   "quartiere": [],
   "nachbarn": [
    "Marmstorf",
-   "Rönneburg",
    "Langenbek",
+   "Rönneburg",
    "Landkreis Harburg (Niedersachsen)"
   ],
-  "bebauung": "Sinstorf ist ein kleiner, waldreicher Stadtteil am Südrand Hamburgs mit eher ländlichem Wohncharakter.",
-  "raeumung": "Bei Häusern mit Grundstück kommen häufig Keller, Garage, Schuppen und Garten dazu.",
-  "geschichte": "In Sinstorf steht das älteste Kirchengebäude Hamburgs, die Sinstorfer Kirche mit ihrem hölzernen Glockenturm.",
+  "bebauung": "Sinstorf ist ein kleiner Stadtteil am Südrand Hamburgs, der im Osten, Süden und Westen an Niedersachsen grenzt. Einige ältere Gebäude am Sinstorfer Kirchweg und an der Winsener Straße stehen unter Denkmalschutz, das älteste ist von 1831.",
+  "raeumung": "Bei Häusern mit Grundstück kommen häufig Keller, Garage, Schuppen und Garten dazu. In denkmalgeschützten Häusern vorsichtig arbeiten.",
+  "geschichte": "Sinstorf wird 1181 zum ersten Mal erwähnt. Die Sinstorfer Kirche gilt als älteste Kirche Hamburgs, ihre Anfänge reichen ins 11. Jahrhundert zurück. 1937 kam der Ort durch das Groß-Hamburg-Gesetz zu Hamburg.",
   "recyclinghof": {
    "ort": "Harburg",
    "adresse": "Neuländer Kamp 6"
@@ -3731,20 +3775,20 @@
    },
    {
     "q": "Steht in Sinstorf die älteste Kirche Hamburgs?",
-    "a": "Ja, die Sinstorfer Kirche gilt als ältestes Kirchengebäude Hamburgs."
+    "a": "Ja, die Sinstorfer Kirche gilt als älteste Kirche Hamburgs."
    }
   ],
   "quellen": [
    {
-    "titel": "hamburg.de – Stadtteile im Bezirk Harburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-harburg"
+    "titel": "Wikipedia – Hamburg-Sinstorf",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Sinstorf"
    },
    {
-    "titel": "hamburg.de – Rönneburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-harburg/roenneburg-376092"
+    "titel": "Wikipedia – Hamburg-Langenbek",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Langenbek"
    }
   ],
-  "unsicher": "Die eigene hamburg.de-Seite zu Sinstorf ließ sich nicht laden; Bebauung nur sehr allgemein belegt. Nachbarn aus Nachbarseiten erschlossen (Langenbek und Landkreis Harburg nicht direkt belegt)."
+  "unsicher": "Zu Haustypen und Baujahren keine Quelle gefunden – Bebauungstext bewusst allgemein."
  },
  {
   "name": "Marmstorf",
@@ -3832,7 +3876,7 @@
   "name": "Heimfeld",
   "bezirk": "Harburg",
   "quartiere": [
-   "Bostelbeker Siedlung"
+   "Bostelbek"
   ],
   "nachbarn": [
    "Harburg",
@@ -3841,9 +3885,9 @@
    "Moorburg",
    "Niedersachsen (im Südwesten)"
   ],
-  "bebauung": "Heimfeld ist sehr gemischt: Es gibt alte Villenviertel, städtische Straßen mit Häusern aus dem 19. Jahrhundert, Industrie und viel Wald. Im Norden stehen Ein- und Zweifamilienhäuser und Villen, im Osten einfache frühere Hafenarbeiterhäuser und im Süden neuere Wohnanlagen.",
-  "raeumung": "Je nach Lage geht es um Altbauwohnungen, oft ohne Aufzug, oder um Villen und Einfamilienhäuser mit Keller, Dachboden und Garten.",
-  "geschichte": "Etwa zwei Drittel von Heimfeld sind Wald, der zu den Harburger Bergen gehört. Die kleine Bostelbeker Siedlung entstand 1932.",
+  "bebauung": "Heimfeld ist gemischt: Im Westen entstanden Anfang des 20. Jahrhunderts Villen, der Osten war dicht städtisch bebaut. Im Krieg wurde viel zerstört, in einigen Straßen stehen aber noch Häuser von vor dem Krieg. Am Hans-Dewitz-Ring entstand Ende der 1990er-Jahre eine Neubausiedlung. Im Ortsteil Bostelbek liegt eine Siedlung aus fast nur Doppelhäusern.",
+  "raeumung": "Je nach Lage geht es um Altbauwohnungen, oft ohne Aufzug, oder um Villen und Doppelhäuser mit Keller, Dachboden und Garten.",
+  "geschichte": "Heimfeld entstand an einem Vorwerk des Harburger Schlosses, das 1535 angelegt wurde. 1888 kam es zur Stadt Harburg und 1937 mit Harburg zu Hamburg. Die Siedlung in Bostelbek wurde 1932/33 für Arbeitslose gegründet.",
   "recyclinghof": {
    "ort": "Harburg",
    "adresse": "Neuländer Kamp 6"
@@ -3860,19 +3904,19 @@
   ],
   "quellen": [
    {
+    "titel": "Wikipedia – Hamburg-Heimfeld",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Heimfeld"
+   },
+   {
+    "titel": "Wikipedia – Bostelbek",
+    "url": "https://de.wikipedia.org/wiki/Bostelbek"
+   },
+   {
     "titel": "Wikipedia (en) – Heimfeld",
     "url": "https://en.wikipedia.org/wiki/Heimfeld"
-   },
-   {
-    "titel": "hamburg.de – Stadtteile im Bezirk Harburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-harburg"
-   },
-   {
-    "titel": "The Red Relocators – District Profile Heimfeld",
-    "url": "https://the-red-relocators.com/relocation-guides-germany/real-estate-germany/hamburg-district-profiles/district-profile-heimfeld/"
    }
   ],
-  "unsicher": "Details zur Bebauung und das Baujahr 1932 der Bostelbeker Siedlung stammen aus einem Relocation-Blog (keine amtliche Quelle); Waldanteil ebenfalls von dort."
+  "unsicher": ""
  },
  {
   "name": "Moorburg",
