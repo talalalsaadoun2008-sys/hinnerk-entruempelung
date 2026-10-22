@@ -137,7 +137,11 @@ def firma_schema():
          "priceRange": "Festpreis nach kostenloser Besichtigung",
          "address": {"@type": "PostalAddress", "streetAddress": F["strasse"], "postalCode": F["plz"],
                      "addressLocality": F["ort"], "addressCountry": "DE"},
-         "areaServed": [{"@type": "City", "name": "Hamburg"}]}
+         "areaServed": [{"@type": "City", "name": "Hamburg"}] + [{"@type": "AdministrativeArea", "name": f"Bezirk {b}"} for b in BEZIRKE],
+         "knowsAbout": ["Entrümpelung", "Haushaltsauflösung", "Wohnungsauflösung", "Nachlassauflösung", "Messie-Wohnung räumen",
+                        "Büroauflösung", "Keller entrümpeln", "Sperrmüll abholen", "Recyclinghöfe Hamburg"],
+         "makesOffer": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": l["name"], "url": BASE + l["slug"] + ".html"}} for l in LEIST],
+         "slogan": "Erst kostenlos besichtigen, dann ein fester Preis."}
     if F["telefon"]:
         s["telephone"] = F["telefon_link"]
     return s
@@ -181,7 +185,7 @@ VORTEILE_BAND = ["Kostenlose Besichtigung", "Festpreis vor Beginn", "In allen 99
 def bar():
     band = "".join(f'<span>✓ {E(v)}</span><i aria-hidden="true">•</i>' for v in VORTEILE_BAND)
     nav = (f'<a href="./#leistungen">Leistungen</a><a href="./#ablauf">So läuft’s</a>'
-           f'<a href="einsatzgebiet.html">Stadtteile</a><a href="./#fragen">Fragen</a>')
+           f'<a href="einsatzgebiet.html">Stadtteile</a><a href="ratgeber.html">Ratgeber</a>')
     menue_leist = "".join(f'<a href="{l["slug"]}.html">{E(l["name"])}</a>' for l in LEIST)
     return f"""<div class="laufband" aria-label="Unsere Versprechen"><div class="lauf">{band}{band.replace('<span>', '<span aria-hidden="true">')}</div></div>
 <header class="kopf">
@@ -376,7 +380,7 @@ def anfrage(seite, ort=""):
 def fuss():
     leist = "".join(f'<li><a href="{l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)
     bez = "".join(f'<li><a href="einsatzgebiet.html#{slugify(b)}">{E(b)}</a></li>' for b in BEZIRKE)
-    rat = "".join(f'<li><a href="{r["slug"]}.html">{E(r["kurz_titel"])}</a></li>' for r in RAT)
+    rat = "".join(f'<li><a href="{r["slug"]}.html">{E(r["kurz_titel"])}</a></li>' for r in RAT[:5]) + '<li><a href="ratgeber.html">Alle Fragen</a></li>'
     return f"""</main>
 <footer class="fuss">
 <div class="fuss-oben">
@@ -480,6 +484,35 @@ def ratgeberseite(r):
     page += anfrage("Ratgeber: " + r["frage"])
     page += fuss()
     write(r["slug"] + ".html", page)
+
+
+def ratgeber_uebersicht():
+    k, ld = krumen([("Startseite", "./"), ("Ratgeber", None)])
+    t = "Ratgeber Entrümpelung Hamburg: Antworten auf häufige Fragen | Hinnerk"
+    d = "Kosten, Fristen, besenreine Übergabe, Todesfall, Pflegeheim: Antworten auf die häufigsten Fragen rund um Entrümpelung und Haushaltsauflösung in Hamburg."
+    schema = [ld, {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": BASE + r["slug"] + ".html", "name": r["frage"]} for i, r in enumerate(RAT)]}]
+    page = head(t, d, "ratgeber.html", schema, preload="kartons") + bar()
+    page += held("Fragen rund ums Entrümpeln", "Kurze, ehrliche Antworten – mit Hamburger Fakten. Und wenn Sie es genau wissen wollen: Hinnerk besichtigt kostenlos.",
+                 "Kostenlos besichtigen lassen", "#anfrage", "kartons", eyebrow="Ratgeber", klein=True)
+    karten = "".join(f'<li><a class="rat-karte" href="{r["slug"]}.html">{foto(r["foto"])}<span><b>{E(r["frage"])}</b><span>{E(r["kurz"][:150].rsplit(" ", 1)[0])} …</span><em>Antwort lesen {PFEIL}</em></span></a></li>' for r in RAT)
+    page += f"""<section class="abschnitt" aria-label="Alle Fragen">{k}<ul class="rat-raster">{karten}</ul></section>
+"""
+    page += anfrage("Ratgeber") + fuss()
+    write("ratgeber.html", page)
+
+
+def llms_txt():
+    zeilen = [f"# {F['name']}", "",
+              f"> Entrümpelung, Haushaltsauflösung und Wohnungsauflösung in allen 99 Hamburger Stadtteilen. Erst kostenlose Besichtigung, dann ein fester Preis. Entsorgung getrennt über die Recyclinghöfe der Stadtreinigung Hamburg.", "",
+              f"Inhaber: {F['inhaber']}. Anschrift: {F['strasse']}, {F['plz']} {F['ort']} (Altona). E-Mail: {F['email']}." + (f" Telefon: {F['telefon']}." if F['telefon'] else ""),
+              "Einsatzgebiet: ganz Hamburg, alle 7 Bezirke (Hamburg-Mitte, Altona, Eimsbüttel, Hamburg-Nord, Wandsbek, Bergedorf, Harburg).",
+              "Ablauf: Anfrage, kostenlose Besichtigung vor Ort, fester Preis vor Beginn, Räumung am vereinbarten Tag, getrennte Entsorgung.", "",
+              "## Leistungen", ""]
+    zeilen += [f"- [{l['name']}]({BASE}{l['slug']}.html): {l['kurz']}" for l in LEIST]
+    zeilen += ["", "## Ratgeber", ""]
+    zeilen += [f"- [{r['frage']}]({BASE}{r['slug']}.html): {r['kurz']}" for r in RAT]
+    zeilen += ["", "## Stadtteile", "", f"- [Alle 99 Stadtteile mit Recyclinghof in der Nähe]({BASE}einsatzgebiet.html)", ""]
+    write("llms.txt", "\n".join(zeilen))
 
 
 # ---------------------------------------------------------------- Startseite
@@ -642,15 +675,18 @@ def rechtliches():
                  ('href="./', 'href="/'), ('href="einsatzgebiet', 'href="/einsatzgebiet'), ('href="impressum', 'href="/impressum'),
                  ('href="datenschutz', 'href="/datenschutz')):
         p = p.replace(a, b)
-    for l in LEIST:
-        p = p.replace(f'href="{l["slug"]}', f'href="/{l["slug"]}')
+    for x in [l["slug"] for l in LEIST] + [r["slug"] for r in RAT] + ["ratgeber"]:
+        p = p.replace(f'href="{x}', f'href="/{x}')
     write("404.html", p)
 
 
 def sitemap(pfade):
     urls = "".join(f"<url><loc>{BASE}{'' if p == 'index.html' else p}</loc><lastmod>{HEUTE}</lastmod></url>" for p in pfade)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
-    write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n")
+    bots = ["Googlebot", "Bingbot", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User",
+            "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "DuckAssistBot"]
+    r = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)
+    write("robots.txt", r + f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
     write("CNAME", "hinnerk-entruempelung.de\n")
 
 
@@ -671,11 +707,13 @@ if __name__ == "__main__":
         leistungsseite(l)
     for r in RAT:
         ratgeberseite(r)
+    ratgeber_uebersicht()
+    llms_txt()
     for o in ORTE:
         ortsseite(o, [x for x in ORTE if x["bezirk"] == o["bezirk"]])
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
