@@ -334,3 +334,6 @@ a.kontakt-zeile:hover{box-shadow:0 0 0 2px var(--blau)}
 .rat-karte em{margin-top:auto;padding-top:8px;font-style:normal;font-weight:600;font-size:15px;display:inline-flex;align-items:center;gap:6px}
 @media (max-width:1100px){.rat-raster{grid-template-columns:1fr 1fr}}
 @media (max-width:600px){.rat-raster{grid-template-columns:1fr}}
+.mehr summary{cursor:pointer;font-weight:600;display:inline-flex;margin:4px 0 8px;text-decoration:underline;text-underline-offset:5px}
+.mehr[open] summary{margin-bottom:12px}
+.wissen h3{margin:28px 0 10px;font-size:1.25rem}

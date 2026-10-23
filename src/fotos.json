@@ -1,68 +1,68 @@
 {
  "hero": {
-  "datei": "hero.webp",
+  "datei": "entruempelung-hamburg-leere-wohnung.webp",
   "w": 1800,
   "h": 1200,
-  "alt": "Leere, helle Altbauwohnung mit Holzboden"
+  "alt": "Leere Altbauwohnung mit Holzboden – Symbolbild Entrümpelung Hamburg"
  },
  "haushalt": {
-  "datei": "haushalt.webp",
+  "datei": "haushaltsaufloesung-hamburg-sessel-kommode.webp",
   "w": 1100,
   "h": 1467,
-  "alt": "Alter Sessel und Holzkommode in einer Wohnung"
+  "alt": "Sessel und Holzkommode – Symbolbild Haushaltsauflösung Hamburg"
  },
  "wohnung": {
-  "datei": "wohnung.webp",
+  "datei": "wohnungsaufloesung-hamburg-umzugskartons.webp",
   "w": 1100,
   "h": 733,
-  "alt": "Zimmer mit Umzugskartons am Fenster"
+  "alt": "Umzugskartons am Fenster – Symbolbild Wohnungsauflösung Hamburg"
  },
  "keller": {
-  "datei": "keller.webp",
+  "datei": "keller-entruempeln-hamburg-abstellraum.webp",
   "w": 1100,
   "h": 733,
-  "alt": "Vollgestellter Abstellraum"
+  "alt": "Vollgestellter Abstellraum – Symbolbild Keller entrümpeln Hamburg"
  },
  "speicher": {
-  "datei": "speicher.webp",
+  "datei": "dachboden-entruempeln-hamburg-speicher.webp",
   "w": 1100,
   "h": 733,
-  "alt": "Dachboden mit alten Möbeln"
+  "alt": "Dachboden mit alten Möbeln – Symbolbild Dachboden entrümpeln Hamburg"
  },
  "nachlass": {
-  "datei": "nachlass.webp",
+  "datei": "nachlassaufloesung-hamburg-esszimmer.webp",
   "w": 1100,
   "h": 733,
-  "alt": "Esszimmer mit alten Möbeln"
+  "alt": "Esszimmer mit alten Möbeln – Symbolbild Nachlassauflösung Hamburg"
  },
  "messie": {
-  "datei": "messie.webp",
+  "datei": "messie-wohnung-hamburg-volles-regal.webp",
   "w": 1100,
   "h": 733,
-  "alt": "Überfülltes Regal mit vielen Dingen"
+  "alt": "Überfülltes Regal – Symbolbild Messie-Wohnung räumen Hamburg"
  },
  "buero": {
-  "datei": "buero.webp",
+  "datei": "bueroaufloesung-hamburg-schreibtische.webp",
   "w": 1100,
   "h": 732,
-  "alt": "Büro mit Schreibtischen und Bildschirmen"
+  "alt": "Büro mit Schreibtischen und Bildschirmen – Symbolbild Büroauflösung Hamburg"
  },
  "sperrmuell": {
-  "datei": "sperrmuell.webp",
+  "datei": "sperrmuell-abholen-hamburg-transporter.webp",
   "w": 1100,
   "h": 732,
-  "alt": "Transporter voller Möbel in einer Stadtstraße"
+  "alt": "Transporter voller Möbel in einer Stadtstraße – Symbolbild Sperrmüll abholen Hamburg"
  },
  "kartons": {
-  "datei": "kartons.webp",
+  "datei": "entruempelung-hamburg-kartons.webp",
   "w": 1100,
   "h": 729,
-  "alt": "Raum voller Umzugskartons"
+  "alt": "Raum voller Umzugskartons – Symbolbild Entrümpelung Hamburg"
  },
  "transporter": {
-  "datei": "transporter.webp",
+  "datei": "entruempelung-hamburg-transporter.webp",
   "w": 1100,
   "h": 733,
-  "alt": "Transporter mit offenen Hecktüren"
+  "alt": "Transporter mit offenen Hecktüren – Symbolbild Entrümpelung Hamburg"
  }
 }

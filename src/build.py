@@ -135,7 +135,7 @@ ANFRAGE_TEXT = "Moin Hinnerk,\n\nich möchte eine kostenlose Besichtigung.\nWas 
 
 def firma_schema():
     s = {"@type": "HomeAndConstructionBusiness", "@id": BASE + "#firma", "name": F["name"], "url": BASE,
-         "email": F["email"], "logo": BASE + "logo.png", "image": BASE + "img/hero.webp", "description": F["beschreibung"],
+         "email": F["email"], "logo": BASE + "logo.png", "image": BASE + "img/" + FOTOS["hero"]["datei"], "description": F["beschreibung"],
          "priceRange": "Festpreis nach kostenloser Besichtigung",
          "address": {"@type": "PostalAddress", "streetAddress": F["strasse"], "postalCode": F["plz"],
                      "addressLocality": F["ort"], "addressCountry": "DE"},
@@ -195,7 +195,7 @@ def bar():
 <nav aria-label="Menü">{nav}<a href="ueber-hinnerk.html">Über Hinnerk</a><a href="kontakt.html">Kontakt</a><hr>{menue_leist}<a class="knopf" href="{mailto('Anfrage Entrümpelung', ANFRAGE_TEXT)}">Kostenlos anfragen</a></nav></details>
 <nav class="haupt" aria-label="Hauptmenü">{nav}</nav>
 <a class="wort" href="./" aria-label="Hinnerk – Entrümpelung Hamburg, zur Startseite">{mascot(34)}<span>HINNERK</span></a>
-<a class="kopf-knopf" href="#anfrage">{icon('post', 22)}<span>Anfrage</span></a>
+<a class="kopf-knopf" href="#anfrage" aria-label="Anfrage an Hinnerk">{icon('post', 22)}<span>Anfrage</span></a>
 </header>
 <main id="inhalt">
 """
@@ -224,7 +224,7 @@ def vorteile():
          ("kreis", "Getrennt entsorgt", "Sperrmüll, Holz, Metall und Elektrogeräte gehen getrennt zu den Recyclinghöfen."),
          ("pin", "Ganz Hamburg", "In allen 99 Stadtteilen und 7 Bezirken unterwegs.")]
     k = "".join(f'<li data-auf style="--d:{i * 70}ms"><span class="kreisicon">{icon(ic, 46)}</span><h3>{E(t)}</h3><p>{E(p)}</p></li>' for i, (ic, t, p) in enumerate(v))
-    return f'<section class="abschnitt vorteile" aria-label="Was Sie bei Hinnerk bekommen"><ul>{k}</ul></section>\n'
+    return f'<section class="abschnitt vorteile" aria-labelledby="vorteile-h"><h2 id="vorteile-h" class="sr">Was Sie bei Hinnerk bekommen</h2><ul>{k}</ul></section>\n'
 
 
 def leistungs_reihe(titel="Was Hinnerk räumt", ausser=None):
@@ -576,6 +576,31 @@ def llms_txt():
 
 
 # ---------------------------------------------------------------- Startseite
+def start_ratgeber():
+    leist = ", ".join(f'<a href="{l["slug"]}.html">{E(l["name"])}</a>' for l in LEIST[:8])
+    bez = ", ".join(f'<a href="einsatzgebiet.html#{slugify(b)}">{E(b)}</a>' for b in BEZIRKE)
+    return f"""<section class="abschnitt" aria-labelledby="wissen-h">
+<div class="lesen"><div class="text wissen">
+<p class="eyebrow">Ratgeber</p>
+<h2 id="wissen-h">Entrümpelung in Hamburg: das Wichtigste</h2>
+<p>Eine Entrümpelung heißt: Räume werden leer gemacht – vom einzelnen Keller bis zum ganzen Haus. Was bleiben soll, wird vorher abgesprochen. Alles andere wird getragen, verladen und getrennt entsorgt.</p>
+<details class="mehr"><summary>Mehr anzeigen</summary>
+<h3>Was eine Entrümpelung in Hamburg besonders macht</h3>
+<p>In vielen Hamburger Altbauten gibt es keinen Aufzug, dann wird alles durchs Treppenhaus getragen. In Vierteln wie Ottensen, Eimsbüttel oder St. Georg ist Parken schwierig, der Weg zum Wagen wird länger. Und entsorgt wird getrennt: Sperrmüll, Holz, Metall und Elektrogeräte gehen zum Beispiel zu den zwölf Recyclinghöfen der Stadtreinigung Hamburg.</p>
+<h3>Entrümpelung, Haushaltsauflösung, Wohnungsauflösung</h3>
+<p>Entrümpelung ist der Oberbegriff. Bei einer Haushaltsauflösung wird ein ganzer Hausstand aufgelöst, oft nach einem Todesfall oder vor dem Umzug ins Pflegeheim. Bei einer Wohnungsauflösung geht es darum, die Räume leer zu bekommen, etwa für die Übergabe. Mehr dazu im Ratgeber: <a href="unterschied-wohnungsaufloesung-haushaltsaufloesung.html">Wohnungs- oder Haushaltsauflösung?</a></p>
+<h3>Was eine Entrümpelung kostet</h3>
+<p>Der Preis hängt von der Menge, dem Stockwerk und dem Weg zum Wagen ab. Darum besichtigt Hinnerk kostenlos und nennt danach einen festen Preis. Für ein paar große Möbel ist oft die Sperrmüllabholung der Stadtreinigung günstiger – das sagen wir Ihnen ehrlich. Mehr dazu: <a href="was-kostet-eine-entruempelung-in-hamburg.html">Was kostet eine Entrümpelung in Hamburg?</a></p>
+<h3>So läuft die Entrümpelung ab</h3>
+<p>Anfrage, kostenlose Besichtigung, fester Preis, Räumung am vereinbarten Tag, getrennte Entsorgung. Papiere, Fotos und Dinge, die wichtig aussehen, legen wir für Sie zur Seite.</p>
+<h3>Leistungen und Einsatzgebiet</h3>
+<p>Hinnerk übernimmt {leist} und mehr. Wir entrümpeln in allen sieben Bezirken – {bez} – und in allen 99 Hamburger Stadtteilen.</p>
+</details>
+</div></div>
+</section>
+"""
+
+
 def startseite():
     t = "Entrümpelung Hamburg ✓ Haushaltsauflösung ✓ Festpreis | Hinnerk"
     d = "Entrümpelung in Hamburg: Wohnung, Haus, Keller, Nachlass, Messie-Wohnung, Büro. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ In allen 99 Stadtteilen. Hinnerk aus Altona."
@@ -594,6 +619,7 @@ def startseite():
     page += finder()
     page += fragen("Häufige Fragen", START_FAQ)
     page += weitere_fragen(titel="Mehr Antworten")
+    page += start_ratgeber()
     page += anfrage("Startseite")
     page += fuss()
     write("index.html", page)
