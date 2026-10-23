@@ -146,6 +146,8 @@ def firma_schema():
          "slogan": "Erst kostenlos besichtigen, dann ein fester Preis."}
     if F["telefon"]:
         s["telephone"] = F["telefon_link"]
+    if SITE.get("profile"):
+        s["sameAs"] = SITE["profile"]
     return s
 
 
@@ -395,7 +397,7 @@ def fuss():
 <ul><li class="titel">Ratgeber</li>{rat}</ul>
 <ul><li class="titel">Kontakt</li><li>Inh. {E(F['inhaber'])}</li><li>{E(F['strasse'])}</li><li>{F['plz']} {E(F['ort'])}</li><li><a href="mailto:{F['email']}">{F['email']}</a></li></ul>
 </div>
-<div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg</span><span><a href="ueber-hinnerk.html">Über Hinnerk</a> · <a href="kontakt.html">Kontakt</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
+<div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg{''.join(f' · {E(x["text"])}: <a href="{E(x["url"])}">{E(x["name"])}</a>' for x in SITE.get("partner", []))}</span><span><a href="ueber-hinnerk.html">Über Hinnerk</a> · <a href="kontakt.html">Kontakt</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
 </footer>
 <script src="assets/site.js" defer></script>
 </body>
