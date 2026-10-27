@@ -693,8 +693,6 @@ def ortsseite(o, alle_im_bezirk):
     desc = f"Entrümpelung und Haushaltsauflösung in {ort_hh}: Wohnung, Haus, Keller. ✓ Kostenlose Besichtigung ✓ Festpreis. Recyclinghof in der Nähe: {rh['ort']}."
     k, ld = krumen([("Startseite", "./"), ("Stadtteile", "einsatzgebiet.html"), (n, None)])
     faq = list(o.get("faq", []))[:3]
-    faq.append({"q": f"Wie läuft eine Entrümpelung in {n} ab?",
-                "a": "Sie stellen eine Anfrage, wir besichtigen kostenlos und nennen einen festen Preis. Am vereinbarten Tag räumen wir und bringen alles getrennt zur Entsorgung."})
     schema = [ld, faq_schema(faq), {"@type": "Service", "name": f"Entrümpelung {ort_hh}", "serviceType": "Entrümpelung",
               "provider": {"@id": BASE + "#firma"}, "areaServed": {"@type": "Place", "name": ort_hh,
               "containedInPlace": {"@type": "City", "name": "Hamburg"}}}]
@@ -725,11 +723,11 @@ def ortsseite(o, alle_im_bezirk):
 <div class="hof">{icon('kreis', 34)}<div><b>Recyclinghof {E(rh['ort'])}</b><p>Ein Recyclinghof der Stadtreinigung Hamburg in der Nähe von {E(n)} ist <b>{E(rh['ort'])}, {E(rh['adresse'])}</b>. Dort werden Sperrmüll, Holz, Metall und Elektrogeräte getrennt angenommen. Wenn Hinnerk für Sie räumt, kümmern wir uns um den Transport.</p></div></div>
 <h2>Was Hinnerk in {E(n)} räumt</h2>
 <ul class="chips">{leist}</ul>
+<p style="margin-top:18px">Ablauf: kostenlose Besichtigung, fester Preis, Räumung am vereinbarten Tag. <a href="./#ablauf">So läuft’s im Detail</a></p>
 </div>{seitenkasten('Entrümpelung in ' + n, 'Besichtigung anfragen')}</div>
 </section>
 """
-    page += ablauf(f"Entrümpelung in {n}", "Fünf Schritte, ein fester Preis. Sie wissen vorher, was es kostet.")
-    page += fragen(f"Fragen zu {n}", faq)
+    page += fragen(f"Fragen zu {n}", faq) if faq else ""
     page += f"""<section class="abschnitt" aria-label="Umgebung">
 <div class="umgebung">
 <div><h2>In der Nähe</h2><ul class="chips">{nach}</ul></div>
