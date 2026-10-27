@@ -347,3 +347,4 @@ a.kontakt-zeile:hover{box-shadow:0 0 0 2px var(--blau)}
   body{padding-bottom:72px}
   .menue nav{padding-bottom:110px}
 }
+.autor{font-size:14px;color:var(--leise);margin:0 0 18px}.autor a{color:inherit}

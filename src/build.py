@@ -45,6 +45,10 @@ L_ICON = {"hausaufloesung-hamburg": "haus", "dachboden-entruempeln-hamburg": "da
           "keller-entruempeln-hamburg": "treppe", "nachlassaufloesung-hamburg": "rahmen",
           "messie-wohnung-raeumen-hamburg": "kisten", "bueroaufloesung-hamburg": "koffer",
           "sperrmuell-abholen-hamburg": "sofa"}
+# Stadtteile, die Google sehen soll (Rest: noindex, bleibt für Besucher erreichbar).
+# Grund: Google-Regel gegen viele ähnliche Ortsseiten (Doorway). Siehe Obsidian „Google-Leitfaden – was Google mag“.
+KERN_ORTE = ["Altona-Altstadt", "Altona-Nord", "Ottensen", "Bahrenfeld", "Sternschanze", "St. Pauli", "Eimsbüttel", "Eppendorf",
+             "Winterhude", "Barmbek-Nord", "Wandsbek", "Rahlstedt", "Blankenese", "Harburg", "Bergedorf"]
 ORT_FOTOS = ["hero", "wohnung", "kartons", "haushalt", "transporter", "speicher"]
 
 
@@ -139,7 +143,7 @@ ANFRAGE_TEXT = "Moin Hinnerk,\n\nich möchte eine kostenlose Besichtigung.\nWas 
 
 
 def firma_schema():
-    s = {"@type": "HomeAndConstructionBusiness", "@id": BASE + "#firma", "name": F["name"], "url": BASE,
+    s = {"@type": "HomeAndConstructionBusiness", "@id": BASE + "#firma", "name": "Hinnerk Entrümpelung", "alternateName": F["name"], "url": BASE,
          "email": F["email"], "logo": BASE + "logo.png", "image": BASE + "img/" + FOTOS["hero"]["datei"], "description": F["beschreibung"],
          "priceRange": "Festpreis nach kostenloser Besichtigung",
          "address": {"@type": "PostalAddress", "streetAddress": F["strasse"], "postalCode": F["plz"],
@@ -485,7 +489,8 @@ def ratgeberseite(r):
     schema = [ld, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": r["frage"],
               "acceptedAnswer": {"@type": "Answer", "text": text_kurz}}]},
               {"@type": "Article", "headline": r["frage"], "inLanguage": "de", "dateModified": HEUTE,
-               "author": {"@id": BASE + "#firma"}, "publisher": {"@id": BASE + "#firma"}, "image": BASE + "img/" + FOTOS[r["foto"]]["datei"]}]
+               "author": {"@type": "Person", "name": F["inhaber"], "jobTitle": "Inhaber", "worksFor": {"@id": BASE + "#firma"}, "url": BASE + "ueber-hinnerk.html"},
+               "publisher": {"@id": BASE + "#firma"}, "image": BASE + "img/" + FOTOS[r["foto"]]["datei"]}]
     page = head(r["title"], r["description"], r["slug"] + ".html", schema, preload=r["foto"]) + bar()
     page += held(E(r["frage"]), "Die kurze Antwort, Hamburger Fakten und wie Sie bei Hinnerk zu einem festen Preis kommen.",
                  "Kostenlos besichtigen lassen", "#anfrage", r["foto"], eyebrow="Ratgeber", klein=True)
@@ -493,6 +498,7 @@ def ratgeberseite(r):
     quellen = ("<details class=\"quellen\"><summary>Quellen</summary><ul>" + "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in r["quellen"]) + "</ul></details>") if r["quellen"] else ""
     page += f"""<section class="abschnitt" aria-label="Antwort">
 <div class="lesen"><article class="text">{k}
+<p class="autor">Von <a href="ueber-hinnerk.html">{E(F['inhaber'])}</a>, Inhaber von Hinnerk · Stand {date.today().strftime('%m/%Y')}</p>
 <div class="antwort"><p class="eyebrow">Kurz gesagt</p><p>{E(text_kurz)}</p><p class="antwort-cta"><a href="#anfrage">Kostenlose Besichtigung anfragen</a>{(' · ' + tel_link()) if F['telefon'] else ''} · <a href="mailto:{F['email']}">{F['email']}</a></p></div>
 {secs}
 <p class="stand">Stand: {date.today().strftime('%m/%Y')}</p>
@@ -501,6 +507,7 @@ def ratgeberseite(r):
 </section>
 """
     page += kontakt_karte(r["frage"])
+    page += leistungs_reihe("Passende Leistungen")
     page += weitere_fragen(ausser=r["slug"])
     page += anfrage("Ratgeber: " + r["frage"])
     page += fuss()
@@ -691,7 +698,8 @@ def ortsseite(o, alle_im_bezirk):
               "provider": {"@id": BASE + "#firma"}, "areaServed": {"@type": "Place", "name": ort_hh,
               "containedInPlace": {"@type": "City", "name": "Hamburg"}}}]
     bk = pick(n, ORT_FOTOS)
-    page = head(title, desc, o["slug"] + ".html", schema, preload=bk) + bar()
+    page = head(title, desc, o["slug"] + ".html", schema, preload=bk,
+                robots="index,follow" if n in KERN_ORTE else "noindex,follow") + bar()
     v = {"o": n, "b": b}
     page += held(f"Entrümpelung {E(n)}", pick(n + "lead", LEAD_VARIANTEN).format(**v),
                  f"Besichtigung in {n}" if len(n) <= 16 else "Kostenlos besichtigen", "#anfrage", bk, eyebrow=f"Bezirk {b}", klein=True)
@@ -825,6 +833,6 @@ if __name__ == "__main__":
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if o["name"] in KERN_ORTE]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
