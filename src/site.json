@@ -7,8 +7,8 @@
     "strasse": "Dosestraße 11",
     "plz": "22767",
     "ort": "Hamburg",
-    "telefon": "",
-    "telefon_link": "",
+    "telefon": "0155 6789616",
+    "telefon_link": "+491556789616",
     "email": "info@hinnerk-entruempelung.de",
     "beschreibung": "Entrümpelung, Haushaltsauflösung, Wohnungsauflösung, Nachlassauflösung, Messie-Wohnungen, Büroauflösung und Sperrmüll-Abholung in Hamburg."
   },
@@ -18,9 +18,7 @@
     "Entsorgung über die Recyclinghöfe der Stadtreinigung"
   ],
   "zu_bestaetigen": [
-    "Telefonnummer",
-    "Besichtigungszeiten",
-    "E-Mail-Postfach info@ anlegen (Talal)"
+    "Besichtigungszeiten"
   ],
   "leistungen": [
     {

@@ -106,6 +106,7 @@ ICONS = {
     "kalender": "M3 5h18v16H3zM3 10h18M8 3v4M16 3v4",
     "post": "M3 5h18v14H3zM3 6l9 7 9-7",
     "besen": "M14 3l-4 10M6 13h8l2 8H4zM8 17v4M12 17v4",
+    "telefon": "M5 3h4l2 5-2.5 1.5a12 12 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2z",
 }
 
 
@@ -124,6 +125,10 @@ def foto(key, cls="", lazy=True, sizes="100vw"):
     c = f' class="{cls}"' if cls else ""
     return (f'<img src="img/{b["datei"]}" width="{b["w"]}" height="{b["h"]}" alt="{E(b["alt"])}"'
             f'{c}{" loading=\"lazy\"" if lazy else " fetchpriority=\"high\""} decoding="async">')
+
+
+def tel_link(text=None):
+    return f'<a href="tel:{F["telefon_link"]}">{E(text or F["telefon"])}</a>' if F["telefon"] else ""
 
 
 def mailto(betreff, text):
@@ -190,14 +195,17 @@ def bar():
     band = "".join(f'<span>✓ {E(v)}</span><i aria-hidden="true">•</i>' for v in VORTEILE_BAND)
     nav = (f'<a href="./#leistungen">Leistungen</a><a href="./#ablauf">So läuft’s</a>'
            f'<a href="einsatzgebiet.html">Stadtteile</a><a href="ratgeber.html">Ratgeber</a>')
+    kopf = (f'<a class="kopf-knopf" href="tel:{F["telefon_link"]}" aria-label="Hinnerk anrufen: {F["telefon"]}">{icon("telefon", 22)}<span>{F["telefon"]}</span></a>'
+            if F["telefon"] else f'<a class="kopf-knopf" href="#anfrage" aria-label="Anfrage an Hinnerk">{icon("post", 22)}<span>Anfrage</span></a>')
+    menue_tel = f'<a class="knopf knopf-gelb" href="tel:{F["telefon_link"]}">Anrufen: {F["telefon"]}</a>' if F["telefon"] else ""
     menue_leist = "".join(f'<a href="{l["slug"]}.html">{E(l["name"])}</a>' for l in LEIST)
     return f"""<div class="laufband" aria-label="Unsere Versprechen"><div class="lauf">{band}{band.replace('<span>', '<span aria-hidden="true">')}</div></div>
 <header class="kopf">
 <details class="menue"><summary aria-label="Menü öffnen"><span></span><span></span><span></span></summary>
-<nav aria-label="Menü">{nav}<a href="ueber-hinnerk.html">Über Hinnerk</a><a href="kontakt.html">Kontakt</a><hr>{menue_leist}<a class="knopf" href="{mailto('Anfrage Entrümpelung', ANFRAGE_TEXT)}">Kostenlos anfragen</a></nav></details>
+<nav aria-label="Menü">{nav}<a href="ueber-hinnerk.html">Über Hinnerk</a><a href="kontakt.html">Kontakt</a><hr>{menue_leist}<a class="knopf" href="{mailto('Anfrage Entrümpelung', ANFRAGE_TEXT)}">Kostenlos anfragen</a>{menue_tel}</nav></details>
 <nav class="haupt" aria-label="Hauptmenü">{nav}</nav>
 <a class="wort" href="./" aria-label="Hinnerk – Entrümpelung Hamburg, zur Startseite">{mascot(34)}<span>HINNERK</span></a>
-<a class="kopf-knopf" href="#anfrage" aria-label="Anfrage an Hinnerk">{icon('post', 22)}<span>Anfrage</span></a>
+{kopf}
 </header>
 <main id="inhalt">
 """
@@ -366,7 +374,7 @@ def anfrage(seite, ort=""):
 <h2 id="anfrage-h" data-auf>Erst ansehen, dann Festpreis.</h2>
 <p data-auf>Schreiben Sie kurz, was geräumt werden soll. Hinnerk meldet sich, besichtigt kostenlos und nennt Ihnen einen festen Preis.</p>
 <ul class="haken"><li>{HAKEN}Kostenlose Besichtigung</li><li>{HAKEN}Festpreis vor Beginn</li><li>{HAKEN}Getrennte Entsorgung</li></ul>
-<p class="klein">E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
+<p class="klein">{('Telefon: ' + tel_link() + '<br>') if F['telefon'] else ''}E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
 </div>
 <form id="anfrage-form" data-mail="{F['email']}" data-seite="{E(seite)}">
 <label>Was soll geräumt werden?<select name="was"><option>Ganze Wohnung</option><option>Ganzes Haus</option><option>Haushaltsauflösung</option><option>Nachlass</option><option>Messie-Wohnung</option><option>Büro</option><option>Laden, Lager oder Werkstatt</option><option>Keller</option><option>Dachboden</option><option>Garage oder Schuppen</option><option>Sperrmüll</option></select></label>
@@ -395,14 +403,21 @@ def fuss():
 <ul><li class="titel">Leistungen</li><li><a href="./">Entrümpelung Hamburg</a></li>{leist}</ul>
 <ul><li class="titel">Bezirke</li>{bez}<li><a href="einsatzgebiet.html">Alle 99 Stadtteile</a></li></ul>
 <ul><li class="titel">Ratgeber</li>{rat}</ul>
-<ul><li class="titel">Kontakt</li><li>Inh. {E(F['inhaber'])}</li><li>{E(F['strasse'])}</li><li>{F['plz']} {E(F['ort'])}</li><li><a href="mailto:{F['email']}">{F['email']}</a></li></ul>
+<ul><li class="titel">Kontakt</li><li>Inh. {E(F['inhaber'])}</li><li>{E(F['strasse'])}</li><li>{F['plz']} {E(F['ort'])}</li>{('<li>' + tel_link() + '</li>') if F['telefon'] else ''}<li><a href="mailto:{F['email']}">{F['email']}</a></li></ul>
 </div>
 <div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg{''.join(f' · {E(x["text"])}: <a href="{E(x["url"])}">{E(x["name"])}</a>' for x in SITE.get("partner", []))}</span><span><a href="ueber-hinnerk.html">Über Hinnerk</a> · <a href="kontakt.html">Kontakt</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
 </footer>
-<script src="assets/site.js" defer></script>
+{handy_leiste()}<script src="assets/site.js" defer></script>
 </body>
 </html>
 """
+
+
+def handy_leiste():
+    if not F["telefon"]:
+        return ""
+    return (f'<nav class="handy-leiste" aria-label="Schnellkontakt"><a href="tel:{F["telefon_link"]}">{icon("telefon", 20)}Anrufen</a>'
+            f'<a href="kontakt.html#anfrage">{icon("post", 20)}Anfrage</a></nav>\n')
 
 
 def krumen(items):
@@ -422,7 +437,7 @@ def seitenkasten(titel, knopf):
 <p class="kasten-titel">{E(titel)}</p>
 <ul class="haken"><li>{HAKEN}Besichtigung kostenlos</li><li>{HAKEN}Festpreis vor Beginn</li><li>{HAKEN}Getrennte Entsorgung</li></ul>
 <a class="knopf breit" href="#anfrage">{E(knopf)}</a>
-<p class="klein">oder per E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
+<p class="klein">{('oder anrufen: ' + tel_link() + '<br>') if F['telefon'] else ''}oder per E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
 </aside>"""
 
 
@@ -449,7 +464,7 @@ def weitere_fragen(ausser=None, titel="Weitere Fragen"):
 
 
 def kontakt_karte(frage):
-    tel = (f'<a class="kontakt-zeile" href="tel:{F["telefon_link"]}">{icon("post", 24)}<span><b>Telefon</b>{E(F["telefon"])}</span></a>' if F["telefon"] else "")
+    tel = (f'<a class="kontakt-zeile" href="tel:{F["telefon_link"]}">{icon("telefon", 24)}<span><b>Telefon</b>{E(F["telefon"])}</span></a>' if F["telefon"] else "")
     return f"""<section class="abschnitt" aria-labelledby="kk-h">
 <div class="kontakt-karte">
 <div><span class="kreisicon">{mascot(64)}</span><h2 id="kk-h">Fragen Sie Hinnerk direkt</h2>
@@ -478,7 +493,7 @@ def ratgeberseite(r):
     quellen = ("<details class=\"quellen\"><summary>Quellen</summary><ul>" + "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in r["quellen"]) + "</ul></details>") if r["quellen"] else ""
     page += f"""<section class="abschnitt" aria-label="Antwort">
 <div class="lesen"><article class="text">{k}
-<div class="antwort"><p class="eyebrow">Kurz gesagt</p><p>{E(text_kurz)}</p><p class="antwort-cta"><a href="#anfrage">Kostenlose Besichtigung anfragen</a> · <a href="mailto:{F['email']}">{F['email']}</a></p></div>
+<div class="antwort"><p class="eyebrow">Kurz gesagt</p><p>{E(text_kurz)}</p><p class="antwort-cta"><a href="#anfrage">Kostenlose Besichtigung anfragen</a>{(' · ' + tel_link()) if F['telefon'] else ''} · <a href="mailto:{F['email']}">{F['email']}</a></p></div>
 {secs}
 <p class="stand">Stand: {date.today().strftime('%m/%Y')}</p>
 {quellen}
