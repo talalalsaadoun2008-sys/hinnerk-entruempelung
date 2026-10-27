@@ -45,8 +45,9 @@ L_ICON = {"hausaufloesung-hamburg": "haus", "dachboden-entruempeln-hamburg": "da
           "keller-entruempeln-hamburg": "treppe", "nachlassaufloesung-hamburg": "rahmen",
           "messie-wohnung-raeumen-hamburg": "kisten", "bueroaufloesung-hamburg": "koffer",
           "sperrmuell-abholen-hamburg": "sofa"}
-# Stadtteile, die Google sehen soll (Rest: noindex, bleibt für Besucher erreichbar).
-# Grund: Google-Regel gegen viele ähnliche Ortsseiten (Doorway). Siehe Obsidian „Google-Leitfaden – was Google mag“.
+# Talal (27.10.2026): alle 99 Stadtteile bei Google lassen. True = alle indexierbar.
+# False = nur KERN_ORTE indexierbar (Schutz gegen Googles Doorway-Regel, siehe Obsidian „Google-Leitfaden – was Google mag“).
+ALLE_ORTE_INDEXIEREN = True
 KERN_ORTE = ["Altona-Altstadt", "Altona-Nord", "Ottensen", "Bahrenfeld", "Sternschanze", "St. Pauli", "Eimsbüttel", "Eppendorf",
              "Winterhude", "Barmbek-Nord", "Wandsbek", "Rahlstedt", "Blankenese", "Harburg", "Bergedorf"]
 ORT_FOTOS = ["hero", "wohnung", "kartons", "haushalt", "transporter", "speicher"]
@@ -699,7 +700,7 @@ def ortsseite(o, alle_im_bezirk):
               "containedInPlace": {"@type": "City", "name": "Hamburg"}}}]
     bk = pick(n, ORT_FOTOS)
     page = head(title, desc, o["slug"] + ".html", schema, preload=bk,
-                robots="index,follow" if n in KERN_ORTE else "noindex,follow") + bar()
+                robots="index,follow" if (ALLE_ORTE_INDEXIEREN or n in KERN_ORTE) else "noindex,follow") + bar()
     v = {"o": n, "b": b}
     page += held(f"Entrümpelung {E(n)}", pick(n + "lead", LEAD_VARIANTEN).format(**v),
                  f"Besichtigung in {n}" if len(n) <= 16 else "Kostenlos besichtigen", "#anfrage", bk, eyebrow=f"Bezirk {b}", klein=True)
@@ -833,6 +834,6 @@ if __name__ == "__main__":
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if o["name"] in KERN_ORTE]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
