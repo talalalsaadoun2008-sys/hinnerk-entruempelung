@@ -441,5 +441,209 @@
     "url": "https://www.vzhh.de/themen/umwelt-nachhaltigkeit/muell-verpackungen/sperrmuell-raus-abzocke-rein"
    }
   ]
+ },
+ {
+  "slug": "entruempelung-steuerlich-absetzen",
+  "frage": "Kann man eine Entrümpelung von der Steuer absetzen?",
+  "kurz_titel": "Steuer absetzen",
+  "title": "Entrümpelung von der Steuer absetzen? So geht es | Hinnerk",
+  "description": "Entrümpelung steuerlich absetzen: 20 % der Arbeitskosten, höchstens 4.000 € im Jahr – nur mit Rechnung und Überweisung. Was zählt und was nicht.",
+  "foto": "haushalt",
+  "kurz": "Teilweise ja. Die Arbeitskosten einer Entrümpelung in Ihrem eigenen Haushalt können als haushaltsnahe Dienstleistung nach § 35a EStG zählen. Dann sinkt Ihre Einkommensteuer um 20 % dieser Kosten, höchstens um 4.000 € im Jahr. Voraussetzung: eine Rechnung und Zahlung per Überweisung – Barzahlung zählt nicht.",
+  "abschnitte": [
+   {
+    "h2": "Was das Gesetz sagt",
+    "html": "<p>Nach <a href=\"https://www.gesetze-im-internet.de/estg/__35a.html\">§ 35a EStG</a> gibt es eine Steuerermäßigung für haushaltsnahe Dienstleistungen. Sie beträgt <b>20 % der Aufwendungen, höchstens 4.000 € im Jahr</b>. Der Betrag wird direkt von Ihrer Einkommensteuer abgezogen – nicht nur vom Einkommen.</p><p>Ein Beispiel: Stehen auf der Rechnung 1.000 € Arbeitskosten, kann Ihre Steuer um bis zu 200 € sinken.</p>"
+   },
+   {
+    "h2": "Was zählt – und was nicht",
+    "html": "<ul><li><b>Zählt:</b> Arbeitskosten, also Tragen, Räumen, Zerlegen – einschließlich der Umsatzsteuer darauf.</li><li><b>Zählt nicht:</b> Materialkosten. Auch Gebühren für die Entsorgung sind in der Regel keine Arbeitskosten.</li><li><b>Zählt nicht:</b> bar bezahlte Rechnungen. Das Geld muss auf das Konto der Firma gehen.</li></ul><p>Damit das Finanzamt die Arbeitskosten erkennt, sollten sie auf der Rechnung getrennt stehen.</p>"
+   },
+   {
+    "h2": "Wichtig: Es muss Ihr Haushalt sein",
+    "html": "<p>Das Gesetz verlangt, dass die Leistung in Ihrem eigenen Haushalt erbracht wird. Das passt zum Beispiel, wenn Sie Ihren Keller, Dachboden oder Ihre Wohnung entrümpeln lassen.</p><p>Räumen Sie die Wohnung eines verstorbenen Angehörigen, ist das meist nicht Ihr Haushalt. Ob Sie die Kosten trotzdem geltend machen können, klären Sie am besten mit einem Steuerberater oder einem Lohnsteuerhilfeverein.</p>"
+   },
+   {
+    "h2": "Gut zu wissen",
+    "html": "<ul><li>Die 4.000 € gelten für alle haushaltsnahen Dienstleistungen im Jahr zusammen – also zum Beispiel auch für Putzhilfe oder Gartenarbeit.</li><li>Für Handwerkerleistungen wie Malerarbeiten gibt es einen eigenen Rahmen: 20 %, höchstens 1.200 € im Jahr.</li><li>Leben zwei Alleinstehende in einem Haushalt, gibt es die Höchstbeträge nur einmal für beide zusammen.</li><li>Kosten, die schon Betriebsausgaben oder Werbungskosten sind, zählen hier nicht noch einmal.</li></ul>"
+   },
+   {
+    "h2": "So tragen Sie es ein",
+    "html": "<p>Die Kosten geben Sie in der Einkommensteuererklärung in der Anlage „Haushaltsnahe Aufwendungen“ an. Heben Sie Rechnung und Kontoauszug auf. Das ist keine Steuerberatung – im Zweifel fragen Sie Ihr Finanzamt oder einen Steuerberater.</p>"
+   },
+   {
+    "h2": "So hilft Hinnerk",
+    "html": "<p>Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis. Auf Wunsch weisen wir die Arbeitskosten auf der Rechnung getrennt aus. Zahlen Sie per Überweisung, dann ist auch diese Voraussetzung erfüllt. Was eine Entrümpelung kostet, lesen Sie unter <a href=\"was-kostet-eine-entruempelung-in-hamburg.html\">Was kostet eine Entrümpelung in Hamburg?</a></p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "Gesetze im Internet: § 35a EStG",
+    "url": "https://www.gesetze-im-internet.de/estg/__35a.html"
+   },
+   {
+    "titel": "FIM-Portal (Bund): Haushaltsnahe Dienstleistungen steuerlich berücksichtigen",
+    "url": "https://www.fimportal.de/api/v0/leistung-stammtexte/L100009/6000304-99102008000000/pvog/de/pdf"
+   },
+   {
+    "titel": "FIM-Portal (Bund): Handwerkerleistungen, steuerliche Berücksichtigung",
+    "url": "https://www.fimportal.de/api/v0/leistung-stammtexte/L100009/6000054-99102008000000/pvog/de/pdf"
+   }
+  ]
+ },
+ {
+  "slug": "erbe-ausgeschlagen-wer-raeumt-wohnung",
+  "frage": "Wer räumt die Wohnung, wenn das Erbe ausgeschlagen wird?",
+  "kurz_titel": "Erbe ausgeschlagen",
+  "title": "Erbe ausgeschlagen: Wer räumt die Wohnung? | Hinnerk",
+  "description": "Erbe ausgeschlagen – wer räumt und bezahlt die Wohnung des Verstorbenen? Nächste Erben, Nachlasspfleger, Staat. Und warum Sie vorher nichts räumen sollten.",
+  "foto": "nachlass",
+  "kurz": "Wer das Erbe wirksam ausschlägt, muss die Wohnung nicht räumen. Die Pflicht geht auf die nächsten Erben über. Schlagen alle aus oder sind keine Erben bekannt, kann das Nachlassgericht einen Nachlasspfleger bestellen – auch auf Antrag des Vermieters. Am Ende kann der Staat erben. Wichtig: Wer ausschlagen will, sollte vorher nichts räumen oder verkaufen.",
+  "abschnitte": [
+   {
+    "h2": "Wer nach der Ausschlagung zuständig ist",
+    "html": "<ul><li><b>Die nächsten Erben:</b> Nach <a href=\"https://www.gesetze-im-internet.de/bgb/__1953.html\">§ 1953 BGB</a> geht das Erbe an die Person, die erben würde, wenn der Ausschlagende schon vorher gestorben wäre. Oft sind das Kinder, Enkel oder Geschwister.</li><li><b>Der Nachlasspfleger:</b> Ist unklar, wer erbt, kann das Nachlassgericht einen Nachlasspfleger bestellen (<a href=\"https://www.gesetze-im-internet.de/bgb/__1960.html\">§ 1960 BGB</a>). Der Vermieter kann das beantragen (<a href=\"https://www.gesetze-im-internet.de/bgb/__1961.html\">§ 1961 BGB</a>), damit er einen Ansprechpartner für Kündigung und Räumung hat.</li><li><b>Der Staat:</b> Findet sich kein Erbe, stellt das Nachlassgericht fest, dass der Staat erbt (<a href=\"https://www.gesetze-im-internet.de/bgb/__1964.html\">§ 1964 BGB</a>). Bei letztem Wohnsitz in Hamburg ist das die Freie und Hansestadt Hamburg (<a href=\"https://www.gesetze-im-internet.de/bgb/__1936.html\">§ 1936 BGB</a>). Der Staat kann nicht ausschlagen (<a href=\"https://www.gesetze-im-internet.de/bgb/__1942.html\">§ 1942 BGB</a>).</li></ul>"
+   },
+   {
+    "h2": "Wer die Räumung bezahlt",
+    "html": "<p>Räumungskosten können zu den Nachlassverbindlichkeiten gehören. Dann werden sie aus dem Nachlass bezahlt – also von den Erben oder vom Nachlasspfleger.</p><p>Aber Vorsicht: Wer selbst eine Firma beauftragt, ist deren Vertragspartner. Das gilt auch für Angehörige, die gar nicht erben. Sie müssen die Rechnung dann bezahlen und können sich das Geld höchstens später aus dem Nachlass zurückholen.</p>"
+   },
+   {
+    "h2": "Erst entscheiden, dann räumen",
+    "html": "<p>Die Ausschlagung muss innerhalb von <b>sechs Wochen</b> beim Nachlassgericht eingehen. Die Frist beginnt, wenn Sie erfahren, dass Sie Erbe sind. Sechs Monate gelten, wenn der Verstorbene nur im Ausland gewohnt hat oder Sie bei Fristbeginn im Ausland waren. Die Ausschlagung gilt immer für das ganze Erbe – nicht nur für die Schulden. Ein einfacher Brief reicht nicht – die Erklärung wird beim Nachlassgericht oder bei einem Notar abgegeben (<a href=\"https://www.hamburg.de/service/info/111055169/n0/\">hamburg.de</a>).</p><p>Laut hamburg.de kann man ein Erbe auch durch sein Verhalten annehmen. Wer die Wohnung komplett räumt oder Sachen verkauft, riskiert, dass das als Annahme gilt. Erlaubt sind meist nur sichernde Schritte, zum Beispiel Wertsachen und wichtige Papiere sicher aufbewahren. Im Zweifel fragen Sie einen Anwalt oder Notar. In Hamburg gibt es für Menschen mit wenig Geld auch die Öffentliche Rechtsauskunft (ÖRA).</p>"
+   },
+   {
+    "h2": "So hilft Hinnerk",
+    "html": "<p>Hinnerk räumt, sobald klar ist, wer den Auftrag gibt – Erben, Nachlasspfleger oder Vermieter. Wir besichtigen kostenlos und nennen einen festen Preis, den der Auftraggeber vorher kennt. Papiere und Dinge, die wichtig aussehen, legen wir beim Räumen zur Seite. Mehr dazu: <a href=\"wohnung-nach-todesfall-aufloesen.html\">Wohnung nach einem Todesfall auflösen</a> und unsere <a href=\"nachlassaufloesung-hamburg.html\">Nachlassauflösung</a>.</p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "hamburg.de: Ausschlagung der Erbschaft beim Nachlassgericht",
+    "url": "https://www.hamburg.de/service/info/111055169/n0/"
+   },
+   {
+    "titel": "Gesetze im Internet: § 1953 BGB – Wirkung der Ausschlagung",
+    "url": "https://www.gesetze-im-internet.de/bgb/__1953.html"
+   },
+   {
+    "titel": "Gesetze im Internet: § 1960 BGB – Sicherung des Nachlasses",
+    "url": "https://www.gesetze-im-internet.de/bgb/__1960.html"
+   },
+   {
+    "titel": "Gesetze im Internet: § 1961 BGB – Nachlasspflegschaft auf Antrag",
+    "url": "https://www.gesetze-im-internet.de/bgb/__1961.html"
+   },
+   {
+    "titel": "Gesetze im Internet: § 1964 BGB – Erbvermutung für den Fiskus",
+    "url": "https://www.gesetze-im-internet.de/bgb/__1964.html"
+   },
+   {
+    "titel": "Gesetze im Internet: § 1936 BGB – Gesetzliches Erbrecht des Staates",
+    "url": "https://www.gesetze-im-internet.de/bgb/__1936.html"
+   },
+   {
+    "titel": "Gesetze im Internet: § 1942 BGB – Anfall und Ausschlagung der Erbschaft",
+    "url": "https://www.gesetze-im-internet.de/bgb/__1942.html"
+   },
+   {
+    "titel": "IWW ErbBstg: Nachlasspflegschaft – Mieter verstirbt, Erben unbekannt (OLG Köln, 2 Wx 198/10)",
+    "url": "https://www.iww.de/erbbstg/archiv/nachlasspflegschaft-der-praktische-fall-mieter-verstirbt-erben-unbekannt-mietobjekt-blockiert-f25414"
+   },
+   {
+    "titel": "Kanzlei Herfurtner: Kosten der Entrümpelung nach einem Todesfall",
+    "url": "https://kanzlei-herfurtner.de/kosten-entruemplung-nach-tod/"
+   }
+  ]
+ },
+ {
+  "slug": "sondermuell-entsorgen-hamburg",
+  "frage": "Wohin mit Sondermüll wie Farben, Lacken und Batterien in Hamburg?",
+  "kurz_titel": "Sondermüll entsorgen",
+  "title": "Sondermüll entsorgen in Hamburg: Farben, Batterien & Co. | Hinnerk",
+  "description": "Farben, Lacke, Batterien, Chemikalien: Wo Sie Sondermüll in Hamburg abgeben – Recyclinghof oder mobile Problemstoffsammlung. Was kostenlos ist und was nicht.",
+  "foto": "keller",
+  "kurz": "Sondermüll heißt in Hamburg „Problemstoffe“. Sie dürfen nicht in die graue Tonne. Hamburger Haushalte können sie in haushaltsüblichen Mengen kostenlos auf den Recyclinghöfen der Stadtreinigung oder bei der mobilen Problemstoffsammlung abgeben – dort ohne Anmeldung. Wichtig: geschlossene, beschriftete, bruchsichere Behälter, am besten die Originalverpackung.",
+  "abschnitte": [
+   {
+    "h2": "Was zu den Problemstoffen gehört",
+    "html": "<ul><li>Farben und Lacke, Lösemittel und Verdünner</li><li>Holzschutz- und Pflanzenschutzmittel</li><li>Reinigungsmittel, Säuren und Laugen</li><li>Batterien und Akkus</li><li>Leuchtstoffröhren, Energiesparlampen und LEDs</li><li>Chemikalien, zum Beispiel aus dem Fotolabor oder Hobbykeller</li><li>Altöl (höchstens 7 Liter, kostenpflichtig)</li></ul><p><b>Nicht dazu gehören Medikamente.</b> Laut Stadtreinigung kommen sie in den Restmüll.</p>"
+   },
+   {
+    "h2": "Wo Sie in Hamburg abgeben können",
+    "html": "<ul><li><b>Recyclinghöfe:</b> Alle Recyclinghöfe der Stadtreinigung haben eine Annahme für Problemstoffe. Autobatterien, Feuerlöscher (höchstens 2) und Asbest-Blumenkästen gehen nur dort.</li><li><b>Mobile Problemstoffsammlung:</b> Sie steht das ganze Jahr an festen Terminen in den Stadtteilen, zum Beispiel in Altona und Bahrenfeld. Sie kommen einfach ohne Anmeldung vorbei. Die Termine stehen in der <a href=\"https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf\">INFO-Broschüre 2026 der Stadtreinigung</a>.</li><li><b>Abholung:</b> Die Stadtreinigung holt Problemstoffe von Privathaushalten auch ab – gegen eine Anfahrtspauschale ab 25 €.</li></ul><p>Größere Mengen Chemikalien und Asbestzement nur nach telefonischer Absprache mit der Stadtreinigung: 040 2576-0.</p>"
+   },
+   {
+    "h2": "So geben Sie richtig ab",
+    "html": "<ul><li>Behälter geschlossen und beschriftet lassen, am besten in der Originalverpackung.</li><li>Nichts zusammenkippen oder mischen.</li><li>Bei Lithium-Batterien die Pole abkleben.</li><li>Bis zur Abgabe sicher und für Kinder unerreichbar lagern.</li><li>Nichts ins Waschbecken oder in die Toilette schütten.</li><li>Energiesparlampen und Leuchtstoffröhren gehören nicht in den Glascontainer.</li><li>Mineralfaserabfälle wie alte Dämmwolle angefeuchtet und in reißfester, staubdichter Folie verpacken.</li></ul><p>Batterien aus Hamburger Haushalten sind auf den Recyclinghöfen und bei der mobilen Sammlung kostenlos. Auch der Handel nimmt sie kostenlos zurück. Mehr Infos: <a href=\"https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/abfall-entsorgung/siedlungsabfaelle/problemstoffe-159990\">hamburg.de – Problemstoffe richtig entsorgen</a>.</p>"
+   },
+   {
+    "h2": "Bei einer Entrümpelung",
+    "html": "<p>In Kellern und Garagen stehen oft alte Farbeimer, Lackdosen oder Kanister. Sagen Sie Hinnerk bei der kostenlosen Besichtigung, was dabei ist. Dann planen wir die getrennte Entsorgung ein, bevor Sie Ihren festen Preis bekommen. Asbest gehört allerdings in die Hände eines Fachbetriebs. Was sonst auf den Recyclinghof darf: <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg – was darf hin?</a> Und wenn der ganze Keller raus soll: <a href=\"keller-entruempeln-hamburg.html\">Keller entrümpeln</a>.</p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "Stadtreinigung Hamburg: INFO-Broschüre 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf"
+   },
+   {
+    "titel": "hamburg.de (BUKEA): Problemstoffe richtig entsorgen",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/bukea/themen/abfall-entsorgung/siedlungsabfaelle/problemstoffe-159990"
+   },
+   {
+    "titel": "FIM-Portal (Hamburg): Entsorgung von Problemstoffen",
+    "url": "https://www.fimportal.de/api/v0/xzufi-services/S100002/S1000020010000011685/de/pdf"
+   }
+  ]
+ },
+ {
+  "slug": "mieter-hat-sachen-zurueckgelassen",
+  "frage": "Was tun, wenn der Mieter nach dem Auszug Sachen zurückgelassen hat?",
+  "kurz_titel": "Sachen zurückgelassen",
+  "title": "Mieter hat Sachen zurückgelassen: Was tun? | Hinnerk",
+  "description": "Ex-Mieter hat Möbel oder Gerümpel zurückgelassen? Warum Vermieter nicht einfach entsorgen dürfen, welche Schritte sinnvoll sind und was Mieter wissen sollten.",
+  "foto": "wohnung",
+  "kurz": "Der Mieter muss die Wohnung nach dem Ende des Mietverhältnisses geräumt zurückgeben, auch Keller und Dachbodenabteil. Bleiben Sachen zurück, gehören sie trotzdem weiter dem Mieter. Vermieter sollten deshalb nicht einfach entsorgen, sondern schriftlich eine Frist zur Abholung setzen. Hat der Mieter die Wohnung noch nicht zurückgegeben, darf der Vermieter sie nicht ohne Räumungstitel selbst räumen.",
+  "abschnitte": [
+   {
+    "h2": "Was Mieter wissen sollten",
+    "html": "<p>Nach <a href=\"https://www.gesetze-im-internet.de/bgb/__546.html\">§ 546 BGB</a> muss der Mieter die Mietsache nach dem Ende des Mietverhältnisses zurückgeben. Dazu gehört, dass die Räume leer sind – auch Keller, Dachboden und Balkon. Was mit dem Vermieter oder Nachmieter abgesprochen ist, darf bleiben.</p><p>Gibt der Mieter die Wohnung zu spät zurück, kann der Vermieter für diese Zeit eine Entschädigung verlangen, etwa in Höhe der Miete (<a href=\"https://www.gesetze-im-internet.de/bgb/__546a.html\">§ 546a BGB</a>).</p>"
+   },
+   {
+    "h2": "Warum Vermieter nicht einfach entsorgen sollten",
+    "html": "<p>Zurückgelassene Sachen sind nicht herrenlos. Sie gehören weiter dem Ex-Mieter. Der Bundesgerichtshof hat 2010 entschieden: Wer eine Wohnung ohne Räumungstitel öffnet und räumt, handelt in unerlaubter Selbsthilfe und haftet für die Folgen – auch ohne Verschulden (BGH, VIII ZR 45/09, <a href=\"https://www.berliner-mieterverein.de/recht/mieturteile/bgh/bgh1047.htm\">Berliner Mieterverein</a>). Der Vermieter muss dann unter Umständen beweisen, was in der Wohnung war und was es wert war.</p>"
+   },
+   {
+    "h2": "Sinnvolle Schritte für Vermieter",
+    "html": "<ul><li><b>Dokumentieren:</b> Fotos machen und eine Liste der Sachen anlegen.</li><li><b>Schriftlich auffordern:</b> Den Ex-Mieter bitten, die Sachen bis zu einem festen Datum abzuholen, und ankündigen, dass sonst auf seine Kosten entsorgt wird. Den Zugang nachweisbar machen.</li><li><b>Aufbewahren:</b> Größere Sachen eine Zeit lang sicher lagern. Der ERGO-Rechtsratgeber nennt dafür mindestens zwei Monate.</li><li><b>Genau hinschauen:</b> Nicht alles, was wie Müll aussieht, ist wertlos.</li></ul><p>Das ist keine Rechtsberatung. Im Zweifel helfen ein Anwalt, Grundeigentümer- oder Mieterverein.</p>"
+   },
+   {
+    "h2": "Lagern hat Folgen",
+    "html": "<p>Solange der Vermieter fremde Sachen aufbewahrt, ist er für sie verantwortlich. Gehen sie kaputt oder verloren, kann er haften. Besser ist ein abgeschlossener Raum, zu dem andere Mieter keinen Zugang haben.</p><p>Verhindern große Möbel, dass die Wohnung neu vermietet wird, kann der Vermieter laut ERGO-Rechtsratgeber eine Nutzungsentschädigung verlangen. Ist der Mieter verstorben, sind die Erben die Ansprechpartner – oder, wenn keine bekannt sind, ein Nachlasspfleger.</p>"
+   },
+   {
+    "h2": "So hilft Hinnerk",
+    "html": "<p>Wenn feststeht, dass geräumt werden darf – zum Beispiel mit schriftlicher Zustimmung des Ex-Mieters oder nach Ablauf der Frist –, räumt Hinnerk Wohnung, Keller und Dachboden. Erst kostenlose Besichtigung, dann fester Preis, dann getrennte Entsorgung. Mehr für Eigentümer: <a href=\"entruempelung-fuer-vermieter-hamburg.html\">Entrümpelung für Vermieter und Hausverwaltungen</a>.</p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "Gesetze im Internet: § 546 BGB – Rückgabepflicht des Mieters",
+    "url": "https://www.gesetze-im-internet.de/bgb/__546.html"
+   },
+   {
+    "titel": "Gesetze im Internet: § 546a BGB – Entschädigung bei verspäteter Rückgabe",
+    "url": "https://www.gesetze-im-internet.de/bgb/__546a.html"
+   },
+   {
+    "titel": "Berliner Mieterverein: BGH, Urteil vom 14.7.2010 – VIII ZR 45/09",
+    "url": "https://www.berliner-mieterverein.de/recht/mieturteile/bgh/bgh1047.htm"
+   },
+   {
+    "titel": "ERGO Rechtsportal: Gerümpel des Vormieters",
+    "url": "https://www.ergo.de/de/rechtsportal/mietrecht/geruempel-des-vormieters"
+   }
+  ]
  }
 ]
