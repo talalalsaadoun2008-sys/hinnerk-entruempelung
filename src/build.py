@@ -146,7 +146,7 @@ ANFRAGE_TEXT = "Moin Hinnerk,\n\nich möchte eine kostenlose Besichtigung.\nWas 
 def firma_schema():
     s = {"@type": "HomeAndConstructionBusiness", "@id": BASE + "#firma", "name": "Hinnerk Entrümpelung", "alternateName": F["name"], "url": BASE,
          "email": F["email"], "logo": BASE + "logo.png", "image": BASE + "img/" + FOTOS["hero"]["datei"], "description": F["beschreibung"],
-         "priceRange": "Festpreis nach kostenloser Besichtigung",
+         "priceRange": f"ab {PREISE[0][2]} € – Festpreis nach kostenloser Besichtigung",
          "address": {"@type": "PostalAddress", "streetAddress": F["strasse"], "postalCode": F["plz"],
                      "addressLocality": F["ort"], "addressCountry": "DE"},
          "areaServed": [{"@type": "City", "name": "Hamburg"}] + [{"@type": "AdministrativeArea", "name": f"Bezirk {b}"} for b in BEZIRKE],
@@ -199,7 +199,7 @@ VORTEILE_BAND = ["Kostenlose Besichtigung", "Festpreis vor Beginn", "In allen 99
 def bar():
     band = "".join(f'<span>✓ {E(v)}</span><i aria-hidden="true">•</i>' for v in VORTEILE_BAND)
     nav = (f'<a href="./#leistungen">Leistungen</a><a href="./#ablauf">So läuft’s</a>'
-           f'<a href="einsatzgebiet.html">Stadtteile</a><a href="ratgeber.html">Ratgeber</a>')
+           f'<a href="preise.html">Preise</a><a href="einsatzgebiet.html">Stadtteile</a><a href="ratgeber.html">Ratgeber</a>')
     kopf = (f'<a class="kopf-knopf" href="tel:{F["telefon_link"]}" aria-label="Hinnerk anrufen: {F["telefon"]}">{icon("telefon", 22)}<span>{F["telefon"]}</span></a>'
             if F["telefon"] else f'<a class="kopf-knopf" href="#anfrage" aria-label="Anfrage an Hinnerk">{icon("post", 22)}<span>Anfrage</span></a>')
     menue_tel = f'<a class="knopf knopf-gelb" href="tel:{F["telefon_link"]}">Anrufen: {F["telefon"]}</a>' if F["telefon"] else ""
@@ -410,7 +410,7 @@ def fuss():
 <ul><li class="titel">Ratgeber</li>{rat}</ul>
 <ul><li class="titel">Kontakt</li><li>Inh. {E(F['inhaber'])}</li><li>{E(F['strasse'])}</li><li>{F['plz']} {E(F['ort'])}</li>{('<li>' + tel_link() + '</li>') if F['telefon'] else ''}<li><a href="mailto:{F['email']}">{F['email']}</a></li></ul>
 </div>
-<div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg{''.join(f' · {E(x["text"])}: <a href="{E(x["url"])}">{E(x["name"])}</a>' for x in SITE.get("partner", []))}</span><span><a href="ueber-hinnerk.html">Über Hinnerk</a> · <a href="kontakt.html">Kontakt</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
+<div class="fuss-unten"><span>© {date.today().year} Hinnerk – Entrümpelung Hamburg{''.join(f' · {E(x["text"])}: <a href="{E(x["url"])}">{E(x["name"])}</a>' for x in SITE.get("partner", []))}</span><span><a href="preise.html">Preise</a> · <a href="ueber-hinnerk.html">Über Hinnerk</a> · <a href="kontakt.html">Kontakt</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span></div>
 </footer>
 {handy_leiste()}<script src="assets/site.js" defer></script>
 </body>
@@ -570,6 +570,73 @@ def kontakt():
     write("kontakt.html", page)
 
 
+# Richtpreise (Talal 28.10.2026: „Mach, was du denkst“ – Vorschlag am Hamburger Markt, von Talal freizugeben).
+PREISE = [("Keller, Dachboden oder Garage", "bis ca. 10 m²", 290),
+          ("1-Zimmer-Wohnung", "ca. 30–40 m²", 690),
+          ("2-Zimmer-Wohnung", "ca. 45–60 m²", 890),
+          ("3-Zimmer-Wohnung", "ca. 65–80 m²", 1290),
+          ("4-Zimmer-Wohnung", "ca. 85–100 m²", 1690),
+          ("Haus", "ab ca. 100 m²", 2490),
+          ("Messie-Wohnung", "je nach Füllgrad", 1890),
+          ("Sperrmüll-Abholung", "bis 2 m³, jeder weitere m³ 39 €", 129)]
+# Rechner: € pro m² Wohnfläche je Füllgrad, Aufschlag je Etage ohne Aufzug, Mindestpreis
+RECHNER = {"fuell": [("Wenig drin", 18), ("Normal möbliert", 26), ("Sehr voll", 38), ("Messie-Wohnung", 55)],
+           "etage_prozent": 5, "etage_max": 5, "extra_raum": 150, "minimum": 290, "spanne": 0.2}
+
+PREIS_FAQ = [
+    {"q": "Ist der Preis aus dem Rechner verbindlich?", "a": "Nein. Der Rechner zeigt einen Richtwert. Verbindlich ist der Festpreis, den Sie nach der kostenlosen Besichtigung bekommen. Er ändert sich danach nicht."},
+    {"q": "Was ist im Festpreis enthalten?", "a": "Die Arbeit, der Transport und die Entsorgung der Sachen. Was vereinbart ist, gilt – ohne Aufschläge vor Ort."},
+    {"q": "Warum gibt es keinen festen Preis am Telefon?", "a": "Weil niemand am Telefon sieht, wie viel in einer Wohnung steht. Ein niedriger Telefonpreis, der vor Ort steigt, ist ein typisches Warnzeichen. Deshalb sehen wir erst hin und nennen dann den Preis."},
+    {"q": "Was macht eine Entrümpelung teurer oder günstiger?", "a": "Vor allem die Menge, das Stockwerk ohne Aufzug, lange Wege zum Wagen und Dinge, die getrennt entsorgt werden müssen, zum Beispiel Farben oder Elektrogeräte."},
+    {"q": "Kann ich die Kosten von der Steuer absetzen?", "a": "Die Arbeitskosten oft ja, als haushaltsnahe Dienstleistung – wenn es Ihr eigener Haushalt ist und Sie überweisen. Auf Wunsch stehen die Arbeitskosten getrennt auf der Rechnung."},
+]
+
+
+def preise():
+    k, ld = krumen([("Startseite", "./"), ("Preise", None)])
+    t = f"Entrümpelung Hamburg Preise ✓ ab {PREISE[0][2]} € ✓ Kostenrechner | Hinnerk"
+    d = f"Was kostet eine Entrümpelung in Hamburg? Richtpreise ab {PREISE[0][2]} €, Kostenrechner nach Wohnfläche und danach ein fester Preis nach kostenloser Besichtigung."
+    schema = [ld, faq_schema(PREIS_FAQ), {"@type": "WebPage", "url": BASE + "preise.html", "name": t, "about": {"@id": BASE + "#firma"}}]
+    page = head(t, d, "preise.html", schema, preload="kartons") + bar()
+    page += held("Preise", "Richtwerte zur Orientierung. Den festen Preis bekommen Sie nach der kostenlosen Besichtigung.", "Preis berechnen", "#rechner", "kartons", eyebrow="Entrümpelung Hamburg", klein=True)
+    zeilen = "".join(f'<tr><th scope="row">{E(n)}<span class="klein-zeile">{E(z)}</span></th><td>ab {f"{p:,}".replace(",", ".")} €</td></tr>' for n, z, p in PREISE)
+    fuell = "".join(f'<label class="fuell-wahl"><input type="radio" name="fuell" value="{w}"{" checked" if i == 1 else ""}><span>{E(n)}</span></label>' for i, (n, w) in enumerate(RECHNER["fuell"]))
+    etagen = "".join(f'<option value="{i}">{"Erdgeschoss oder Aufzug" if i == 0 else f"{i}. Stock ohne Aufzug" if i < RECHNER["etage_max"] else f"{i}. Stock oder höher, ohne Aufzug"}</option>' for i in range(RECHNER["etage_max"] + 1))
+    page += f"""<section class="abschnitt" aria-label="Preise">
+<div class="lesen"><div class="text">{k}
+<h2>Richtpreise für Hamburg</h2>
+<p>Alle Preise inklusive Arbeit, Transport und Entsorgung. Es sind Ab-Preise: Was es bei Ihnen genau kostet, hängt vor allem von der Menge ab. Nach der kostenlosen Besichtigung nennen wir einen festen Preis.</p>
+<div class="tabelle preis-tabelle"><table><thead><tr><th scope="col">Was</th><th scope="col">Preis</th></tr></thead><tbody>{zeilen}</tbody></table></div>
+<p class="klein">Stand {date.today().strftime('%m/%Y')}. Alle Preise inklusive Umsatzsteuer.</p>
+</div>{seitenkasten('Fester Preis statt Schätzung', 'Besichtigung anfragen')}</div>
+</section>
+<section class="abschnitt" id="rechner" aria-labelledby="rechner-h">
+<div class="rechner" data-rechner='{json.dumps(RECHNER, ensure_ascii=False)}' data-mail="{F['email']}">
+<div><span class="kreisicon">{mascot(64)}</span><h2 id="rechner-h">Kostenrechner</h2><p>Grobe Schätzung für eine Wohnung oder ein Haus. Für Keller, Dachboden und Sperrmüll gelten die Preise oben.</p></div>
+<form class="rechner-form" onsubmit="return false">
+<label>Wohnfläche in m²<input name="qm" type="number" inputmode="numeric" min="10" max="400" value="55"></label>
+<fieldset><legend>Wie voll ist es?</legend><div class="wahlen">{fuell}</div></fieldset>
+<label>Stockwerk<select name="etage">{etagen}</select></label>
+<label class="haken-zeile"><input type="checkbox" name="extra"> Keller oder Dachboden kommt dazu</label>
+<output class="rechner-ergebnis" aria-live="polite"></output>
+<a class="knopf breit rechner-knopf" href="#anfrage">Festpreis anfragen</a>
+<p class="klein">Richtwert, kein Angebot. Verbindlich ist nur der Festpreis nach der Besichtigung.</p>
+</form>
+</div>
+</section>
+"""
+    page += fragen("Fragen zu den Preisen", PREIS_FAQ)
+    page += f"""<section class="abschnitt" aria-label="Mehr lesen"><div class="lesen"><div class="text">
+<h2>Mehr zum Thema</h2>
+<ul><li><a href="was-kostet-eine-entruempelung-in-hamburg.html">Was kostet eine Entrümpelung in Hamburg?</a></li>
+<li><a href="serioese-entruempelungsfirma-erkennen.html">Seriöse Entrümpelungsfirma erkennen</a></li>
+<li><a href="entruempelung-steuerlich-absetzen.html">Entrümpelung von der Steuer absetzen</a></li></ul>
+</div></div></section>
+"""
+    page += anfrage("Preise") + fuss()
+    write("preise.html", page)
+
+
 def ratgeber_uebersicht():
     k, ld = krumen([("Startseite", "./"), ("Ratgeber", None)])
     t = "Ratgeber Entrümpelung Hamburg: Antworten auf häufige Fragen | Hinnerk"
@@ -595,6 +662,9 @@ def llms_txt():
     zeilen += [f"- [{l['name']}]({BASE}{l['slug']}.html): {l['kurz']}" for l in LEIST]
     zeilen += ["", "## Ratgeber", ""]
     zeilen += [f"- [{r['frage']}]({BASE}{r['slug']}.html): {r['kurz']}" for r in RAT]
+    zeilen += ["", "## Preise (Richtwerte, Festpreis nach kostenloser Besichtigung)", ""]
+    zeilen += [f"- {n} ({z}): ab {p} €" for n, z, p in PREISE]
+    zeilen += [f"- [Preise und Kostenrechner]({BASE}preise.html)"]
     zeilen += ["", "## Über uns und Kontakt", "", f"- [Über Hinnerk]({BASE}ueber-hinnerk.html)", f"- [Kontakt]({BASE}kontakt.html)"]
     zeilen += ["", "## Stadtteile", "", f"- [Alle 99 Stadtteile mit Recyclinghof in der Nähe]({BASE}einsatzgebiet.html)", ""]
     write("llms.txt", "\n".join(zeilen))
@@ -826,12 +896,13 @@ if __name__ == "__main__":
     ratgeber_uebersicht()
     ueber_uns()
     kontakt()
+    preise()
     llms_txt()
     for o in ORTE:
         ortsseite(o, [x for x in ORTE if x["bezirk"] == o["bezirk"]])
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["preise.html", "ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")

@@ -348,3 +348,23 @@ a.kontakt-zeile:hover{box-shadow:0 0 0 2px var(--blau)}
   .menue nav{padding-bottom:110px}
 }
 .autor{font-size:14px;color:var(--leise);margin:0 0 18px}.autor a{color:inherit}
+/* Preise und Rechner */
+.preis-tabelle{margin:20px 0 8px;border:1px solid var(--linie)}
+.preis-tabelle td{font-weight:600;white-space:nowrap;text-align:right}
+.preis-tabelle thead th:last-child{text-align:right}
+.klein-zeile{display:block;font-size:14px;color:var(--leise);font-weight:400}
+.rechner{display:grid;grid-template-columns:5fr 7fr;gap:clamp(24px,5vw,64px);background:#fff;border-radius:var(--r);padding:clamp(24px,4vw,48px)}
+.rechner .kreisicon{width:76px;height:76px;margin-bottom:20px}
+.rechner>div>p{color:var(--leise)}
+.rechner-form{display:grid;gap:18px}
+.rechner-form label{display:grid;gap:6px;font-weight:600;font-size:15px}
+.rechner-form input[type=number],.rechner-form select{font:inherit;font-weight:400;padding:12px 14px;border:1px solid var(--linie);border-radius:12px;background:var(--sand)}
+.rechner-form fieldset{border:0;padding:0;margin:0}
+.rechner-form legend{font-weight:600;font-size:15px;margin-bottom:8px}
+.wahlen{display:flex;flex-wrap:wrap;gap:8px}
+.fuell-wahl{background:#fff;display:inline-flex!important;align-items:center;gap:8px;padding:10px 14px;border:1px solid var(--linie);border-radius:999px;font-weight:500!important;cursor:pointer}
+.fuell-wahl:has(input:checked){background:var(--gelb-hell);border-color:var(--gelb)}
+.haken-zeile{display:flex!important;align-items:center;gap:10px;font-weight:500!important}
+.rechner-ergebnis{display:block;background:var(--gelb-hell);border-radius:16px;padding:18px 20px;font-size:15px}
+.rechner-ergebnis b{display:block;font-size:clamp(26px,4vw,34px);line-height:1.15;margin-top:4px}
+@media (max-width:900px){.rechner{grid-template-columns:1fr}}

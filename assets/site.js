@@ -73,4 +73,32 @@
         encodeURIComponent('Anfrage Entrümpelung – ' + (d.get('ort') || seite)) + '&body=' + encodeURIComponent(text);
     });
   }
+  // Kostenrechner (nur Richtwert)
+  var rb = document.querySelector('[data-rechner]');
+  if (rb) {
+    var cfg = JSON.parse(rb.getAttribute('data-rechner'));
+    var rf = rb.querySelector('form');
+    var out = rb.querySelector('.rechner-ergebnis');
+    var knopf = rb.querySelector('.rechner-knopf');
+    var euro = function (n) { return n.toLocaleString('de-DE') + ' €'; };
+    var rechne = function () {
+      var qm = Math.max(10, Math.min(400, Number(rf.qm.value) || 0));
+      var f = rf.querySelector('input[name="fuell"]:checked');
+      var satz = f ? Number(f.value) : cfg.fuell[1][1];
+      var et = Number(rf.etage.value) || 0;
+      var preis = qm * satz * (1 + et * cfg.etage_prozent / 100) + (rf.extra.checked ? cfg.extra_raum : 0);
+      preis = Math.max(cfg.minimum, preis);
+      var von = Math.max(cfg.minimum, Math.round(preis * (1 - cfg.spanne) / 10) * 10);
+      var bis = Math.round(preis * (1 + cfg.spanne) / 10) * 10;
+      out.innerHTML = '';
+      out.appendChild(document.createTextNode('Richtwert für ' + qm + ' m²:'));
+      var b = document.createElement('b'); b.textContent = 'ca. ' + euro(von) + ' – ' + euro(bis); out.appendChild(b);
+      var art = f ? f.parentNode.textContent.trim() : '';
+      var text = 'Moin Hinnerk,\n\nich möchte einen Festpreis für eine Entrümpelung.\nWohnfläche: ' + qm + ' m²\nFüllgrad: ' + art +
+        '\nStockwerk: ' + rf.etage.options[rf.etage.selectedIndex].text + (rf.extra.checked ? '\nKeller oder Dachboden kommt dazu' : '') +
+        '\nRichtwert laut Rechner: ' + euro(von) + ' – ' + euro(bis) + '\n\nStadtteil: \nWunschtermin: \nRückrufnummer: \n';
+      knopf.href = 'mailto:' + rb.getAttribute('data-mail') + '?subject=' + encodeURIComponent('Festpreis-Anfrage Entrümpelung') + '&body=' + encodeURIComponent(text);
+    };
+    rf.addEventListener('input', rechne); rf.addEventListener('change', rechne); rechne();
+  }
 })();
