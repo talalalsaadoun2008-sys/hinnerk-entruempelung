@@ -50,6 +50,10 @@ L_ICON = {"hausaufloesung-hamburg": "haus", "dachboden-entruempeln-hamburg": "da
 ALLE_ORTE_INDEXIEREN = True
 KERN_ORTE = ["Altona-Altstadt", "Altona-Nord", "Ottensen", "Bahrenfeld", "Sternschanze", "St. Pauli", "Eimsbüttel", "Eppendorf",
              "Winterhude", "Barmbek-Nord", "Wandsbek", "Rahlstedt", "Blankenese", "Harburg", "Bergedorf"]
+# Ab-Preis je Leistung (aus PREISE, siehe preise()). None = nur Link zum Rechner.
+L_PREIS = {"keller-entruempeln-hamburg": 290, "dachboden-entruempeln-hamburg": 290, "garage-entruempeln-hamburg": 290,
+           "wohnungsaufloesung-hamburg": 690, "haushaltsaufloesung-hamburg": 690, "nachlassaufloesung-hamburg": 690,
+           "hausaufloesung-hamburg": 2490, "messie-wohnung-raeumen-hamburg": 1890, "sperrmuell-abholen-hamburg": 129}
 ORT_FOTOS = ["hero", "wohnung", "kartons", "haushalt", "transporter", "speicher"]
 
 
@@ -233,9 +237,9 @@ def zwei_karten(items):
     return f'<section class="zwei" aria-label="Beliebte Leistungen">{k}</section>\n'
 
 
-def vorteile():
+def vorteile(ab_preis=False):
     v = [("auge", "Kostenlose Besichtigung", "Hinnerk sieht sich alles vor Ort an. Das kostet nichts und verpflichtet zu nichts."),
-         ("euro", "Fester Preis vorher", "Sie kennen den Preis, bevor jemand eine Kiste anfasst."),
+         ("euro", f"Ab {PREISE[0][2]} €, fester Preis" if ab_preis else "Fester Preis vorher", "Sie kennen den Preis, bevor jemand eine Kiste anfasst."),
          ("kreis", "Getrennt entsorgt", "Sperrmüll, Holz, Metall und Elektrogeräte gehen getrennt zu den Recyclinghöfen."),
          ("pin", "Ganz Hamburg", "In allen 99 Stadtteilen und 7 Bezirken unterwegs.")]
     k = "".join(f'<li data-auf style="--d:{i * 70}ms"><span class="kreisicon">{icon(ic, 46)}</span><h3>{E(t)}</h3><p>{E(p)}</p></li>' for i, (ic, t, p) in enumerate(v))
@@ -437,9 +441,10 @@ def krumen(items):
             {"@type": "BreadcrumbList", "itemListElement": ld})
 
 
-def seitenkasten(titel, knopf):
+def seitenkasten(titel, knopf, preis_ab=None):
+    preis = (f'<p class="kasten-preis">{"ab " + f"{preis_ab:,}".replace(",", ".") + " € · " if preis_ab else ""}<a href="preise.html#rechner">Preise &amp; Kostenrechner</a></p>')
     return f"""<aside class="kasten" aria-label="Kostenlose Besichtigung">
-<p class="kasten-titel">{E(titel)}</p>
+<p class="kasten-titel">{E(titel)}</p>{preis}
 <ul class="haken"><li>{HAKEN}Besichtigung kostenlos</li><li>{HAKEN}Festpreis vor Beginn</li><li>{HAKEN}Getrennte Entsorgung</li></ul>
 <a class="knopf breit" href="#anfrage">{E(knopf)}</a>
 <p class="klein">{('oder anrufen: ' + tel_link() + '<br>') if F['telefon'] else ''}oder per E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
@@ -451,7 +456,7 @@ def write(path, text):
 
 
 START_FAQ = [
-    {"q": "Was kostet eine Entrümpelung in Hamburg?", "a": "Das hängt davon ab, wie viel raus muss, in welchem Stockwerk und wie weit der Weg zum Wagen ist. Darum besichtigt Hinnerk kostenlos und nennt Ihnen danach einen festen Preis."},
+    {"q": "Was kostet eine Entrümpelung in Hamburg?", "a": "Das hängt davon ab, wie viel raus muss, in welchem Stockwerk und wie weit der Weg zum Wagen ist. Darum besichtigt Hinnerk kostenlos und nennt Ihnen danach einen festen Preis. Zur Orientierung: Keller ab 290 €, 1-Zimmer-Wohnung ab 690 €, Haus ab 2.490 € – alle Richtpreise und einen Kostenrechner finden Sie auf der Seite Preise."},
     {"q": "Muss ich bei der Räumung dabei sein?", "a": "Nein. Wichtig ist, dass vorher klar ist, was bleiben soll. Den Schlüssel können Sie uns übergeben."},
     {"q": "Wohin kommen die Sachen?", "a": "Sperrmüll, Holz, Metall, Elektrogeräte und andere Abfälle bringen wir getrennt zur Entsorgung, zum Beispiel zu den Recyclinghöfen der Stadtreinigung Hamburg."},
     {"q": "In welchen Stadtteilen ist Hinnerk unterwegs?", "a": "In allen 99 bewohnten Hamburger Stadtteilen. Jeder hat eine eigene Seite mit Infos vor Ort und einem Recyclinghof in der Nähe."},
@@ -504,7 +509,7 @@ def ratgeberseite(r):
 {secs}
 <p class="stand">Stand: {date.today().strftime('%m/%Y')}</p>
 {quellen}
-</article>{seitenkasten('Kostenlose Besichtigung', 'Besichtigung anfragen')}</div>
+</article>{seitenkasten('Kostenlose Besichtigung', 'Besichtigung anfragen', 290 if 'kost' in r['slug'] else None)}</div>
 </section>
 """
     page += kontakt_karte(r["frage"])
@@ -705,7 +710,7 @@ def startseite():
                  "Kostenlos besichtigen lassen", "#anfrage", "hero", eyebrow="Platz schaffen")
     page += zwei_karten([("nachlassaufloesung-hamburg.html", "nachlass", "Sorgfältig und mit Ruhe", "Nachlass auflösen"),
                          ("dachboden-entruempeln-hamburg.html", "speicher", "Endlich wieder Platz", "Dachboden & Speicher")])
-    page += vorteile()
+    page += vorteile(ab_preis=True)
     page += leistungs_reihe()
     page += auswahl()
     page += dinge()
@@ -730,7 +735,7 @@ def leistungsseite(l):
     page += held(E(l["name"]) + " in Hamburg", l["lead"], "Kostenlos besichtigen lassen", "#anfrage", bk, eyebrow="Hinnerk räumt", klein=True)
     secs = "".join(f'<h2>{E(s["h2"])}</h2>{s["html"]}' for s in l["sections"])
     page += f"""<section class="abschnitt" aria-label="{E(l['name'])}">
-<div class="lesen"><div class="text">{k}{secs}</div>{seitenkasten(l['name'] + ' in Hamburg', 'Kostenlos besichtigen lassen')}</div>
+<div class="lesen"><div class="text">{k}{secs}</div>{seitenkasten(l['name'] + ' in Hamburg', 'Kostenlos besichtigen lassen', L_PREIS.get(l['slug']))}</div>
 </section>
 """
     page += vorteile()
