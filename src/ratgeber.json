@@ -645,5 +645,54 @@
     "url": "https://www.ergo.de/de/rechtsportal/mietrecht/geruempel-des-vormieters"
    }
   ]
+ },
+ {
+  "slug": "container-oder-entruempelungsfirma",
+  "frage": "Container mieten oder Entrümpelungsfirma beauftragen?",
+  "kurz_titel": "Container oder Firma?",
+  "title": "Container mieten oder Entrümpler beauftragen? Vergleich | Hinnerk",
+  "description": "Container selbst befüllen oder eine Entrümpelungsfirma holen? Was Sie in Hamburg zu Stellplatz, Genehmigung, Elektrogeräten und Arbeit wissen sollten.",
+  "foto": "transporter",
+  "kurz": "Ein Container lohnt sich, wenn Sie selbst tragen können, Helfer haben und der Container auf dem eigenen Grundstück stehen kann. Steht er in Hamburg auf Gehweg oder Straße, brauchen Sie vorher eine Sondernutzungserlaubnis – sie kostet mindestens 35 Euro. Elektrogeräte, Batterien und Sondermüll dürfen nicht in den Container. Eine Entrümpelungsfirma trägt, sortiert und entsorgt alles in einem Schritt, kostet aber mehr als nur die Miete eines Containers.",
+  "abschnitte": [
+   {
+    "h2": "Wann ein Container passt",
+    "html": "<ul><li>Sie haben selbst Zeit und Kraft zum Tragen – oder Freunde, die mit anpacken.</li><li>Es ist vor allem gemischter Sperrmüll: Möbel, Holz, Kartons, Textilien.</li><li>Der Container kann auf dem eigenen Grundstück stehen, etwa in der Einfahrt oder auf dem Hof.</li><li>Der Weg vom Raum zum Container ist kurz, ohne viele Treppen.</li></ul><p>Für ein paar große Teile reicht oft schon die <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüllabholung der Stadtreinigung</a> oder eine Fahrt zum <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof</a>.</p>"
+   },
+   {
+    "h2": "Container auf der Straße: Genehmigung in Hamburg",
+    "html": "<p>Soll der Container auf dem Gehweg, auf einem Parkstreifen oder auf der Straße stehen, ist das eine Sondernutzung öffentlicher Wege nach <a href=\"https://www.hamburg.de/service/info/111079085/n0/\">§ 19 Hamburgisches Wegegesetz</a>. Dafür gilt laut Stadt Hamburg:</p><ul><li><b>Vorher beantragen:</b> Die Erlaubnis muss vorliegen, bevor der Container aufgestellt wird. Eine feste Bearbeitungszeit gibt es nicht – also früh beantragen.</li><li><b>Gebühr:</b> Jede Sondernutzung kostet Gebühren, mindestens 35 Euro. Wer ohne Erlaubnis aufstellt, zahlt mindestens 100 Euro mehr.</li><li><b>Unterlagen:</b> Ort, Dauer und genaue Maße (Länge × Breite), zum Beispiel mit einer kleinen Skizze.</li><li><b>Kein Anspruch:</b> Die Erlaubnis kann mit Auflagen erteilt oder abgelehnt werden. Je nach Ort kann zusätzlich eine verkehrsbehördliche Anordnung über das Polizeikommissariat nötig sein.</li></ul><p>Fragen Sie den Containerdienst, ob er den Antrag für Sie übernimmt.</p>"
+   },
+   {
+    "h2": "Was nicht in den Container darf",
+    "html": "<p>Elektrogeräte müssen getrennt vom übrigen Abfall entsorgt werden (<a href=\"https://www.gesetze-im-internet.de/elektrog_2015/__10.html\">§ 10 ElektroG</a>). Kühlschrank, Fernseher, Waschmaschine und Lampen gehören also nicht in einen Sperrmüll-Container – mehr dazu im Ratgeber <a href=\"elektrogeraete-entsorgen-hamburg.html\">Elektrogeräte entsorgen</a>. Das Gleiche gilt für Farben, Lacke, Batterien und Chemikalien: Sie sind <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll</a>.</p><p>Was erlaubt ist, legt der jeweilige Containerdienst fest. Fragen Sie vorher, ob Bauschutt, Matratzen oder Teppiche erlaubt sind. Falsch Befülltes kann zu Nachforderungen führen.</p>"
+   },
+   {
+    "h2": "Die Arbeit bleibt bei Ihnen",
+    "html": "<p>Mit einem Container mieten Sie nur den Behälter. Ausräumen, Möbel zerlegen, Treppen hoch und runter tragen, Wertvolles und Papiere aussortieren, Elektrogeräte und Sondermüll extra wegbringen und am Ende fegen – das bleibt alles bei Ihnen. Bei einer ganzen Wohnung sind das schnell mehrere Tage. Wie lange es dauern kann, steht im Ratgeber <a href=\"wie-lange-dauert-eine-entruempelung.html\">Wie lange dauert eine Entrümpelung?</a></p>"
+   },
+   {
+    "h2": "Wann eine Entrümpelungsfirma sinnvoll ist",
+    "html": "<ul><li>Eine ganze Wohnung, ein Haus oder ein voller <a href=\"keller-entruempeln-hamburg.html\">Keller</a> soll leer werden.</li><li>Es gibt viele Treppen, keinen Platz für einen Container oder wenig Zeit bis zur Übergabe.</li><li>Es ist viel gemischt: Möbel, Elektrogeräte, Hausrat, Papiere.</li><li>Sie wohnen nicht in Hamburg oder können nicht selbst tragen.</li></ul><p>Eine Firma kostet mehr als nur die Miete eines Containers, dafür sind Arbeit, Transport und getrennte Entsorgung enthalten. Richtpreise finden Sie auf der Seite <a href=\"preise.html\">Preise</a>.</p>"
+   },
+   {
+    "h2": "So hilft Hinnerk",
+    "html": "<p>Hinnerk kommt zur kostenlosen Besichtigung und nennt danach einen <b>festen Preis</b>. Wir tragen, sortieren und bringen alles getrennt zu den Recyclinghöfen der Stadtreinigung – auch Elektrogeräte. Sie brauchen keinen Container und keine Genehmigung. Wenn Sie nur einzelne Teile loswerden wollen, sagen wir Ihnen, ob die <a href=\"sperrmuell-abholen-hamburg.html\">Sperrmüll-Abholung</a> reicht.</p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "hamburg.de: Sondernutzung von öffentlichem Raum für Arbeits- und Baustellen beantragen",
+    "url": "https://www.hamburg.de/service/info/111079085/n0/"
+   },
+   {
+    "titel": "hamburg.de: Merkblatt Sondernutzung (PDF)",
+    "url": "https://www.hamburg.de/resource/blob/76694/27be0a4bf862276b10f49b9ebf5155e5/merkblatt-sondernutzung-data.pdf"
+   },
+   {
+    "titel": "Gesetze im Internet: § 10 ElektroG – Getrennte Erfassung",
+    "url": "https://www.gesetze-im-internet.de/elektrog_2015/__10.html"
+   }
+  ]
  }
 ]
