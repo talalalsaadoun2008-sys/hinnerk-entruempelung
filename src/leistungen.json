@@ -187,7 +187,7 @@
   "slug": "bueroaufloesung-hamburg",
   "name": "Büroauflösung",
   "title": "Büroauflösung Hamburg ✓ Kostenlose Besichtigung ✓ Festpreis | Hinnerk",
-  "description": "Büroauflösung und Firmenauflösung in Hamburg: Büro, Laden oder Lager leer räumen. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Entsorgung. Hinnerk – Entrümpelung Hamburg.",
+  "description": "Büroauflösung in Hamburg: Büro, Praxis oder Agentur leer räumen – kostenlose Besichtigung, fester Preis. Plus: Aufbewahrungsfristen, Akten richtig vernichten, Checkliste.",
   "h1": "Büroauflösung in Hamburg",
   "lead": "Büro, Praxis, Laden oder Lager müssen leer werden? Hinnerk räumt Gewerbeflächen zum festen Preis – damit Sie pünktlich übergeben können.",
   "sections": [
@@ -196,12 +196,28 @@
     "html": "<p>Ein Mietvertrag endet, die Firma zieht um, wird verkleinert oder aufgegeben. Dann müssen Schreibtische, Schränke, Regale, Technik und Lagerbestände raus – oft bis zu einem festen Übergabetermin.</p>"
    },
    {
-    "h2": "Akten und Daten",
-    "html": "<p>Akten mit persönlichen Daten dürfen nicht einfach im Container landen. Klären Sie vorher, welche Unterlagen Sie aufbewahren müssen und wie der Rest datenschutzgerecht vernichtet werden soll. Datenträger wie Festplatten nehmen Sie am besten vorher an sich.</p>"
+    "h2": "Was kostet eine Büroauflösung in Hamburg?",
+    "html": "<p>Für Büros gibt es keinen Pauschalpreis, weil kein Büro wie das andere ist. Den Preis bestimmen vor allem die Menge an Möbeln und Technik, das Stockwerk und ob es einen Aufzug gibt, der Weg bis zum Wagen und Dinge, die getrennt entsorgt werden müssen, zum Beispiel Elektrogeräte. Bei Hinnerk sehen wir uns das Büro kostenlos an und nennen dann einen <b>festen Preis</b>, der sich danach nicht mehr ändert. Eine erste Orientierung geben die <a href=\"preise.html\">Richtpreise und der Kostenrechner</a>.</p>"
+   },
+   {
+    "h2": "Was muss aufbewahrt werden – und was darf weg?",
+    "html": "<p>Bevor Aktenschränke geleert werden, sollte klar sein, was Sie noch aufbewahren müssen. Seit 2025 gelten verkürzte Fristen (Quelle: <a href=\"https://www.ihk.de/karlsruhe/fachthemen/steuerrecht/aktuelles/neuer-inhalt4-buerokratieentlastungsgesetz-6347138\">IHK Karlsruhe zum Bürokratieentlastungsgesetz IV</a>):</p><ul><li><b>8 Jahre:</b> Buchungsbelege, zum Beispiel Rechnungen und Kontoauszüge (vorher 10 Jahre).</li><li><b>10 Jahre:</b> Bücher, Jahresabschlüsse und Inventare.</li><li><b>6 Jahre:</b> empfangene und versendete Handels- und Geschäftsbriefe.</li></ul><p>Die Frist beginnt jeweils mit dem Ende des Kalenderjahres, in dem das Dokument entstanden ist. Für einzelne Branchen gelten andere Fristen. Klären Sie im Zweifel mit Ihrer Steuerberatung, was wegdarf. Unterlagen, die Sie behalten, packen Sie am besten vorher selbst in beschriftete Kartons – die lassen wir beim Räumen stehen.</p>"
+   },
+   {
+    "h2": "Akten datenschutzgerecht vernichten",
+    "html": "<p>Akten mit Namen, Adressen oder Kundendaten gehören nicht ins Altpapier und nicht in den Container. Für die Vernichtung gibt es die Norm DIN 66399: Für personenbezogene Daten gilt mindestens Sicherheitsstufe 3, bei besonders sensiblen Daten wie Patientendaten eine höhere Schutzklasse (<a href=\"https://www.aktenvernichtung.de/infocenter/din-66399/\">Erklärung der Sicherheitsstufen</a>). Zwei Wege:</p><ul><li><b>Aktenvernichtung durch einen Fachbetrieb</b>, der Ihnen die Vernichtung schriftlich bestätigt – sinnvoll bei großen Mengen.</li><li><b>Recyclinghof der Stadtreinigung:</b> Laut <a href=\"https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf\">Preisliste 2026</a> werden Akten gegen Gebühr angenommen (12 € je angefangene 100 Liter, höchstens 500 Liter).</li></ul><p>Festplatten, USB-Sticks und alte Handys nehmen Sie am besten vorher an sich oder lassen die Daten sicher löschen. Sprechen Sie das Thema bei der Besichtigung an, dann planen wir die Akten gesondert ein.</p>"
+   },
+   {
+    "h2": "Checkliste vor der Büroauflösung",
+    "html": "<ol><li><b>Übergabetermin klären:</b> Wann müssen die Räume leer sein, und in welchem Zustand?</li><li><b>Geleaste und gemietete Geräte</b> wie Kopierer, Drucker oder Kaffeemaschinen beim Anbieter zurückmelden – die gehören nicht in die Räumung.</li><li><b>Unterlagen sortieren:</b> aufbewahren, vernichten, wegwerfen (siehe oben).</li><li><b>Datenträger sichern</b> und Zugänge, Router und Telefone abmelden.</li><li><b>Brauchbare Möbel</b> verkaufen, an Mitarbeitende abgeben oder spenden – Adressen im Ratgeber <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</li><li><b>Hinnerk zur kostenlosen Besichtigung</b> holen: Wir räumen den Rest, auch Keller- und Lagerräume der Firma.</li><li><b>Schlüssel und Übergabeprotokoll:</b> Bei der Rückgabe die Zählerstände notieren.</li></ol>"
    },
    {
     "h2": "Ablauf",
-    "html": "<p>Bei der kostenlosen Besichtigung sehen wir uns Flächen, Zugänge und Aufzüge an. Danach bekommen Sie einen festen Preis und einen Termin, der zu Ihrer Übergabe passt. Welchen Zustand der Vermieter bei der Rückgabe verlangt, steht in Ihrem Mietvertrag – sagen Sie uns das vorher.</p>"
+    "html": "<p>Bei der kostenlosen Besichtigung sehen wir uns Flächen, Zugänge und Aufzüge an. Danach bekommen Sie einen festen Preis und einen Termin, der zu Ihrer Übergabe passt. Elektrogeräte bringen wir getrennt zur Entsorgung.</p>"
+   },
+   {
+    "h2": "Rückgabe an den Vermieter",
+    "html": "<p>Auch bei Gewerberäumen müssen Sie die Mietsache am Ende zurückgeben (<a href=\"https://www.gesetze-im-internet.de/bgb/__546.html\">§ 546 BGB</a>, für Geschäftsräume über <a href=\"https://www.gesetze-im-internet.de/bgb/__578.html\">§ 578 BGB</a>). Welcher Zustand genau verlangt ist – leer, besenrein oder mit Rückbau von Einbauten – steht in Ihrem Mietvertrag. Sagen Sie uns das vorher, dann planen wir es ein. Was „besenrein“ bedeutet, erklärt der Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">besenrein übergeben</a>.</p>"
    },
    {
     "h2": "Laden, Lager oder Werkstatt?",
@@ -209,6 +225,14 @@
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet eine Büroauflösung in Hamburg?",
+    "a": "Das hängt von Menge, Stockwerk, Aufzug und Wegen ab. Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis, der sich nicht mehr ändert."
+   },
+   {
+    "q": "Wie lange muss ich Geschäftsunterlagen aufbewahren?",
+    "a": "Seit 2025 meist 8 Jahre für Buchungsbelege, 10 Jahre für Bücher und Jahresabschlüsse, 6 Jahre für Geschäftsbriefe. Im Zweifel fragen Sie Ihre Steuerberatung."
+   },
    {
     "q": "Könnt ihr auch nach Feierabend oder am Wochenende räumen?",
     "a": "Sagen Sie uns Ihren Wunsch in der Anfrage. Wir besprechen den Termin bei der Besichtigung."
