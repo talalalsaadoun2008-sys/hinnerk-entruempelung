@@ -146,32 +146,64 @@
   "slug": "wohnung-nach-todesfall-aufloesen",
   "frage": "Wer muss die Wohnung nach einem Todesfall räumen?",
   "kurz_titel": "Wohnung nach Todesfall",
-  "title": "Wohnung nach Todesfall räumen: Wer zahlt, welche Fristen? | Hinnerk",
-  "description": "Ein Angehöriger ist gestorben und die Mietwohnung muss geräumt werden? Wer zuständig ist, welche Kündigungsfristen gelten und wie die Räumung in Hamburg abläuft.",
+  "title": "Wohnungsauflösung nach Todesfall: Wer räumt, wer zahlt? | Hinnerk",
+  "description": "Ein Angehöriger ist gestorben und die Mietwohnung muss geräumt werden? Wer zuständig ist, wer die Räumung bezahlt, welche Fristen gelten, was mit der Kaution passiert – und was das in Hamburg kostet.",
   "foto": "nachlass",
   "kurz": "Stirbt ein Mieter, geht der Mietvertrag in der Regel auf die Erben über – und damit auch die Pflicht, die Wohnung zu räumen und die Miete bis zum Ende des Mietverhältnisses zu zahlen. Erben und Vermieter können innerhalb eines Monats, nachdem sie vom Tod erfahren haben, mit einer Frist von drei Monaten kündigen. Wer das Erbe ausschlägt, muss nicht räumen.",
   "abschnitte": [
    {
     "h2": "Wer ist zuständig?",
-    "html": "<ul><li><b>Mitbewohnende Angehörige:</b> Lebten Ehepartner, Lebenspartner oder Familienangehörige mit in der Wohnung, treten sie grundsätzlich in den Mietvertrag ein – außer sie widersprechen innerhalb eines Monats.</li><li><b>Erben:</b> Lebte der Verstorbene allein, geht der Mietvertrag auf die Erben über. Sie übernehmen Rechte und Pflichten, also auch Miete und Räumung.</li><li><b>Niemand will erben:</b> Wer das Erbe ausschlägt, muss die Wohnung nicht räumen. Gibt es keine Erben, bleibt die Räumung am Ende beim Vermieter.</li></ul>"
+    "html": "<ul><li><b>Mitbewohnende Angehörige:</b> Lebten Ehepartner, Lebenspartner oder Familienangehörige mit in der Wohnung, treten sie grundsätzlich in den Mietvertrag ein – außer sie widersprechen innerhalb eines Monats.</li><li><b>Erben:</b> Lebte der Verstorbene allein, geht der Mietvertrag auf die Erben über. Sie übernehmen Rechte und Pflichten, also auch Miete und Räumung.</li><li><b>Niemand will erben:</b> Wer das Erbe ausschlägt, muss die Wohnung nicht räumen. Gibt es keine Erben, bleibt die Räumung am Ende beim Vermieter.</li></ul><p>Der Vermieter darf die Wohnung nicht einfach selbst ausräumen. Solange die Erben nicht feststehen, kann er beim Nachlassgericht einen Nachlasspfleger beantragen. Mehr dazu im Ratgeber <a href=\"erbe-ausgeschlagen-wer-raeumt-wohnung.html\">Erbe ausgeschlagen – wer räumt die Wohnung?</a></p>"
    },
    {
     "h2": "Welche Fristen gelten?",
-    "html": "<p>Erben und Vermieter haben ein Sonderkündigungsrecht: Sie können innerhalb eines Monats, nachdem sie vom Tod erfahren haben, mit einer Frist von drei Monaten kündigen. Die Kündigung muss schriftlich sein. Gibt es mehrere Erben, sollten alle unterschreiben. Bis das Mietverhältnis endet, läuft die Miete weiter.</p><p>Für die Frage, ob man das Erbe annimmt oder ausschlägt, gibt es ebenfalls Fristen. Lassen Sie sich im Zweifel von einem Anwalt, Notar oder Mieterverein beraten – das hier ist keine Rechtsberatung.</p>"
+    "html": "<p>Erben und Vermieter haben ein Sonderkündigungsrecht nach <a href=\"https://www.gesetze-im-internet.de/bgb/__564.html\">§ 564 BGB</a>: Sie können innerhalb eines Monats, nachdem sie vom Tod erfahren haben, mit der gesetzlichen Frist von rund drei Monaten kündigen. Die Kündigung muss schriftlich sein. Gibt es mehrere Erben, sollten alle unterschreiben. Bis das Mietverhältnis endet, läuft die Miete weiter.</p><p><b>Ein Beispiel:</b> Geht die Kündigung spätestens am dritten Werktag im November beim Vermieter ein, endet der Mietvertrag am 31. Januar (<a href=\"https://www.gesetze-im-internet.de/bgb/__573d.html\">§ 573d BGB</a>). Bis dahin muss die Wohnung geräumt übergeben sein.</p><p>Für die Frage, ob man das Erbe annimmt oder ausschlägt, gilt eine eigene Frist von sechs Wochen. Lassen Sie sich im Zweifel von einem Anwalt, Notar oder Mieterverein beraten – das hier ist keine Rechtsberatung.</p>"
+   },
+   {
+    "h2": "Wer bezahlt die Räumung?",
+    "html": "<ul><li><b>Die Erben, aus dem Nachlass:</b> Räumungskosten, offene Miete und andere Schulden des Verstorbenen gehören zu den Nachlassverbindlichkeiten. Dafür haften die Erben (<a href=\"https://www.gesetze-im-internet.de/bgb/__1967.html\">§ 1967 BGB</a>).</li><li><b>Wer beauftragt, zahlt erst einmal:</b> Wer selbst eine Firma bestellt, ist deren Vertragspartner – auch wenn er am Ende gar nicht erbt.</li><li><b>Mehr Schulden als Vermögen?</b> Dann kommt eine Ausschlagung in Frage, oder die Haftung wird auf den Nachlass beschränkt. Räumen oder verkaufen Sie vorher nichts, das kann als Annahme des Erbes gelten. Lassen Sie sich dazu beraten.</li></ul><p>Für die Erbschaftsteuer können Erben für Bestattung und Abwicklung pauschal 15.000 € abziehen, ohne einzelne Belege (Erbfälle ab 2025). Ob Räumungskosten in Ihrem Fall extra zählen, klärt ein Steuerberater.</p>"
+   },
+   {
+    "h2": "Was kostet die Räumung in Hamburg?",
+    "html": "<p>Das hängt vor allem von der Größe der Wohnung und davon ab, wie voll sie ist. Richtpreise bei Hinnerk:</p><ul><li>1-Zimmer-Wohnung: ab 690 €</li><li>2-Zimmer-Wohnung: ab 890 €</li><li>3-Zimmer-Wohnung: ab 1.290 €</li><li>Haus: ab 2.490 €</li></ul><p>Den festen Preis nennen wir nach der kostenlosen Besichtigung. Eine erste Schätzung bekommen Sie mit dem <a href=\"preise.html#rechner\">Kostenrechner</a>. Gut erhaltene Möbel lassen sich oft spenden – mehr unter <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</p>"
+   },
+   {
+    "h2": "Was passiert mit der Kaution?",
+    "html": "<p>Wird der Mietvertrag nicht von Angehörigen übernommen, steht die Kaution den Erben zu. Der Vermieter darf aber zuerst offene Forderungen verrechnen, etwa Mietrückstände oder eine Nachzahlung aus der Nebenkostenabrechnung. Ein Guthaben aus der Nebenkostenabrechnung bekommen ebenfalls die Erben.</p>"
    },
    {
     "h2": "Was vor der Räumung wichtig ist",
-    "html": "<ul><li>Wichtige Unterlagen sichern: Testament, Versicherungen, Kontoauszüge, Verträge, Ausweise.</li><li>Mit den anderen Erben klären, was behalten wird.</li><li>Den Übergabetermin mit dem Vermieter abstimmen.</li><li>Zähler ablesen und Verträge wie Strom, Telefon und Rundfunkbeitrag kündigen.</li></ul>"
+    "html": "<ul><li>Erst klären, ob Sie das Erbe annehmen wollen – vorher nichts verkaufen oder wegwerfen.</li><li>Wichtige Unterlagen sichern: Testament, Versicherungen, Kontoauszüge, Verträge, Ausweise.</li><li>Mit den anderen Erben klären, was behalten wird.</li><li>Den Übergabetermin mit dem Vermieter abstimmen.</li><li>Zähler ablesen und Verträge wie Strom, Telefon und Rundfunkbeitrag kündigen.</li><li>Einen Nachsendeauftrag für die Post einrichten, damit keine Rechnung verloren geht.</li></ul>"
    },
    {
     "h2": "So hilft Hinnerk",
-    "html": "<p>Hinnerk besichtigt die Wohnung kostenlos, auch gemeinsam mit Ihnen oder anderen Angehörigen. Sie bekommen einen festen Preis. Bei der Räumung legen wir Papiere, Fotos und Dinge, die wichtig aussehen, für Sie zur Seite. Den Schlüssel können Sie uns übergeben, wenn Sie nicht dabei sein können. Mehr dazu: <a href=\"nachlassaufloesung-hamburg.html\">Nachlassauflösung in Hamburg</a>.</p>"
+    "html": "<p>Hinnerk besichtigt die Wohnung kostenlos, auch gemeinsam mit Ihnen oder anderen Angehörigen. Sie bekommen einen festen Preis, den alle Erben vorher kennen. Bei der Räumung legen wir Papiere, Fotos und Dinge, die wichtig aussehen, für Sie zur Seite. Den Schlüssel können Sie uns übergeben, wenn Sie nicht dabei sein können. Mehr dazu: <a href=\"nachlassaufloesung-hamburg.html\">Nachlassauflösung in Hamburg</a>.</p>"
    }
   ],
   "quellen": [
    {
     "titel": "Berliner Mieterverein: Tod des Mieters",
     "url": "https://www.berliner-mieterverein.de/?p=13366"
+   },
+   {
+    "titel": "§ 564 BGB – Fortsetzung mit dem Erben, außerordentliche Kündigung",
+    "url": "https://www.gesetze-im-internet.de/bgb/__564.html"
+   },
+   {
+    "titel": "§ 573d BGB – gesetzliche Frist",
+    "url": "https://www.gesetze-im-internet.de/bgb/__573d.html"
+   },
+   {
+    "titel": "§ 1967 BGB – Haftung des Erben für Nachlassverbindlichkeiten",
+    "url": "https://www.gesetze-im-internet.de/bgb/__1967.html"
+   },
+   {
+    "titel": "MTH Partner: Mietrechtliche Auswirkungen des Todes des Mieters",
+    "url": "https://www.mth-partner.de/mietrecht-mietrechtliche-auswirkungen-des-todes-des-mieters/"
+   },
+   {
+    "titel": "Rose & Partner: Kosten bei der Erbschaftsteuer absetzen (08/2026)",
+    "url": "https://www.rosepartner.de/blog/kosten-bei-der-erbschaftsteuer-absetzen.html"
    }
   ]
  },
