@@ -431,6 +431,8 @@ def handy_leiste():
 
 def krumen(items):
     lis, ld = [], []
+    # Erste Brotkrume heißt überall „Entrümpelung Hamburg“ statt „Startseite“ (sprechender Link zur Startseite)
+    items = [("Entrümpelung Hamburg", u) if (n == "Startseite" and u == "./") else (n, u) for n, u in items]
     for i, (name, url) in enumerate(items, 1):
         lis.append(f'<li><a href="{url}">{E(name)}</a></li>' if url else f'<li aria-current="page">{E(name)}</li>')
         it = {"@type": "ListItem", "position": i, "name": name}
@@ -507,6 +509,7 @@ def ratgeberseite(r):
 <p class="autor">Von <a href="ueber-hinnerk.html">{E(F['inhaber'])}</a>, Inhaber von Hinnerk · Stand {date.today().strftime('%m/%Y')}</p>
 <div class="antwort"><p class="eyebrow">Kurz gesagt</p><p>{E(text_kurz)}</p><p class="antwort-cta"><a href="#anfrage">Kostenlose Besichtigung anfragen</a>{(' · ' + tel_link()) if F['telefon'] else ''} · <a href="mailto:{F['email']}">{F['email']}</a></p></div>
 {secs}
+<p class="hinweis-start">Sie möchten das nicht selbst erledigen? Hinnerk übernimmt die <a href="./">Entrümpelung in Hamburg</a>: kostenlose Besichtigung, danach ein fester Preis.</p>
 <p class="stand">Stand: {date.today().strftime('%m/%Y')}</p>
 {quellen}
 </article>{seitenkasten('Kostenlose Besichtigung', 'Besichtigung anfragen', 290 if 'kost' in r['slug'] else None)}</div>

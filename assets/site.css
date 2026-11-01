@@ -305,6 +305,7 @@ main{display:block}
 /* Ratgeber */
 .antwort{background:#fff;border-left:5px solid var(--gelb);border-radius:var(--r-klein);padding:22px 24px;margin:0 0 40px}
 .antwort p:last-child{margin:0;font-size:1.12rem;line-height:1.6;color:var(--blau)}
+.hinweis-start{margin-top:28px;font-weight:500}
 .stand{font-size:14px;color:var(--leise);margin-top:36px}
 .weitere{display:grid;grid-template-columns:4fr 8fr;gap:clamp(32px,6vw,80px)}
 .frageliste{list-style:none;margin:0;padding:0;border-top:1px solid var(--linie)}
