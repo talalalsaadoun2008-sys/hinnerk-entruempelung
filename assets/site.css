@@ -353,6 +353,7 @@ a.kontakt-zeile:hover{box-shadow:0 0 0 2px var(--blau)}
 .preis-tabelle{margin:20px 0 8px;border:1px solid var(--linie)}
 .preis-tabelle td{font-weight:600;white-space:nowrap;text-align:right}
 .preis-tabelle thead th:last-child{text-align:right}
+.preis-tabelle thead th:first-child{text-align:left}
 .klein-zeile{display:block;font-size:14px;color:var(--leise);font-weight:400}
 .rechner{display:grid;grid-template-columns:5fr 7fr;gap:clamp(24px,5vw,64px);background:#fff;border-radius:var(--r);padding:clamp(24px,4vw,48px)}
 .rechner .kreisicon{width:76px;height:76px;margin-bottom:20px}

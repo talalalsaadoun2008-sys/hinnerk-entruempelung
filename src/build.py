@@ -311,6 +311,16 @@ VERGLEICH = ["Kein Transporter mieten", "Kein Schleppen durchs Treppenhaus", "Ke
              "Kosten vorher klar", "Ein Termin, dann ist es leer"]
 
 
+def start_preise():
+    zeilen = "".join(f'<tr><th scope="row">{E(n)}<span class="klein-zeile">{E(z)}</span></th><td>ab {f"{p:,}".replace(",", ".")} €</td></tr>' for n, z, p in PREISE[:6])
+    return f"""<section class="abschnitt vergleich" aria-labelledby="pr-h">
+<div class="vgl-kopf"><h2 id="pr-h" data-auf>Was kostet eine Entrümpelung in Hamburg?</h2><p data-auf>Richtpreise inklusive Arbeit, Transport und Entsorgung. Den festen Preis nennen wir nach der kostenlosen Besichtigung.</p>
+<a class="knopf" href="preise.html#rechner">Preis berechnen</a></div>
+<div class="tabelle preis-tabelle" data-auf><table><thead><tr><th scope="col">Was</th><th scope="col">Preis</th></tr></thead><tbody>{zeilen}</tbody></table></div>
+</section>
+"""
+
+
 def vergleich():
     rows = "".join(f'<tr><th scope="row">{E(r)}</th><td class="wir">{HAKEN}<span class="sr">Ja</span></td><td>{KREUZ}<span class="sr">Nein</span></td></tr>' for r in VERGLEICH)
     return f"""<section class="abschnitt vergleich" aria-labelledby="vgl-h">
@@ -705,7 +715,7 @@ def start_ratgeber():
 
 
 def startseite():
-    t = "Entrümpelung Hamburg ✓ Haushaltsauflösung ✓ Festpreis | Hinnerk"
+    t = f"Entrümpelung Hamburg ✓ Haushaltsauflösung ✓ ab {PREISE[0][2]} € | Hinnerk"
     d = "Entrümpelung in Hamburg: Wohnung, Haus, Keller, Nachlass, Messie-Wohnung, Büro. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ In allen 99 Stadtteilen. Hinnerk aus Altona."
     page = head(t, d, "index.html", [faq_schema(START_FAQ), {"@type": "WebSite", "url": BASE, "name": "Hinnerk – Entrümpelung Hamburg", "inLanguage": "de"}], preload="hero")
     page += bar()
@@ -715,6 +725,7 @@ def startseite():
                          ("dachboden-entruempeln-hamburg.html", "speicher", "Endlich wieder Platz", "Dachboden & Speicher")])
     page += vorteile(ab_preis=True)
     page += leistungs_reihe()
+    page += start_preise()
     page += auswahl()
     page += dinge()
     page += ablauf("In fünf Schritten leer", "Vom ersten Satz bis zum leeren Raum. Den Preis kennen Sie, bevor jemand eine Kiste anfasst.")
