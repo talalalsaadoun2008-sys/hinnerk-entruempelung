@@ -298,8 +298,8 @@
  {
   "slug": "dachboden-entruempeln-hamburg",
   "name": "Dachboden entrümpeln",
-  "title": "Dachboden entrümpeln Hamburg ✓ Speicher räumen ✓ Festpreis | Hinnerk",
-  "description": "Dachboden oder Speicher entrümpeln in Hamburg – auch über steile Treppen und Bodenluken. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Getrennte Entsorgung.",
+  "title": "Dachboden entrümpeln Hamburg ✓ ab 290 € ✓ Festpreis | Hinnerk",
+  "description": "Dachboden oder Speicher entrümpeln in Hamburg – auch über steile Treppen und Bodenluken. Ab 290 €, kostenlose Besichtigung, fester Preis. Plus: Tipps, wenn Sie selbst räumen.",
   "h1": "Dachboden entrümpeln in Hamburg",
   "lead": "Der Dachboden ist voll und keiner will die steile Treppe hoch? Hinnerk räumt Dachboden und Speicher und bringt alles getrennt zur Entsorgung.",
   "sections": [
@@ -312,11 +312,27 @@
     "html": "<p>Dachböden sind oft nur über eine Bodentreppe oder eine schmale Luke erreichbar. Große Teile müssen manchmal zerlegt werden. Das sehen wir bei der kostenlosen Besichtigung und planen es in den festen Preis ein. Im Sommer kann es unter dem Dach sehr heiß werden – auch das berücksichtigen wir bei der Terminplanung.</p>"
    },
    {
+    "h2": "Was kostet es, den Dachboden entrümpeln zu lassen?",
+    "html": "<p>Bei Hinnerk kostet ein Dachboden bis ca. 10 m² <b>ab 290 €</b>. Wie viel es genau wird, hängt davon ab, wie voll der Boden ist, wie eng der Zugang ist und wie viele Etagen wir tragen müssen. Den festen Preis nennen wir nach der kostenlosen Besichtigung. Eine erste Schätzung gibt Ihnen der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p><p>Liegt dort nur Sperrmüll, gibt es eine günstige Alternative: Die Stadtreinigung Hamburg holt Sperrmüll auf Bestellung auch aus dem Dachboden ab. Preise und Regeln stehen im Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
+   },
+   {
+    "h2": "Selbst entrümpeln: so gehen Sie vor",
+    "html": "<ol><li><b>Sicherer Zugang:</b> Prüfen Sie Bodentreppe oder Leiter und sorgen Sie für gutes Licht.</li><li><b>Schutz:</b> Unter dem Dach ist es oft staubig. Handschuhe und eine Staubmaske helfen.</li><li><b>Sortieren:</b> Drei Stapel bilden – behalten, verschenken oder spenden, entsorgen.</li><li><b>Klein packen:</b> Durch enge Luken passen nur handliche Kartons. Große Möbel vorher zerlegen.</li><li><b>Richtig entsorgen:</b> Möbel als <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll</a>, alte Geräte als <a href=\"elektrogeraete-entsorgen-hamburg.html\">Elektroschrott</a>, Farben und Lacke als <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll</a>. Vieles nimmt auch der <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof</a>.</li></ol>"
+   },
+   {
+    "h2": "Bodenabteil in der Mietwohnung",
+    "html": "<p>Gehört ein Bodenabteil zu Ihrer Mietwohnung, müssen Sie es beim Auszug ebenfalls geräumt zurückgeben (<a href=\"https://www.gesetze-im-internet.de/bgb/__546.html\">§ 546 BGB</a>). Was bei der Übergabe sonst zählt, steht im Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">Wohnung besenrein übergeben</a>.</p>"
+   },
+   {
     "h2": "Vorher kurz prüfen",
     "html": "<p>Auf Dachböden liegen manchmal alte Unterlagen, Fotos oder Erbstücke. Schauen Sie vorher durch, was Ihnen wichtig ist. Was wir beim Räumen finden und wichtig aussieht, legen wir zur Seite. Mehr Platz im Keller? <a href=\"keller-entruempeln-hamburg.html\">Keller entrümpeln</a>.</p>"
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet es, einen Dachboden entrümpeln zu lassen?",
+    "a": "Bei Hinnerk ab 290 € für einen Dachboden bis ca. 10 m². Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
    {
     "q": "Räumt ihr auch Dachböden ohne feste Treppe?",
     "a": "Ja, wenn der Zugang sicher ist. Wir sehen uns die Luke oder Bodentreppe bei der Besichtigung an und planen die Räumung danach."
