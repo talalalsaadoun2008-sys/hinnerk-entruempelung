@@ -78,8 +78,8 @@
  {
   "slug": "keller-entruempeln-hamburg",
   "name": "Keller entrümpeln",
-  "title": "Keller entrümpeln Hamburg ✓ Kostenlose Besichtigung ✓ Festpreis | Hinnerk",
-  "description": "Keller entrümpeln in Hamburg: Kellerabteil oder ganzer Keller. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Wir tragen und entsorgen getrennt. Hinnerk – Entrümpelung Hamburg.",
+  "title": "Keller entrümpeln Hamburg ✓ ab 290 € ✓ Festpreis | Hinnerk",
+  "description": "Keller entrümpeln in Hamburg: Kellerabteil oder ganzer Keller, ab 290 €. Kostenlose Besichtigung, fester Preis, getrennte Entsorgung. Plus: Wohin mit Farbe, Reifen und Fahrrädern.",
   "h1": "Keller entrümpeln in Hamburg",
   "lead": "Nicht der ganze Haushalt, nur der Keller ist voll? Hinnerk räumt Kellerabteil oder ganzen Keller – und Sie haben wieder Platz.",
   "sections": [
@@ -92,11 +92,27 @@
     "html": "<p>Keller sind oft nur über schmale Gänge und steile Treppen erreichbar. Das sehen wir bei der Besichtigung und planen es mit ein. Farben, Lacke oder Chemikalien sind Sonderabfall und werden getrennt entsorgt – sagen Sie uns vorher, wenn so etwas dabei ist.</p>"
    },
    {
+    "h2": "Was kostet es, den Keller entrümpeln zu lassen?",
+    "html": "<p>Ein Kellerabteil bis ca. 10 m² räumt Hinnerk <b>ab 290 €</b>. Wie viel es genau wird, hängt davon ab, wie voll der Keller ist, wie lang der Weg vom Keller bis zum Wagen ist und wie viele Stufen dazwischen liegen. Den festen Preis nennen wir nach der kostenlosen Besichtigung. Alle Richtpreise stehen auf der Seite <a href=\"preise.html\">Preise</a>.</p><p>Steht im Keller nur Sperrmüll, gibt es eine günstige Alternative: Die Stadtreinigung Hamburg holt Sperrmüll auf Bestellung auch aus dem Keller. Wie das geht, steht im Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
+   },
+   {
+    "h2": "Was oft im Keller steht – und wohin damit",
+    "html": "<ul><li><b>Alte Möbel, Regale, Kisten:</b> Sperrmüll oder, wenn gut erhalten, spenden – siehe <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</li><li><b>Farbreste, Lacke, Chemikalien:</b> Sondermüll, nicht in den Hausmüll – siehe <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll entsorgen</a>.</li><li><b>Alte Geräte:</b> Elektroschrott nimmt der Recyclinghof in haushaltsüblicher Menge kostenlos an – siehe <a href=\"elektrogeraete-entsorgen-hamburg.html\">Elektrogeräte entsorgen</a>.</li><li><b>Batterien:</b> in die Sammelbox im Supermarkt oder Drogeriemarkt.</li><li><b>Autoreifen:</b> Der Recyclinghof nimmt sie gegen Gebühr an, laut <a href=\"https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf\">Preisliste 2026</a> 7 € pro Pkw-Reifen, höchstens 5 Stück.</li></ul><p>Bei einer Entrümpelung durch Hinnerk müssen Sie nichts davon selbst sortieren. Sagen Sie uns nur vorher, wenn Farben oder Chemikalien dabei sind.</p>"
+   },
+   {
+    "h2": "Kellerabteil beim Auszug",
+    "html": "<p>Gehört ein Kellerabteil zu Ihrer Mietwohnung, müssen Sie es beim Auszug ebenfalls geräumt zurückgeben (<a href=\"https://www.gesetze-im-internet.de/bgb/__546.html\">§ 546 BGB</a>). Was bei der Übergabe sonst zählt, steht im Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">Wohnung besenrein übergeben</a>.</p>"
+   },
+   {
     "h2": "Dachboden oder Garage auch?",
     "html": "<p>Dafür gibt es eigene Seiten: <a href=\"dachboden-entruempeln-hamburg.html\">Dachboden entrümpeln</a> und <a href=\"garage-entruempeln-hamburg.html\">Garage entrümpeln</a>. Soll später doch die ganze Wohnung geräumt werden, finden Sie alles zur <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a>.</p>"
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet es, einen Keller entrümpeln zu lassen?",
+    "a": "Bei Hinnerk ab 290 € für ein Kellerabteil bis ca. 10 m². Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
    {
     "q": "Lohnt sich das auch für einen kleinen Keller?",
     "a": "Ja. Wir schauen uns den Raum an und nennen Ihnen einen festen Preis. Sie entscheiden danach."
