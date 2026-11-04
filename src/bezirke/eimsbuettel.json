@@ -88,7 +88,7 @@
     "a": "Oft ist sie sinnvoll, weil die Straßen dort eng zugeparkt sind. Den Antrag stellen Sie mindestens 14 Tage vorher bei der Stelle, die für Ihre Adresse zuständig ist. Bei der Besichtigung schauen wir uns die Lage vor dem Haus gemeinsam an."
    },
    {
-    "q": "Muss ich bis zur Räumung in Eimsbüttel bleiben?",
+    "q": "Muss ich beim Räumen meiner Wohnung im Stadtteil Eimsbüttel dabei sein?",
     "a": "Nein. Sie müssen beim Räumen nicht dabei sein und können uns den Schlüssel übergeben. Den Räumungstag legen wir so, dass er vor Ihren Termin mit dem Vermieter fällt."
    }
   ],
@@ -138,7 +138,7 @@
   ],
   "faq": [
    {
-    "q": "Kann ich im Altbau in Eimsbüttel nur mein eigenes Kellerabteil räumen lassen?",
+    "q": "Kann ich im Altbau im Stadtteil Eimsbüttel nur mein eigenes Kellerabteil räumen lassen?",
     "a": "Ja. Zeigen Sie uns bei der Besichtigung, welches Abteil zu Ihrer Wohnung gehört, dann bleibt alles andere unberührt. Sachen im Gemeinschaftsgang klären Sie vorher mit der Hausverwaltung."
    },
    {
@@ -274,7 +274,7 @@
     "a": "Ja, wenn Ihre Schwester einverstanden ist und wir in die Wohnung kommen. Am besten ist sie bei der Besichtigung dabei und sagt selbst, was bleiben soll. Vorwürfe gibt es von uns nicht."
    },
    {
-    "q": "Was kostet es, eine Messie-Wohnung in Eimsbüttel räumen zu lassen?",
+    "q": "Was kostet es, eine Messie-Wohnung im Bezirk Eimsbüttel räumen zu lassen?",
     "a": "Bei Hinnerk ab 1.890 €. Wie hoch der Festpreis genau wird, hängt vor allem von der Menge und vom Stockwerk ab. Den Betrag nennen wir nach der kostenlosen Besichtigung, und er ändert sich danach nicht."
    }
   ],
@@ -389,7 +389,7 @@
    },
    {
     "h2": "Tragen statt an die Straße stellen",
-    "html": "<p>Bei uns muss nichts vorher nach unten. Wir holen Schrank, Matratze oder Bettgestell aus der Wohnung, auch aus dem Altbau ohne Aufzug oder aus einem Mehrfamilienhaus der 1960er-Jahre in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a>. Holz, Metall und Elektrogeräte trennen wir und bringen sie zu den Recyclinghöfen. Nach einer kurzen Besichtigung vor Ort nennen wir einen festen Preis. Farben, Lacke und Batterien zählen nicht zum Sperrmüll; sagen Sie uns, wenn so etwas dabei ist. Wer selbst zum Hof fährt: Kühlgeräte nimmt der Recyclinghof laut Preisliste 2026 höchstens zu zweit an, größere Mengen nur nach Absprache. Wie die Abfuhr der Stadtreinigung im Einzelnen läuft, erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
+    "html": "<p>Bei uns muss nichts vorher nach unten. Wir holen Schrank, Matratze oder Bettgestell aus der Wohnung, auch aus dem Altbau ohne Aufzug oder aus einem Mehrfamilienhaus der 1960er-Jahre in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a>. Holz, Metall und Elektrogeräte trennen wir und bringen sie zu den Recyclinghöfen. Nach einer kurzen Besichtigung vor Ort nennen wir einen festen Preis. Farben, Lacke und Batterien zählen nicht zum Sperrmüll; sagen Sie uns, wenn so etwas dabei ist. Wer selbst zum Hof fährt: Kühlgeräte nimmt der Recyclinghof laut Preisliste 2026 höchstens zwei Stück pro Anlieferung an, größere Mengen nur nach Absprache. Wie die Abfuhr der Stadtreinigung im Einzelnen läuft, erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
    }
   ],
   "faq": [
@@ -514,7 +514,7 @@
   ],
   "faq": [
    {
-    "q": "Unser Bodenabteil in Eimsbüttel liegt im fünften Stock – wie kommt alles runter?",
+    "q": "Unser Bodenabteil im Stadtteil Eimsbüttel liegt im fünften Stock – wie kommt alles runter?",
     "a": "Wir tragen alles durchs Treppenhaus nach unten zum Wagen. Wie viele Etagen es sind und wie eng der Zugang ist, fließt in den Festpreis ein. Den nennen wir Ihnen nach der Besichtigung."
    },
    {
@@ -567,7 +567,7 @@
   "abschnitte": [
    {
     "h2": "Mehr Autos, mehr Garagen",
-    "html": "<p>Im Bezirk Eimsbüttel kommen laut Statistikamt Nord 320 Pkw auf 1.000 Einwohner. In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> sind es 398, in <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> 394, im Stadtteil Eimsbüttel nur 246. Dazu kommt in beiden Stadtteilen ein hoher Anteil an Ein- und Zweifamilienhäusern. Mit den Jahren wird die Garage dort oft zum Lager für alles, was im Haus keinen Platz mehr hat: Fahrräder, Gartenmöbel, Werkzeug, Kartons.</p>"
+    "html": "<p>Im Bezirk Eimsbüttel kommen laut Statistikamt Nord 320 Pkw auf 1.000 Einwohner. In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> sind es 398, in <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> 394, im Stadtteil Eimsbüttel nur 246. In Niendorf und Schnelsen kommt ein hoher Anteil an Ein- und Zweifamilienhäusern dazu. Mit den Jahren wird die Garage dort oft zum Lager für alles, was im Haus keinen Platz mehr hat: Fahrräder, Gartenmöbel, Werkzeug, Kartons.</p>"
    },
    {
     "h2": "Früherer Stall, heute Garage",
