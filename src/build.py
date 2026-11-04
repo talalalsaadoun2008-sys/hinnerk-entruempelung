@@ -71,6 +71,23 @@ def ortslug(name):
 for o in ORTE:
     o["slug"] = ortslug(o["name"])
 SLUG_BY_NAME = {o["name"]: o["slug"] for o in ORTE}
+BEZ_SLUG = {"Hamburg-Mitte": "hamburg-mitte", "Altona": "altona", "Eimsbüttel": "eimsbuettel", "Hamburg-Nord": "hamburg-nord",
+            "Wandsbek": "wandsbek", "Bergedorf": "bergedorf", "Harburg": "harburg"}
+L_BY_SLUG = {l["slug"]: l for l in LEIST}
+
+
+def bz_slug(leistung, bezirk):
+    return leistung.replace("-hamburg", "") + "-bezirk-" + BEZ_SLUG[bezirk]
+
+
+BZ = []
+for _f in sorted((SRC / "bezirke").glob("*.json")):
+    for _e in json.loads(_f.read_text(encoding="utf-8")):
+        assert _e["leistung"] in L_BY_SLUG, f"{_f.name}: unbekannte Leistung {_e['leistung']}"
+        assert _e["bezirk"] in BEZ_SLUG, f"{_f.name}: unbekannter Bezirk {_e['bezirk']}"
+        _e["slug"] = bz_slug(_e["leistung"], _e["bezirk"])
+        BZ.append(_e)
+BZ_BY = {(e["leistung"], e["bezirk"]): e for e in BZ}
 
 
 def pick(key, options):
@@ -684,7 +701,14 @@ def llms_txt():
     zeilen += [f"- {n} ({z}): ab {p} €" for n, z, p in PREISE]
     zeilen += [f"- [Preise und Kostenrechner]({BASE}preise.html)"]
     zeilen += ["", "## Über uns und Kontakt", "", f"- [Über Hinnerk]({BASE}ueber-hinnerk.html)", f"- [Kontakt]({BASE}kontakt.html)"]
-    zeilen += ["", "## Stadtteile", "", f"- [Alle 99 Stadtteile mit Recyclinghof in der Nähe]({BASE}einsatzgebiet.html)", ""]
+    zeilen += ["", "## Stadtteile", "", f"- [Alle 99 Stadtteile mit Recyclinghof in der Nähe]({BASE}einsatzgebiet.html)"]
+    if BZ:
+        zeilen += ["", "## Leistungen nach Bezirk", ""]
+        for b in BEZIRKE:
+            teile = [f"[{L_BY_SLUG[x['leistung']]['name']}]({BASE}{x['slug']}.html)" for x in BZ if x["bezirk"] == b]
+            if teile:
+                zeilen.append(f"- Bezirk {b}: " + ", ".join(teile))
+    zeilen.append("")
     write("llms.txt", "\n".join(zeilen))
 
 
@@ -752,6 +776,11 @@ def leistungsseite(l):
 <div class="lesen"><div class="text">{k}{secs}</div>{seitenkasten(l['name'] + ' in Hamburg', 'Kostenlos besichtigen lassen', L_PREIS.get(l['slug']))}</div>
 </section>
 """
+    bz_l = [x for x in BZ if x["leistung"] == l["slug"]]
+    if bz_l:
+        chips = "".join(f'<li><a href="{x["slug"]}.html">{E(x["bezirk"])}</a></li>' for x in sorted(bz_l, key=lambda x: BEZIRKE.index(x["bezirk"])))
+        page += f"""<section class="abschnitt" aria-label="{E(l['name'])} nach Bezirk"><div class="lesen"><div class="text"><h2>{E(l['name'])} in Ihrem Bezirk</h2><ul class="chips">{chips}</ul></div></div></section>
+"""
     page += vorteile()
     page += ablauf("So läuft’s", "Erst kostenlos besichtigen, dann ein fester Preis – auch bei einer " + l["name"] + ".")
     page += leistungs_reihe("Auch das räumt Hinnerk", ausser=l["slug"])
@@ -799,7 +828,7 @@ def ortsseite(o, alle_im_bezirk):
     kurz = (f"<h2>{E(pick(n + 'h2b', H2_KURZ).format(**v))}</h2><p>{E(o['geschichte'])}</p>" if o.get("geschichte") else "")
     nach = "".join(f'<li><a href="{SLUG_BY_NAME[x]}.html">{E(x)}</a></li>' if x in SLUG_BY_NAME else f"<li><span>{E(x)}</span></li>" for x in o.get("nachbarn", []))
     bez = "".join(f'<li><a href="{x["slug"]}.html">{E(x["name"])}</a></li>' for x in alle_im_bezirk if x["slug"] != o["slug"])
-    leist = "".join(f'<li><a href="{l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)
+    leist = "".join(f'<li><a href="{BZ_BY[(l["slug"], b)]["slug"] if (l["slug"], b) in BZ_BY else l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)
     quellen = "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in o.get("quellen", []))
     quellen += '<li><a href="https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf" rel="nofollow noopener">Stadtreinigung Hamburg: INFO-Broschüre 2026</a></li>'
     page += f"""<section class="abschnitt" aria-label="Entrümpelung in {E(n)}">
@@ -830,6 +859,93 @@ def ortsseite(o, alle_im_bezirk):
     write(o["slug"] + ".html", page)
 
 
+def bezirk_rh(b):
+    gesehen, liste = set(), []
+    for o in sorted([x for x in ORTE if x["bezirk"] == b], key=lambda x: x["name"]):
+        rh = o["recyclinghof"]
+        if rh["ort"] not in gesehen:
+            gesehen.add(rh["ort"])
+            liste.append(rh)
+    return liste
+
+
+def bezirksleistung(e):
+    l = L_BY_SLUG[e["leistung"]]
+    n, b = l["name"], e["bezirk"]
+    k, ld = krumen([("Startseite", "./"), (n, l["slug"] + ".html"), (f"Bezirk {b}", None)])
+    schema = [ld, faq_schema(e["faq"]), {"@type": "Service", "name": e["h1"], "serviceType": n, "provider": {"@id": BASE + "#firma"},
+              "areaServed": {"@type": "AdministrativeArea", "name": f"Bezirk {b}", "containedInPlace": {"@type": "City", "name": "Hamburg"}}}]
+    bk = L_FOTO[l["slug"]]
+    page = head(e["title"], e["description"], e["slug"] + ".html", schema, preload=bk) + bar()
+    page += held(E(e["h1"]), e["lead"], "Kostenlos besichtigen lassen", "#anfrage", bk, eyebrow=f"Bezirk {b}", klein=True)
+    secs = "".join(f'<h2>{E(a["h2"])}</h2>{a["html"]}' for a in e["abschnitte"])
+    orte = sorted([o for o in ORTE if o["bezirk"] == b], key=lambda x: x["name"])
+    st = "".join(f'<li><a href="{o["slug"]}.html">{E(o["name"])}</a></li>' for o in orte)
+    rh = "".join(f'<li><b>{E(r["ort"])}</b>, {E(r["adresse"])}</li>' for r in bezirk_rh(b))
+    andere_l = "".join(f'<li><a href="{x["slug"]}.html">{E(L_BY_SLUG[x["leistung"]]["name"])}</a></li>' for x in BZ if x["bezirk"] == b and x["leistung"] != l["slug"])
+    andere_b = "".join(f'<li><a href="{x["slug"]}.html">{E(x["bezirk"])}</a></li>' for x in BZ if x["leistung"] == l["slug"] and x["bezirk"] != b)
+    quellen = "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in e.get("quellen", []))
+    page += f"""<section class="abschnitt" aria-label="{E(n)} im Bezirk {E(b)}">
+<div class="lesen"><div class="text">{k}
+{secs}
+<h2>Stadtteile im Bezirk {E(b)}</h2>
+<ul class="chips">{st}</ul>
+<h2>Recyclinghöfe in der Nähe</h2>
+<p>Diese Recyclinghöfe der Stadtreinigung Hamburg liegen für die Stadtteile im Bezirk {E(b)} am nächsten:</p>
+<ul>{rh}</ul>
+<p>Mehr zu {E(n)} allgemein: <a href="{l['slug']}.html">{E(n)} in Hamburg</a>.</p>
+</div>{seitenkasten(n + ' im Bezirk ' + b, 'Kostenlos besichtigen lassen', L_PREIS.get(l['slug']))}</div>
+</section>
+"""
+    page += fragen(f"Fragen zu {n} im Bezirk {b}", e["faq"])
+    page += f"""<section class="abschnitt" aria-label="Weitere Seiten">
+<div class="umgebung">
+<div><h2>Mehr im Bezirk {E(b)}</h2><ul class="chips">{andere_l}</ul></div>
+<div><h2>{E(n)} in anderen Bezirken</h2><ul class="chips">{andere_b}</ul></div>
+{('<details class="quellen"><summary>Quellen</summary><ul>' + quellen + '</ul></details>') if quellen else ''}
+</div>
+</section>
+"""
+    page += anfrage(f"{n} {b}", b)
+    page += fuss()
+    write(e["slug"] + ".html", page)
+
+
+def bz_pruefen():
+    """Warnt bei doppelten Sätzen (ab 10 Wörtern) zwischen Bezirks-Seiten und gegenüber Leistungs- und Stadtteil-Texten."""
+    namen = [o["name"] for o in ORTE] + list(BEZ_SLUG) + [l["name"] for l in LEIST] + ["Hamburg"]
+    namen.sort(key=len, reverse=True)
+
+    def saetze(html_):
+        t = re.sub(r"<[^>]+>", " ", html_)
+        for x in namen:
+            t = t.replace(x, "#")
+        t = re.sub(r"\d+", "0", t)
+        for satz in re.split(r"(?<=[.!?])\s+", t):
+            w = re.findall(r"\w+", satz.lower())
+            if len(w) >= 10:
+                yield " ".join(w)
+
+    gesehen, warn = {}, 0
+    for l in LEIST:
+        for st_ in saetze(" ".join(x["html"] for x in l["sections"])):
+            gesehen.setdefault(st_, l["slug"])
+    for o in ORTE:
+        for st_ in saetze(" ".join(o.get(k_, "") for k_ in ("bebauung", "raeumung", "geschichte"))):
+            gesehen.setdefault(st_, o["slug"])
+    for e in BZ:
+        texte = e["lead"] + " " + " ".join(a["html"] for a in e["abschnitte"]) + " " + " ".join(f["a"] for f in e["faq"])
+        for st_ in saetze(texte):
+            if st_ in gesehen and gesehen[st_] != e["slug"]:
+                warn += 1
+                print(f"WARNUNG doppelt: {e['slug']} <-> {gesehen[st_]}: {st_[:90]}")
+            gesehen.setdefault(st_, e["slug"])
+        if len(e["title"]) > 70 or len(e["description"]) > 165:
+            warn += 1
+            print(f"WARNUNG Länge: {e['slug']} title {len(e['title'])} desc {len(e['description'])}")
+    print(f"Bezirks-Seiten: {len(BZ)}, Warnungen: {warn}")
+
+
 def einsatzgebiet():
     k, ld = krumen([("Startseite", "./"), ("Stadtteile", None)])
     t = "Entrümpelung in allen 99 Hamburger Stadtteilen | Hinnerk"
@@ -839,7 +955,10 @@ def einsatzgebiet():
     rows = []
     for b in BEZIRKE:
         li = "".join(f'<li><a href="{o["slug"]}.html">{E(o["name"])}</a></li>' for o in sorted([o for o in ORTE if o["bezirk"] == b], key=lambda x: x["name"]))
-        rows.append(f'<div class="bezirk" id="{slugify(b)}"><h2>{E(b)}</h2><ul class="chips">{li}</ul></div>')
+        bz_b = [x for x in BZ if x["bezirk"] == b]
+        bz_li = "".join(f'<li><a href="{x["slug"]}.html">{E(L_BY_SLUG[x["leistung"]]["name"])}</a></li>' for x in sorted(bz_b, key=lambda x: [l["slug"] for l in LEIST].index(x["leistung"])))
+        bz_teil = f'<h3 class="bz-leist">Leistungen im Bezirk {E(b)}</h3><ul class="chips">{bz_li}</ul>' if bz_li else ""
+        rows.append(f'<div class="bezirk" id="{slugify(b)}"><h2>{E(b)}</h2><ul class="chips">{li}</ul>{bz_teil}</div>')
     page += f"""<section class="abschnitt" id="liste" aria-label="Alle Stadtteile">
 {k}<div class="bezirke">{''.join(rows)}</div>
 </section>
@@ -919,9 +1038,12 @@ if __name__ == "__main__":
     llms_txt()
     for o in ORTE:
         ortsseite(o, [x for x in ORTE if x["bezirk"] == o["bezirk"]])
+    for e in BZ:
+        bezirksleistung(e)
+    bz_pruefen()
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["preise.html", "ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["preise.html", "ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE] + [e["slug"] + ".html" for e in BZ]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
