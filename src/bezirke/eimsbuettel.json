@@ -1,746 +1,754 @@
 [
- {
-  "leistung": "haushaltsaufloesung-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Haushaltsauflösung Eimsbüttel ✓ Festpreis ✓ ab 690 € | Hinnerk",
-  "description": "Haushaltsauflösung im Bezirk Eimsbüttel – vom Reihenhaus in Niendorf bis zur Altbauetage in Harvestehude. Kostenlose Besichtigung, Festpreis ab 690 €.",
-  "h1": "Haushaltsauflösung im Bezirk Eimsbüttel",
-  "lead": "Ein Hausstand in Niendorf sieht anders aus als einer am Grindel. Hinnerk plant die Haushaltsauflösung im Bezirk Eimsbüttel nach dem Gebäude, das geräumt wird, und nennt Ihnen vorher einen festen Preis.",
-  "abschnitte": [
-   {
-    "h2": "Wo im Bezirk viele ältere Menschen wohnen",
-    "html": "<p>Im ganzen Bezirk Eimsbüttel ist laut Statistikamt Nord knapp jeder fünfte Einwohner 65 Jahre oder älter (18,5 %, Stand Ende 2024). In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> ist es fast jeder vierte, das sind mehr als 10.000 Menschen. <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> mit 21,4 % und <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> mit 20,0 % liegen ebenfalls über dem Wert des Bezirks. Bei einer Haushaltsauflösung geht es hier deshalb oft um Eltern, die ins Pflegeheim oder in eine kleinere Wohnung ziehen.</p>"
-   },
-   {
-    "h2": "Reihenhaus mit Garage oder Etage mit Stuck",
-    "html": "<p>In Niendorf und Schnelsen liegt mehr als ein Drittel aller Wohnungen in Ein- und Zweifamilienhäusern. Zum Hausstand gehören dort oft Keller, Dachboden und Garage, manchmal ein Schuppen im Garten. In Harvestehude sind die Wohnungen im Schnitt fast 99 m² groß. Viele liegen in Etagenhäusern aus Historismus und Jugendstil, mit hohen Räumen, aber nicht immer mit Aufzug. Schwere Schränke und volle Bücherregale gehen dann durchs Treppenhaus nach unten. In Lokstedt liegt beides nah beieinander: Einfamilienhäuser mit Garten und die Hochhäuser der Lenzsiedlung.</p><p>Bei der kostenlosen Besichtigung gehen wir gemeinsam durch alle Räume. Was Ihnen wichtig ist – Unterlagen, Fotos, Schmuck –, nehmen Sie vorher an sich oder zeigen es uns beim Rundgang.</p>"
-   },
-   {
-    "h2": "Recyclinghof und Hilfe im Bezirksamt",
-    "html": "<p>Sperrmüll, Holz, Metall und Elektrogeräte bringen wir getrennt zu den Recyclinghöfen der Stadtreinigung. Von Niendorf, Lokstedt und Schnelsen aus ist der Hof am Krähenweg 22 gut erreichbar; wer am Grindel oder in Pöseldorf wohnt, hat es näher zur Feldstraße 69 in St. Pauli. Fragen zu Leistungen für Seniorinnen und Senioren beantwortet das Soziale Dienstleistungszentrum des Bezirksamts am Grindelberg 62. Wie Sie den Wechsel ins Heim Schritt für Schritt planen, steht im Ratgeber <a href=\"umzug-ins-pflegeheim-wohnung-aufloesen.html\">Umzug ins Pflegeheim</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Meine Mutter zieht von Niendorf ins Pflegeheim – wann sollte ich anfragen?",
-    "a": "Am besten, sobald der Auszugstermin feststeht. Dann bleibt Zeit für die Besichtigung, und wir legen den Räumungstag passend zur Übergabe der Wohnung. Was mit ins Heim geht, stellen Sie vorher in einen Raum, den wir nicht räumen."
-   },
-   {
-    "q": "Räumt ihr in Harvestehude auch ohne Aufzug?",
-    "a": "Ja. Ohne Aufzug wird alles durchs Treppenhaus getragen, das kostet mehr Zeit. Deshalb fließt das Stockwerk in den Festpreis ein, den Sie nach der Besichtigung bekommen."
-   },
-   {
-    "q": "Was kostet eine Haushaltsauflösung im Bezirk Eimsbüttel?",
-    "a": "Bei Hinnerk ab 690 €. Ein Reihenhaus mit vollem Keller und Garage macht mehr Arbeit als eine Zweizimmerwohnung, es kommt also auf Menge, Etage und Wege an. Den festen Betrag nennen wir nach der kostenlosen Besichtigung."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "Bezirksamt Eimsbüttel – Soziale Dienstleistungszentren",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/themen/soziales/soziale-dienstleistungszentren-43610"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Harvestehude",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
-   },
-   {
-    "titel": "hamburg.de – Niendorf",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
-   }
-  ]
- },
- {
-  "leistung": "wohnungsaufloesung-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Wohnungsauflösung im Bezirk Eimsbüttel ✓ ab 690 € | Hinnerk",
-  "description": "Wohnungsauflösung im Bezirk Eimsbüttel: Altbau ohne Aufzug nahe der Osterstraße oder Grindelhochhaus. Kostenlose Besichtigung, Festpreis ab 690 €.",
-  "h1": "Wohnungsauflösung im Bezirk Eimsbüttel",
-  "lead": "Viele Wohnungen im Bezirk Eimsbüttel liegen in eng bebauten Altbaustraßen, andere in Hochhäusern. Hinnerk räumt beide leer, damit Sie pünktlich übergeben können – zum festen Preis.",
-  "abschnitte": [
-   {
-    "h2": "Kleine Wohnungen, viele Stufen",
-    "html": "<p>Im Stadtteil <a href=\"entruempelung-hamburg-eimsbuettel.html\">Eimsbüttel</a> ist eine Wohnung laut Statistikamt Nord im Schnitt nur gut 63 m² groß, in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> 66 m². In beiden Stadtteilen lebt in gut zwei von drei Haushalten nur eine Person. Typisch ist die kleine Wohnung im Gründerzeit- oder Rotklinkerhaus, oft ohne Aufzug. Für die Räumung bedeutet das: wenig Masse, aber viele Stufen bis zur Straße. Anders in Harvestehude, wo eine Wohnung im Schnitt fast 99 m² misst – dort kommt bei einer Auflösung deutlich mehr zusammen.</p>"
-   },
-   {
-    "h2": "Parken rund um Osterstraße und Ring 2",
-    "html": "<p>Das Bezirksamt nennt Parkplatzmangel ausdrücklich als Folge der dichten Bebauung im Stadtteil Eimsbüttel; Ring 2 und Bundesstraße 5 sind stark befahren. Wer vor dem Haus Platz für den Transporter braucht, kann eine Halteverbotszone beantragen. Laut hamburg.de muss der Antrag mindestens 14 Tage vorher eingehen, die Gebühr liegt zwischen 30 und 200 €. Die Schilder müssen mindestens vier Tage vor dem Termin stehen; Sie stellen sie selbst auf oder beauftragen einen Aufstellservice. Welche Stelle zuständig ist, hängt von der Adresse ab. Ob sich das an Ihrer Straße lohnt, besprechen wir bei der Besichtigung.</p>"
-   },
-   {
-    "h2": "Wenn die Wohnung im Hochhaus liegt",
-    "html": "<p>Die Spanne im Bezirk ist groß: hamburg.de nennt Studentenheime, familiäre Wohngebiete und luxuriöse Villenviertel. Am Grindelberg in <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> stehen die zwölf Grindelhochhäuser, gebaut bis 1956, in <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a> die Lenzsiedlung aus den Jahren 1976 bis 1978 mit bis zu 15 Etagen. Wie weit der Weg vom Aufzug bis zum Wagen ist, sehen wir uns vor Ort an und rechnen es in den Festpreis ein. Was der Vermieter bei der Rückgabe erwarten darf, erklärt der Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">Wohnung besenrein übergeben</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Meine Wohnung in Hoheluft-West liegt im vierten Stock ohne Aufzug – wird es teurer?",
-    "a": "Das Stockwerk spielt beim Preis eine Rolle, weil jedes Teil die Treppe hinunter muss. Wir sehen uns das Treppenhaus bei der kostenlosen Besichtigung an und rechnen es ein. Eine Wohnungsauflösung beginnt bei Hinnerk bei 690 €."
-   },
-   {
-    "q": "Brauche ich rund um die Osterstraße eine Halteverbotszone?",
-    "a": "Oft ist sie sinnvoll, weil die Straßen dort eng zugeparkt sind. Den Antrag stellen Sie mindestens 14 Tage vorher bei der Stelle, die für Ihre Adresse zuständig ist. Bei der Besichtigung schauen wir uns die Lage vor dem Haus gemeinsam an."
-   },
-   {
-    "q": "Muss ich beim Räumen meiner Wohnung im Stadtteil Eimsbüttel dabei sein?",
-    "a": "Nein. Sie müssen beim Räumen nicht dabei sein und können uns den Schlüssel übergeben. Den Räumungstag legen wir so, dass er vor Ihren Termin mit dem Vermieter fällt."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "Bezirksamt Eimsbüttel – Das Kerngebiet (Stadtteil Eimsbüttel)",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/eimsbuettel-60276"
-   },
-   {
-    "titel": "hamburg.de – Halteverbotszone beantragen",
-    "url": "https://www.hamburg.de/service/info/11263054/n0/"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Harvestehude",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   }
-  ]
- },
- {
-  "leistung": "keller-entruempeln-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Keller entrümpeln Bezirk Eimsbüttel ✓ ab 290 € ✓ Festpreis | Hinnerk",
-  "description": "Keller entrümpeln im Bezirk Eimsbüttel: Kellerabteil im Altbau am Grindel oder ganzer Hauskeller in Niendorf. Kostenlose Besichtigung, Festpreis ab 290 €.",
-  "h1": "Keller entrümpeln im Bezirk Eimsbüttel",
-  "lead": "Ob schmales Abteil im Gründerzeithaus oder ganzer Keller unterm Reihenhaus: Hinnerk räumt Keller im ganzen Bezirk Eimsbüttel und nennt den Preis, bevor es losgeht.",
-  "abschnitte": [
-   {
-    "h2": "Viele Parteien, ein Keller",
-    "html": "<p>Im Stadtteil <a href=\"entruempelung-hamburg-eimsbuettel.html\">Eimsbüttel</a> kommen laut Statistikamt Nord auf ein Wohngebäude im Schnitt mehr als zehn Wohnungen. Unten im Haus teilen sich entsprechend viele Mietparteien den Keller, jede mit ihrem Abteil. In <a href=\"entruempelung-hamburg-rotherbaum.html\">Rotherbaum</a> rund um den Grindel und in Hoheluft-West sieht es ähnlich aus. Wie schmal Gänge und Kellertreppe sind, prüfen wir bei der Besichtigung. Geräumt wird nur das Abteil, das zu Ihrer Wohnung gehört.</p>"
-   },
-   {
-    "h2": "Ganze Hauskeller in Niendorf und Stellingen",
-    "html": "<p>Außerhalb des dichten Kerns ändert sich das Bild. In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> stehen viele Einfamilien- und Reihenhäuser aus den 1960er- und 1970er-Jahren; im Schnitt kommen dort weniger als drei Wohnungen auf ein Gebäude. In <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a> stammen viele Einzel- und Reihenhäuser aus den 1950er-Jahren. Hier geht es meist um einen Hauskeller mit mehreren Räumen statt um ein einzelnes Abteil. Werkbank, Regale, Kartons und ausrangierte Möbel kommen dann alle auf einmal heraus. In Lokstedt reicht die Spanne vom Einfamilienhaus mit eigenem Keller bis zur Wohnung im Hochhaus.</p>"
-   },
-   {
-    "h2": "Getrennt zur Entsorgung",
-    "html": "<p>Was im Keller steht, sortieren wir nach Sperrmüll, Holz, Metall und Elektrogeräten. Der nächstgelegene Recyclinghof ist für Lokstedt und Niendorf der am Krähenweg 22, für Kellerabteile in Rotherbaum und Eimsbüttel die Feldstraße 69. Alte Farbeimer und Lackdosen sind Sonderabfall; sagen Sie uns vorher, wenn welche im Regal stehen. Liegt im Keller ausschließlich Sperrmüll, ist auch die Abfuhr der Stadtreinigung eine Möglichkeit: 35 € für bis zu 8 m³, bestellt per Telefon. Ein Kellerabteil räumt Hinnerk ab 290 €. Eine erste Schätzung für Ihren Keller gibt der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Kann ich im Altbau im Stadtteil Eimsbüttel nur mein eigenes Kellerabteil räumen lassen?",
-    "a": "Ja. Zeigen Sie uns bei der Besichtigung, welches Abteil zu Ihrer Wohnung gehört, dann bleibt alles andere unberührt. Sachen im Gemeinschaftsgang klären Sie vorher mit der Hausverwaltung."
-   },
-   {
-    "q": "Was kostet ein voller Reihenhauskeller in Niendorf?",
-    "a": "Ein Kellerabteil gibt es bei Hinnerk ab 290 €. Ein ganzer Hauskeller hat mehr Räume und mehr Inhalt, deshalb liegt der Preis darüber. Den festen Betrag nennen wir, sobald wir den Keller gesehen haben."
-   },
-   {
-    "q": "Muss ich den Keller in Stellingen vorher ausräumen oder sortieren?",
-    "a": "Nein. Stellen Sie nur zur Seite, was Sie behalten möchten. Alles andere nehmen wir mit und trennen es für die Entsorgung."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "hamburg.de – Sperrmüll abholen lassen (Stadtreinigung Hamburg)",
-    "url": "https://www.hamburg.de/service/info/11279820/"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Stellingen",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
-   },
-   {
-    "titel": "hamburg.de – Niendorf",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   },
-   {
-    "titel": "Wikipedia – Grindel (Hamburg)",
-    "url": "https://de.wikipedia.org/wiki/Grindel_(Hamburg)"
-   }
-  ]
- },
- {
-  "leistung": "nachlassaufloesung-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Nachlassauflösung Bezirk Eimsbüttel ✓ Festpreis ab 690 € | Hinnerk",
-  "description": "Nachlassauflösung im Bezirk Eimsbüttel – von der Altbauwohnung in Harvestehude bis zur Villa in Lokstedt. Kostenlose Besichtigung, Festpreis ab 690 €.",
-  "h1": "Nachlassauflösung im Bezirk Eimsbüttel",
-  "lead": "Nach einem Todesfall müssen Erben im Bezirk Eimsbüttel zuerst klären, wer überhaupt räumen darf. Danach übernimmt Hinnerk die Räumung – nach Ihren Vorgaben und zum festen Preis.",
-  "abschnitte": [
-   {
-    "h2": "Erst das Nachlassgericht, dann die Räumung",
-    "html": "<p>Bevor eine Wohnung oder ein Haus geräumt wird, muss feststehen, wer erbt. In Hamburg ist dafür das Nachlassgericht beim Amtsgericht zuständig, und zwar dort, wo die verstorbene Person zuletzt ihren Lebensmittelpunkt hatte. Welches Amtsgericht das für eine Adresse in <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a> oder <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> ist, zeigt die Zuständigkeitssuche auf hamburg.de. Für einen Erbschein brauchen Sie dort einen Termin, auch für eine Ausschlagung sollten Sie vorher einen vereinbaren. Wer selbst außerhalb wohnt, kann den Antrag auch beim Amtsgericht am eigenen Wohnort stellen.</p>"
-   },
-   {
-    "h2": "Wenn alle Erben ausschlagen",
-    "html": "<p>Ist kein anderer Erbe zu ermitteln, kann die Freie und Hansestadt Hamburg kraft Gesetzes Erbin werden. Festgestellt wird das laut Finanzbehörde nicht automatisch, sondern grundsätzlich auf Antrag beim Nachlassgericht. Erst mit dem Feststellungsbeschluss übernimmt die Behörde für Finanzen und Bezirke. Was das für Wohnung und Vermieter heißt, erklärt der Ratgeber <a href=\"erbe-ausgeschlagen-wer-raeumt-wohnung.html\">Erbe ausgeschlagen: Wer räumt die Wohnung?</a></p>"
-   },
-   {
-    "h2": "Stuckwohnung, Villa, Reihenhaus",
-    "html": "<p>In <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> sind viele Häuser über 100 Jahre alt, mit Stuck, Holzböden und manchmal ohne Aufzug. Dort tragen wir besonders vorsichtig durch Flure und Treppenhaus. Im Zylinderviertel in Lokstedt sind Villen aus der Zeit um 1900 erhalten; zu einem Nachlass gehören dort oft Keller, Dachboden und Nebengebäude. In Niendorf, wo fast jeder vierte Einwohner 65 oder älter ist, geht es häufig um ein Reihen- oder Einfamilienhaus aus den 1960er- oder 1970er-Jahren mit Garage. Zur kostenlosen Besichtigung sehen wir uns jedes Zimmer zusammen mit Ihnen an. Unterlagen, Fotos und Erbstücke nehmen Sie vorher an sich oder zeigen sie uns. Danach steht der Festpreis, und den Schlüssel können Sie uns übergeben.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Welches Nachlassgericht ist für eine Wohnung in Niendorf zuständig?",
-    "a": "Das Amtsgericht, in dessen Bereich die verstorbene Person zuletzt gelebt hat. Am einfachsten finden Sie es über die Zuständigkeitssuche auf hamburg.de, in die Sie die letzte Adresse eingeben. Wohnen Sie selbst anderswo, können Sie den Antrag auch dort stellen."
-   },
-   {
-    "q": "Ich wohne nicht in Hamburg – muss ich zur Räumung anreisen?",
-    "a": "Für die Räumung selbst nicht, den Schlüssel können Sie uns übergeben. Bei der Besichtigung gehen wir einmal gemeinsam durch die Räume und legen fest, was bleiben soll."
-   },
-   {
-    "q": "Was kostet eine Nachlassauflösung im Bezirk Eimsbüttel?",
-    "a": "Bei Hinnerk ab 690 €. Eine kleine Etagenwohnung in Hoheluft-West ist meist schneller geräumt als eine Villa mit Nebengebäuden in Lokstedt. Den Festpreis erfahren Sie nach der Besichtigung, bevor wir anfangen."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "hamburg.de – Nachlassgericht: Allgemeine Informationen",
-    "url": "https://www.hamburg.de/service/info/11252454/n0/"
-   },
-   {
-    "titel": "hamburg.de – Finanzbehörde: Fiskalerbschaften",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/fiskalerbschaften-261940"
-   },
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Harvestehude",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   },
-   {
-    "titel": "hamburg.de – Niendorf",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
-   }
-  ]
- },
- {
-  "leistung": "messie-wohnung-raeumen-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Messie-Wohnung räumen Eimsbüttel ✓ diskret ✓ ab 1.890 € | Hinnerk",
-  "description": "Messie-Wohnung räumen im Bezirk Eimsbüttel – auch im dicht bewohnten Altbau oder Hochhaus. Ohne Vorwürfe, kostenlose Besichtigung, Festpreis ab 1.890 €.",
-  "h1": "Messie-Wohnung räumen im Bezirk Eimsbüttel",
-  "lead": "In den dicht bewohnten Häusern des Bezirks Eimsbüttel ist Zurückhaltung besonders wichtig. Hinnerk räumt stark vollgestellte Wohnungen ohne Vorwürfe und zum festen Preis.",
-  "abschnitte": [
-   {
-    "h2": "Viele Nachbarn auf engem Raum",
-    "html": "<p><a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> ist laut hamburg.de der am dichtesten besiedelte Stadtteil Hamburgs: Auf 0,7 km² leben dort nach Zahlen des Statistikamts Nord rund 13.600 Menschen. Auch im Stadtteil Eimsbüttel wohnen die Menschen eng beieinander. Wer hier eine stark vollgestellte Wohnung räumen lässt, teilt Eingang und Treppenhaus mit vielen Parteien. Ähnlich viele Nachbarn hat man in den Hochhäusern und Wohnblöcken in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> oder in der Lenzsiedlung in <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a>. Wir sprechen mit niemandem über den Auftrag und machen Ihnen keine Vorwürfe.</p>"
-   },
-   {
-    "h2": "Hilfe, wenn die Wohnung gefährdet ist",
-    "html": "<p>Manchmal drängt die Zeit, weil das Mietverhältnis gefährdet ist, etwa durch eine fristlose Kündigung oder eine Räumungsklage. Dann lohnt sich eine kostenlose Beratung bei der Fachstelle für Wohnungsnotfälle: Dort wird erklärt, wie ein Räumungsverfahren abläuft, und es gibt Kontakte für eine Rechtsberatung. Die zuständige Stelle finden Sie auf hamburg.de über die Wohnanschrift. Für Unterstützung in besonderen Lebenslagen hat das Bezirksamt außerdem ein Soziales Dienstleistungszentrum am Grindelberg 62.</p>"
-   },
-   {
-    "h2": "Besichtigung, Preis und was wir nicht machen",
-    "html": "<p>Bei der Besichtigung schauen wir, wie viel in der Wohnung steht, wie man durch die Räume kommt und ob Abfälle getrennt entsorgt werden müssen. Danach nennen wir einen festen Preis; Messie-Wohnungen räumt Hinnerk ab 1.890 €. Im Altbau ohne Aufzug ist mehr zu tragen, das fließt mit ein. Sagen Sie uns vorher, worauf wir achten sollen, etwa auf Papiere, Fotos oder Schmuck. Desinfektion, Schädlingsbekämpfung und Grundreinigung übernehmen wir nicht. Fällt uns auf, dass dafür ein Fachbetrieb nötig ist, sagen wir es offen, damit Sie ihn rechtzeitig beauftragen können. Wie sich unsere Preise zusammensetzen, steht unter <a href=\"preise.html#rechner\">Preise</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Erfahren die Nachbarn im Altbau, warum geräumt wird?",
-    "a": "Von uns nicht. Wir sprechen weder im Treppenhaus noch sonst mit jemandem über den Auftrag. Dass Säcke und Möbel hinausgetragen werden, lässt sich im Mehrfamilienhaus aber nicht verbergen."
-   },
-   {
-    "q": "Meine Schwester lebt in Stellingen und schafft es nicht allein – darf ich für sie anfragen?",
-    "a": "Ja, wenn Ihre Schwester einverstanden ist und wir in die Wohnung kommen. Am besten ist sie bei der Besichtigung dabei und sagt selbst, was bleiben soll. Vorwürfe gibt es von uns nicht."
-   },
-   {
-    "q": "Was kostet es, eine Messie-Wohnung im Bezirk Eimsbüttel räumen zu lassen?",
-    "a": "Bei Hinnerk ab 1.890 €. Wie hoch der Festpreis genau wird, hängt vor allem von der Menge und vom Stockwerk ab. Den Betrag nennen wir nach der kostenlosen Besichtigung, und er ändert sich danach nicht."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "hamburg.de – Stadtteile im Bezirk Eimsbüttel",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel"
-   },
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "hamburg.de – Wohnungsnotfälle: Beratung zur Wohnungssicherung",
-    "url": "https://www.hamburg.de/service/info/111202963/n0/"
-   },
-   {
-    "titel": "Bezirksamt Eimsbüttel – Soziale Dienstleistungszentren",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/themen/soziales/soziale-dienstleistungszentren-43610"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Eidelstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   }
-  ]
- },
- {
-  "leistung": "bueroaufloesung-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Büroauflösung Eimsbüttel ✓ kostenlose Besichtigung | Hinnerk",
-  "description": "Büroauflösung im Bezirk Eimsbüttel – Altbaubüro in Rotherbaum oder Gewerbegebiet in Schnelsen. Kostenlose Besichtigung, Festpreis und Rechnung.",
-  "h1": "Büroauflösung im Bezirk Eimsbüttel",
-  "lead": "Im Bezirk Eimsbüttel reicht die Spanne vom Medienstandort Harvestehude bis zu den Gewerbegebieten in Schnelsen und Eidelstedt. Hinnerk räumt Büros zum festen Preis, passend zu Ihrem Übergabetermin.",
-  "abschnitte": [
-   {
-    "h2": "Büros in Villen und Etagenhäusern",
-    "html": "<p>Laut hamburg.de ist <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> ein bedeutender Medienstandort, in <a href=\"entruempelung-hamburg-rotherbaum.html\">Rotherbaum</a> liegt die Universität. Die Häuser dort sind oft alt: Villen und Etagenhäuser aus Historismus und Jugendstil, in der Straße Grindelhof viele unter Denkmalschutz. Liegt Ihr Büro in so einem Haus ohne Aufzug, gehen Schreibtische, Aktenschränke und Technik durchs Treppenhaus nach unten. An der Alster und in Pöseldorf ist außerdem der Halteplatz knapp. Beides schauen wir uns bei der kostenlosen Besichtigung an.</p>"
-   },
-   {
-    "h2": "Gewerbegebiete am Stadtrand",
-    "html": "<p>Gewerbegebiete von nennenswerter Größe finden sich vor allem in den äußeren Stadtteilen Eidelstedt, Niendorf und <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a>, so das Gewerbeflächenkonzept des Bezirks von 2018. Büros und Dienstleister verteilen sich dort auf fast alle Gebiete. Im Stadtteil Eimsbüttel beschreibt das Bezirksamt die Gewerbestruktur dagegen als vielfältig und kleinteilig, Haupteinkaufsstraße ist die Osterstraße. Bekannte Firmensitze im Bezirk sind Beiersdorf in Hoheluft-West und das NDR Fernsehen, das seit 1953 in Lokstedt zu Hause ist.</p>"
-   },
-   {
-    "h2": "Akten, Technik und Recyclinghof",
-    "html": "<p>Ordner mit Kunden- oder Personaldaten sortieren Sie vorher aus; dafür ist ein Fachbetrieb für Aktenvernichtung der richtige Weg. Festplatten und Datenträger nehmen Sie an sich. Gut erhaltene Schreibtische und Stühle lassen sich vorher verkaufen oder weitergeben; Anlaufstellen nennt der Ratgeber <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>. Elektrogeräte bringen wir getrennt zur Entsorgung. Elf der zwölf Recyclinghöfe der Stadtreinigung nehmen kleinere Mengen von Gewerbebetrieben an, darunter Niendorf am Krähenweg und St. Pauli an der Feldstraße. Den Räumungstag legen wir passend zur Übergabe, und Sie bekommen eine Rechnung. Für Läden, Lager und Werkstätten gibt es die Seite <a href=\"firmenaufloesung-hamburg.html\">Firmenauflösung</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Was kostet eine Büroauflösung im Bezirk Eimsbüttel?",
-    "a": "Einen Pauschalpreis gibt es nicht, weil kein Büro dem anderen gleicht. Wir sehen uns die Räume kostenlos an und nennen dann einen festen Preis. Darüber bekommen Sie eine Rechnung."
-   },
-   {
-    "q": "Unser Büro liegt im Altbau in Rotherbaum ohne Aufzug – ist das ein Problem?",
-    "a": "Nein. Dann wird alles durchs Treppenhaus getragen, und das Stockwerk ist im Festpreis berücksichtigt. Ist vor dem Haus kein Platz zum Halten, hilft eine Halteverbotszone, die mindestens 14 Tage vorher beantragt werden muss."
-   },
-   {
-    "q": "Könnt ihr in Lokstedt bis zu unserem Übergabetermin räumen?",
-    "a": "Ja, wir legen den Räumungstag so, dass er zu Ihrer Übergabe an den Vermieter passt. Nennen Sie uns bei der Besichtigung, wann die Fläche leer sein muss."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "hamburg.de – Stadtteile im Bezirk Eimsbüttel",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel"
-   },
-   {
-    "titel": "Bezirksamt Eimsbüttel – Gewerbeflächenkonzept 2018 (hamburg-business.com)",
-    "url": "https://hamburg-business.com/_Resources/Persistent/9/3/d/4/93d4dc60322344cea6e52e1d39423385aeb2c1aa/gewerbeflaechenkonzept-eimsbuettel_2018.pdf"
-   },
-   {
-    "titel": "Bezirksamt Eimsbüttel – Das Kerngebiet (Stadtteil Eimsbüttel)",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/eimsbuettel-60276"
-   },
-   {
-    "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "Wikipedia – Grindel (Hamburg)",
-    "url": "https://de.wikipedia.org/wiki/Grindel_(Hamburg)"
-   },
-   {
-    "titel": "hamburg.de – Halteverbotszone beantragen",
-    "url": "https://www.hamburg.de/service/info/11263054/n0/"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   },
-   {
-    "titel": "hamburg.de – Hoheluft-West",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/hoheluft-west-372408"
-   }
-  ]
- },
- {
-  "leistung": "sperrmuell-abholen-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Sperrmüll abholen Eimsbüttel ✓ wir tragen ✓ ab 129 € | Hinnerk",
-  "description": "Sperrmüll abholen im Bezirk Eimsbüttel – auch aus dem Altbau ohne Aufzug. Mit Vergleich zum Recyclinghof Niendorf. Besichtigung kostenlos, Festpreis ab 129 €.",
-  "h1": "Sperrmüll abholen im Bezirk Eimsbüttel",
-  "lead": "Im dicht bebauten Teil des Bezirks Eimsbüttel haben viele Haushalte kein Auto für den Weg zum Recyclinghof. Hinnerk holt Sperrmüll dort ab, wo er steht – zum festen Preis.",
-  "abschnitte": [
-   {
-    "h2": "Wenig Autos, drei Wege",
-    "html": "<p>Im Stadtteil <a href=\"entruempelung-hamburg-eimsbuettel.html\">Eimsbüttel</a> kommen laut Statistikamt Nord nur 246 Pkw auf 1.000 Einwohner, in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> 250, in Niendorf dagegen 398. Ein Sofa selbst wegzufahren, ist in den dicht bebauten Stadtteilen für viele keine Option. So kommt Sperrmüll im Bezirk weg:</p><ul><li><b>Stadtreinigung:</b> telefonisch bestellen, 35 € bis 8 m³, jeder weitere angefangene Kubikmeter 5 €. Zerlegen kostet extra: 7,50 € pro Mitarbeiter und angefangene Viertelstunde. Verlangt werden ein Hamburger Wohnsitz und ein Ausweis. Die Variante SPRINT kostet 78 € zusätzlich und ist auf 10 m³ begrenzt. Gut erhaltene Möbel nimmt die Stadtreinigung auch über ihre „schonende Abfuhr“ mit.</li><li><b>Selbst bringen:</b> zum Recyclinghof Niendorf, Krähenweg 22, oder nach St. Pauli, Feldstraße 69 – beide Montag bis Samstag von 8 bis 17 Uhr. Aus Eidelstedt und Stellingen kommt auch Bahrenfeld, Rondenbarg 52 a, infrage.</li><li><b>Hinnerk:</b> Wir tragen aus Wohnung, Keller oder Dachboden, ab 129 €.</li></ul>"
-   },
-   {
-    "h2": "Tragen statt an die Straße stellen",
-    "html": "<p>Bei uns muss nichts vorher nach unten. Wir holen Schrank, Matratze oder Bettgestell aus der Wohnung, auch aus dem Altbau ohne Aufzug oder aus einem Mehrfamilienhaus der 1960er-Jahre in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a>. Holz, Metall und Elektrogeräte trennen wir und bringen sie zu den Recyclinghöfen. Nach einer kurzen Besichtigung vor Ort nennen wir einen festen Preis. Farben, Lacke und Batterien zählen nicht zum Sperrmüll; sagen Sie uns, wenn so etwas dabei ist. Wer selbst zum Hof fährt: Kühlgeräte nimmt der Recyclinghof laut Preisliste 2026 höchstens zwei Stück pro Anlieferung an, größere Mengen nur nach Absprache. Wie die Abfuhr der Stadtreinigung im Einzelnen läuft, erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Was ist günstiger – die Stadtreinigung oder Hinnerk?",
-    "a": "Die Stadtreinigung beginnt bei 35 € für bis zu 8 m³, Zerlegen kostet extra. Bei Hinnerk geht es ab 129 € los, dafür tragen wir alles selbst aus Wohnung, Keller oder Boden. Was besser passt, hängt davon ab, ob jemand beim Tragen helfen kann."
-   },
-   {
-    "q": "Welcher Recyclinghof liegt für Eidelstedt am nächsten?",
-    "a": "Je nach Lage im Stadtteil der Hof in Bahrenfeld am Rondenbarg 52 a oder der in Niendorf am Krähenweg 22. Bahrenfeld hat werktags bis 19 Uhr geöffnet. Aufs Gelände dürfen dort nur Fahrzeuge bis 7,5 t und 3,4 m Höhe."
-   },
-   {
-    "q": "Holt ihr auch nur eine einzelne Matratze in Schnelsen ab?",
-    "a": "Ja, auch Einzelstücke holen wir ab, ab 129 €. Für ein einzelnes Teil kann die Abfuhr der Stadtreinigung günstiger sein. Vergleichen Sie ruhig beide Wege."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "hamburg.de – Sperrmüll abholen lassen (Stadtreinigung Hamburg)",
-    "url": "https://www.hamburg.de/service/info/11279820/"
-   },
-   {
-    "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Stellingen",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
-   }
-  ]
- },
- {
-  "leistung": "hausaufloesung-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Hausauflösung Bezirk Eimsbüttel ✓ Festpreis ab 2.490 € | Hinnerk",
-  "description": "Hausauflösung im Bezirk Eimsbüttel: Siedlungshaus in Eidelstedt, Reihenhaus in Niendorf, Villa in Lokstedt. Kostenlose Besichtigung, Festpreis ab 2.490 €.",
-  "h1": "Hausauflösung im Bezirk Eimsbüttel",
-  "lead": "Ganze Häuser stehen im Bezirk Eimsbüttel vor allem in Niendorf, Schnelsen und Eidelstedt. Hinnerk räumt sie mit allen Nebengebäuden und nennt Ihnen vorher einen festen Preis.",
-  "abschnitte": [
-   {
-    "h2": "Wo im Bezirk die Häuser stehen",
-    "html": "<p>Im ganzen Bezirk Eimsbüttel liegen laut Statistikamt Nord nur 15 % der Wohnungen in Ein- und Zweifamilienhäusern. Verteilt ist das sehr ungleich: In <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> sind es 36,8 %, in <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> 34,5 % und in Eidelstedt knapp ein Viertel. Im Stadtteil Eimsbüttel ist es gerade einmal gut ein Prozent. Wer ein ganzes Haus auflösen muss, hat es deshalb meist mit einer Adresse im Norden oder Westen des Bezirks zu tun.</p>"
-   },
-   {
-    "h2": "Drei Haustypen, drei Aufgaben",
-    "html": "<ul><li><b>Siedlungshaus in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a>:</b> In der Lohkampsiedlung stehen kleine Doppelhäuser aus den 1950er-Jahren auf großen Grundstücken. Oft gehören Schuppen und ein früherer Stall dazu, der heute als Garage dient; die Treppe zum Boden ist oft steil.</li><li><b>Reihen- und Einfamilienhaus in Niendorf:</b> viele davon aus den 1960er- und 1970er-Jahren, oft mit Keller, Dachboden und Garage.</li><li><b>Villa in Lokstedt:</b> Im Zylinderviertel sind Villen aus der Zeit um 1900 erhalten, häufig mit Nebengebäuden. Weitere Villen aus Historismus und Jugendstil stehen in Harvestehude, wo ab etwa 1870 gebaut wurde.</li></ul><p>In Niendorf verteilen sich gut 21.000 Wohnungen auf mehr als 8.600 Wohngebäude – ein Zeichen dafür, wie viele Häuser dort für nur eine oder zwei Familien gebaut sind.</p>"
-   },
-   {
-    "h2": "So läuft die Hausauflösung",
-    "html": "<p>Bei der kostenlosen Besichtigung gehen wir mit Ihnen durch jedes Gebäude auf dem Grundstück. Was in der Familie bleiben soll, stellen Sie zur Seite oder markieren es. Danach steht der Festpreis; Hausauflösungen gibt es bei Hinnerk ab 2.490 €. Am Räumungstag trennen wir Sperrmüll, Holz, Metall und Elektrogeräte, von Niendorf und Schnelsen aus ist der Recyclinghof am Krähenweg 22 nah. Sie müssen nicht dabei sein, den Schlüssel können Sie uns übergeben. Mit wie viel Zeit Sie rechnen sollten, steht im Ratgeber <a href=\"wie-lange-dauert-eine-entruempelung.html\">Wie lange dauert eine Entrümpelung?</a></p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Räumt ihr in Eidelstedt auch Schuppen und alten Stall mit?",
-    "a": "Ja, wenn Sie das möchten. Wir sehen uns alle Nebengebäude bei der Besichtigung an, sie sind dann im Festpreis enthalten. Ein Gartenhaus komplett abzubauen, gehört nicht zur normalen Räumung – das besprechen wir vorher."
-   },
-   {
-    "q": "Das Haus in Niendorf wird verkauft – wann sollten wir uns melden?",
-    "a": "Sobald der Übergabetermin an die Käufer feststeht. Dann legen wir die Räumung so, dass sie davor fertig ist."
-   },
-   {
-    "q": "Was kostet eine Hausauflösung in Schnelsen?",
-    "a": "Ab 2.490 €. Ein Reihenhaus mit vollem Keller und Dachboden kostet mehr als ein halb leeres Haus; es kommt auf Menge, Zahl der Räume und Nebengebäude an. Den genauen Festpreis erfahren Sie nach der Besichtigung."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "hamburg.de – Begründung Erhaltungsverordnung Lohkamp",
-    "url": "https://www.hamburg.de/resource/blob/59946/955b0c6b9a588142066af91a68785ca5/d-erhvo-staedt-ervo-begruendung-lohkamp-data.pdf"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Eidelstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
-   },
-   {
-    "titel": "hamburg.de – Niendorf",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Harvestehude",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
-   }
-  ]
- },
- {
-  "leistung": "dachboden-entruempeln-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Dachboden entrümpeln Eimsbüttel ✓ ab 290 € ✓ Festpreis | Hinnerk",
-  "description": "Dachboden entrümpeln im Bezirk Eimsbüttel: Bodenabteil im Generalsviertel oder Spitzboden im Siedlungshaus. Kostenlose Besichtigung, Festpreis ab 290 €.",
-  "h1": "Dachboden entrümpeln im Bezirk Eimsbüttel",
-  "lead": "Unterm Dach sammelt sich im Bezirk Eimsbüttel einiges an – im Bodenabteil des Altbaus genauso wie im Siedlungshaus. Hinnerk räumt Dachböden und nennt den Preis, bevor die erste Kiste getragen wird.",
-  "abschnitte": [
-   {
-    "h2": "Bodenabteil ganz oben im Gründerzeithaus",
-    "html": "<p>Im Generalsviertel in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> und rund um die Osterstraße stehen Altbauten aus Gründerzeit und Jugendstil, viele davon ohne Aufzug. Das Bodenabteil liegt dort über der obersten Wohnung. Jede Kiste und jeder alte Stuhl muss also durch das ganze Treppenhaus nach unten. Wie viele Etagen das sind und wie eng die letzte Treppe ist, sehen wir bei der Besichtigung. Im Stadtteil Eimsbüttel verteilen sich laut Statistikamt Nord gut 35.000 Wohnungen auf nur rund 3.400 Wohngebäude, unterm Dach liegen dann oft viele Abteile nebeneinander. Räumen Sie vorher nur Ihr eigenes Abteil frei, und lassen Sie Sachen der Nachbarn stehen.</p>"
-   },
-   {
-    "h2": "Steile Bodentreppen im Siedlungshaus",
-    "html": "<p>In <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> sind die Siedlungshäuser klein, etwa in der Lohkampsiedlung, und die Treppen zum Dachboden oft steil. In <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> und Niendorf haben ältere Einfamilien- und Reihenhäuser häufig einen vollen Boden. Sperrige Teile passen dort nicht immer durch Luke oder Treppe und müssen vorher zerlegt werden. Auch die alten Villen im Lokstedter Zylinderviertel haben oft einen Dachboden, dazu Keller und Nebengebäude. Das alles rechnen wir in den festen Preis ein. Einen Dachboden räumt Hinnerk ab 290 €.</p>"
-   },
-   {
-    "h2": "Alte Dämmung bleibt liegen",
-    "html": "<p>Unter älteren Dächern liegen manchmal Glaswolle, Steinwolle oder Platten aus Asbestzement. Das gehört nicht zu einer normalen Entrümpelung, dafür ist ein Fachbetrieb nötig. Auch die Stadtreinigung nimmt Mineralfaser und Asbestzement laut ihrer Preisliste 2026 nur nach telefonischer Beratung und Voranmeldung an. Sagen Sie uns vorher, wenn Ihnen so etwas aufgefallen ist. Kisten mit alten Briefen oder Fotoalben sehen Sie am besten vorher durch. Was die Recyclinghöfe sonst annehmen, zeigt der Ratgeber <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg: Was darf hin?</a></p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Unser Bodenabteil im Stadtteil Eimsbüttel liegt im fünften Stock – wie kommt alles runter?",
-    "a": "Wir tragen alles durchs Treppenhaus nach unten zum Wagen. Wie viele Etagen es sind und wie eng der Zugang ist, fließt in den Festpreis ein. Den nennen wir Ihnen nach der Besichtigung."
-   },
-   {
-    "q": "Die Bodentreppe in unserem Siedlungshaus in Eidelstedt ist sehr steil – geht das trotzdem?",
-    "a": "Ja, solange der Zugang sicher ist. Wir sehen uns Treppe oder Luke bei der Besichtigung an und planen die Räumung danach."
-   },
-   {
-    "q": "Nehmt ihr alte Glaswolle vom Dachboden in Schnelsen mit?",
-    "a": "Nein. Dämmstoffe und mögliche Gefahrstoffe wie Asbest gehören in die Hände eines Fachbetriebs. Den übrigen Dachboden räumen wir trotzdem, sagen Sie uns nur vorher, wo solches Material liegt."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "hamburg.de – Hoheluft-West",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/hoheluft-west-372408"
-   },
-   {
-    "titel": "hamburg.de – Eimsbüttel",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/eimsbuettel-372258"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Eidelstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Schnelsen",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Schnelsen"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   }
-  ]
- },
- {
-  "leistung": "garage-entruempeln-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Garage entrümpeln Bezirk Eimsbüttel ✓ ab 290 € | Hinnerk",
-  "description": "Garage oder Schuppen entrümpeln im Bezirk Eimsbüttel – in Niendorf, Schnelsen oder Eidelstedt. Kostenlose Besichtigung, Festpreis ab 290 €.",
-  "h1": "Garage entrümpeln im Bezirk Eimsbüttel",
-  "lead": "Garagen gibt es im Bezirk Eimsbüttel vor allem dort, wo Häuser stehen: in Niendorf, Schnelsen und Eidelstedt. Hinnerk räumt Garage und Schuppen und sagt Ihnen vorher, was es kostet.",
-  "abschnitte": [
-   {
-    "h2": "Mehr Autos, mehr Garagen",
-    "html": "<p>Im Bezirk Eimsbüttel kommen laut Statistikamt Nord 320 Pkw auf 1.000 Einwohner. In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> sind es 398, in <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> 394, im Stadtteil Eimsbüttel nur 246. In Niendorf und Schnelsen kommt ein hoher Anteil an Ein- und Zweifamilienhäusern dazu. Mit den Jahren wird die Garage dort oft zum Lager für alles, was im Haus keinen Platz mehr hat: Fahrräder, Gartenmöbel, Werkzeug, Kartons.</p>"
-   },
-   {
-    "h2": "Früherer Stall, heute Garage",
-    "html": "<p>Rund um die Siedlungshäuser in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> sind aus vielen früheren Ställen Garagen oder Schuppen geworden. Auf den großen Grundstücken der Lohkampsiedlung kommt neben der Garage oft noch ein Gartenschuppen dazu. In Eidelstedt sind laut Statistikamt Nord 331 Pkw je 1.000 Einwohner zugelassen, also mehr als im Schnitt des Bezirks. Wer in Schnelsen ein Haus hat, hat oft auch Garage, Keller und Dachboden. Wir räumen Garage und Schuppen, wenn Sie möchten, auch zusammen. Was bleiben soll, stellen Sie vorher beiseite, und den Schlüssel können Sie uns übergeben.</p>"
-   },
-   {
-    "h2": "Reifen, Altöl und Autoteile",
-    "html": "<p>Kfz-Teile nehmen die Recyclinghöfe der Stadtreinigung laut Preisliste 2026 gar nicht an. Pkw-Reifen kosten dort 7 € pro Stück, höchstens fünf pro Anlieferung, und Altöl ist gebührenpflichtig. Sagen Sie uns deshalb vorher, was in der Garage liegt; den Entsorgungsweg klären wir, bevor Sie den Festpreis bekommen. Farben und Lacke aus dem Garagenregal sind Sonderabfall und gehen ebenfalls einen eigenen Weg. Metall, Holz, Sperrmüll und Elektrogeräte bringen wir getrennt weg. Gehört die Garage zu einer Mietwohnung oder einer Garagenanlage, klären Sie vorher mit dem Vermieter, in welchem Zustand sie zurückgegeben wird. Eine Garage räumt Hinnerk ab 290 €, eine erste Schätzung liefert der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Nehmt ihr Winterreifen und alte Autoteile aus der Garage in Niendorf mit?",
-    "a": "Reifen und Kfz-Teile brauchen eigene Entsorgungswege; Autoteile nimmt der Recyclinghof gar nicht an. Sagen Sie uns vorher, was dabei ist. Den Weg für jedes Teil besprechen wir bei der Besichtigung, noch vor dem Festpreis."
-   },
-   {
-    "q": "Muss ich bei der Räumung meiner Garage in Lokstedt dabei sein?",
-    "a": "Nein. Wenn vorher feststeht, was bleiben soll, und wir den Schlüssel haben, räumen wir ohne Sie."
-   },
-   {
-    "q": "Lohnt sich das für eine einzelne Garage in Eidelstedt?",
-    "a": "Ja, auch eine einzelne Garage räumen wir, ab 290 €. Nach der kostenlosen Besichtigung kennen Sie den festen Preis und entscheiden in Ruhe."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Eidelstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Schnelsen",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Schnelsen"
-   }
-  ]
- },
- {
-  "leistung": "firmenaufloesung-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Firmenauflösung Eimsbüttel ✓ Laden ✓ Werkstatt ✓ Festpreis | Hinnerk",
-  "description": "Firmenauflösung im Bezirk Eimsbüttel: Werkstatt in Schnelsen, Laden an der Osterstraße, Lager in Eidelstedt. Kostenlose Besichtigung, Festpreis, Rechnung.",
-  "h1": "Firmenauflösung im Bezirk Eimsbüttel",
-  "lead": "Vom kleinen Laden an der Osterstraße bis zur Werkstatt im Gewerbegebiet: Hinnerk räumt Gewerbeflächen im Bezirk Eimsbüttel passend zu Ihrem Übergabetermin.",
-  "abschnitte": [
-   {
-    "h2": "Wo im Bezirk das Gewerbe sitzt",
-    "html": "<p>Laut dem Gewerbeflächenkonzept des Bezirks von 2018 liegen die größten Gewerbegebiete in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a>, Niendorf und <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a>; Lokstedt und Stellingen haben viele Flächen unterschiedlicher Größe. Den größten Anteil nutzen Handwerk und Kleingewerbe, danach folgt der Einzelhandel mit Schwerpunkten an der Holsteiner Chaussee und in Eidelstedt Süd. Der Kfz-Handel ballt sich am Nedderfeld und an der Papenreye. Im Stadtteil Eimsbüttel ist das Gewerbe dagegen kleinteilig, mit der Osterstraße als Einkaufsstraße.</p>"
-   },
-   {
-    "h2": "Werkstatt, Laden, Imbiss",
-    "html": "<p>Jede Gewerbefläche bringt eigene Fragen mit. In der Werkstatt stehen Regale voller Material und Werkzeug, im Laden Theken, Regale und Restware. Gewerblich genutzte Kühlgeräte wie Kühltresen nehmen die Recyclinghöfe laut Preisliste 2026 nicht an; dafür braucht es einen anderen Weg. Kleinere Mengen sperriger Gewerbeabfälle dagegen nehmen elf der zwölf Höfe an, darunter Niendorf und Bahrenfeld. Für Sonderabfälle aus dem Betrieb gibt es dort einen Übernahmeschein als Nachweis der Entsorgung. Geleaste Kassensysteme, Kaffeeautomaten oder Kopierer melden Sie beim Anbieter zurück, bevor geräumt wird. Fest eingebaute Anlagen und Maschinen besprechen wir bei der Besichtigung.</p>"
-   },
-   {
-    "h2": "Halten an der Kieler Straße",
-    "html": "<p>An stark befahrenen Straßen wie der Kieler Straße in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a> ist das Halten mit dem Transporter schwierig, auch am Eidelstedter Platz ist viel Verkehr. Eine Halteverbotszone muss mindestens 14 Tage vorher beantragt werden, die Schilder stehen dann spätestens vier Tage vor dem Termin. Den Räumungstag legen wir so, dass er zu Ihrer Übergabe passt, und Sie bekommen eine Rechnung über den Festpreis. Für reine Büros gibt es die Seite <a href=\"bueroaufloesung-hamburg.html\">Büroauflösung</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Unsere Werkstatt in Schnelsen muss zum Monatsende leer sein – geht das?",
-    "a": "Fragen Sie so früh wie möglich an. Nach der Besichtigung legen wir den Räumungstag so, dass er vor Ihrer Übergabe liegt. Sie bekommen einen festen Preis und eine Rechnung."
-   },
-   {
-    "q": "Nehmt ihr auch die Kühltheke aus einem Imbiss in Eidelstedt mit?",
-    "a": "Gewerbliche Kühlgeräte nehmen die Recyclinghöfe nicht an, dafür gibt es eigene Wege. Sagen Sie uns vorher, was in den Räumen steht. Den passenden Weg klären wir bei der Besichtigung, bevor Sie den Festpreis bekommen."
-   },
-   {
-    "q": "Was kostet eine Firmenauflösung im Bezirk Eimsbüttel?",
-    "a": "Einen Pauschalpreis nennen wir nicht, weil Laden, Lager und Werkstatt zu unterschiedlich sind. Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis, der dann gilt."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Bezirksamt Eimsbüttel – Gewerbeflächenkonzept 2018 (hamburg-business.com)",
-    "url": "https://hamburg-business.com/_Resources/Persistent/9/3/d/4/93d4dc60322344cea6e52e1d39423385aeb2c1aa/gewerbeflaechenkonzept-eimsbuettel_2018.pdf"
-   },
-   {
-    "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "hamburg.de – Halteverbotszone beantragen",
-    "url": "https://www.hamburg.de/service/info/11263054/n0/"
-   },
-   {
-    "titel": "Bezirksamt Eimsbüttel – Das Kerngebiet (Stadtteil Eimsbüttel)",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/eimsbuettel-60276"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Stellingen",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Eidelstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
-   }
-  ]
- },
- {
-  "leistung": "entruempelung-fuer-vermieter-hamburg",
-  "bezirk": "Eimsbüttel",
-  "title": "Entrümpelung für Vermieter im Bezirk Eimsbüttel | Hinnerk",
-  "description": "Entrümpelung für Vermieter im Bezirk Eimsbüttel – Gemeinschaftskeller im Altbau oder Wohnanlage in Schnelsen. Kostenlose Besichtigung, Festpreis, Rechnung.",
-  "h1": "Entrümpelung für Vermieter im Bezirk Eimsbüttel",
-  "lead": "Zurückgelassene Möbel, ein voller Fahrradkeller, eine Wohnung nach einem Todesfall: Hinnerk räumt für Vermieter und Hausverwaltungen im Bezirk Eimsbüttel zum festen Preis und mit Rechnung.",
-  "abschnitte": [
-   {
-    "h2": "Gründerzeithaus oder Wohnanlage",
-    "html": "<p>Im Bezirk Eimsbüttel gibt es laut Statistikamt Nord gut 148.000 Wohnungen, nur 15 % davon in Ein- und Zweifamilienhäusern. Im Stadtteil Eimsbüttel und in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> prägen Gründerzeithäuser mit vielen kleinen Wohnungen das Bild. In <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> ist etwa jede achte Wohnung eine Sozialwohnung, in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> knapp jede zehnte. In Eidelstedt stammen viele Hochhäuser und Wohnblöcke aus den 1950er- bis 1970er-Jahren, in Schnelsen gibt es größere Wohnanlagen. In <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a> reicht der Bestand von alten Villen bis zur Lenzsiedlung mit Häusern von bis zu 15 Etagen.</p>"
-   },
-   {
-    "h2": "Sperrmüll im Haus: Aktionstag oder Räumung",
-    "html": "<p>Für Sperrmüll, den die Mieter selbst bringen, bietet die Stadtreinigung der Wohnungswirtschaft Sperrmüllaktionstage an. Die Mieter geben ihre Sachen dann zwischen 7:30 und 12:30 Uhr an einem vorher festgelegten Ort ab. Ein Tageseinsatz bis 85 m³ kostet 420 €, eine Halteverbotszone bietet die Stadtreinigung dazu für 150 € an. Stehen dagegen Sachen im Fahrradkeller oder auf dem Boden, die keinem Mieter mehr zuzuordnen sind, räumen wir sie für Sie – sobald geklärt ist, dass sie weg dürfen.</p>"
-   },
-   {
-    "h2": "Nach Auszug oder Todesfall",
-    "html": "<p>Bevor wir zurückgelassene Sachen eines Mieters räumen, muss feststehen, dass Sie darüber verfügen dürfen. Haben nach einem Todesfall alle Erben ausgeschlagen, kann die Stadt Erbin werden; festgestellt wird das aber erst auf Antrag beim Nachlassgericht. Ansprechpartner ist danach die Behörde für Finanzen und Bezirke. Wie Sie bei zurückgelassenen Möbeln vorgehen, erklärt der Ratgeber <a href=\"mieter-hat-sachen-zurueckgelassen.html\">Mieter hat Sachen zurückgelassen</a>. Den Schlüssel können Sie uns übergeben, und den Termin legen wir passend zur Neuvermietung.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Was kostet eine Räumung für Vermieter im Bezirk Eimsbüttel?",
-    "a": "Einen Pauschalpreis gibt es nicht. Wir sehen uns Wohnung, Keller oder Hof kostenlos an und nennen dann einen festen Preis, über den Sie eine Rechnung bekommen."
-   },
-   {
-    "q": "Muss ich bei der Räumung einer Wohnung in Stellingen dabei sein?",
-    "a": "Nein. Nach der gemeinsamen Besichtigung reicht es, wenn Sie uns den Schlüssel übergeben. Wir räumen am vereinbarten Tag."
-   },
-   {
-    "q": "Im Gemeinschaftskeller in Lokstedt steht Sperrmüll, den keiner haben will – was tun?",
-    "a": "Klären Sie zuerst, ob die Sachen noch einem Mieter gehören, zum Beispiel mit einem Aushang im Haus. Dürfen sie weg, räumen wir den Keller zum Festpreis. Bringen die Mieter ihren Sperrmüll lieber selbst, ist ein Aktionstag der Stadtreinigung eine Alternative."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
-    "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
-   },
-   {
-    "titel": "Stadtreinigung Hamburg – Sperrmüllaktionstage für die Wohnungswirtschaft",
-    "url": "https://files.stadtreinigung.hamburg/SRH_Wohnungswirtschaft_Sperrmuelltage_Flyer250326.pdf"
-   },
-   {
-    "titel": "hamburg.de – Finanzbehörde: Fiskalerbschaften",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/fiskalerbschaften-261940"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Eidelstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Schnelsen",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Schnelsen"
-   },
-   {
-    "titel": "Wikipedia – Hamburg-Lokstedt",
-    "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
-   }
-  ]
- }
+  {
+    "leistung": "haushaltsaufloesung-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Haushaltsauflösung Eimsbüttel ✓ Festpreis ✓ ab 690 € | Hinnerk",
+    "description": "Haushaltsauflösung im Bezirk Eimsbüttel – vom Reihenhaus in Niendorf bis zur Altbauetage in Harvestehude. Kostenlose Besichtigung, Festpreis ab 690 €.",
+    "h1": "Haushaltsauflösung im Bezirk Eimsbüttel",
+    "lead": "Ein Hausstand in Niendorf sieht anders aus als einer am Grindel. Hinnerk plant die Haushaltsauflösung im Bezirk Eimsbüttel nach dem Gebäude, das geräumt wird, und nennt Ihnen vorher einen festen Preis.",
+    "abschnitte": [
+      {
+        "h2": "Wo im Bezirk viele ältere Menschen wohnen",
+        "html": "<p>Im ganzen Bezirk Eimsbüttel ist laut Statistikamt Nord knapp jeder fünfte Einwohner 65 Jahre oder älter (18,5 %, Stand Ende 2024). In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> ist es fast jeder vierte, das sind mehr als 10.000 Menschen. <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> mit 21,4 % und <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> mit 20,0 % liegen ebenfalls über dem Wert des Bezirks. Bei einer Haushaltsauflösung geht es hier deshalb oft um Eltern, die ins Pflegeheim oder in eine kleinere Wohnung ziehen.</p>"
+      },
+      {
+        "h2": "Reihenhaus mit Garage oder Etage mit Stuck",
+        "html": "<p>In Niendorf und Schnelsen liegt mehr als ein Drittel aller Wohnungen in Ein- und Zweifamilienhäusern. Zum Hausstand gehören dort oft Keller, Dachboden und Garage, manchmal ein Schuppen im Garten. In Harvestehude sind die Wohnungen im Schnitt fast 99 m² groß. Viele liegen in Etagenhäusern aus Historismus und Jugendstil, mit hohen Räumen, aber nicht immer mit Aufzug. Schwere Schränke und volle Bücherregale gehen dann durchs Treppenhaus nach unten. In Lokstedt liegt beides nah beieinander: Einfamilienhäuser mit Garten und die Hochhäuser der Lenzsiedlung.</p><p>Bei der kostenlosen Besichtigung gehen wir gemeinsam durch alle Räume. Was Ihnen wichtig ist – Unterlagen, Fotos, Schmuck –, nehmen Sie vorher an sich oder zeigen es uns beim Rundgang.</p>"
+      },
+      {
+        "h2": "Recyclinghof und Hilfe im Bezirksamt",
+        "html": "<p>Sperrmüll, Holz, Metall und Elektrogeräte bringen wir getrennt zu den Recyclinghöfen der Stadtreinigung. Von Niendorf, Lokstedt und Schnelsen aus ist der Hof am Krähenweg 22 gut erreichbar; wer am Grindel oder in Pöseldorf wohnt, hat es näher zur Feldstraße 69 in St. Pauli. Fragen zu Leistungen für Seniorinnen und Senioren beantwortet das Soziale Dienstleistungszentrum des Bezirksamts am Grindelberg 62. Wie Sie den Wechsel ins Heim Schritt für Schritt planen, steht im Ratgeber <a href=\"umzug-ins-pflegeheim-wohnung-aufloesen.html\">Umzug ins Pflegeheim</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Meine Mutter zieht von Niendorf ins Pflegeheim – wann sollte ich anfragen?",
+        "a": "Am besten, sobald der Auszugstermin feststeht. Dann bleibt Zeit für die Besichtigung, und wir legen den Räumungstag passend zur Übergabe der Wohnung. Was mit ins Heim geht, stellen Sie vorher in einen Raum, den wir nicht räumen."
+      },
+      {
+        "q": "Räumt ihr in Harvestehude auch ohne Aufzug?",
+        "a": "Ja. Ohne Aufzug wird alles durchs Treppenhaus getragen, das kostet mehr Zeit. Deshalb fließt das Stockwerk in den Festpreis ein, den Sie nach der Besichtigung bekommen."
+      },
+      {
+        "q": "Was kostet eine Haushaltsauflösung im Bezirk Eimsbüttel?",
+        "a": "Bei Hinnerk ab 690 €. Ein Reihenhaus mit vollem Keller und Garage macht mehr Arbeit als eine Zweizimmerwohnung, es kommt also auf Menge, Etage und Wege an. Den festen Betrag nennen wir nach der kostenlosen Besichtigung."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "Bezirksamt Eimsbüttel – Soziale Dienstleistungszentren",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/themen/soziales/soziale-dienstleistungszentren-43610"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Harvestehude",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
+      },
+      {
+        "titel": "hamburg.de – Niendorf",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
+      }
+    ]
+  },
+  {
+    "leistung": "wohnungsaufloesung-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Wohnungsauflösung im Bezirk Eimsbüttel ✓ ab 690 € | Hinnerk",
+    "description": "Wohnungsauflösung im Bezirk Eimsbüttel: Altbau ohne Aufzug nahe der Osterstraße oder Grindelhochhaus. Kostenlose Besichtigung, Festpreis ab 690 €.",
+    "h1": "Wohnungsauflösung im Bezirk Eimsbüttel",
+    "lead": "Viele Wohnungen im Bezirk Eimsbüttel liegen in eng bebauten Altbaustraßen, andere in Hochhäusern. Hinnerk räumt beide leer, damit Sie pünktlich übergeben können – zum festen Preis.",
+    "abschnitte": [
+      {
+        "h2": "Kleine Wohnungen, viele Stufen",
+        "html": "<p>Im Stadtteil <a href=\"entruempelung-hamburg-eimsbuettel.html\">Eimsbüttel</a> ist eine Wohnung laut Statistikamt Nord im Schnitt nur gut 63 m² groß, in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> 66 m². In beiden Stadtteilen lebt in gut zwei von drei Haushalten nur eine Person. Typisch ist die kleine Wohnung im Gründerzeit- oder Rotklinkerhaus, oft ohne Aufzug. Für die Räumung bedeutet das: wenig Masse, aber viele Stufen bis zur Straße. Anders in Harvestehude, wo eine Wohnung im Schnitt fast 99 m² misst – dort kommt bei einer Auflösung deutlich mehr zusammen.</p>"
+      },
+      {
+        "h2": "Parken rund um Osterstraße und Ring 2",
+        "html": "<p>Das Bezirksamt nennt Parkplatzmangel ausdrücklich als Folge der dichten Bebauung im Stadtteil Eimsbüttel; Ring 2 und Bundesstraße 5 sind stark befahren. Wer vor dem Haus Platz für den Transporter braucht, kann eine Halteverbotszone beantragen. Laut hamburg.de muss der Antrag mindestens 14 Tage vorher eingehen, die Gebühr liegt zwischen 30 und 200 €. Die Schilder müssen mindestens vier Tage vor dem Termin stehen; Sie stellen sie selbst auf oder beauftragen einen Aufstellservice. Welche Stelle zuständig ist, hängt von der Adresse ab. Ob sich das an Ihrer Straße lohnt, besprechen wir bei der Besichtigung.</p>"
+      },
+      {
+        "h2": "Wenn die Wohnung im Hochhaus liegt",
+        "html": "<p>Die Spanne im Bezirk ist groß: hamburg.de nennt Studentenheime, familiäre Wohngebiete und luxuriöse Villenviertel. Am Grindelberg in <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> stehen die zwölf Grindelhochhäuser, gebaut bis 1956, in <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a> die Lenzsiedlung aus den Jahren 1976 bis 1978 mit bis zu 15 Etagen. Wie weit der Weg vom Aufzug bis zum Wagen ist, sehen wir uns vor Ort an und rechnen es in den Festpreis ein. Was der Vermieter bei der Rückgabe erwarten darf, erklärt der Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">Wohnung besenrein übergeben</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Meine Wohnung in Hoheluft-West liegt im vierten Stock ohne Aufzug – wird es teurer?",
+        "a": "Das Stockwerk spielt beim Preis eine Rolle, weil jedes Teil die Treppe hinunter muss. Wir sehen uns das Treppenhaus bei der kostenlosen Besichtigung an und rechnen es ein. Eine Wohnungsauflösung beginnt bei Hinnerk bei 690 €."
+      },
+      {
+        "q": "Brauche ich rund um die Osterstraße eine Halteverbotszone?",
+        "a": "Oft ist sie sinnvoll, weil die Straßen dort eng zugeparkt sind. Den Antrag stellen Sie mindestens 14 Tage vorher bei der Stelle, die für Ihre Adresse zuständig ist. Bei der Besichtigung schauen wir uns die Lage vor dem Haus gemeinsam an."
+      },
+      {
+        "q": "Muss ich beim Räumen meiner Wohnung im Stadtteil Eimsbüttel dabei sein?",
+        "a": "Nein. Sie müssen beim Räumen nicht dabei sein und können uns den Schlüssel übergeben. Den Räumungstag legen wir so, dass er vor Ihren Termin mit dem Vermieter fällt."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "Bezirksamt Eimsbüttel – Das Kerngebiet (Stadtteil Eimsbüttel)",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/eimsbuettel-60276"
+      },
+      {
+        "titel": "hamburg.de – Halteverbotszone beantragen",
+        "url": "https://www.hamburg.de/service/info/11263054/n0/"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Harvestehude",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      }
+    ]
+  },
+  {
+    "leistung": "keller-entruempeln-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Keller entrümpeln Bezirk Eimsbüttel ✓ ab 290 € ✓ Festpreis | Hinnerk",
+    "description": "Keller entrümpeln im Bezirk Eimsbüttel: Kellerabteil im Altbau am Grindel oder ganzer Hauskeller in Niendorf. Kostenlose Besichtigung, Festpreis ab 290 €.",
+    "h1": "Keller entrümpeln im Bezirk Eimsbüttel",
+    "lead": "Ob schmales Abteil im Gründerzeithaus oder ganzer Keller unterm Reihenhaus: Hinnerk räumt Keller im ganzen Bezirk Eimsbüttel und nennt den Preis, bevor es losgeht.",
+    "abschnitte": [
+      {
+        "h2": "Viele Parteien, ein Keller",
+        "html": "<p>Im Stadtteil <a href=\"entruempelung-hamburg-eimsbuettel.html\">Eimsbüttel</a> kommen laut Statistikamt Nord auf ein Wohngebäude im Schnitt mehr als zehn Wohnungen. Unten im Haus teilen sich entsprechend viele Mietparteien den Keller, jede mit ihrem Abteil. In <a href=\"entruempelung-hamburg-rotherbaum.html\">Rotherbaum</a> rund um den Grindel und in Hoheluft-West sieht es ähnlich aus. Wie schmal Gänge und Kellertreppe sind, prüfen wir bei der Besichtigung. Geräumt wird nur das Abteil, das zu Ihrer Wohnung gehört.</p>"
+      },
+      {
+        "h2": "Ganze Hauskeller in Niendorf und Stellingen",
+        "html": "<p>Außerhalb des dichten Kerns ändert sich das Bild. In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> stehen viele Einfamilien- und Reihenhäuser aus den 1960er- und 1970er-Jahren; im Schnitt kommen dort weniger als drei Wohnungen auf ein Gebäude. In <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a> stammen viele Einzel- und Reihenhäuser aus den 1950er-Jahren. Hier geht es meist um einen Hauskeller mit mehreren Räumen statt um ein einzelnes Abteil. Werkbank, Regale, Kartons und ausrangierte Möbel kommen dann alle auf einmal heraus. In Lokstedt reicht die Spanne vom Einfamilienhaus mit eigenem Keller bis zur Wohnung im Hochhaus.</p>"
+      },
+      {
+        "h2": "Getrennt zur Entsorgung",
+        "html": "<p>Was im Keller steht, sortieren wir nach Sperrmüll, Holz, Metall und Elektrogeräten. Der nächstgelegene Recyclinghof ist für Lokstedt und Niendorf der am Krähenweg 22, für Kellerabteile in Rotherbaum und Eimsbüttel die Feldstraße 69. Alte Farbeimer und Lackdosen sind Sonderabfall; sagen Sie uns vorher, wenn welche im Regal stehen. Liegt im Keller ausschließlich Sperrmüll, ist auch die Abfuhr der Stadtreinigung eine Möglichkeit: bis 8 m³ für 35 €, wenn Sie alles nach draußen stellen, aus dem Keller geholt für 50 €. Ein Kellerabteil räumt Hinnerk ab 290 €. Eine erste Schätzung für Ihren Keller gibt der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kann ich im Altbau im Stadtteil Eimsbüttel nur mein eigenes Kellerabteil räumen lassen?",
+        "a": "Ja. Zeigen Sie uns bei der Besichtigung, welches Abteil zu Ihrer Wohnung gehört, dann bleibt alles andere unberührt. Sachen im Gemeinschaftsgang klären Sie vorher mit der Hausverwaltung."
+      },
+      {
+        "q": "Was kostet ein voller Reihenhauskeller in Niendorf?",
+        "a": "Ein Kellerabteil gibt es bei Hinnerk ab 290 €. Ein ganzer Hauskeller hat mehr Räume und mehr Inhalt, deshalb liegt der Preis darüber. Den festen Betrag nennen wir, sobald wir den Keller gesehen haben."
+      },
+      {
+        "q": "Muss ich den Keller in Stellingen vorher ausräumen oder sortieren?",
+        "a": "Nein. Stellen Sie nur zur Seite, was Sie behalten möchten. Alles andere nehmen wir mit und trennen es für die Entsorgung."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "hamburg.de – Sperrmüll abholen lassen (Stadtreinigung Hamburg)",
+        "url": "https://www.hamburg.de/service/info/11279820/"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Stellingen",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
+      },
+      {
+        "titel": "hamburg.de – Niendorf",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      },
+      {
+        "titel": "Wikipedia – Grindel (Hamburg)",
+        "url": "https://de.wikipedia.org/wiki/Grindel_(Hamburg)"
+      },
+      {
+        "titel": "Stadtreinigung Hamburg: Gebühren ab 1. Januar 2026",
+        "url": "https://files.stadtreinigung.hamburg/website/download/PDF/Abfallentsorgungsgebuehren.pdf"
+      }
+    ]
+  },
+  {
+    "leistung": "nachlassaufloesung-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Nachlassauflösung Bezirk Eimsbüttel ✓ Festpreis ab 690 € | Hinnerk",
+    "description": "Nachlassauflösung im Bezirk Eimsbüttel – von der Altbauwohnung in Harvestehude bis zur Villa in Lokstedt. Kostenlose Besichtigung, Festpreis ab 690 €.",
+    "h1": "Nachlassauflösung im Bezirk Eimsbüttel",
+    "lead": "Nach einem Todesfall müssen Erben im Bezirk Eimsbüttel zuerst klären, wer überhaupt räumen darf. Danach übernimmt Hinnerk die Räumung – nach Ihren Vorgaben und zum festen Preis.",
+    "abschnitte": [
+      {
+        "h2": "Erst das Nachlassgericht, dann die Räumung",
+        "html": "<p>Bevor eine Wohnung oder ein Haus geräumt wird, muss feststehen, wer erbt. In Hamburg ist dafür das Nachlassgericht beim Amtsgericht zuständig, und zwar dort, wo die verstorbene Person zuletzt ihren Lebensmittelpunkt hatte. Welches Amtsgericht das für eine Adresse in <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a> oder <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> ist, zeigt die Zuständigkeitssuche auf hamburg.de. Für einen Erbschein brauchen Sie dort einen Termin, auch für eine Ausschlagung sollten Sie vorher einen vereinbaren. Wer selbst außerhalb wohnt, kann den Antrag auch beim Amtsgericht am eigenen Wohnort stellen.</p>"
+      },
+      {
+        "h2": "Wenn alle Erben ausschlagen",
+        "html": "<p>Ist kein anderer Erbe zu ermitteln, kann die Freie und Hansestadt Hamburg kraft Gesetzes Erbin werden. Festgestellt wird das laut Finanzbehörde nicht automatisch, sondern grundsätzlich auf Antrag beim Nachlassgericht. Erst mit dem Feststellungsbeschluss übernimmt die Behörde für Finanzen und Bezirke. Was das für Wohnung und Vermieter heißt, erklärt der Ratgeber <a href=\"erbe-ausgeschlagen-wer-raeumt-wohnung.html\">Erbe ausgeschlagen: Wer räumt die Wohnung?</a></p>"
+      },
+      {
+        "h2": "Stuckwohnung, Villa, Reihenhaus",
+        "html": "<p>In <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> sind viele Häuser über 100 Jahre alt, mit Stuck, Holzböden und manchmal ohne Aufzug. Dort tragen wir besonders vorsichtig durch Flure und Treppenhaus. Im Zylinderviertel in Lokstedt sind Villen aus der Zeit um 1900 erhalten; zu einem Nachlass gehören dort oft Keller, Dachboden und Nebengebäude. In Niendorf, wo fast jeder vierte Einwohner 65 oder älter ist, geht es häufig um ein Reihen- oder Einfamilienhaus aus den 1960er- oder 1970er-Jahren mit Garage. Zur kostenlosen Besichtigung sehen wir uns jedes Zimmer zusammen mit Ihnen an. Unterlagen, Fotos und Erbstücke nehmen Sie vorher an sich oder zeigen sie uns. Danach steht der Festpreis, und den Schlüssel können Sie uns übergeben.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Welches Nachlassgericht ist für eine Wohnung in Niendorf zuständig?",
+        "a": "Das Amtsgericht, in dessen Bereich die verstorbene Person zuletzt gelebt hat. Am einfachsten finden Sie es über die Zuständigkeitssuche auf hamburg.de, in die Sie die letzte Adresse eingeben. Wohnen Sie selbst anderswo, können Sie den Antrag auch dort stellen."
+      },
+      {
+        "q": "Ich wohne nicht in Hamburg – muss ich zur Räumung anreisen?",
+        "a": "Für die Räumung selbst nicht, den Schlüssel können Sie uns übergeben. Bei der Besichtigung gehen wir einmal gemeinsam durch die Räume und legen fest, was bleiben soll."
+      },
+      {
+        "q": "Was kostet eine Nachlassauflösung im Bezirk Eimsbüttel?",
+        "a": "Bei Hinnerk ab 690 €. Eine kleine Etagenwohnung in Hoheluft-West ist meist schneller geräumt als eine Villa mit Nebengebäuden in Lokstedt. Den Festpreis erfahren Sie nach der Besichtigung, bevor wir anfangen."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "hamburg.de – Nachlassgericht: Allgemeine Informationen",
+        "url": "https://www.hamburg.de/service/info/11252454/n0/"
+      },
+      {
+        "titel": "hamburg.de – Finanzbehörde: Fiskalerbschaften",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/fiskalerbschaften-261940"
+      },
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Harvestehude",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      },
+      {
+        "titel": "hamburg.de – Niendorf",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
+      }
+    ]
+  },
+  {
+    "leistung": "messie-wohnung-raeumen-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Messie-Wohnung räumen Eimsbüttel ✓ diskret ✓ ab 1.890 € | Hinnerk",
+    "description": "Messie-Wohnung räumen im Bezirk Eimsbüttel – auch im dicht bewohnten Altbau oder Hochhaus. Ohne Vorwürfe, kostenlose Besichtigung, Festpreis ab 1.890 €.",
+    "h1": "Messie-Wohnung räumen im Bezirk Eimsbüttel",
+    "lead": "In den dicht bewohnten Häusern des Bezirks Eimsbüttel ist Zurückhaltung besonders wichtig. Hinnerk räumt stark vollgestellte Wohnungen ohne Vorwürfe und zum festen Preis.",
+    "abschnitte": [
+      {
+        "h2": "Viele Nachbarn auf engem Raum",
+        "html": "<p><a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> ist laut hamburg.de der am dichtesten besiedelte Stadtteil Hamburgs: Auf 0,7 km² leben dort nach Zahlen des Statistikamts Nord rund 13.600 Menschen. Auch im Stadtteil Eimsbüttel wohnen die Menschen eng beieinander. Wer hier eine stark vollgestellte Wohnung räumen lässt, teilt Eingang und Treppenhaus mit vielen Parteien. Ähnlich viele Nachbarn hat man in den Hochhäusern und Wohnblöcken in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> oder in der Lenzsiedlung in <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a>. Wir sprechen mit niemandem über den Auftrag und machen Ihnen keine Vorwürfe.</p>"
+      },
+      {
+        "h2": "Hilfe, wenn die Wohnung gefährdet ist",
+        "html": "<p>Manchmal drängt die Zeit, weil das Mietverhältnis gefährdet ist, etwa durch eine fristlose Kündigung oder eine Räumungsklage. Dann lohnt sich eine kostenlose Beratung bei der Fachstelle für Wohnungsnotfälle: Dort wird erklärt, wie ein Räumungsverfahren abläuft, und es gibt Kontakte für eine Rechtsberatung. Die zuständige Stelle finden Sie auf hamburg.de über die Wohnanschrift. Für Unterstützung in besonderen Lebenslagen hat das Bezirksamt außerdem ein Soziales Dienstleistungszentrum am Grindelberg 62.</p>"
+      },
+      {
+        "h2": "Besichtigung, Preis und was wir nicht machen",
+        "html": "<p>Bei der Besichtigung schauen wir, wie viel in der Wohnung steht, wie man durch die Räume kommt und ob Abfälle getrennt entsorgt werden müssen. Danach nennen wir einen festen Preis; Messie-Wohnungen räumt Hinnerk ab 1.890 €. Im Altbau ohne Aufzug ist mehr zu tragen, das fließt mit ein. Sagen Sie uns vorher, worauf wir achten sollen, etwa auf Papiere, Fotos oder Schmuck. Desinfektion, Schädlingsbekämpfung und Grundreinigung übernehmen wir nicht. Fällt uns auf, dass dafür ein Fachbetrieb nötig ist, sagen wir es offen, damit Sie ihn rechtzeitig beauftragen können. Wie sich unsere Preise zusammensetzen, steht unter <a href=\"preise.html#rechner\">Preise</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Erfahren die Nachbarn im Altbau, warum geräumt wird?",
+        "a": "Von uns nicht. Wir sprechen weder im Treppenhaus noch sonst mit jemandem über den Auftrag. Dass Säcke und Möbel hinausgetragen werden, lässt sich im Mehrfamilienhaus aber nicht verbergen."
+      },
+      {
+        "q": "Meine Schwester lebt in Stellingen und schafft es nicht allein – darf ich für sie anfragen?",
+        "a": "Ja, wenn Ihre Schwester einverstanden ist und wir in die Wohnung kommen. Am besten ist sie bei der Besichtigung dabei und sagt selbst, was bleiben soll. Vorwürfe gibt es von uns nicht."
+      },
+      {
+        "q": "Was kostet es, eine Messie-Wohnung im Bezirk Eimsbüttel räumen zu lassen?",
+        "a": "Bei Hinnerk ab 1.890 €. Wie hoch der Festpreis genau wird, hängt vor allem von der Menge und vom Stockwerk ab. Den Betrag nennen wir nach der kostenlosen Besichtigung, und er ändert sich danach nicht."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "hamburg.de – Stadtteile im Bezirk Eimsbüttel",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel"
+      },
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "hamburg.de – Wohnungsnotfälle: Beratung zur Wohnungssicherung",
+        "url": "https://www.hamburg.de/service/info/111202963/n0/"
+      },
+      {
+        "titel": "Bezirksamt Eimsbüttel – Soziale Dienstleistungszentren",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/themen/soziales/soziale-dienstleistungszentren-43610"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Eidelstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      }
+    ]
+  },
+  {
+    "leistung": "bueroaufloesung-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Büroauflösung Eimsbüttel ✓ kostenlose Besichtigung | Hinnerk",
+    "description": "Büroauflösung im Bezirk Eimsbüttel – Altbaubüro in Rotherbaum oder Gewerbegebiet in Schnelsen. Kostenlose Besichtigung, Festpreis und Rechnung.",
+    "h1": "Büroauflösung im Bezirk Eimsbüttel",
+    "lead": "Im Bezirk Eimsbüttel reicht die Spanne vom Medienstandort Harvestehude bis zu den Gewerbegebieten in Schnelsen und Eidelstedt. Hinnerk räumt Büros zum festen Preis, passend zu Ihrem Übergabetermin.",
+    "abschnitte": [
+      {
+        "h2": "Büros in Villen und Etagenhäusern",
+        "html": "<p>Laut hamburg.de ist <a href=\"entruempelung-hamburg-harvestehude.html\">Harvestehude</a> ein bedeutender Medienstandort, in <a href=\"entruempelung-hamburg-rotherbaum.html\">Rotherbaum</a> liegt die Universität. Die Häuser dort sind oft alt: Villen und Etagenhäuser aus Historismus und Jugendstil, in der Straße Grindelhof viele unter Denkmalschutz. Liegt Ihr Büro in so einem Haus ohne Aufzug, gehen Schreibtische, Aktenschränke und Technik durchs Treppenhaus nach unten. An der Alster und in Pöseldorf ist außerdem der Halteplatz knapp. Beides schauen wir uns bei der kostenlosen Besichtigung an.</p>"
+      },
+      {
+        "h2": "Gewerbegebiete am Stadtrand",
+        "html": "<p>Gewerbegebiete von nennenswerter Größe finden sich vor allem in den äußeren Stadtteilen Eidelstedt, Niendorf und <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a>, so das Gewerbeflächenkonzept des Bezirks von 2018. Büros und Dienstleister verteilen sich dort auf fast alle Gebiete. Im Stadtteil Eimsbüttel beschreibt das Bezirksamt die Gewerbestruktur dagegen als vielfältig und kleinteilig, Haupteinkaufsstraße ist die Osterstraße. Bekannte Firmensitze im Bezirk sind Beiersdorf in Hoheluft-West und das NDR Fernsehen, das seit 1953 in Lokstedt zu Hause ist.</p>"
+      },
+      {
+        "h2": "Akten, Technik und Recyclinghof",
+        "html": "<p>Ordner mit Kunden- oder Personaldaten sortieren Sie vorher aus; dafür ist ein Fachbetrieb für Aktenvernichtung der richtige Weg. Festplatten und Datenträger nehmen Sie an sich. Gut erhaltene Schreibtische und Stühle lassen sich vorher verkaufen oder weitergeben; Anlaufstellen nennt der Ratgeber <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>. Elektrogeräte bringen wir getrennt zur Entsorgung. Elf der zwölf Recyclinghöfe der Stadtreinigung nehmen kleinere Mengen von Gewerbebetrieben an, darunter Niendorf am Krähenweg und St. Pauli an der Feldstraße. Den Räumungstag legen wir passend zur Übergabe, und Sie bekommen eine Rechnung. Für Läden, Lager und Werkstätten gibt es die Seite <a href=\"firmenaufloesung-hamburg.html\">Firmenauflösung</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was kostet eine Büroauflösung im Bezirk Eimsbüttel?",
+        "a": "Einen Pauschalpreis gibt es nicht, weil kein Büro dem anderen gleicht. Wir sehen uns die Räume kostenlos an und nennen dann einen festen Preis. Darüber bekommen Sie eine Rechnung."
+      },
+      {
+        "q": "Unser Büro liegt im Altbau in Rotherbaum ohne Aufzug – ist das ein Problem?",
+        "a": "Nein. Dann wird alles durchs Treppenhaus getragen, und das Stockwerk ist im Festpreis berücksichtigt. Ist vor dem Haus kein Platz zum Halten, hilft eine Halteverbotszone, die mindestens 14 Tage vorher beantragt werden muss."
+      },
+      {
+        "q": "Könnt ihr in Lokstedt bis zu unserem Übergabetermin räumen?",
+        "a": "Ja, wir legen den Räumungstag so, dass er zu Ihrer Übergabe an den Vermieter passt. Nennen Sie uns bei der Besichtigung, wann die Fläche leer sein muss."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "hamburg.de – Stadtteile im Bezirk Eimsbüttel",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel"
+      },
+      {
+        "titel": "Bezirksamt Eimsbüttel – Gewerbeflächenkonzept 2018 (hamburg-business.com)",
+        "url": "https://hamburg-business.com/_Resources/Persistent/9/3/d/4/93d4dc60322344cea6e52e1d39423385aeb2c1aa/gewerbeflaechenkonzept-eimsbuettel_2018.pdf"
+      },
+      {
+        "titel": "Bezirksamt Eimsbüttel – Das Kerngebiet (Stadtteil Eimsbüttel)",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/eimsbuettel-60276"
+      },
+      {
+        "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "Wikipedia – Grindel (Hamburg)",
+        "url": "https://de.wikipedia.org/wiki/Grindel_(Hamburg)"
+      },
+      {
+        "titel": "hamburg.de – Halteverbotszone beantragen",
+        "url": "https://www.hamburg.de/service/info/11263054/n0/"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      },
+      {
+        "titel": "hamburg.de – Hoheluft-West",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/hoheluft-west-372408"
+      }
+    ]
+  },
+  {
+    "leistung": "sperrmuell-abholen-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Sperrmüll abholen Eimsbüttel ✓ wir tragen ✓ ab 129 € | Hinnerk",
+    "description": "Sperrmüll abholen im Bezirk Eimsbüttel – auch aus dem Altbau ohne Aufzug. Mit Vergleich zum Recyclinghof Niendorf. Besichtigung kostenlos, Festpreis ab 129 €.",
+    "h1": "Sperrmüll abholen im Bezirk Eimsbüttel",
+    "lead": "Im dicht bebauten Teil des Bezirks Eimsbüttel haben viele Haushalte kein Auto für den Weg zum Recyclinghof. Hinnerk holt Sperrmüll dort ab, wo er steht – zum festen Preis.",
+    "abschnitte": [
+      {
+        "h2": "Wenig Autos, drei Wege",
+        "html": "<p>Im Stadtteil <a href=\"entruempelung-hamburg-eimsbuettel.html\">Eimsbüttel</a> kommen laut Statistikamt Nord nur 246 Pkw auf 1.000 Einwohner, in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> 250, in Niendorf dagegen 398. Ein Sofa selbst wegzufahren, ist in den dicht bebauten Stadtteilen für viele keine Option. So kommt Sperrmüll im Bezirk weg:</p><ul><li><b>Stadtreinigung:</b> telefonisch bestellen, bis 8 m³ für 35 € (draußen bereitgestellt) oder 50 € (aus dem Gebäude geholt), jeder weitere angefangene Kubikmeter 5 €. Zerlegen kostet extra: 7,50 € pro Mitarbeiter und angefangene Viertelstunde. Verlangt werden ein Hamburger Wohnsitz und ein Ausweis. Die Variante SPRINT kostet laut Gebührenliste 2026 95 € zusätzlich und ist auf 10 m³ begrenzt. Gut erhaltene Möbel nimmt die Stadtreinigung auch über ihre „schonende Abfuhr“ mit.</li><li><b>Selbst bringen:</b> zum Recyclinghof Niendorf, Krähenweg 22, oder nach St. Pauli, Feldstraße 69 – beide Montag bis Samstag von 8 bis 17 Uhr. Aus Eidelstedt und Stellingen kommt auch Bahrenfeld, Rondenbarg 52 a, infrage.</li><li><b>Hinnerk:</b> Wir tragen aus Wohnung, Keller oder Dachboden, ab 129 €.</li></ul>"
+      },
+      {
+        "h2": "Tragen statt an die Straße stellen",
+        "html": "<p>Bei uns muss nichts vorher nach unten. Wir holen Schrank, Matratze oder Bettgestell aus der Wohnung, auch aus dem Altbau ohne Aufzug oder aus einem Mehrfamilienhaus der 1960er-Jahre in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a>. Holz, Metall und Elektrogeräte trennen wir und bringen sie zu den Recyclinghöfen. Nach einer kurzen Besichtigung vor Ort nennen wir einen festen Preis. Farben, Lacke und Batterien zählen nicht zum Sperrmüll; sagen Sie uns, wenn so etwas dabei ist. Wer selbst zum Hof fährt: Kühlgeräte nimmt der Recyclinghof laut Preisliste 2026 höchstens zwei Stück pro Anlieferung an, größere Mengen nur nach Absprache. Wie die Abfuhr der Stadtreinigung im Einzelnen läuft, erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was ist günstiger – die Stadtreinigung oder Hinnerk?",
+        "a": "Die Stadtreinigung beginnt bei 35 € für bis zu 8 m³, Zerlegen kostet extra. Bei Hinnerk geht es ab 129 € los, dafür tragen wir alles selbst aus Wohnung, Keller oder Boden. Was besser passt, hängt davon ab, ob jemand beim Tragen helfen kann."
+      },
+      {
+        "q": "Welcher Recyclinghof liegt für Eidelstedt am nächsten?",
+        "a": "Je nach Lage im Stadtteil der Hof in Bahrenfeld am Rondenbarg 52 a oder der in Niendorf am Krähenweg 22. Bahrenfeld hat werktags bis 19 Uhr geöffnet. Aufs Gelände dürfen dort nur Fahrzeuge bis 7,5 t und 3,4 m Höhe."
+      },
+      {
+        "q": "Holt ihr auch nur eine einzelne Matratze in Schnelsen ab?",
+        "a": "Ja, auch Einzelstücke holen wir ab, ab 129 €. Für ein einzelnes Teil kann die Abfuhr der Stadtreinigung günstiger sein. Vergleichen Sie ruhig beide Wege."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "hamburg.de – Sperrmüll abholen lassen (Stadtreinigung Hamburg)",
+        "url": "https://www.hamburg.de/service/info/11279820/"
+      },
+      {
+        "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Stellingen",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
+      },
+      {
+        "titel": "Stadtreinigung Hamburg: Gebühren ab 1. Januar 2026",
+        "url": "https://files.stadtreinigung.hamburg/website/download/PDF/Abfallentsorgungsgebuehren.pdf"
+      }
+    ]
+  },
+  {
+    "leistung": "hausaufloesung-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Hausauflösung Bezirk Eimsbüttel ✓ Festpreis ab 2.490 € | Hinnerk",
+    "description": "Hausauflösung im Bezirk Eimsbüttel: Siedlungshaus in Eidelstedt, Reihenhaus in Niendorf, Villa in Lokstedt. Kostenlose Besichtigung, Festpreis ab 2.490 €.",
+    "h1": "Hausauflösung im Bezirk Eimsbüttel",
+    "lead": "Ganze Häuser stehen im Bezirk Eimsbüttel vor allem in Niendorf, Schnelsen und Eidelstedt. Hinnerk räumt sie mit allen Nebengebäuden und nennt Ihnen vorher einen festen Preis.",
+    "abschnitte": [
+      {
+        "h2": "Wo im Bezirk die Häuser stehen",
+        "html": "<p>Im ganzen Bezirk Eimsbüttel liegen laut Statistikamt Nord nur 15 % der Wohnungen in Ein- und Zweifamilienhäusern. Verteilt ist das sehr ungleich: In <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> sind es 36,8 %, in <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> 34,5 % und in Eidelstedt knapp ein Viertel. Im Stadtteil Eimsbüttel ist es gerade einmal gut ein Prozent. Wer ein ganzes Haus auflösen muss, hat es deshalb meist mit einer Adresse im Norden oder Westen des Bezirks zu tun.</p>"
+      },
+      {
+        "h2": "Drei Haustypen, drei Aufgaben",
+        "html": "<ul><li><b>Siedlungshaus in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a>:</b> In der Lohkampsiedlung stehen kleine Doppelhäuser aus den 1950er-Jahren auf großen Grundstücken. Oft gehören Schuppen und ein früherer Stall dazu, der heute als Garage dient; die Treppe zum Boden ist oft steil.</li><li><b>Reihen- und Einfamilienhaus in Niendorf:</b> viele davon aus den 1960er- und 1970er-Jahren, oft mit Keller, Dachboden und Garage.</li><li><b>Villa in Lokstedt:</b> Im Zylinderviertel sind Villen aus der Zeit um 1900 erhalten, häufig mit Nebengebäuden. Weitere Villen aus Historismus und Jugendstil stehen in Harvestehude, wo ab etwa 1870 gebaut wurde.</li></ul><p>In Niendorf verteilen sich gut 21.000 Wohnungen auf mehr als 8.600 Wohngebäude – ein Zeichen dafür, wie viele Häuser dort für nur eine oder zwei Familien gebaut sind.</p>"
+      },
+      {
+        "h2": "So läuft die Hausauflösung",
+        "html": "<p>Bei der kostenlosen Besichtigung gehen wir mit Ihnen durch jedes Gebäude auf dem Grundstück. Was in der Familie bleiben soll, stellen Sie zur Seite oder markieren es. Danach steht der Festpreis; Hausauflösungen gibt es bei Hinnerk ab 2.490 €. Am Räumungstag trennen wir Sperrmüll, Holz, Metall und Elektrogeräte, von Niendorf und Schnelsen aus ist der Recyclinghof am Krähenweg 22 nah. Sie müssen nicht dabei sein, den Schlüssel können Sie uns übergeben. Mit wie viel Zeit Sie rechnen sollten, steht im Ratgeber <a href=\"wie-lange-dauert-eine-entruempelung.html\">Wie lange dauert eine Entrümpelung?</a></p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Räumt ihr in Eidelstedt auch Schuppen und alten Stall mit?",
+        "a": "Ja, wenn Sie das möchten. Wir sehen uns alle Nebengebäude bei der Besichtigung an, sie sind dann im Festpreis enthalten. Ein Gartenhaus komplett abzubauen, gehört nicht zur normalen Räumung – das besprechen wir vorher."
+      },
+      {
+        "q": "Das Haus in Niendorf wird verkauft – wann sollten wir uns melden?",
+        "a": "Sobald der Übergabetermin an die Käufer feststeht. Dann legen wir die Räumung so, dass sie davor fertig ist."
+      },
+      {
+        "q": "Was kostet eine Hausauflösung in Schnelsen?",
+        "a": "Ab 2.490 €. Ein Reihenhaus mit vollem Keller und Dachboden kostet mehr als ein halb leeres Haus; es kommt auf Menge, Zahl der Räume und Nebengebäude an. Den genauen Festpreis erfahren Sie nach der Besichtigung."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "hamburg.de – Begründung Erhaltungsverordnung Lohkamp",
+        "url": "https://www.hamburg.de/resource/blob/59946/955b0c6b9a588142066af91a68785ca5/d-erhvo-staedt-ervo-begruendung-lohkamp-data.pdf"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Eidelstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
+      },
+      {
+        "titel": "hamburg.de – Niendorf",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/niendorf-372526"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Harvestehude",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
+      }
+    ]
+  },
+  {
+    "leistung": "dachboden-entruempeln-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Dachboden entrümpeln Eimsbüttel ✓ ab 290 € ✓ Festpreis | Hinnerk",
+    "description": "Dachboden entrümpeln im Bezirk Eimsbüttel: Bodenabteil im Generalsviertel oder Spitzboden im Siedlungshaus. Kostenlose Besichtigung, Festpreis ab 290 €.",
+    "h1": "Dachboden entrümpeln im Bezirk Eimsbüttel",
+    "lead": "Unterm Dach sammelt sich im Bezirk Eimsbüttel einiges an – im Bodenabteil des Altbaus genauso wie im Siedlungshaus. Hinnerk räumt Dachböden und nennt den Preis, bevor die erste Kiste getragen wird.",
+    "abschnitte": [
+      {
+        "h2": "Bodenabteil ganz oben im Gründerzeithaus",
+        "html": "<p>Im Generalsviertel in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> und rund um die Osterstraße stehen Altbauten aus Gründerzeit und Jugendstil, viele davon ohne Aufzug. Das Bodenabteil liegt dort über der obersten Wohnung. Jede Kiste und jeder alte Stuhl muss also durch das ganze Treppenhaus nach unten. Wie viele Etagen das sind und wie eng die letzte Treppe ist, sehen wir bei der Besichtigung. Im Stadtteil Eimsbüttel verteilen sich laut Statistikamt Nord gut 35.000 Wohnungen auf nur rund 3.400 Wohngebäude, unterm Dach liegen dann oft viele Abteile nebeneinander. Räumen Sie vorher nur Ihr eigenes Abteil frei, und lassen Sie Sachen der Nachbarn stehen.</p>"
+      },
+      {
+        "h2": "Steile Bodentreppen im Siedlungshaus",
+        "html": "<p>In <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> sind die Siedlungshäuser klein, etwa in der Lohkampsiedlung, und die Treppen zum Dachboden oft steil. In <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> und Niendorf haben ältere Einfamilien- und Reihenhäuser häufig einen vollen Boden. Sperrige Teile passen dort nicht immer durch Luke oder Treppe und müssen vorher zerlegt werden. Auch die alten Villen im Lokstedter Zylinderviertel haben oft einen Dachboden, dazu Keller und Nebengebäude. Das alles rechnen wir in den festen Preis ein. Einen Dachboden räumt Hinnerk ab 290 €.</p>"
+      },
+      {
+        "h2": "Alte Dämmung bleibt liegen",
+        "html": "<p>Unter älteren Dächern liegen manchmal Glaswolle, Steinwolle oder Platten aus Asbestzement. Das gehört nicht zu einer normalen Entrümpelung, dafür ist ein Fachbetrieb nötig. Auch die Stadtreinigung nimmt Mineralfaser und Asbestzement laut ihrer Preisliste 2026 nur nach telefonischer Beratung und Voranmeldung an. Sagen Sie uns vorher, wenn Ihnen so etwas aufgefallen ist. Kisten mit alten Briefen oder Fotoalben sehen Sie am besten vorher durch. Was die Recyclinghöfe sonst annehmen, zeigt der Ratgeber <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg: Was darf hin?</a></p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Unser Bodenabteil im Stadtteil Eimsbüttel liegt im fünften Stock – wie kommt alles runter?",
+        "a": "Wir tragen alles durchs Treppenhaus nach unten zum Wagen. Wie viele Etagen es sind und wie eng der Zugang ist, fließt in den Festpreis ein. Den nennen wir Ihnen nach der Besichtigung."
+      },
+      {
+        "q": "Die Bodentreppe in unserem Siedlungshaus in Eidelstedt ist sehr steil – geht das trotzdem?",
+        "a": "Ja, solange der Zugang sicher ist. Wir sehen uns Treppe oder Luke bei der Besichtigung an und planen die Räumung danach."
+      },
+      {
+        "q": "Nehmt ihr alte Glaswolle vom Dachboden in Schnelsen mit?",
+        "a": "Nein. Dämmstoffe und mögliche Gefahrstoffe wie Asbest gehören in die Hände eines Fachbetriebs. Den übrigen Dachboden räumen wir trotzdem, sagen Sie uns nur vorher, wo solches Material liegt."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      },
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "hamburg.de – Hoheluft-West",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/hoheluft-west-372408"
+      },
+      {
+        "titel": "hamburg.de – Eimsbüttel",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-eimsbuettel/eimsbuettel-372258"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Eidelstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Schnelsen",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Schnelsen"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      }
+    ]
+  },
+  {
+    "leistung": "garage-entruempeln-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Garage entrümpeln Bezirk Eimsbüttel ✓ ab 290 € | Hinnerk",
+    "description": "Garage oder Schuppen entrümpeln im Bezirk Eimsbüttel – in Niendorf, Schnelsen oder Eidelstedt. Kostenlose Besichtigung, Festpreis ab 290 €.",
+    "h1": "Garage entrümpeln im Bezirk Eimsbüttel",
+    "lead": "Garagen gibt es im Bezirk Eimsbüttel vor allem dort, wo Häuser stehen: in Niendorf, Schnelsen und Eidelstedt. Hinnerk räumt Garage und Schuppen und sagt Ihnen vorher, was es kostet.",
+    "abschnitte": [
+      {
+        "h2": "Mehr Autos, mehr Garagen",
+        "html": "<p>Im Bezirk Eimsbüttel kommen laut Statistikamt Nord 320 Pkw auf 1.000 Einwohner. In <a href=\"entruempelung-hamburg-niendorf.html\">Niendorf</a> sind es 398, in <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> 394, im Stadtteil Eimsbüttel nur 246. In Niendorf und Schnelsen kommt ein hoher Anteil an Ein- und Zweifamilienhäusern dazu. Mit den Jahren wird die Garage dort oft zum Lager für alles, was im Haus keinen Platz mehr hat: Fahrräder, Gartenmöbel, Werkzeug, Kartons.</p>"
+      },
+      {
+        "h2": "Früherer Stall, heute Garage",
+        "html": "<p>Rund um die Siedlungshäuser in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> sind aus vielen früheren Ställen Garagen oder Schuppen geworden. Auf den großen Grundstücken der Lohkampsiedlung kommt neben der Garage oft noch ein Gartenschuppen dazu. In Eidelstedt sind laut Statistikamt Nord 331 Pkw je 1.000 Einwohner zugelassen, also mehr als im Schnitt des Bezirks. Wer in Schnelsen ein Haus hat, hat oft auch Garage, Keller und Dachboden. Wir räumen Garage und Schuppen, wenn Sie möchten, auch zusammen. Was bleiben soll, stellen Sie vorher beiseite, und den Schlüssel können Sie uns übergeben.</p>"
+      },
+      {
+        "h2": "Reifen, Altöl und Autoteile",
+        "html": "<p>Kfz-Teile nehmen die Recyclinghöfe der Stadtreinigung laut Preisliste 2026 gar nicht an. Pkw-Reifen kosten dort 7 € pro Stück, höchstens fünf pro Anlieferung, und Altöl ist gebührenpflichtig. Sagen Sie uns deshalb vorher, was in der Garage liegt; den Entsorgungsweg klären wir, bevor Sie den Festpreis bekommen. Farben und Lacke aus dem Garagenregal sind Sonderabfall und gehen ebenfalls einen eigenen Weg. Metall, Holz, Sperrmüll und Elektrogeräte bringen wir getrennt weg. Gehört die Garage zu einer Mietwohnung oder einer Garagenanlage, klären Sie vorher mit dem Vermieter, in welchem Zustand sie zurückgegeben wird. Eine Garage räumt Hinnerk ab 290 €, eine erste Schätzung liefert der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Nehmt ihr Winterreifen und alte Autoteile aus der Garage in Niendorf mit?",
+        "a": "Reifen und Kfz-Teile brauchen eigene Entsorgungswege; Autoteile nimmt der Recyclinghof gar nicht an. Sagen Sie uns vorher, was dabei ist. Den Weg für jedes Teil besprechen wir bei der Besichtigung, noch vor dem Festpreis."
+      },
+      {
+        "q": "Muss ich bei der Räumung meiner Garage in Lokstedt dabei sein?",
+        "a": "Nein. Wenn vorher feststeht, was bleiben soll, und wir den Schlüssel haben, räumen wir ohne Sie."
+      },
+      {
+        "q": "Lohnt sich das für eine einzelne Garage in Eidelstedt?",
+        "a": "Ja, auch eine einzelne Garage räumen wir, ab 290 €. Nach der kostenlosen Besichtigung kennen Sie den festen Preis und entscheiden in Ruhe."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      },
+      {
+        "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Eidelstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Schnelsen",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Schnelsen"
+      }
+    ]
+  },
+  {
+    "leistung": "firmenaufloesung-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Firmenauflösung Eimsbüttel ✓ Laden ✓ Werkstatt ✓ Festpreis | Hinnerk",
+    "description": "Firmenauflösung im Bezirk Eimsbüttel: Werkstatt in Schnelsen, Laden an der Osterstraße, Lager in Eidelstedt. Kostenlose Besichtigung, Festpreis, Rechnung.",
+    "h1": "Firmenauflösung im Bezirk Eimsbüttel",
+    "lead": "Vom kleinen Laden an der Osterstraße bis zur Werkstatt im Gewerbegebiet: Hinnerk räumt Gewerbeflächen im Bezirk Eimsbüttel passend zu Ihrem Übergabetermin.",
+    "abschnitte": [
+      {
+        "h2": "Wo im Bezirk das Gewerbe sitzt",
+        "html": "<p>Laut dem Gewerbeflächenkonzept des Bezirks von 2018 liegen die größten Gewerbegebiete in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a>, Niendorf und <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a>; Lokstedt und Stellingen haben viele Flächen unterschiedlicher Größe. Den größten Anteil nutzen Handwerk und Kleingewerbe, danach folgt der Einzelhandel mit Schwerpunkten an der Holsteiner Chaussee und in Eidelstedt Süd. Der Kfz-Handel ballt sich am Nedderfeld und an der Papenreye. Im Stadtteil Eimsbüttel ist das Gewerbe dagegen kleinteilig, mit der Osterstraße als Einkaufsstraße.</p>"
+      },
+      {
+        "h2": "Werkstatt, Laden, Imbiss",
+        "html": "<p>Jede Gewerbefläche bringt eigene Fragen mit. In der Werkstatt stehen Regale voller Material und Werkzeug, im Laden Theken, Regale und Restware. Gewerblich genutzte Kühlgeräte wie Kühltresen nehmen die Recyclinghöfe laut Preisliste 2026 nicht an; dafür braucht es einen anderen Weg. Kleinere Mengen sperriger Gewerbeabfälle dagegen nehmen elf der zwölf Höfe an, darunter Niendorf und Bahrenfeld. Für Sonderabfälle aus dem Betrieb gibt es dort einen Übernahmeschein als Nachweis der Entsorgung. Geleaste Kassensysteme, Kaffeeautomaten oder Kopierer melden Sie beim Anbieter zurück, bevor geräumt wird. Fest eingebaute Anlagen und Maschinen besprechen wir bei der Besichtigung.</p>"
+      },
+      {
+        "h2": "Halten an der Kieler Straße",
+        "html": "<p>An stark befahrenen Straßen wie der Kieler Straße in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a> ist das Halten mit dem Transporter schwierig, auch am Eidelstedter Platz ist viel Verkehr. Eine Halteverbotszone muss mindestens 14 Tage vorher beantragt werden, die Schilder stehen dann spätestens vier Tage vor dem Termin. Den Räumungstag legen wir so, dass er zu Ihrer Übergabe passt, und Sie bekommen eine Rechnung über den Festpreis. Für reine Büros gibt es die Seite <a href=\"bueroaufloesung-hamburg.html\">Büroauflösung</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Unsere Werkstatt in Schnelsen muss zum Monatsende leer sein – geht das?",
+        "a": "Fragen Sie so früh wie möglich an. Nach der Besichtigung legen wir den Räumungstag so, dass er vor Ihrer Übergabe liegt. Sie bekommen einen festen Preis und eine Rechnung."
+      },
+      {
+        "q": "Nehmt ihr auch die Kühltheke aus einem Imbiss in Eidelstedt mit?",
+        "a": "Gewerbliche Kühlgeräte nehmen die Recyclinghöfe nicht an, dafür gibt es eigene Wege. Sagen Sie uns vorher, was in den Räumen steht. Den passenden Weg klären wir bei der Besichtigung, bevor Sie den Festpreis bekommen."
+      },
+      {
+        "q": "Was kostet eine Firmenauflösung im Bezirk Eimsbüttel?",
+        "a": "Einen Pauschalpreis nennen wir nicht, weil Laden, Lager und Werkstatt zu unterschiedlich sind. Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis, der dann gilt."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Bezirksamt Eimsbüttel – Gewerbeflächenkonzept 2018 (hamburg-business.com)",
+        "url": "https://hamburg-business.com/_Resources/Persistent/9/3/d/4/93d4dc60322344cea6e52e1d39423385aeb2c1aa/gewerbeflaechenkonzept-eimsbuettel_2018.pdf"
+      },
+      {
+        "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      },
+      {
+        "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung Hamburg",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "hamburg.de – Halteverbotszone beantragen",
+        "url": "https://www.hamburg.de/service/info/11263054/n0/"
+      },
+      {
+        "titel": "Bezirksamt Eimsbüttel – Das Kerngebiet (Stadtteil Eimsbüttel)",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bezirksamt-eimsbuettel/eimsbuettel-60276"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Stellingen",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Eidelstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
+      }
+    ]
+  },
+  {
+    "leistung": "entruempelung-fuer-vermieter-hamburg",
+    "bezirk": "Eimsbüttel",
+    "title": "Entrümpelung für Vermieter im Bezirk Eimsbüttel | Hinnerk",
+    "description": "Entrümpelung für Vermieter im Bezirk Eimsbüttel – Gemeinschaftskeller im Altbau oder Wohnanlage in Schnelsen. Kostenlose Besichtigung, Festpreis, Rechnung.",
+    "h1": "Entrümpelung für Vermieter im Bezirk Eimsbüttel",
+    "lead": "Zurückgelassene Möbel, ein voller Fahrradkeller, eine Wohnung nach einem Todesfall: Hinnerk räumt für Vermieter und Hausverwaltungen im Bezirk Eimsbüttel zum festen Preis und mit Rechnung.",
+    "abschnitte": [
+      {
+        "h2": "Gründerzeithaus oder Wohnanlage",
+        "html": "<p>Im Bezirk Eimsbüttel gibt es laut Statistikamt Nord gut 148.000 Wohnungen, nur 15 % davon in Ein- und Zweifamilienhäusern. Im Stadtteil Eimsbüttel und in <a href=\"entruempelung-hamburg-hoheluft-west.html\">Hoheluft-West</a> prägen Gründerzeithäuser mit vielen kleinen Wohnungen das Bild. In <a href=\"entruempelung-hamburg-schnelsen.html\">Schnelsen</a> ist etwa jede achte Wohnung eine Sozialwohnung, in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a> knapp jede zehnte. In Eidelstedt stammen viele Hochhäuser und Wohnblöcke aus den 1950er- bis 1970er-Jahren, in Schnelsen gibt es größere Wohnanlagen. In <a href=\"entruempelung-hamburg-lokstedt.html\">Lokstedt</a> reicht der Bestand von alten Villen bis zur Lenzsiedlung mit Häusern von bis zu 15 Etagen.</p>"
+      },
+      {
+        "h2": "Sperrmüll im Haus: Aktionstag oder Räumung",
+        "html": "<p>Für Sperrmüll, den die Mieter selbst bringen, bietet die Stadtreinigung der Wohnungswirtschaft Sperrmüllaktionstage an. Die Mieter geben ihre Sachen dann zwischen 7:30 und 12:30 Uhr an einem vorher festgelegten Ort ab. Ein Tageseinsatz bis 85 m³ kostet 420 €, eine Halteverbotszone bietet die Stadtreinigung dazu für 150 € an. Stehen dagegen Sachen im Fahrradkeller oder auf dem Boden, die keinem Mieter mehr zuzuordnen sind, räumen wir sie für Sie – sobald geklärt ist, dass sie weg dürfen.</p>"
+      },
+      {
+        "h2": "Nach Auszug oder Todesfall",
+        "html": "<p>Bevor wir zurückgelassene Sachen eines Mieters räumen, muss feststehen, dass Sie darüber verfügen dürfen. Haben nach einem Todesfall alle Erben ausgeschlagen, kann die Stadt Erbin werden; festgestellt wird das aber erst auf Antrag beim Nachlassgericht. Ansprechpartner ist danach die Behörde für Finanzen und Bezirke. Wie Sie bei zurückgelassenen Möbeln vorgehen, erklärt der Ratgeber <a href=\"mieter-hat-sachen-zurueckgelassen.html\">Mieter hat Sachen zurückgelassen</a>. Den Schlüssel können Sie uns übergeben, und den Termin legen wir passend zur Neuvermietung.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Was kostet eine Räumung für Vermieter im Bezirk Eimsbüttel?",
+        "a": "Einen Pauschalpreis gibt es nicht. Wir sehen uns Wohnung, Keller oder Hof kostenlos an und nennen dann einen festen Preis, über den Sie eine Rechnung bekommen."
+      },
+      {
+        "q": "Muss ich bei der Räumung einer Wohnung in Stellingen dabei sein?",
+        "a": "Nein. Nach der gemeinsamen Besichtigung reicht es, wenn Sie uns den Schlüssel übergeben. Wir räumen am vereinbarten Tag."
+      },
+      {
+        "q": "Im Gemeinschaftskeller in Lokstedt steht Sperrmüll, den keiner haben will – was tun?",
+        "a": "Klären Sie zuerst, ob die Sachen noch einem Mieter gehören, zum Beispiel mit einem Aushang im Haus. Dürfen sie weg, räumen wir den Keller zum Festpreis. Bringen die Mieter ihren Sperrmüll lieber selbst, ist ein Aktionstag der Stadtreinigung eine Alternative."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Statistikamt Nord – Hamburger Stadtteil-Profile 2024, Bezirk Eimsbüttel (hamburg.de)",
+        "url": "https://www.hamburg.de/resource/blob/61582/3ade774719e2f5b5085c1dc191a1c5a6/1-vergleichsdaten-eimsbuettel-pdf-data.pdf"
+      },
+      {
+        "titel": "Stadtreinigung Hamburg – Sperrmüllaktionstage für die Wohnungswirtschaft",
+        "url": "https://files.stadtreinigung.hamburg/SRH_Wohnungswirtschaft_Sperrmuelltage_Flyer250326.pdf"
+      },
+      {
+        "titel": "hamburg.de – Finanzbehörde: Fiskalerbschaften",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/fiskalerbschaften-261940"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Eidelstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Eidelstedt"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Schnelsen",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Schnelsen"
+      },
+      {
+        "titel": "Wikipedia – Hamburg-Lokstedt",
+        "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+      }
+    ]
+  }
 ]

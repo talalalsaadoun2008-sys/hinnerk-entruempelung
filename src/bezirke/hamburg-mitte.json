@@ -1,658 +1,662 @@
 [
- {
-  "leistung": "haushaltsaufloesung-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Haushaltsauflösung Hamburg-Mitte ✓ Festpreis ✓ ab 690 € | Hinnerk",
-  "description": "Haushaltsauflösung im Bezirk Hamburg-Mitte – vom Nachkriegsblock in Hamm bis zum Stift in Borgfelde. Kostenlose Besichtigung, danach Festpreis.",
-  "h1": "Haushaltsauflösung im Bezirk Hamburg-Mitte",
-  "lead": "Wenn in Hamm, Horn oder St. Georg ein ganzer Hausstand aufgelöst werden muss, geht es selten nur um Möbel. Hinnerk bringt Ordnung in die Sache – zu einem Preis, der vorher feststeht.",
-  "abschnitte": [
-   {
-    "h2": "Kleine Wohnungen, dicht gefüllt",
-    "html": "<p>Im Bezirk Hamburg-Mitte lebt in mehr als der Hälfte aller Haushalte nur eine Person. Die Stadtteil-Profile des Statistikamts Nord nennen dafür 58,3 Prozent (Berichtsjahr 2023). Auch die Wohnungen sind eher klein: In <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> messen sie im Schnitt 58,9 m², in <a href=\"entruempelung-hamburg-borgfelde.html\">Borgfelde</a> 56,1 m². Auf wenigen Quadratmetern steht dann ein ganzes Leben – Schrankwand, Küche, Bücher, dazu das Kellerabteil.</p><p>Viele dieser Wohnungen liegen in Blöcken, die nach den Bombenschäden von 1943 neu errichtet wurden. Einen Aufzug haben sie oft nicht. Wir rechnen deshalb von Anfang an damit, dass jedes Stück durch das Treppenhaus nach unten getragen wird.</p>"
-   },
-   {
-    "h2": "Stift, Genossenschaft, Pflegeheim: Termine abstimmen",
-    "html": "<p>In Borgfelde gibt es mehrere Stifte und soziale Einrichtungen. Zieht jemand von dort aus, gelten für Schlüssel und Auszugstermin oft eigene Hausregeln. In Hamm gehören viele Wohnungen Genossenschaften, die die Rückgabe genau vorgeben. Fragen Sie dort nach, in welchem Zustand die Räume zurückgehen sollen, und nennen Sie uns das Datum. Den Räumungstag legen wir passend davor.</p><p>Wenn der Anlass ein Umzug ins Heim ist, hilft der Ratgeber <a href=\"umzug-ins-pflegeheim-wohnung-aufloesen.html\">Umzug ins Pflegeheim</a> bei der Reihenfolge.</p>"
-   },
-   {
-    "h2": "Vom Rundgang bis zum Recyclinghof",
-    "html": "<p>Zuerst gehen wir gemeinsam durch die Wohnung. Papiere, Fotos, Schmuck und alles, was die Familie behalten will, legen Sie zur Seite – oder Sie sagen uns, worauf wir achten sollen. Danach erhalten Sie einen Festpreis; ein Haushalt beginnt bei 690 €. Am Räumungstag müssen Sie nicht vor Ort sein, der Schlüssel genügt. Was aus dem Haushalt nicht weiterverwendet wird, sortieren wir nach Sperrmüll, Holz, Metall und Elektrogeräten und liefern es so beim Hof der Stadtreinigung ab – für Hamm, Horn und Borgfelde in der Liebigstraße 66 in <a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Meine Mutter zieht aus einem Stift in Borgfelde ins Pflegeheim. Wie stimmen wir die Auflösung ab?",
-    "a": "Klären Sie zuerst mit der Einrichtung, bis wann die Wohnung frei sein muss und welche Hausregeln gelten. Diesen Termin nennen Sie uns bei der Besichtigung. Wir richten den Räumungstag danach aus."
-   },
-   {
-    "q": "Die Wohnung in Hamm gehört einer Genossenschaft. Worauf muss ich achten?",
-    "a": "Genossenschaften haben oft feste Vorgaben für die Rückgabe, zum Beispiel zu Kellerabteil und Einbauten. Lassen Sie sich diese Vorgaben geben und zeigen Sie sie uns. Was danach raus muss, steht im Festpreis."
-   },
-   {
-    "q": "Was kostet eine Haushaltsauflösung in einer kleinen Wohnung im Bezirk?",
-    "a": "Bei Hinnerk beginnt eine Haushaltsauflösung bei 690 €. Der genaue Betrag hängt von der Menge, vom Stockwerk und vom Weg zum Wagen ab. Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
-    "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
-   },
-   {
-    "titel": "Hamm – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
-   },
-   {
-    "titel": "Borgfelde – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Borgfelde"
-   },
-   {
-    "titel": "Recyclinghöfe in Hamburg – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   }
-  ]
- },
- {
-  "leistung": "wohnungsaufloesung-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Wohnungsauflösung Hamburg-Mitte: Festpreis ab 690 € | Hinnerk",
-  "description": "Wohnungsauflösung im Bezirk Hamburg-Mitte – Altbau in St. Georg, Neubau in der HafenCity, Hochhaus in Billstedt. Erst kostenlos besichtigt, dann Festpreis.",
-  "h1": "Wohnungsauflösung im Bezirk Hamburg-Mitte",
-  "lead": "Zwischen HafenCity und Mümmelmannsberg liegen im Bezirk sehr verschiedene Wohnungen. Für jede planen wir die Räumung anders – und Sie kennen den Preis, bevor es losgeht.",
-  "abschnitte": [
-   {
-    "h2": "Altbau, Neubau, Hochhaus",
-    "html": "<ul><li><b>Altbau ohne Aufzug:</b> In <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> ist viel alte Bausubstanz erhalten, weil Abrisspläne für ein Großprojekt in den 1970ern fallen gelassen wurden. Getragen wird dort meist durch ein enges Treppenhaus.</li><li><b>Neubau am Wasser:</b> In der <a href=\"entruempelung-hamburg-hafencity.html\">HafenCity</a> haben die Häuser häufig Aufzug und Tiefgarage. Knapp sind dagegen Flächen, auf denen ein Wagen zum Beladen halten darf.</li><li><b>Hochhaus:</b> In Mümmelmannsberg und Dringsheide in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> oder in Kirchdorf-Süd in Wilhelmsburg nutzen wir den Aufzug. Melden Sie ihn bei der Hausverwaltung an, damit er für die Räumung frei ist.</li></ul><p>Welcher Fall es bei Ihnen ist, sehen wir bei der kostenlosen Besichtigung. Danach steht der Festpreis, ab 690 €.</p>"
-   },
-   {
-    "h2": "Halten rund um Kiez, Dom und Hauptbahnhof",
-    "html": "<p><a href=\"entruempelung-hamburg-st-pauli.html\">St. Pauli</a> ist sehr dicht bebaut, freie Stellen am Straßenrand sind selten. Am Wochenende, bei Großveranstaltungen und wenn auf St. Pauli der Dom läuft, wird es noch enger. Rund um Hauptbahnhof und Lange Reihe ist das Halten mit einem Transporter ebenfalls schwierig. Fällt Ihr Wunschtermin in so eine Zeit, sprechen Sie uns bei der Besichtigung darauf an. Dann suchen wir gemeinsam einen Tag, der trotzdem zur Übergabe passt.</p>"
-   },
-   {
-    "h2": "Vor der Rückgabe an den Vermieter",
-    "html": "<p>In St. Pauli wohnt in fast sieben von zehn Haushalten nur eine Person, laut Statistikamt Nord sind es 69,3 Prozent. Wird so eine Wohnung aufgelöst, kennt oft niemand mehr die Absprachen aus dem Mietvertrag. Lesen Sie vorher nach, was dort zur Rückgabe steht, und sagen Sie uns, ob Küche, Lampen oder Bodenbeläge mit raus sollen. Was besenrein heißt, erklärt der Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">Wohnung besenrein übergeben</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Wo kann Ihr Wagen in der HafenCity halten?",
-    "a": "Das klären wir bei der Besichtigung, weil Halte- und Ladeflächen dort knapp sind. Fragen Sie vorher beim Hausmeister oder der Verwaltung nach, ob es eine Lieferzone gibt. Wir planen den Weg vom Aufzug zum Wagen dann entsprechend."
-   },
-   {
-    "q": "Unsere Wohnung liegt im fünften Stock eines Altbaus in St. Georg. Geht das ohne Aufzug?",
-    "a": "Ja. Wir tragen alles durch das Treppenhaus nach unten. Stockwerk und Treppen rechnen wir in den Festpreis ein, den Sie nach der Besichtigung bekommen."
-   },
-   {
-    "q": "Kann die Wohnung geräumt werden, während ich arbeite?",
-    "a": "Ja. Wenn vorher klar ist, was bleiben soll, müssen Sie nicht dabei sein. Den Schlüssel können Sie uns zum Beispiel bei der Besichtigung übergeben."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "St. Georg: Wissens- und Sehenswertes – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-georg-373908"
-   },
-   {
-    "titel": "HafenCity – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/HafenCity"
-   },
-   {
-    "titel": "St. Pauli: Wissens- und Sehenswertes – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-pauli-374030"
-   },
-   {
-    "titel": "Bezirk Hamburg-Mitte – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/bezirk-hamburg-mitte-374390"
-   },
-   {
-    "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
-    "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
-   }
-  ]
- },
- {
-  "leistung": "keller-entruempeln-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Keller entrümpeln Hamburg-Mitte ✓ ab 290 € ✓ Festpreis | Hinnerk",
-  "description": "Keller entrümpeln im Bezirk Hamburg-Mitte: Abteile in den Wohnblöcken von Hamm, Klinkerhäuser auf der Veddel. Kostenlose Besichtigung, fester Preis.",
-  "h1": "Keller entrümpeln im Bezirk Hamburg-Mitte",
-  "lead": "Ein voller Kellerverschlag fällt oft erst auf, wenn ein Auszug ansteht oder die Hausverwaltung schreibt. Hinnerk räumt Kellerabteile im ganzen Bezirk – zum Festpreis ab 290 €.",
-  "abschnitte": [
-   {
-    "h2": "Kellerabteile im Mehrfamilienhaus",
-    "html": "<p>Im Bezirk Hamburg-Mitte liegen nur 8,9 Prozent der Wohnungen in Ein- oder Zweifamilienhäusern (Statistikamt Nord, Berichtsjahr 2023). Die meisten Menschen haben also keinen eigenen Hauskeller, sondern ein Abteil im gemeinsamen Keller eines Wohnblocks.</p><p>In <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> sind das oft einfache Häuser aus den 1950er Jahren, auf der <a href=\"entruempelung-hamburg-veddel.html\">Veddel</a> die langen Klinkerzeilen, die Fritz Schumacher 1928 bauen ließ. In beiden Fällen fehlt häufig ein Aufzug. Der Weg führt dann vom Kellergang die Stufen hinauf, durch den Hausflur und weiter bis zum Wagen. Gehört die Wohnung einer Genossenschaft, wie oft in Hamm, gelten häufig feste Regeln für die Übergabe – und das Abteil geht zusammen mit der Wohnung zurück.</p>"
-   },
-   {
-    "h2": "Hochhaus und Neubau",
-    "html": "<p>In den Hochhaussiedlungen, etwa in Mümmelmannsberg in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a>, gibt es meist Aufzüge. Ob einer bis ins Untergeschoss fährt und wann wir ihn nutzen können, klären wir bei der Besichtigung. In der HafenCity haben viele Häuser Tiefgaragen; ob sich der Wagen dort zum Beladen abstellen lässt, klären wir vorher mit Ihnen.</p>"
-   },
-   {
-    "h2": "Wohin der Kellerinhalt geht",
-    "html": "<p>Schon im Kellergang trennen wir Holzregale, Metallteile, alte Geräte und übrigen Sperrmüll voneinander. Für Hamm, Horn, Billstedt und die Veddel liegt der nächste Hof in der Liebigstraße 66 in Billbrook. Für St. Pauli, die Neustadt und St. Georg ist es der Hof an der Feldstraße 69. Aus Wilhelmsburg fahren wir eher zum Neuländer Kamp 6 in Harburg, aus Finkenwerder nach Am Aschenland 11 in Neugraben-Fischbek. Farben, Lacke und Chemikalien sind Sonderabfall und laufen getrennt – sagen Sie uns, wenn so etwas im Keller steht. Mehr dazu im Ratgeber <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll entsorgen</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Die Hausverwaltung in Hamm will den Keller bis Monatsende leer haben. Ist das machbar?",
-    "a": "Nennen Sie uns die Frist gleich bei der Anfrage. Nach der Besichtigung legen wir den Räumungstag so, dass er davor liegt, sofern wir einen freien Termin haben. Den Festpreis kennen Sie dann schon."
-   },
-   {
-    "q": "Ich wohne in einem Hochhaus in Billstedt. Wie kommen die Sachen aus dem Keller?",
-    "a": "Fährt der Aufzug bis in den Keller, nutzen wir ihn. Sonst tragen wir über die Treppe. Beides sehen wir uns vorher an und rechnen es in den Preis ein."
-   },
-   {
-    "q": "Was kostet es, ein Kellerabteil auf der Veddel räumen zu lassen?",
-    "a": "Ein Kellerabteil räumt Hinnerk ab 290 €. Wie viel es am Ende kostet, hängt von der Menge und vom Weg nach draußen ab. Den festen Preis nennen wir nach der kostenlosen Besichtigung."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
-    "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
-   },
-   {
-    "titel": "Veddel: Wissens- und Sehenswertes – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/veddel-374176"
-   },
-   {
-    "titel": "Hamm – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
-   },
-   {
-    "titel": "Billstedt – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Billstedt"
-   },
-   {
-    "titel": "Recyclinghöfe in Hamburg – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   }
-  ]
- },
- {
-  "leistung": "nachlassaufloesung-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Nachlassauflösung Hamburg-Mitte ✓ ab 690 € ✓ Festpreis | Hinnerk",
-  "description": "Nachlassauflösung im Bezirk Hamburg-Mitte, etwa im Einfamilienhaus in Billstedt: kostenlose Besichtigung, Festpreis, Räumung nach Ihren Vorgaben.",
-  "h1": "Nachlassauflösung im Bezirk Hamburg-Mitte",
-  "lead": "Nach einem Todesfall müssen Erben vieles gleichzeitig regeln. Hinnerk übernimmt die Räumung von Wohnung oder Haus, damit Ihnen Zeit für das Übrige bleibt.",
-  "abschnitte": [
-   {
-    "h2": "Zuerst: Wer entscheidet über den Nachlass?",
-    "html": "<p>Bevor geräumt wird, sollte feststehen, wer über die Sachen bestimmen darf. Zuständig für Nachlasssachen ist das Amtsgericht an dem Ort, an dem die verstorbene Person zuletzt gelebt hat. Laut hamburg.de können Erben einen Antrag aber auch beim Amtsgericht an ihrem eigenen Wohnort stellen, und auch ein Notar nimmt ihn entgegen. Ein Testament kann man dort ohne Termin eröffnen lassen; für eine Ausschlagung braucht man einen Termin. Für eine Rechtsberatung verweist hamburg.de auf Anwaltskanzleien, Notariate und die Öffentliche Rechtsauskunft.</p><p>Was nach einem Todesfall sonst zu tun ist, fasst der Ratgeber <a href=\"wohnung-nach-todesfall-aufloesen.html\">Wohnung nach Todesfall auflösen</a> zusammen.</p>"
-   },
-   {
-    "h2": "Ältere Haushalte im Osten des Bezirks",
-    "html": "<p>In <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> sind 18,2 Prozent der Bewohner 65 Jahre oder älter, im ganzen Bezirk 14,1 Prozent (Statistikamt Nord, Berichtsjahr 2023). Die Wohnungen sind dort mit durchschnittlich 72,8 m² größer als im Bezirksschnitt von 66,4 m², und neben Hochhaussiedlungen wie Mümmelmannsberg stehen dort auch Einfamilienhäuser und frühere Arbeiterviertel. Zu einem Nachlass gehören dann oft Keller, Dachboden, Garage und Garten. In <a href=\"entruempelung-hamburg-horn.html\">Horn</a> sind es häufiger Reihenhäuser, in <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> eher kleine Wohnungen in Nachkriegsblöcken.</p>"
-   },
-   {
-    "h2": "Ihr Auftrag, Ihre Vorgaben",
-    "html": "<p>Bei der kostenlosen Besichtigung gehen wir mit Ihnen oder einer Person Ihres Vertrauens durch alle Räume. Was in der Familie bleibt, wird markiert. Papiere, Fotos und Schmuck nehmen Sie an sich oder sagen uns, worauf wir achten sollen. Danach erhalten Sie einen Festpreis ab 690 €. Den Räumungstag stimmen wir auf die Kündigungsfrist der Wohnung oder auf den Verkaufstermin ab. Den Schlüssel können Sie uns überlassen; beim Räumen dabei sein müssen Sie nicht.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Welches Amtsgericht ist für einen Nachlass aus dem Bezirk Hamburg-Mitte zuständig?",
-    "a": "Maßgeblich ist der letzte Wohnsitz der verstorbenen Person. Auf hamburg.de können Sie die zuständige Stelle über die Wohnanschrift ermitteln. Anträge können Sie auch beim Amtsgericht an Ihrem eigenen Wohnort oder über einen Notar stellen."
-   },
-   {
-    "q": "Zum Haus meiner Eltern in Billstedt gehören Garage und Gartenhaus. Räumen Sie das mit?",
-    "a": "Ja, wenn Sie es möchten. Wir sehen uns bei der Besichtigung alle Nebengebäude an und nehmen sie in den Festpreis auf. Soll das ganze Haus leer werden, lesen Sie auch unsere Seite zur Hausauflösung."
-   },
-   {
-    "q": "Was ist, wenn wir beim Ausräumen etwas Wichtiges übersehen haben?",
-    "a": "Stoßen wir beim Räumen auf Briefe, Fotos oder Schmuck, legen wir sie für Sie beiseite. Am sichersten ist es trotzdem, wenn Sie wichtige Dinge schon vor dem Räumungstag mitnehmen."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Nachlassgericht – Allgemeine Informationen, hamburg.de",
-    "url": "https://www.hamburg.de/service/info/11252454/n0/"
-   },
-   {
-    "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
-    "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
-   },
-   {
-    "titel": "Billstedt – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Billstedt"
-   },
-   {
-    "titel": "Horn, Hamburg – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Horn,_Hamburg"
-   }
-  ]
- },
- {
-  "leistung": "messie-wohnung-raeumen-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Messie-Wohnung räumen Hamburg-Mitte ✓ diskret ✓ ab 1.890 € | Hinnerk",
-  "description": "Messie-Wohnung räumen im Bezirk Hamburg-Mitte, auch im dicht bewohnten Altbau in St. Pauli: diskret, ohne Vorwürfe, Festpreis nach kostenloser Besichtigung.",
-  "h1": "Messie-Wohnung räumen im Bezirk Hamburg-Mitte",
-  "lead": "Eine zugestellte Wohnung ist schwer anzusprechen – erst recht in einem Haus, in dem man sich ständig im Treppenhaus begegnet. Hinnerk räumt ruhig und ohne Vorwürfe, und wir reden mit niemandem darüber.",
-  "abschnitte": [
-   {
-    "h2": "Diskret im vollen Mehrfamilienhaus",
-    "html": "<p>In <a href=\"entruempelung-hamburg-st-pauli.html\">St. Pauli</a>, in der <a href=\"entruempelung-hamburg-neustadt.html\">Neustadt</a> oder in <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> liegt kaum eine Wohnung in einem Ein- oder Zweifamilienhaus; fast alle teilen sich ein Treppenhaus mit Nachbarn. Ganz unbemerkt bleibt eine Räumung dort nicht. Von uns erfährt trotzdem niemand, worum es geht – auch dann nicht, wenn Nachbarn im Flur nachfragen. Vorwürfe machen wir Ihnen keine.</p><p>Wo kein Aufzug ist, wird alles über die Treppe getragen. Das braucht Zeit, und die planen wir ein. Am Wochenende und bei Großveranstaltungen ist es in St. Pauli auf den Straßen voller; den Tag legen wir deshalb nach der Besichtigung gemeinsam fest.</p>"
-   },
-   {
-    "h2": "Wenn das Mietverhältnis in Gefahr ist",
-    "html": "<p>Manchmal wird eine Räumung erst dringend, wenn die Wohnung selbst auf dem Spiel steht, etwa nach einer fristlosen Kündigung. Dann hilft die Fachstelle für Wohnungsnotfälle. Sie berät kostenlos, erklärt, wie ein Räumungsverfahren abläuft, und nennt weitere Hilfen und Kontakte für eine Rechtsberatung. Welche Fachstelle für Ihre Adresse zuständig ist, lässt sich auf hamburg.de über die Wohnanschrift ermitteln. Wichtig ist, sich möglichst früh zu melden.</p>"
-   },
-   {
-    "h2": "Besichtigung, Preis und was wir nicht machen",
-    "html": "<p>Bei der Besichtigung schauen wir, wie viel in der Wohnung steht, wie man durch die Räume kommt und wie weit es bis zum Wagen ist. Daraus ergibt sich ein Festpreis ab 1.890 €. Was Sie behalten möchten, sagen Sie uns vorher – ob Kleidung, Bücher oder Unterlagen, entscheiden allein Sie. Desinfektion, Schädlingsbekämpfung und Grundreinigung übernehmen wir nicht. Ist so etwas nötig, sagen wir es Ihnen gleich bei der Besichtigung, damit Sie einen Fachbetrieb beauftragen können.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Ich schäme mich. Muss ich bei der Besichtigung selbst in der Wohnung sein?",
-    "a": "Es reicht, wenn uns eine Person Ihres Vertrauens die Tür öffnet. Wichtig ist nur, dass vorher feststeht, was bleiben soll. Beim Räumen selbst müssen Sie nicht dabei sein."
-   },
-   {
-    "q": "Mir wurde die Wohnung in Hamm gekündigt. Wo bekomme ich Hilfe?",
-    "a": "Ist Ihr Mietverhältnis gefährdet, berät die Fachstelle für Wohnungsnotfälle kostenlos. Die zuständige Stelle finden Sie auf hamburg.de über Ihre Wohnanschrift. Die Räumung selbst besprechen wir mit Ihnen bei der Besichtigung."
-   },
-   {
-    "q": "Was kostet es, eine Messie-Wohnung in St. Pauli räumen zu lassen?",
-    "a": "Bei Hinnerk beginnt das bei 1.890 €. Wie viel es genau wird, hängt von Menge, Stockwerk und Zugang ab. Den festen Preis nennen wir Ihnen nach der kostenlosen Besichtigung."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Wohnungsnotfälle, Wohnungssicherung: Beratung erhalten – hamburg.de",
-    "url": "https://www.hamburg.de/service/info/111202963/n0/"
-   },
-   {
-    "titel": "St. Pauli: Wissens- und Sehenswertes – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-pauli-374030"
-   },
-   {
-    "titel": "Hamm – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
-   }
-  ]
- },
- {
-  "leistung": "bueroaufloesung-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Büroauflösung Hamburg-Mitte ✓ kostenlose Besichtigung | Hinnerk",
-  "description": "Büroauflösung im Bezirk Hamburg-Mitte – Kontorhaus in der Altstadt, Bürobau in der City Süd: Wir besichtigen kostenlos und nennen danach einen festen Preis.",
-  "h1": "Büroauflösung im Bezirk Hamburg-Mitte",
-  "lead": "Altstadt, Neustadt, HafenCity und die City Süd sind die Büroviertel der Stadt. Wenn dort Räume leer werden müssen, plant Hinnerk die Räumung auf Ihren Übergabetag hin.",
-  "abschnitte": [
-   {
-    "h2": "Kontorhaus, City Süd, Neubau",
-    "html": "<p>Die Altstadt, die Neustadt und die HafenCity bilden zusammen den zentralen Geschäftsbezirk Hamburgs. Im Kontorhausviertel stehen große Bürohäuser wie Chilehaus und Sprinkenhof; das Chilehaus gehört seit 2015 zum UNESCO-Welterbe. In <a href=\"entruempelung-hamburg-hammerbrook.html\">Hammerbrook</a> liegt mit der City Süd ein zweites Bürozentrum, mit Bürobauten wie dem Berliner Bogen und mit denkmalgeschützten Kontorhäusern.</p><p>In Bürohäusern gibt es meist einen Aufzug. Ob er für Schränke und Schreibtische reicht und wann er frei ist, klären wir bei der kostenlosen Besichtigung. Danach bekommen Sie einen festen Preis und eine Rechnung. Rechner, Monitore und Drucker fahren wir getrennt als Elektrogeräte zur Entsorgung; Daten auf Festplatten löschen Sie vorher selbst oder nehmen die Datenträger an sich.</p>"
-   },
-   {
-    "h2": "Laden und Halten in der Innenstadt",
-    "html": "<p>In der <a href=\"entruempelung-hamburg-altstadt.html\">Altstadt</a> und der <a href=\"entruempelung-hamburg-neustadt.html\">Neustadt</a> ist Platz für einen Transporter knapp, und auch in der <a href=\"entruempelung-hamburg-hafencity.html\">HafenCity</a> sind Ladeflächen begrenzt. Fragen Sie deshalb früh bei Ihrer Hausverwaltung nach, ob es eine Ladezone, eine Hofeinfahrt oder einen Lastenaufzug gibt. Je kürzer der Weg von der Bürotür zum Wagen, desto einfacher wird der Räumungstag, gerade bei vielen Schränken und Rollcontainern. Den Termin legen wir so, dass er zu Ihrer Übergabe passt.</p>"
-   },
-   {
-    "h2": "Wenn die Firma ganz aufhört",
-    "html": "<p>Schließt das Büro nicht nur, sondern wird das Gewerbe aufgegeben, muss es zum Zeitpunkt der Aufgabe abgemeldet werden. Abmeldungen nehmen die Hamburger Bezirksämter, die Handelskammer und die Handwerkskammer entgegen; online geht es über das Hamburger Serviceportal. Die erste Abmeldebescheinigung ist kostenlos. Klären Sie außerdem vorher, welche Akten Sie aufbewahren müssen – Hinweise dazu stehen auf unserer Seite zur <a href=\"bueroaufloesung-hamburg.html\">Büroauflösung</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Wir ziehen aus einem Kontorhaus in der Altstadt aus. Wer kümmert sich um die Ladezone?",
-    "a": "Fragen Sie zuerst Ihre Hausverwaltung, ob das Haus eine Ladezone oder Hofeinfahrt hat. Bei der Besichtigung gehen wir den Weg vom Büro bis zur Straße mit Ihnen ab. Danach planen wir den Räumungstag."
-   },
-   {
-    "q": "Wo melde ich unser Gewerbe ab, wenn das Büro in Hamburg-Mitte schließt?",
-    "a": "Die Abmeldung nehmen die Bezirksämter, die Handelskammer und die Handwerkskammer entgegen, online auch das Hamburger Serviceportal. Welche Stelle für Ihren Standort zuständig ist, zeigt hamburg.de. Die erste Abmeldebescheinigung kostet nichts."
-   },
-   {
-    "q": "Was kostet eine Büroauflösung in der City Süd?",
-    "a": "Das hängt von Fläche, Möbeln, Technik und Zugang ab, deshalb nennen wir keinen Pauschalpreis. Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis, der sich nicht mehr ändert."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Hamburg-Mitte – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Hamburg-Mitte"
-   },
-   {
-    "titel": "Stadtteilportrait Bezirk Hamburg-Mitte – hamburg.de",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/mitte/themen/freizeit/stadtteilportrait-67464"
-   },
-   {
-    "titel": "Gewerbe abmelden – hamburg.de",
-    "url": "https://www.hamburg.de/service/info/11258060/n0/"
-   }
-  ]
- },
- {
-  "leistung": "sperrmuell-abholen-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Sperrmüll abholen Hamburg-Mitte ✓ ab 129 € ✓ Festpreis | Hinnerk",
-  "description": "Sperrmüll abholen im Bezirk Hamburg-Mitte: Wir tragen aus Altbau und Hochhaus, etwa in St. Georg oder Billstedt. Fester Preis ab 129 €, vorher vereinbart.",
-  "h1": "Sperrmüll abholen im Bezirk Hamburg-Mitte",
-  "lead": "Im Bezirk haben viele kein Auto und keinen Aufzug – aber ein altes Sofa, das weg muss. Hinnerk holt es direkt aus der Wohnung.",
-  "abschnitte": [
-   {
-    "h2": "Ohne Auto zum Recyclinghof?",
-    "html": "<p>In mehreren Stadtteilen des Bezirks kommen auf 1.000 Einwohner weniger als 200 private Pkw: in <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> 188, in <a href=\"entruempelung-hamburg-st-pauli.html\">St. Pauli</a> 195, in <a href=\"entruempelung-hamburg-hammerbrook.html\">Hammerbrook</a> nur 135 (Statistikamt Nord, Berichtsjahr 2023). Einen Schrank selbst zum Recyclinghof zu fahren, ist dort für viele keine Möglichkeit. Hinzu kommt: Am Hof darf ein Sperrmüllstück höchstens zwei Meter lang sein.</p>"
-   },
-   {
-    "h2": "Stadtreinigung oder Hinnerk",
-    "html": "<p>Die Stadtreinigung Hamburg holt Sperrmüll aus Privathaushalten auf Bestellung ab. Laut hamburg.de kostet der Standard-Service 35 € für bis zu 8 m³; das Zerlegen von Möbeln muss man extra beauftragen. Für gut erhaltene Möbel gibt es die „schonende Abfuhr“; den Begriff nennen Sie bei der telefonischen Bestellung. Wie die Anmeldung läuft, steht im Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden</a>.</p><p>Hinnerk holt ab 129 € ab und trägt selbst – aus dem vierten Stock im Altbau genauso wie aus dem Kellerabteil im Hochhaus. Das lohnt sich vor allem, wenn neben den großen Stücken auch Kartons, Kleinkram oder Sachen vom Boden mit sollen. Den festen Preis kennen Sie, bevor wir etwas anfassen; Fotos helfen bei der Anfrage.</p>"
-   },
-   {
-    "h2": "Was getrennt entsorgt wird",
-    "html": "<p>Was wir abholen, kommt nach Sorten getrennt – Möbel, Holz, Metall, Geräte – auf einen der beiden Recyclinghöfe im Bezirk: an der Feldstraße 69 in St. Pauli oder in der Liebigstraße 66 in <a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a>. Beide haben montags bis samstags von 8 bis 17 Uhr geöffnet. Kühlgeräte nimmt der Hof von Privatleuten höchstens zwei Stück an. Farben, Lacke und Batterien gehören nicht zum Sperrmüll; sagen Sie uns vorher, wenn welche dabei sind.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Ich wohne im dritten Stock in St. Georg ohne Aufzug. Tragen Sie das Sofa hinunter?",
-    "a": "Ja, wir holen es aus der Wohnung und tragen es durchs Treppenhaus. Passt es nicht um die Kurve, bauen wir es auseinander. Den Preis vereinbaren wir vorher."
-   },
-   {
-    "q": "Ist die Abholung durch die Stadtreinigung nicht günstiger?",
-    "a": "Für reinen Sperrmüll oft ja, der Standard-Service kostet laut hamburg.de 35 € bis 8 m³. Hinnerk passt eher, wenn auch Kartons, Kleinteile oder Kellerkram mitgenommen werden sollen. Fragen Sie ruhig beides an und vergleichen Sie."
-   },
-   {
-    "q": "Holen Sie auch ein einzelnes Möbelstück in der HafenCity ab?",
-    "a": "Ja. Schicken Sie uns am besten ein Foto und sagen Sie, in welchem Stock es steht. Dann nennen wir Ihnen einen festen Preis ab 129 €."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
-    "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
-   },
-   {
-    "titel": "Sperrmüll – Abholung durch die Stadtreinigung, hamburg.de",
-    "url": "https://www.hamburg.de/service/info/11279820/"
-   },
-   {
-    "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "Recyclinghöfe in Hamburg – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   }
-  ]
- },
- {
-  "leistung": "hausaufloesung-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Hausauflösung Hamburg-Mitte ✓ Festpreis ab 2.490 € | Hinnerk",
-  "description": "Hausauflösung im Bezirk Hamburg-Mitte: Einfamilienhaus in Billstedt, Hof in Finkenwerder, Bauernhaus in Moorwerder. Kostenlose Besichtigung, Festpreis.",
-  "h1": "Hausauflösung im Bezirk Hamburg-Mitte",
-  "lead": "Ganze Häuser sind im Bezirk Hamburg-Mitte eher die Ausnahme – umso mehr hat sich in ihnen meist angesammelt. Hinnerk räumt sie vom Keller bis unters Dach, zum Festpreis ab 2.490 €.",
-  "abschnitte": [
-   {
-    "h2": "Wo im Bezirk Häuser stehen",
-    "html": "<p>In Billstedt liegt jede fünfte Wohnung in einem Ein- oder Zweifamilienhaus – 20,0 Prozent, mehr als doppelt so viel wie im ganzen Bezirk (Statistikamt Nord, Berichtsjahr 2023). Häuser finden sich vor allem hier:</p><ul><li><b><a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a>:</b> Einfamilienhäuser neben großen Wohnsiedlungen, gewachsen aus alten Dörfern wie Schiffbek und Öjendorf.</li><li><b><a href=\"entruempelung-hamburg-wilhelmsburg.html\">Wilhelmsburg</a>:</b> Einfamilien- und Doppelhäuser mit großen Gärten, im Süden und Osten fast ländlich, in Moorwerder reetgedeckte Bauernhäuser.</li><li><b><a href=\"entruempelung-hamburg-finkenwerder.html\">Finkenwerder</a>:</b> dörflicher Charakter, kleinere Backsteinhäuser am Steendiek, alte Höfe mit Obstbäumen am Landscheideweg.</li><li><b><a href=\"entruempelung-hamburg-horn.html\">Horn</a>:</b> Reihenhäuser, zu denen oft Keller, Boden und Garten gehören.</li></ul>"
-   },
-   {
-    "h2": "Nebengebäude und Wege zum Recyclinghof",
-    "html": "<p>Auf Höfen und in Bauernhäusern kommen zu den Wohnräumen oft Scheune, Schuppen oder Werkstatt. Bei der kostenlosen Besichtigung gehen wir durch alle Gebäude und nehmen sie in den Festpreis auf – oder lassen stehen, was stehen bleiben soll. Um Finkenwerder führt seit Ende 2012 eine 5,5 Kilometer lange Ortsumgehung im Süden herum. Zum Entsorgen ist von dort der Recyclinghof Am Aschenland 11 in Neugraben-Fischbek der praktische Weg, ohne die Elbe zu queren. Für Wilhelmsburg ist es meist der Hof am Neuländer Kamp 6 in Harburg, der montags bis freitags bis 19 Uhr öffnet.</p>"
-   },
-   {
-    "h2": "Was vorher festgelegt wird",
-    "html": "<p>Gehen Sie vor der Besichtigung einmal selbst durch Haus und Nebengebäude und überlegen Sie, was bleibt. Papiere, Fotos und Schmuck nehmen Sie an sich; bei allem anderen sagen Sie uns, worauf wir achten sollen. Den Räumungstag richten wir nach Ihrem Verkaufs- oder Übergabetermin. Den Schlüssel können Sie uns geben, Sie müssen nicht dabei sein.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Wir lösen den Hof unserer Eltern in Finkenwerder auf. Räumen Sie auch Scheune und Schuppen?",
-    "a": "Ja, wenn Sie das möchten. Bei der Besichtigung gehen wir durch alle Nebengebäude und sagen Ihnen, was der Festpreis umfasst. Fest eingebaute Anlagen oder Maschinen besprechen wir dabei gesondert."
-   },
-   {
-    "q": "Was kostet eine Hausauflösung in Billstedt?",
-    "a": "Bei Hinnerk beginnt eine Hausauflösung bei 2.490 €. Wie viel es wird, hängt von der Zahl der Räume und von Keller, Dachboden, Garage und Garten ab. Den genauen Betrag nennen wir nach der kostenlosen Besichtigung als Festpreis."
-   },
-   {
-    "q": "Das Haus in Wilhelmsburg wird verkauft. Wann sollten wir räumen lassen?",
-    "a": "Am besten so, dass zwischen Räumung und Übergabe an die Käufer noch etwas Luft bleibt. Nennen Sie uns den Übergabetermin bei der Besichtigung, dann richten wir den Räumungstag danach aus."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
-    "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
-   },
-   {
-    "titel": "Billstedt – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Billstedt"
-   },
-   {
-    "titel": "Wilhelmsburg, Hamburg – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Wilhelmsburg,_Hamburg"
-   },
-   {
-    "titel": "Finkenwerder – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/finkenwerder-373016"
-   },
-   {
-    "titel": "Recyclinghöfe in Hamburg – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   }
-  ]
- },
- {
-  "leistung": "dachboden-entruempeln-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Dachboden entrümpeln Hamburg-Mitte ✓ ab 290 € | Hinnerk",
-  "description": "Dachboden entrümpeln im Bezirk Hamburg-Mitte: vom Altbau-Speicher in St. Georg bis zum Reetdachhaus in Moorwerder. Kostenlose Besichtigung, Festpreis.",
-  "h1": "Dachboden entrümpeln im Bezirk Hamburg-Mitte",
-  "lead": "Unter den Dächern im Bezirk liegt viel, das seit dem letzten Umzug niemand angefasst hat. Hinnerk holt es herunter – zum festen Preis ab 290 €.",
-  "abschnitte": [
-   {
-    "h2": "Speicher im Altbau, Boden im Bauernhaus",
-    "html": "<p>Wo im Bezirk alte Häuser stehen, gibt es oft noch Bodenräume. In <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> ist viel Altbau erhalten geblieben; nördlich der Langen Reihe steht sogar noch Fachwerk. In <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> finden sich zwischen den Wohnblöcken vereinzelt Backsteinbauten aus den 1920ern und renovierte Gründerzeitfassaden, etwa in der Palmerstraße. Auf der Elbinsel <a href=\"entruempelung-hamburg-wilhelmsburg.html\">Wilhelmsburg</a> stehen in Moorwerder reetgedeckte Bauernhäuser.</p>"
-   },
-   {
-    "h2": "Der Weg nach unten",
-    "html": "<p>Die schwierigste Strecke ist fast immer die erste: durch die Luke oder über die Bodentreppe, dann durch ein Treppenhaus ohne Aufzug. Sperrige Teile nehmen wir oben auseinander, damit sie durch die Öffnung passen. Bei der kostenlosen Besichtigung sehen wir uns den Zugang an und rechnen ihn in den Festpreis ein, der bei 290 € beginnt. Ist es im Sommer unter dem Dach sehr warm, sprechen wir den Termin entsprechend ab.</p>"
-   },
-   {
-    "h2": "Bevor wir hinaufsteigen",
-    "html": "<p>Auf Böden stehen oft Kisten mit Briefen, Fotos oder Unterlagen aus mehreren Jahrzehnten. Sehen Sie diese vorher durch oder sagen Sie uns, wonach wir Ausschau halten sollen. Alte Dämmung und mögliche Schadstoffe gehören nicht zu einer Entrümpelung, dafür braucht es einen Fachbetrieb. Private Akten nimmt der Recyclinghof von Hamburger Haushalten gegen Gebühr an, höchstens 500 Liter. Alles andere vom Boden fahren wir getrennt nach Sperrmüll, Holz, Metall und Elektrogeräten zum Recyclinghof: aus St. Georg an die Feldstraße 69, aus Hamm in die Liebigstraße 66 in Billbrook, aus Wilhelmsburg meist an den Neuländer Kamp 6 in Harburg. Was der Hof sonst annimmt, steht im Ratgeber <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg</a>.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Unser Speicher in St. Georg ist nur über eine Leiter erreichbar. Geht das trotzdem?",
-    "a": "Ja, wenn der Zugang sicher ist. Wir sehen ihn uns bei der Besichtigung an und planen, welche Teile wir oben zerlegen müssen."
-   },
-   {
-    "q": "Räumen Sie auch den Boden eines Bauernhauses in Moorwerder?",
-    "a": "Ja. Bei großen Böden kommt es vor allem auf die Menge und den Zugang an. Beides schauen wir uns vor Ort an und nennen danach einen festen Preis."
-   },
-   {
-    "q": "Können Dachboden und Keller zusammen geräumt werden?",
-    "a": "Ja. Sagen Sie uns bei der Anfrage, dass beides dazugehört. Wir sehen uns dann beide Räume an und nennen einen gemeinsamen Festpreis."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "St. Georg: Wissens- und Sehenswertes – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-georg-373908"
-   },
-   {
-    "titel": "Hamm – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
-   },
-   {
-    "titel": "Wilhelmsburg, Hamburg – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Wilhelmsburg,_Hamburg"
-   },
-   {
-    "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   }
-  ]
- },
- {
-  "leistung": "garage-entruempeln-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Garage entrümpeln Hamburg-Mitte ✓ Festpreis ab 290 € | Hinnerk",
-  "description": "Garage entrümpeln im Bezirk Hamburg-Mitte, auch Laube in der Horner Marsch oder Schuppen in Finkenwerder. Kostenlose Besichtigung, danach Festpreis.",
-  "h1": "Garage entrümpeln im Bezirk Hamburg-Mitte",
-  "lead": "Ob Garage am Einfamilienhaus in Billstedt oder Laube im Kleingarten in Rothenburgsort: Hinnerk räumt aus, was dort keinen Platz mehr hat – ab 290 €.",
-  "abschnitte": [
-   {
-    "h2": "Garagen, Lauben und Schuppen im Bezirk",
-    "html": "<p>Garagen gibt es im Bezirk vor allem dort, wo Häuser stehen. Bei den Einfamilienhäusern in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> gehören Garage und Garten häufig dazu, auf den alten Höfen in Finkenwerder Schuppen und andere Nebengebäude. Dazu kommen viele Kleingärten, etwa in der Horner Marsch in <a href=\"entruempelung-hamburg-horn.html\">Horn</a> oder in <a href=\"entruempelung-hamburg-rothenburgsort.html\">Rothenburgsort</a>. Auch eine Gartenlaube füllt sich mit der Zeit – mit Gartenmöbeln, Werkzeug und Dingen, die in der Wohnung keinen Platz mehr hatten. In Wilhelmsburg gehören zu Einfamilien- und Bauernhäusern oft Scheune und großer Garten – auch dort räumen wir Nebengebäude mit aus.</p>"
-   },
-   {
-    "h2": "Reifen, Batterien, Altöl",
-    "html": "<p>In Garagen steht oft, was nicht zum normalen Sperrmüll gehört. Pkw-Reifen nimmt der Recyclinghof gegen eine Gebühr von 7 € je Stück an, höchstens fünf. Bei Autobatterien und Feuerlöschern liegt die Grenze jeweils bei zwei Stück, und auch Altöl kostet Gebühr. Für die Garagen im Osten des Bezirks ist der Hof in der Liebigstraße 66 in <a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a> der nächste. Sagen Sie uns vorher, was in Ihrer Garage steht. Dann klären wir den richtigen Weg, bevor Sie den Festpreis bekommen.</p>"
-   },
-   {
-    "h2": "Besichtigung, Festpreis, Schlüssel",
-    "html": "<p>Wir sehen uns die Garage kostenlos an und nennen danach einen Festpreis ab 290 €. Fahrradrahmen und Werkzeug landen beim Metall, Bretter beim Holz, ein alter Elektro-Rasenmäher bei den Geräten. Für Garagen in Finkenwerder ist der Hof Am Aschenland 11 in Neugraben-Fischbek der nächste ohne Elbquerung. Den Schlüssel oder die Fernbedienung für das Tor können Sie uns geben; beim Ausräumen müssen Sie nicht danebenstehen. Wird das ganze Haus geräumt, lesen Sie bei der <a href=\"hausaufloesung-hamburg.html\">Hausauflösung</a> weiter.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Räumen Sie auch eine Laube im Kleingarten in der Horner Marsch?",
-    "a": "Ja, wir räumen Lauben aus. Ob die Laube danach auch abgerissen werden soll, ist eine eigene Frage, die wir vor Ort klären. Fragen Sie vorher beim Verein nach, was bei der Übergabe der Parzelle verlangt wird."
-   },
-   {
-    "q": "In der Garage stehen alte Reifen und Kanister mit Öl. Nehmen Sie die mit?",
-    "a": "Reifen und Altöl haben eigene, gebührenpflichtige Wege. Sagen Sie uns bei der Anfrage, wie viel es ist. Bei der Besichtigung klären wir, wie es entsorgt wird."
-   },
-   {
-    "q": "Die Garage gehört zu einem Haus in Billstedt, das verkauft wird. Geht beides zusammen?",
-    "a": "Ja. Wenn Haus und Garage gemeinsam geräumt werden sollen, sehen wir uns beides bei einem Termin an. Sie bekommen dann einen Festpreis für alles."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "Recyclinghöfe in Hamburg – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "Billstedt – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Billstedt"
-   },
-   {
-    "titel": "Horn, Hamburg – Wikipedia (en)",
-    "url": "https://en.wikipedia.org/wiki/Horn,_Hamburg"
-   }
-  ]
- },
- {
-  "leistung": "firmenaufloesung-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Firmenauflösung Hamburg-Mitte ✓ Festpreis nach Besichtigung | Hinnerk",
-  "description": "Firmenauflösung im Bezirk Hamburg-Mitte: Halle in Billbrook, Lokal in St. Georg, Laden in St. Pauli. Kostenlose Besichtigung, Festpreis und Rechnung.",
-  "h1": "Firmenauflösung im Bezirk Hamburg-Mitte",
-  "lead": "Lager, Werkstatt, Lokal oder Laden: Im Bezirk Hamburg-Mitte sitzt viel Gewerbe auf engem Raum. Hinnerk räumt bis zu Ihrem Übergabetermin und stellt eine Rechnung.",
-  "abschnitte": [
-   {
-    "h2": "Hallen im Osten, Lokale in der Mitte",
-    "html": "<p><a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a> ist eines der großen Industriegebiete Hamburgs, mit vielen Speditionen, langen geraden Straßen und Kanälen. Auf der Peute, einem Teil der <a href=\"entruempelung-hamburg-veddel.html\">Veddel</a>, stehen ebenfalls große Fabrik- und Lagerhallen. Mit einem großen Fahrzeug kommt man dort meist leichter heran als in der Innenstadt. Für Billbrook liegt der Recyclinghof sogar im Stadtteil selbst, in der Liebigstraße 66.</p><p>Ganz anders sieht es in <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> rund um die Lange Reihe oder auf St. Pauli aus. Restaurants, Bars, Clubs und Theater liegen dort dicht an dicht, und das Halten mit einem Transporter ist oft schwierig. Wo der Wagen stehen kann, klären wir bei der Besichtigung.</p>"
-   },
-   {
-    "h2": "Was der Recyclinghof von Betrieben nimmt",
-    "html": "<p>Gewerbebetriebe können auf elf der zwölf Hamburger Recyclinghöfe kleinere Mengen sperriger Abfälle und Sonderabfälle abgeben, darunter Billbrook und Feldstraße. Gewerbliche Kühlgeräte wie Kühltheken nimmt der Hof dagegen nicht an. Wer ein Lokal oder einen Laden mit Kühltechnik aufgibt, braucht dafür einen eigenen Entsorgungsweg. Das besprechen wir bei der Besichtigung, ebenso fest eingebaute Theken oder Maschinen. Für Sonderabfälle aus dem Betrieb stellt der Recyclinghof eine Bescheinigung über die ordnungsgemäße Entsorgung aus. Größere Mengen sind nach schriftlicher Anfrage bei der Stadtreinigung mit Termin möglich.</p>"
-   },
-   {
-    "h2": "Termin, Rechnung, Abmeldung",
-    "html": "<p>Bei Gewerbeflächen zählt meist ein fester Rückgabetermin. Nach der kostenlosen Besichtigung bekommen Sie einen Festpreis und einen Räumungstag, der vor diesem Datum liegt; am Ende erhalten Sie eine Rechnung. Wird der Betrieb ganz eingestellt, gehört auch die Gewerbeabmeldung dazu. Bleibt sie aus, obwohl die Aufgabe feststeht, meldet die Behörde das Gewerbe von Amts wegen ab.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Wir geben unser Restaurant in St. Georg auf. Nehmen Sie auch die Küche mit?",
-    "a": "Möbel, Geschirr, Regale und lose Geräte räumen wir. Kühltheken und fest eingebaute Küchentechnik brauchen eigene Wege und werden vorher besprochen. Bei der Besichtigung sagen wir Ihnen, was der Festpreis enthält."
-   },
-   {
-    "q": "Können Sie eine Lagerhalle in Billbrook räumen, während der Betrieb noch läuft?",
-    "a": "Das hängt davon ab, wie sich Räumung und Betrieb trennen lassen. Wir sehen uns die Halle an und planen mit Ihnen, welcher Bereich wann frei wird. Den Festpreis kennen Sie vorher."
-   },
-   {
-    "q": "Brauche ich für die Buchhaltung einen Beleg über die Räumung?",
-    "a": "Sie bekommen von uns eine Rechnung über den vereinbarten Festpreis. Wie Sie die Kosten verbuchen, klären Sie mit Ihrer Steuerberatung."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Recyclinghöfe in Hamburg – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
-   },
-   {
-    "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
-    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "Gewerbe abmelden – hamburg.de",
-    "url": "https://www.hamburg.de/service/info/11258060/n0/"
-   },
-   {
-    "titel": "Stadtteilportrait Bezirk Hamburg-Mitte – hamburg.de",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/mitte/themen/freizeit/stadtteilportrait-67464"
-   },
-   {
-    "titel": "Veddel: Wissens- und Sehenswertes – hamburg.de",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/veddel-374176"
-   }
-  ]
- },
- {
-  "leistung": "entruempelung-fuer-vermieter-hamburg",
-  "bezirk": "Hamburg-Mitte",
-  "title": "Entrümpelung für Vermieter Hamburg-Mitte ✓ mit Rechnung | Hinnerk",
-  "description": "Entrümpelung für Vermieter im Bezirk Hamburg-Mitte: Wohnungen, Gemeinschaftskeller, Hochhäuser in Billstedt. Kostenlose Besichtigung, Festpreis, Rechnung.",
-  "h1": "Entrümpelung für Vermieter im Bezirk Hamburg-Mitte",
-  "lead": "Zurückgelassene Möbel, ein voller Fahrradkeller, eine Wohnung nach einem Todesfall: Hinnerk räumt für Vermieter und Hausverwaltungen im Bezirk – mit festem Preis und Rechnung.",
-  "abschnitte": [
-   {
-    "h2": "Leerstand im Blick behalten",
-    "html": "<p>Nach dem Hamburgischen Wohnraumschutzgesetz müssen Eigentümer Wohnraum melden, der länger als vier Monate leer steht. Die vier Monate zählen ab dem Auszug des letzten Mieters; gemeldet wird spätestens unmittelbar nach ihrem Ablauf. Die Meldung geht online und ist kostenfrei. Wer die Räumung früh plant, kann die Wohnung eher wieder vermieten. Soll nach dem Ausräumen erst umgebaut werden, zeigen Sie das mit der konkreten Absicht an; widerspricht die Behörde nicht innerhalb von acht Wochen, gilt der Leerstand als genehmigt.</p>"
-   },
-   {
-    "h2": "Viele Einzelhaushalte, viele Nachlässe",
-    "html": "<p>Im Bezirk gibt es rund 152.800 Wohnungen, und in 58,3 Prozent der Haushalte lebt nur eine Person (Statistikamt Nord, Berichtsjahr 2023). Stirbt ein alleinlebender Mieter, bleibt die Wohnung oft voll zurück. Geräumt werden darf erst, wenn rechtlich geklärt ist, wer über die Sachen entscheidet. Haben alle Erben ausgeschlagen, kann die Stadt Hamburg Erbin werden – das stellt das Nachlassgericht aber nur auf Antrag fest. Danach ist die Behörde für Finanzen und Bezirke zuständig. Mehr im Ratgeber <a href=\"erbe-ausgeschlagen-wer-raeumt-wohnung.html\">Erbe ausgeschlagen</a>.</p>"
-   },
-   {
-    "h2": "Gemeinschaftskeller und Sperrmülltage",
-    "html": "<p>In den Wohnblöcken in <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> und <a href=\"entruempelung-hamburg-horn.html\">Horn</a> oder in den Hochhäusern in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> sammelt sich in Fahrradkellern und Fluren mit der Zeit Zeug, das keinem mehr gehören will. Für Mieter, die selbst etwas loswerden möchten, können Wohnungsunternehmen bei der Stadtreinigung einen Sperrmüll-Aktionstag buchen: Die Mieter bringen ihre Sachen an einem Vormittag zu einem festen Platz. Was danach übrig bleibt, räumt Hinnerk nach kostenloser Besichtigung zum Festpreis. Sie bekommen eine Rechnung und können uns den Schlüssel übergeben.</p>"
-   }
-  ],
-  "faq": [
-   {
-    "q": "Muss ich eine leerstehende Wohnung im Bezirk melden?",
-    "a": "Ja, wenn sie länger als vier Monate leer steht – so regelt es das Hamburgische Wohnraumschutzgesetz. Die Meldung geht online über hamburg.de und ist kostenfrei. Für Leerstand wegen Umbau oder Neubau gelten eigene Regeln."
-   },
-   {
-    "q": "Ein Mieter in Billstedt ist gestorben, die Erben haben ausgeschlagen. Wer ist jetzt mein Ansprechpartner?",
-    "a": "Gibt es keine Erben, kann das Nachlassgericht auf Antrag feststellen, dass die Stadt Hamburg erbt. Danach ist die Behörde für Finanzen und Bezirke zuständig. Räumen lassen sollten Sie erst, wenn geklärt ist, wer über die Sachen entscheidet."
-   },
-   {
-    "q": "Können Sie regelmäßig für unsere Häuser in Hamm und Horn räumen?",
-    "a": "Ja. Sprechen Sie uns an, dann klären wir, wie Anfragen, Schlüsselübergabe und Rechnung für Ihre Objekte am einfachsten laufen. Jeder Auftrag bekommt nach der Besichtigung einen festen Preis."
-   }
-  ],
-  "quellen": [
-   {
-    "titel": "Leerstehenden Wohnraum melden – hamburg.de",
-    "url": "https://www.hamburg.de/service/info/111050945/n0/"
-   },
-   {
-    "titel": "Fiskalerbschaften – Finanzbehörde Hamburg",
-    "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/fiskalerbschaften-261940"
-   },
-   {
-    "titel": "Sperrmülltage für die Wohnungswirtschaft – Stadtreinigung Hamburg",
-    "url": "https://files.stadtreinigung.hamburg/SRH_Wohnungswirtschaft_Sperrmuelltage_Flyer250326.pdf"
-   },
-   {
-    "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
-    "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
-   }
-  ]
- }
+  {
+    "leistung": "haushaltsaufloesung-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Haushaltsauflösung Hamburg-Mitte ✓ Festpreis ✓ ab 690 € | Hinnerk",
+    "description": "Haushaltsauflösung im Bezirk Hamburg-Mitte – vom Nachkriegsblock in Hamm bis zum Stift in Borgfelde. Kostenlose Besichtigung, danach Festpreis.",
+    "h1": "Haushaltsauflösung im Bezirk Hamburg-Mitte",
+    "lead": "Wenn in Hamm, Horn oder St. Georg ein ganzer Hausstand aufgelöst werden muss, geht es selten nur um Möbel. Hinnerk bringt Ordnung in die Sache – zu einem Preis, der vorher feststeht.",
+    "abschnitte": [
+      {
+        "h2": "Kleine Wohnungen, dicht gefüllt",
+        "html": "<p>Im Bezirk Hamburg-Mitte lebt in mehr als der Hälfte aller Haushalte nur eine Person. Die Stadtteil-Profile des Statistikamts Nord nennen dafür 58,3 Prozent (Berichtsjahr 2023). Auch die Wohnungen sind eher klein: In <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> messen sie im Schnitt 58,9 m², in <a href=\"entruempelung-hamburg-borgfelde.html\">Borgfelde</a> 56,1 m². Auf wenigen Quadratmetern steht dann ein ganzes Leben – Schrankwand, Küche, Bücher, dazu das Kellerabteil.</p><p>Viele dieser Wohnungen liegen in Blöcken, die nach den Bombenschäden von 1943 neu errichtet wurden. Einen Aufzug haben sie oft nicht. Wir rechnen deshalb von Anfang an damit, dass jedes Stück durch das Treppenhaus nach unten getragen wird.</p>"
+      },
+      {
+        "h2": "Stift, Genossenschaft, Pflegeheim: Termine abstimmen",
+        "html": "<p>In Borgfelde gibt es mehrere Stifte und soziale Einrichtungen. Zieht jemand von dort aus, gelten für Schlüssel und Auszugstermin oft eigene Hausregeln. In Hamm gehören viele Wohnungen Genossenschaften, die die Rückgabe genau vorgeben. Fragen Sie dort nach, in welchem Zustand die Räume zurückgehen sollen, und nennen Sie uns das Datum. Den Räumungstag legen wir passend davor.</p><p>Wenn der Anlass ein Umzug ins Heim ist, hilft der Ratgeber <a href=\"umzug-ins-pflegeheim-wohnung-aufloesen.html\">Umzug ins Pflegeheim</a> bei der Reihenfolge.</p>"
+      },
+      {
+        "h2": "Vom Rundgang bis zum Recyclinghof",
+        "html": "<p>Zuerst gehen wir gemeinsam durch die Wohnung. Papiere, Fotos, Schmuck und alles, was die Familie behalten will, legen Sie zur Seite – oder Sie sagen uns, worauf wir achten sollen. Danach erhalten Sie einen Festpreis; ein Haushalt beginnt bei 690 €. Am Räumungstag müssen Sie nicht vor Ort sein, der Schlüssel genügt. Was aus dem Haushalt nicht weiterverwendet wird, sortieren wir nach Sperrmüll, Holz, Metall und Elektrogeräten und liefern es so beim Hof der Stadtreinigung ab – für Hamm, Horn und Borgfelde in der Liebigstraße 66 in <a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Meine Mutter zieht aus einem Stift in Borgfelde ins Pflegeheim. Wie stimmen wir die Auflösung ab?",
+        "a": "Klären Sie zuerst mit der Einrichtung, bis wann die Wohnung frei sein muss und welche Hausregeln gelten. Diesen Termin nennen Sie uns bei der Besichtigung. Wir richten den Räumungstag danach aus."
+      },
+      {
+        "q": "Die Wohnung in Hamm gehört einer Genossenschaft. Worauf muss ich achten?",
+        "a": "Genossenschaften haben oft feste Vorgaben für die Rückgabe, zum Beispiel zu Kellerabteil und Einbauten. Lassen Sie sich diese Vorgaben geben und zeigen Sie sie uns. Was danach raus muss, steht im Festpreis."
+      },
+      {
+        "q": "Was kostet eine Haushaltsauflösung in einer kleinen Wohnung im Bezirk?",
+        "a": "Bei Hinnerk beginnt eine Haushaltsauflösung bei 690 €. Der genaue Betrag hängt von der Menge, vom Stockwerk und vom Weg zum Wagen ab. Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
+        "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
+      },
+      {
+        "titel": "Hamm – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
+      },
+      {
+        "titel": "Borgfelde – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Borgfelde"
+      },
+      {
+        "titel": "Recyclinghöfe in Hamburg – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      }
+    ]
+  },
+  {
+    "leistung": "wohnungsaufloesung-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Wohnungsauflösung Hamburg-Mitte: Festpreis ab 690 € | Hinnerk",
+    "description": "Wohnungsauflösung im Bezirk Hamburg-Mitte – Altbau in St. Georg, Neubau in der HafenCity, Hochhaus in Billstedt. Erst kostenlos besichtigt, dann Festpreis.",
+    "h1": "Wohnungsauflösung im Bezirk Hamburg-Mitte",
+    "lead": "Zwischen HafenCity und Mümmelmannsberg liegen im Bezirk sehr verschiedene Wohnungen. Für jede planen wir die Räumung anders – und Sie kennen den Preis, bevor es losgeht.",
+    "abschnitte": [
+      {
+        "h2": "Altbau, Neubau, Hochhaus",
+        "html": "<ul><li><b>Altbau ohne Aufzug:</b> In <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> ist viel alte Bausubstanz erhalten, weil Abrisspläne für ein Großprojekt in den 1970ern fallen gelassen wurden. Getragen wird dort meist durch ein enges Treppenhaus.</li><li><b>Neubau am Wasser:</b> In der <a href=\"entruempelung-hamburg-hafencity.html\">HafenCity</a> haben die Häuser häufig Aufzug und Tiefgarage. Knapp sind dagegen Flächen, auf denen ein Wagen zum Beladen halten darf.</li><li><b>Hochhaus:</b> In Mümmelmannsberg und Dringsheide in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> oder in Kirchdorf-Süd in Wilhelmsburg nutzen wir den Aufzug. Melden Sie ihn bei der Hausverwaltung an, damit er für die Räumung frei ist.</li></ul><p>Welcher Fall es bei Ihnen ist, sehen wir bei der kostenlosen Besichtigung. Danach steht der Festpreis, ab 690 €.</p>"
+      },
+      {
+        "h2": "Halten rund um Kiez, Dom und Hauptbahnhof",
+        "html": "<p><a href=\"entruempelung-hamburg-st-pauli.html\">St. Pauli</a> ist sehr dicht bebaut, freie Stellen am Straßenrand sind selten. Am Wochenende, bei Großveranstaltungen und wenn auf St. Pauli der Dom läuft, wird es noch enger. Rund um Hauptbahnhof und Lange Reihe ist das Halten mit einem Transporter ebenfalls schwierig. Fällt Ihr Wunschtermin in so eine Zeit, sprechen Sie uns bei der Besichtigung darauf an. Dann suchen wir gemeinsam einen Tag, der trotzdem zur Übergabe passt.</p>"
+      },
+      {
+        "h2": "Vor der Rückgabe an den Vermieter",
+        "html": "<p>In St. Pauli wohnt in fast sieben von zehn Haushalten nur eine Person, laut Statistikamt Nord sind es 69,3 Prozent. Wird so eine Wohnung aufgelöst, kennt oft niemand mehr die Absprachen aus dem Mietvertrag. Lesen Sie vorher nach, was dort zur Rückgabe steht, und sagen Sie uns, ob Küche, Lampen oder Bodenbeläge mit raus sollen. Was besenrein heißt, erklärt der Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">Wohnung besenrein übergeben</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wo kann Ihr Wagen in der HafenCity halten?",
+        "a": "Das klären wir bei der Besichtigung, weil Halte- und Ladeflächen dort knapp sind. Fragen Sie vorher beim Hausmeister oder der Verwaltung nach, ob es eine Lieferzone gibt. Wir planen den Weg vom Aufzug zum Wagen dann entsprechend."
+      },
+      {
+        "q": "Unsere Wohnung liegt im fünften Stock eines Altbaus in St. Georg. Geht das ohne Aufzug?",
+        "a": "Ja. Wir tragen alles durch das Treppenhaus nach unten. Stockwerk und Treppen rechnen wir in den Festpreis ein, den Sie nach der Besichtigung bekommen."
+      },
+      {
+        "q": "Kann die Wohnung geräumt werden, während ich arbeite?",
+        "a": "Ja. Wenn vorher klar ist, was bleiben soll, müssen Sie nicht dabei sein. Den Schlüssel können Sie uns zum Beispiel bei der Besichtigung übergeben."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "St. Georg: Wissens- und Sehenswertes – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-georg-373908"
+      },
+      {
+        "titel": "HafenCity – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/HafenCity"
+      },
+      {
+        "titel": "St. Pauli: Wissens- und Sehenswertes – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-pauli-374030"
+      },
+      {
+        "titel": "Bezirk Hamburg-Mitte – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/bezirk-hamburg-mitte-374390"
+      },
+      {
+        "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
+        "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
+      }
+    ]
+  },
+  {
+    "leistung": "keller-entruempeln-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Keller entrümpeln Hamburg-Mitte ✓ ab 290 € ✓ Festpreis | Hinnerk",
+    "description": "Keller entrümpeln im Bezirk Hamburg-Mitte: Abteile in den Wohnblöcken von Hamm, Klinkerhäuser auf der Veddel. Kostenlose Besichtigung, fester Preis.",
+    "h1": "Keller entrümpeln im Bezirk Hamburg-Mitte",
+    "lead": "Ein voller Kellerverschlag fällt oft erst auf, wenn ein Auszug ansteht oder die Hausverwaltung schreibt. Hinnerk räumt Kellerabteile im ganzen Bezirk – zum Festpreis ab 290 €.",
+    "abschnitte": [
+      {
+        "h2": "Kellerabteile im Mehrfamilienhaus",
+        "html": "<p>Im Bezirk Hamburg-Mitte liegen nur 8,9 Prozent der Wohnungen in Ein- oder Zweifamilienhäusern (Statistikamt Nord, Berichtsjahr 2023). Die meisten Menschen haben also keinen eigenen Hauskeller, sondern ein Abteil im gemeinsamen Keller eines Wohnblocks.</p><p>In <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> sind das oft einfache Häuser aus den 1950er Jahren, auf der <a href=\"entruempelung-hamburg-veddel.html\">Veddel</a> die langen Klinkerzeilen, die Fritz Schumacher 1928 bauen ließ. In beiden Fällen fehlt häufig ein Aufzug. Der Weg führt dann vom Kellergang die Stufen hinauf, durch den Hausflur und weiter bis zum Wagen. Gehört die Wohnung einer Genossenschaft, wie oft in Hamm, gelten häufig feste Regeln für die Übergabe – und das Abteil geht zusammen mit der Wohnung zurück.</p>"
+      },
+      {
+        "h2": "Hochhaus und Neubau",
+        "html": "<p>In den Hochhaussiedlungen, etwa in Mümmelmannsberg in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a>, gibt es meist Aufzüge. Ob einer bis ins Untergeschoss fährt und wann wir ihn nutzen können, klären wir bei der Besichtigung. In der HafenCity haben viele Häuser Tiefgaragen; ob sich der Wagen dort zum Beladen abstellen lässt, klären wir vorher mit Ihnen.</p>"
+      },
+      {
+        "h2": "Wohin der Kellerinhalt geht",
+        "html": "<p>Schon im Kellergang trennen wir Holzregale, Metallteile, alte Geräte und übrigen Sperrmüll voneinander. Für Hamm, Horn, Billstedt und die Veddel liegt der nächste Hof in der Liebigstraße 66 in Billbrook. Für St. Pauli, die Neustadt und St. Georg ist es der Hof an der Feldstraße 69. Aus Wilhelmsburg fahren wir eher zum Neuländer Kamp 6 in Harburg, aus Finkenwerder nach Am Aschenland 11 in Neugraben-Fischbek. Farben, Lacke und Chemikalien sind Sonderabfall und laufen getrennt – sagen Sie uns, wenn so etwas im Keller steht. Mehr dazu im Ratgeber <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll entsorgen</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Die Hausverwaltung in Hamm will den Keller bis Monatsende leer haben. Ist das machbar?",
+        "a": "Nennen Sie uns die Frist gleich bei der Anfrage. Nach der Besichtigung legen wir den Räumungstag so, dass er davor liegt, sofern wir einen freien Termin haben. Den Festpreis kennen Sie dann schon."
+      },
+      {
+        "q": "Ich wohne in einem Hochhaus in Billstedt. Wie kommen die Sachen aus dem Keller?",
+        "a": "Fährt der Aufzug bis in den Keller, nutzen wir ihn. Sonst tragen wir über die Treppe. Beides sehen wir uns vorher an und rechnen es in den Preis ein."
+      },
+      {
+        "q": "Was kostet es, ein Kellerabteil auf der Veddel räumen zu lassen?",
+        "a": "Ein Kellerabteil räumt Hinnerk ab 290 €. Wie viel es am Ende kostet, hängt von der Menge und vom Weg nach draußen ab. Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
+        "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
+      },
+      {
+        "titel": "Veddel: Wissens- und Sehenswertes – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/veddel-374176"
+      },
+      {
+        "titel": "Hamm – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
+      },
+      {
+        "titel": "Billstedt – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Billstedt"
+      },
+      {
+        "titel": "Recyclinghöfe in Hamburg – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      }
+    ]
+  },
+  {
+    "leistung": "nachlassaufloesung-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Nachlassauflösung Hamburg-Mitte ✓ ab 690 € ✓ Festpreis | Hinnerk",
+    "description": "Nachlassauflösung im Bezirk Hamburg-Mitte, etwa im Einfamilienhaus in Billstedt: kostenlose Besichtigung, Festpreis, Räumung nach Ihren Vorgaben.",
+    "h1": "Nachlassauflösung im Bezirk Hamburg-Mitte",
+    "lead": "Nach einem Todesfall müssen Erben vieles gleichzeitig regeln. Hinnerk übernimmt die Räumung von Wohnung oder Haus, damit Ihnen Zeit für das Übrige bleibt.",
+    "abschnitte": [
+      {
+        "h2": "Zuerst: Wer entscheidet über den Nachlass?",
+        "html": "<p>Bevor geräumt wird, sollte feststehen, wer über die Sachen bestimmen darf. Zuständig für Nachlasssachen ist das Amtsgericht an dem Ort, an dem die verstorbene Person zuletzt gelebt hat. Laut hamburg.de können Erben einen Antrag aber auch beim Amtsgericht an ihrem eigenen Wohnort stellen, und auch ein Notar nimmt ihn entgegen. Ein Testament kann man dort ohne Termin eröffnen lassen; für eine Ausschlagung braucht man einen Termin. Für eine Rechtsberatung verweist hamburg.de auf Anwaltskanzleien, Notariate und die Öffentliche Rechtsauskunft.</p><p>Was nach einem Todesfall sonst zu tun ist, fasst der Ratgeber <a href=\"wohnung-nach-todesfall-aufloesen.html\">Wohnung nach Todesfall auflösen</a> zusammen.</p>"
+      },
+      {
+        "h2": "Ältere Haushalte im Osten des Bezirks",
+        "html": "<p>In <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> sind 18,2 Prozent der Bewohner 65 Jahre oder älter, im ganzen Bezirk 14,1 Prozent (Statistikamt Nord, Berichtsjahr 2023). Die Wohnungen sind dort mit durchschnittlich 72,8 m² größer als im Bezirksschnitt von 66,4 m², und neben Hochhaussiedlungen wie Mümmelmannsberg stehen dort auch Einfamilienhäuser und frühere Arbeiterviertel. Zu einem Nachlass gehören dann oft Keller, Dachboden, Garage und Garten. In <a href=\"entruempelung-hamburg-horn.html\">Horn</a> sind es häufiger Reihenhäuser, in <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> eher kleine Wohnungen in Nachkriegsblöcken.</p>"
+      },
+      {
+        "h2": "Ihr Auftrag, Ihre Vorgaben",
+        "html": "<p>Bei der kostenlosen Besichtigung gehen wir mit Ihnen oder einer Person Ihres Vertrauens durch alle Räume. Was in der Familie bleibt, wird markiert. Papiere, Fotos und Schmuck nehmen Sie an sich oder sagen uns, worauf wir achten sollen. Danach erhalten Sie einen Festpreis ab 690 €. Den Räumungstag stimmen wir auf die Kündigungsfrist der Wohnung oder auf den Verkaufstermin ab. Den Schlüssel können Sie uns überlassen; beim Räumen dabei sein müssen Sie nicht.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Welches Amtsgericht ist für einen Nachlass aus dem Bezirk Hamburg-Mitte zuständig?",
+        "a": "Maßgeblich ist der letzte Wohnsitz der verstorbenen Person. Auf hamburg.de können Sie die zuständige Stelle über die Wohnanschrift ermitteln. Anträge können Sie auch beim Amtsgericht an Ihrem eigenen Wohnort oder über einen Notar stellen."
+      },
+      {
+        "q": "Zum Haus meiner Eltern in Billstedt gehören Garage und Gartenhaus. Räumen Sie das mit?",
+        "a": "Ja, wenn Sie es möchten. Wir sehen uns bei der Besichtigung alle Nebengebäude an und nehmen sie in den Festpreis auf. Soll das ganze Haus leer werden, lesen Sie auch unsere Seite zur Hausauflösung."
+      },
+      {
+        "q": "Was ist, wenn wir beim Ausräumen etwas Wichtiges übersehen haben?",
+        "a": "Sagen Sie uns vorher, wonach wir beim Räumen Ausschau halten sollen, dann achten wir darauf. Am sichersten ist es trotzdem, wenn Sie wichtige Dinge schon vor dem Räumungstag mitnehmen."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Nachlassgericht – Allgemeine Informationen, hamburg.de",
+        "url": "https://www.hamburg.de/service/info/11252454/n0/"
+      },
+      {
+        "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
+        "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
+      },
+      {
+        "titel": "Billstedt – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Billstedt"
+      },
+      {
+        "titel": "Horn, Hamburg – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Horn,_Hamburg"
+      }
+    ]
+  },
+  {
+    "leistung": "messie-wohnung-raeumen-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Messie-Wohnung räumen Hamburg-Mitte ✓ diskret ✓ ab 1.890 € | Hinnerk",
+    "description": "Messie-Wohnung räumen im Bezirk Hamburg-Mitte, auch im dicht bewohnten Altbau in St. Pauli: diskret, ohne Vorwürfe, Festpreis nach kostenloser Besichtigung.",
+    "h1": "Messie-Wohnung räumen im Bezirk Hamburg-Mitte",
+    "lead": "Eine zugestellte Wohnung ist schwer anzusprechen – erst recht in einem Haus, in dem man sich ständig im Treppenhaus begegnet. Hinnerk räumt ruhig und ohne Vorwürfe, und wir reden mit niemandem darüber.",
+    "abschnitte": [
+      {
+        "h2": "Diskret im vollen Mehrfamilienhaus",
+        "html": "<p>In <a href=\"entruempelung-hamburg-st-pauli.html\">St. Pauli</a>, in der <a href=\"entruempelung-hamburg-neustadt.html\">Neustadt</a> oder in <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> liegt kaum eine Wohnung in einem Ein- oder Zweifamilienhaus; fast alle teilen sich ein Treppenhaus mit Nachbarn. Ganz unbemerkt bleibt eine Räumung dort nicht. Von uns erfährt trotzdem niemand, worum es geht – auch dann nicht, wenn Nachbarn im Flur nachfragen. Vorwürfe machen wir Ihnen keine.</p><p>Wo kein Aufzug ist, wird alles über die Treppe getragen. Das braucht Zeit, und die planen wir ein. Am Wochenende und bei Großveranstaltungen ist es in St. Pauli auf den Straßen voller; den Tag legen wir deshalb nach der Besichtigung gemeinsam fest.</p>"
+      },
+      {
+        "h2": "Wenn das Mietverhältnis in Gefahr ist",
+        "html": "<p>Manchmal wird eine Räumung erst dringend, wenn die Wohnung selbst auf dem Spiel steht, etwa nach einer fristlosen Kündigung. Dann hilft die Fachstelle für Wohnungsnotfälle. Sie berät kostenlos, erklärt, wie ein Räumungsverfahren abläuft, und nennt weitere Hilfen und Kontakte für eine Rechtsberatung. Welche Fachstelle für Ihre Adresse zuständig ist, lässt sich auf hamburg.de über die Wohnanschrift ermitteln. Wichtig ist, sich möglichst früh zu melden.</p>"
+      },
+      {
+        "h2": "Besichtigung, Preis und was wir nicht machen",
+        "html": "<p>Bei der Besichtigung schauen wir, wie viel in der Wohnung steht, wie man durch die Räume kommt und wie weit es bis zum Wagen ist. Daraus ergibt sich ein Festpreis ab 1.890 €. Was Sie behalten möchten, sagen Sie uns vorher – ob Kleidung, Bücher oder Unterlagen, entscheiden allein Sie. Desinfektion, Schädlingsbekämpfung und Grundreinigung übernehmen wir nicht. Ist so etwas nötig, sagen wir es Ihnen gleich bei der Besichtigung, damit Sie einen Fachbetrieb beauftragen können.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ich schäme mich. Muss ich bei der Besichtigung selbst in der Wohnung sein?",
+        "a": "Es reicht, wenn uns eine Person Ihres Vertrauens die Tür öffnet. Wichtig ist nur, dass vorher feststeht, was bleiben soll. Beim Räumen selbst müssen Sie nicht dabei sein."
+      },
+      {
+        "q": "Mir wurde die Wohnung in Hamm gekündigt. Wo bekomme ich Hilfe?",
+        "a": "Ist Ihr Mietverhältnis gefährdet, berät die Fachstelle für Wohnungsnotfälle kostenlos. Die zuständige Stelle finden Sie auf hamburg.de über Ihre Wohnanschrift. Die Räumung selbst besprechen wir mit Ihnen bei der Besichtigung."
+      },
+      {
+        "q": "Was kostet es, eine Messie-Wohnung in St. Pauli räumen zu lassen?",
+        "a": "Bei Hinnerk beginnt das bei 1.890 €. Wie viel es genau wird, hängt von Menge, Stockwerk und Zugang ab. Den festen Preis nennen wir Ihnen nach der kostenlosen Besichtigung."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Wohnungsnotfälle, Wohnungssicherung: Beratung erhalten – hamburg.de",
+        "url": "https://www.hamburg.de/service/info/111202963/n0/"
+      },
+      {
+        "titel": "St. Pauli: Wissens- und Sehenswertes – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-pauli-374030"
+      },
+      {
+        "titel": "Hamm – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
+      }
+    ]
+  },
+  {
+    "leistung": "bueroaufloesung-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Büroauflösung Hamburg-Mitte ✓ kostenlose Besichtigung | Hinnerk",
+    "description": "Büroauflösung im Bezirk Hamburg-Mitte – Kontorhaus in der Altstadt, Bürobau in der City Süd: Wir besichtigen kostenlos und nennen danach einen festen Preis.",
+    "h1": "Büroauflösung im Bezirk Hamburg-Mitte",
+    "lead": "Altstadt, Neustadt, HafenCity und die City Süd sind die Büroviertel der Stadt. Wenn dort Räume leer werden müssen, plant Hinnerk die Räumung auf Ihren Übergabetag hin.",
+    "abschnitte": [
+      {
+        "h2": "Kontorhaus, City Süd, Neubau",
+        "html": "<p>Die Altstadt, die Neustadt und die HafenCity bilden zusammen den zentralen Geschäftsbezirk Hamburgs. Im Kontorhausviertel stehen große Bürohäuser wie Chilehaus und Sprinkenhof; das Chilehaus gehört seit 2015 zum UNESCO-Welterbe. In <a href=\"entruempelung-hamburg-hammerbrook.html\">Hammerbrook</a> liegt mit der City Süd ein zweites Bürozentrum, mit Bürobauten wie dem Berliner Bogen und mit denkmalgeschützten Kontorhäusern.</p><p>In Bürohäusern gibt es meist einen Aufzug. Ob er für Schränke und Schreibtische reicht und wann er frei ist, klären wir bei der kostenlosen Besichtigung. Danach bekommen Sie einen festen Preis und eine Rechnung. Rechner, Monitore und Drucker fahren wir getrennt als Elektrogeräte zur Entsorgung; Daten auf Festplatten löschen Sie vorher selbst oder nehmen die Datenträger an sich.</p>"
+      },
+      {
+        "h2": "Laden und Halten in der Innenstadt",
+        "html": "<p>In der <a href=\"entruempelung-hamburg-altstadt.html\">Altstadt</a> und der <a href=\"entruempelung-hamburg-neustadt.html\">Neustadt</a> ist Platz für einen Transporter knapp, und auch in der <a href=\"entruempelung-hamburg-hafencity.html\">HafenCity</a> sind Ladeflächen begrenzt. Fragen Sie deshalb früh bei Ihrer Hausverwaltung nach, ob es eine Ladezone, eine Hofeinfahrt oder einen Lastenaufzug gibt. Je kürzer der Weg von der Bürotür zum Wagen, desto einfacher wird der Räumungstag, gerade bei vielen Schränken und Rollcontainern. Den Termin legen wir so, dass er zu Ihrer Übergabe passt.</p>"
+      },
+      {
+        "h2": "Wenn die Firma ganz aufhört",
+        "html": "<p>Schließt das Büro nicht nur, sondern wird das Gewerbe aufgegeben, muss es zum Zeitpunkt der Aufgabe abgemeldet werden. Abmeldungen nehmen die Hamburger Bezirksämter, die Handelskammer und die Handwerkskammer entgegen; online geht es über das Hamburger Serviceportal. Die erste Abmeldebescheinigung ist kostenlos. Klären Sie außerdem vorher, welche Akten Sie aufbewahren müssen – Hinweise dazu stehen auf unserer Seite zur <a href=\"bueroaufloesung-hamburg.html\">Büroauflösung</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wir ziehen aus einem Kontorhaus in der Altstadt aus. Wer kümmert sich um die Ladezone?",
+        "a": "Fragen Sie zuerst Ihre Hausverwaltung, ob das Haus eine Ladezone oder Hofeinfahrt hat. Bei der Besichtigung gehen wir den Weg vom Büro bis zur Straße mit Ihnen ab. Danach planen wir den Räumungstag."
+      },
+      {
+        "q": "Wo melde ich unser Gewerbe ab, wenn das Büro in Hamburg-Mitte schließt?",
+        "a": "Die Abmeldung nehmen die Bezirksämter, die Handelskammer und die Handwerkskammer entgegen, online auch das Hamburger Serviceportal. Welche Stelle für Ihren Standort zuständig ist, zeigt hamburg.de. Die erste Abmeldebescheinigung kostet nichts."
+      },
+      {
+        "q": "Was kostet eine Büroauflösung in der City Süd?",
+        "a": "Das hängt von Fläche, Möbeln, Technik und Zugang ab, deshalb nennen wir keinen Pauschalpreis. Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis, der sich nicht mehr ändert."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Hamburg-Mitte – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Hamburg-Mitte"
+      },
+      {
+        "titel": "Stadtteilportrait Bezirk Hamburg-Mitte – hamburg.de",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/mitte/themen/freizeit/stadtteilportrait-67464"
+      },
+      {
+        "titel": "Gewerbe abmelden – hamburg.de",
+        "url": "https://www.hamburg.de/service/info/11258060/n0/"
+      }
+    ]
+  },
+  {
+    "leistung": "sperrmuell-abholen-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Sperrmüll abholen Hamburg-Mitte ✓ ab 129 € ✓ Festpreis | Hinnerk",
+    "description": "Sperrmüll abholen im Bezirk Hamburg-Mitte: Wir tragen aus Altbau und Hochhaus, etwa in St. Georg oder Billstedt. Fester Preis ab 129 €, vorher vereinbart.",
+    "h1": "Sperrmüll abholen im Bezirk Hamburg-Mitte",
+    "lead": "Im Bezirk haben viele kein Auto und keinen Aufzug – aber ein altes Sofa, das weg muss. Hinnerk holt es direkt aus der Wohnung.",
+    "abschnitte": [
+      {
+        "h2": "Ohne Auto zum Recyclinghof?",
+        "html": "<p>In mehreren Stadtteilen des Bezirks kommen auf 1.000 Einwohner weniger als 200 private Pkw: in <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> 188, in <a href=\"entruempelung-hamburg-st-pauli.html\">St. Pauli</a> 195, in <a href=\"entruempelung-hamburg-hammerbrook.html\">Hammerbrook</a> nur 135 (Statistikamt Nord, Berichtsjahr 2023). Einen Schrank selbst zum Recyclinghof zu fahren, ist dort für viele keine Möglichkeit. Hinzu kommt: Am Hof darf ein Sperrmüllstück höchstens zwei Meter lang sein.</p>"
+      },
+      {
+        "h2": "Stadtreinigung oder Hinnerk",
+        "html": "<p>Die Stadtreinigung Hamburg holt Sperrmüll aus Privathaushalten auf Bestellung ab. Laut Gebührenliste 2026 kostet der Standard-Service 35 € für bis zu 8 m³, die draußen bereitstehen, und 50 €, wenn er aus dem Gebäude geholt wird; das Zerlegen von Möbeln muss man extra beauftragen. Für gut erhaltene Möbel gibt es die „schonende Abfuhr“; den Begriff nennen Sie bei der telefonischen Bestellung. Wie die Anmeldung läuft, steht im Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden</a>.</p><p>Hinnerk holt ab 129 € ab und trägt selbst – aus dem vierten Stock im Altbau genauso wie aus dem Kellerabteil im Hochhaus. Das lohnt sich vor allem, wenn neben den großen Stücken auch Kartons, Kleinkram oder Sachen vom Boden mit sollen. Den festen Preis kennen Sie, bevor wir etwas anfassen; Fotos helfen bei der Anfrage.</p>"
+      },
+      {
+        "h2": "Was getrennt entsorgt wird",
+        "html": "<p>Was wir abholen, kommt nach Sorten getrennt – Möbel, Holz, Metall, Geräte – auf einen der beiden Recyclinghöfe im Bezirk: an der Feldstraße 69 in St. Pauli oder in der Liebigstraße 66 in <a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a>. Beide haben montags bis samstags von 8 bis 17 Uhr geöffnet. Kühlgeräte nimmt der Hof von Privatleuten höchstens zwei Stück an. Farben, Lacke und Batterien gehören nicht zum Sperrmüll; sagen Sie uns vorher, wenn welche dabei sind.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Ich wohne im dritten Stock in St. Georg ohne Aufzug. Tragen Sie das Sofa hinunter?",
+        "a": "Ja, wir holen es aus der Wohnung und tragen es durchs Treppenhaus. Passt es nicht um die Kurve, bauen wir es auseinander. Den Preis vereinbaren wir vorher."
+      },
+      {
+        "q": "Ist die Abholung durch die Stadtreinigung nicht günstiger?",
+        "a": "Für reinen Sperrmüll oft ja, der Standard-Service kostet 35 € bis 8 m³ (draußen bereitgestellt), aus dem Gebäude geholt 50 €. Hinnerk passt eher, wenn auch Kartons, Kleinteile oder Kellerkram mitgenommen werden sollen. Fragen Sie ruhig beides an und vergleichen Sie."
+      },
+      {
+        "q": "Holen Sie auch ein einzelnes Möbelstück in der HafenCity ab?",
+        "a": "Ja. Schicken Sie uns am besten ein Foto und sagen Sie, in welchem Stock es steht. Dann nennen wir Ihnen einen festen Preis ab 129 €."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
+        "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
+      },
+      {
+        "titel": "Sperrmüll – Abholung durch die Stadtreinigung, hamburg.de",
+        "url": "https://www.hamburg.de/service/info/11279820/"
+      },
+      {
+        "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      },
+      {
+        "titel": "Recyclinghöfe in Hamburg – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "Stadtreinigung Hamburg: Gebühren ab 1. Januar 2026",
+        "url": "https://files.stadtreinigung.hamburg/website/download/PDF/Abfallentsorgungsgebuehren.pdf"
+      }
+    ]
+  },
+  {
+    "leistung": "hausaufloesung-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Hausauflösung Hamburg-Mitte ✓ Festpreis ab 2.490 € | Hinnerk",
+    "description": "Hausauflösung im Bezirk Hamburg-Mitte: Einfamilienhaus in Billstedt, Hof in Finkenwerder, Bauernhaus in Moorwerder. Kostenlose Besichtigung, Festpreis.",
+    "h1": "Hausauflösung im Bezirk Hamburg-Mitte",
+    "lead": "Ganze Häuser sind im Bezirk Hamburg-Mitte eher die Ausnahme – umso mehr hat sich in ihnen meist angesammelt. Hinnerk räumt sie vom Keller bis unters Dach, zum Festpreis ab 2.490 €.",
+    "abschnitte": [
+      {
+        "h2": "Wo im Bezirk Häuser stehen",
+        "html": "<p>In Billstedt liegt jede fünfte Wohnung in einem Ein- oder Zweifamilienhaus – 20,0 Prozent, mehr als doppelt so viel wie im ganzen Bezirk (Statistikamt Nord, Berichtsjahr 2023). Häuser finden sich vor allem hier:</p><ul><li><b><a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a>:</b> Einfamilienhäuser neben großen Wohnsiedlungen, gewachsen aus alten Dörfern wie Schiffbek und Öjendorf.</li><li><b><a href=\"entruempelung-hamburg-wilhelmsburg.html\">Wilhelmsburg</a>:</b> Einfamilien- und Doppelhäuser mit großen Gärten, im Süden und Osten fast ländlich, in Moorwerder reetgedeckte Bauernhäuser.</li><li><b><a href=\"entruempelung-hamburg-finkenwerder.html\">Finkenwerder</a>:</b> dörflicher Charakter, kleinere Backsteinhäuser am Steendiek, alte Höfe mit Obstbäumen am Landscheideweg.</li><li><b><a href=\"entruempelung-hamburg-horn.html\">Horn</a>:</b> Reihenhäuser, zu denen oft Keller, Boden und Garten gehören.</li></ul>"
+      },
+      {
+        "h2": "Nebengebäude und Wege zum Recyclinghof",
+        "html": "<p>Auf Höfen und in Bauernhäusern kommen zu den Wohnräumen oft Scheune, Schuppen oder Werkstatt. Bei der kostenlosen Besichtigung gehen wir durch alle Gebäude und nehmen sie in den Festpreis auf – oder lassen stehen, was stehen bleiben soll. Um Finkenwerder führt seit Ende 2012 eine 5,5 Kilometer lange Ortsumgehung im Süden herum. Zum Entsorgen ist von dort der Recyclinghof Am Aschenland 11 in Neugraben-Fischbek der praktische Weg, ohne die Elbe zu queren. Für Wilhelmsburg ist es meist der Hof am Neuländer Kamp 6 in Harburg, der montags bis freitags bis 19 Uhr öffnet.</p>"
+      },
+      {
+        "h2": "Was vorher festgelegt wird",
+        "html": "<p>Gehen Sie vor der Besichtigung einmal selbst durch Haus und Nebengebäude und überlegen Sie, was bleibt. Papiere, Fotos und Schmuck nehmen Sie an sich; bei allem anderen sagen Sie uns, worauf wir achten sollen. Den Räumungstag richten wir nach Ihrem Verkaufs- oder Übergabetermin. Den Schlüssel können Sie uns geben, Sie müssen nicht dabei sein.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wir lösen den Hof unserer Eltern in Finkenwerder auf. Räumen Sie auch Scheune und Schuppen?",
+        "a": "Ja, wenn Sie das möchten. Bei der Besichtigung gehen wir durch alle Nebengebäude und sagen Ihnen, was der Festpreis umfasst. Fest eingebaute Anlagen oder Maschinen besprechen wir dabei gesondert."
+      },
+      {
+        "q": "Was kostet eine Hausauflösung in Billstedt?",
+        "a": "Bei Hinnerk beginnt eine Hausauflösung bei 2.490 €. Wie viel es wird, hängt von der Zahl der Räume und von Keller, Dachboden, Garage und Garten ab. Den genauen Betrag nennen wir nach der kostenlosen Besichtigung als Festpreis."
+      },
+      {
+        "q": "Das Haus in Wilhelmsburg wird verkauft. Wann sollten wir räumen lassen?",
+        "a": "Am besten so, dass zwischen Räumung und Übergabe an die Käufer noch etwas Luft bleibt. Nennen Sie uns den Übergabetermin bei der Besichtigung, dann richten wir den Räumungstag danach aus."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
+        "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
+      },
+      {
+        "titel": "Billstedt – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Billstedt"
+      },
+      {
+        "titel": "Wilhelmsburg, Hamburg – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Wilhelmsburg,_Hamburg"
+      },
+      {
+        "titel": "Finkenwerder – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/finkenwerder-373016"
+      },
+      {
+        "titel": "Recyclinghöfe in Hamburg – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      }
+    ]
+  },
+  {
+    "leistung": "dachboden-entruempeln-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Dachboden entrümpeln Hamburg-Mitte ✓ ab 290 € | Hinnerk",
+    "description": "Dachboden entrümpeln im Bezirk Hamburg-Mitte: vom Altbau-Speicher in St. Georg bis zum Reetdachhaus in Moorwerder. Kostenlose Besichtigung, Festpreis.",
+    "h1": "Dachboden entrümpeln im Bezirk Hamburg-Mitte",
+    "lead": "Unter den Dächern im Bezirk liegt viel, das seit dem letzten Umzug niemand angefasst hat. Hinnerk holt es herunter – zum festen Preis ab 290 €.",
+    "abschnitte": [
+      {
+        "h2": "Speicher im Altbau, Boden im Bauernhaus",
+        "html": "<p>Wo im Bezirk alte Häuser stehen, gibt es oft noch Bodenräume. In <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> ist viel Altbau erhalten geblieben; nördlich der Langen Reihe steht sogar noch Fachwerk. In <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> finden sich zwischen den Wohnblöcken vereinzelt Backsteinbauten aus den 1920ern und renovierte Gründerzeitfassaden, etwa in der Palmerstraße. Auf der Elbinsel <a href=\"entruempelung-hamburg-wilhelmsburg.html\">Wilhelmsburg</a> stehen in Moorwerder reetgedeckte Bauernhäuser.</p>"
+      },
+      {
+        "h2": "Der Weg nach unten",
+        "html": "<p>Die schwierigste Strecke ist fast immer die erste: durch die Luke oder über die Bodentreppe, dann durch ein Treppenhaus ohne Aufzug. Sperrige Teile nehmen wir oben auseinander, damit sie durch die Öffnung passen. Bei der kostenlosen Besichtigung sehen wir uns den Zugang an und rechnen ihn in den Festpreis ein, der bei 290 € beginnt. Ist es im Sommer unter dem Dach sehr warm, sprechen wir den Termin entsprechend ab.</p>"
+      },
+      {
+        "h2": "Bevor wir hinaufsteigen",
+        "html": "<p>Auf Böden stehen oft Kisten mit Briefen, Fotos oder Unterlagen aus mehreren Jahrzehnten. Sehen Sie diese vorher durch oder sagen Sie uns, wonach wir Ausschau halten sollen. Alte Dämmung und mögliche Schadstoffe gehören nicht zu einer Entrümpelung, dafür braucht es einen Fachbetrieb. Private Akten nimmt der Recyclinghof von Hamburger Haushalten gegen Gebühr an, höchstens 500 Liter. Alles andere vom Boden fahren wir getrennt nach Sperrmüll, Holz, Metall und Elektrogeräten zum Recyclinghof: aus St. Georg an die Feldstraße 69, aus Hamm in die Liebigstraße 66 in Billbrook, aus Wilhelmsburg meist an den Neuländer Kamp 6 in Harburg. Was der Hof sonst annimmt, steht im Ratgeber <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg</a>.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Unser Speicher in St. Georg ist nur über eine Leiter erreichbar. Geht das trotzdem?",
+        "a": "Ja, wenn der Zugang sicher ist. Wir sehen ihn uns bei der Besichtigung an und planen, welche Teile wir oben zerlegen müssen."
+      },
+      {
+        "q": "Räumen Sie auch den Boden eines Bauernhauses in Moorwerder?",
+        "a": "Ja. Bei großen Böden kommt es vor allem auf die Menge und den Zugang an. Beides schauen wir uns vor Ort an und nennen danach einen festen Preis."
+      },
+      {
+        "q": "Können Dachboden und Keller zusammen geräumt werden?",
+        "a": "Ja. Sagen Sie uns bei der Anfrage, dass beides dazugehört. Wir sehen uns dann beide Räume an und nennen einen gemeinsamen Festpreis."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "St. Georg: Wissens- und Sehenswertes – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/st-georg-373908"
+      },
+      {
+        "titel": "Hamm – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/hamm-373506"
+      },
+      {
+        "titel": "Wilhelmsburg, Hamburg – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Wilhelmsburg,_Hamburg"
+      },
+      {
+        "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      }
+    ]
+  },
+  {
+    "leistung": "garage-entruempeln-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Garage entrümpeln Hamburg-Mitte ✓ Festpreis ab 290 € | Hinnerk",
+    "description": "Garage entrümpeln im Bezirk Hamburg-Mitte, auch Laube in der Horner Marsch oder Schuppen in Finkenwerder. Kostenlose Besichtigung, danach Festpreis.",
+    "h1": "Garage entrümpeln im Bezirk Hamburg-Mitte",
+    "lead": "Ob Garage am Einfamilienhaus in Billstedt oder Laube im Kleingarten in Rothenburgsort: Hinnerk räumt aus, was dort keinen Platz mehr hat – ab 290 €.",
+    "abschnitte": [
+      {
+        "h2": "Garagen, Lauben und Schuppen im Bezirk",
+        "html": "<p>Garagen gibt es im Bezirk vor allem dort, wo Häuser stehen. Bei den Einfamilienhäusern in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> gehören Garage und Garten häufig dazu, auf den alten Höfen in Finkenwerder Schuppen und andere Nebengebäude. Dazu kommen viele Kleingärten, etwa in der Horner Marsch in <a href=\"entruempelung-hamburg-horn.html\">Horn</a> oder in <a href=\"entruempelung-hamburg-rothenburgsort.html\">Rothenburgsort</a>. Auch eine Gartenlaube füllt sich mit der Zeit – mit Gartenmöbeln, Werkzeug und Dingen, die in der Wohnung keinen Platz mehr hatten. In Wilhelmsburg gehören zu Einfamilien- und Bauernhäusern oft Scheune und großer Garten – auch dort räumen wir Nebengebäude mit aus.</p>"
+      },
+      {
+        "h2": "Reifen, Batterien, Altöl",
+        "html": "<p>In Garagen steht oft, was nicht zum normalen Sperrmüll gehört. Pkw-Reifen nimmt der Recyclinghof gegen eine Gebühr von 7 € je Stück an, höchstens fünf. Bei Autobatterien und Feuerlöschern liegt die Grenze jeweils bei zwei Stück, und auch Altöl kostet Gebühr. Für die Garagen im Osten des Bezirks ist der Hof in der Liebigstraße 66 in <a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a> der nächste. Sagen Sie uns vorher, was in Ihrer Garage steht. Dann klären wir den richtigen Weg, bevor Sie den Festpreis bekommen.</p>"
+      },
+      {
+        "h2": "Besichtigung, Festpreis, Schlüssel",
+        "html": "<p>Wir sehen uns die Garage kostenlos an und nennen danach einen Festpreis ab 290 €. Fahrradrahmen und Werkzeug landen beim Metall, Bretter beim Holz, ein alter Elektro-Rasenmäher bei den Geräten. Für Garagen in Finkenwerder ist der Hof Am Aschenland 11 in Neugraben-Fischbek der nächste ohne Elbquerung. Den Schlüssel oder die Fernbedienung für das Tor können Sie uns geben; beim Ausräumen müssen Sie nicht danebenstehen. Wird das ganze Haus geräumt, lesen Sie bei der <a href=\"hausaufloesung-hamburg.html\">Hausauflösung</a> weiter.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Räumen Sie auch eine Laube im Kleingarten in der Horner Marsch?",
+        "a": "Ja, wir räumen Lauben aus. Ob die Laube danach auch abgerissen werden soll, ist eine eigene Frage, die wir vor Ort klären. Fragen Sie vorher beim Verein nach, was bei der Übergabe der Parzelle verlangt wird."
+      },
+      {
+        "q": "In der Garage stehen alte Reifen und Kanister mit Öl. Nehmen Sie die mit?",
+        "a": "Reifen und Altöl haben eigene, gebührenpflichtige Wege. Sagen Sie uns bei der Anfrage, wie viel es ist. Bei der Besichtigung klären wir, wie es entsorgt wird."
+      },
+      {
+        "q": "Die Garage gehört zu einem Haus in Billstedt, das verkauft wird. Geht beides zusammen?",
+        "a": "Ja. Wenn Haus und Garage gemeinsam geräumt werden sollen, sehen wir uns beides bei einem Termin an. Sie bekommen dann einen Festpreis für alles."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      },
+      {
+        "titel": "Recyclinghöfe in Hamburg – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "Billstedt – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Billstedt"
+      },
+      {
+        "titel": "Horn, Hamburg – Wikipedia (en)",
+        "url": "https://en.wikipedia.org/wiki/Horn,_Hamburg"
+      }
+    ]
+  },
+  {
+    "leistung": "firmenaufloesung-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Firmenauflösung Hamburg-Mitte ✓ Festpreis nach Besichtigung | Hinnerk",
+    "description": "Firmenauflösung im Bezirk Hamburg-Mitte: Halle in Billbrook, Lokal in St. Georg, Laden in St. Pauli. Kostenlose Besichtigung, Festpreis und Rechnung.",
+    "h1": "Firmenauflösung im Bezirk Hamburg-Mitte",
+    "lead": "Lager, Werkstatt, Lokal oder Laden: Im Bezirk Hamburg-Mitte sitzt viel Gewerbe auf engem Raum. Hinnerk räumt bis zu Ihrem Übergabetermin und stellt eine Rechnung.",
+    "abschnitte": [
+      {
+        "h2": "Hallen im Osten, Lokale in der Mitte",
+        "html": "<p><a href=\"entruempelung-hamburg-billbrook.html\">Billbrook</a> ist eines der großen Industriegebiete Hamburgs, mit vielen Speditionen, langen geraden Straßen und Kanälen. Auf der Peute, einem Teil der <a href=\"entruempelung-hamburg-veddel.html\">Veddel</a>, stehen ebenfalls große Fabrik- und Lagerhallen. Mit einem großen Fahrzeug kommt man dort meist leichter heran als in der Innenstadt. Für Billbrook liegt der Recyclinghof sogar im Stadtteil selbst, in der Liebigstraße 66.</p><p>Ganz anders sieht es in <a href=\"entruempelung-hamburg-st-georg.html\">St. Georg</a> rund um die Lange Reihe oder auf St. Pauli aus. Restaurants, Bars, Clubs und Theater liegen dort dicht an dicht, und das Halten mit einem Transporter ist oft schwierig. Wo der Wagen stehen kann, klären wir bei der Besichtigung.</p>"
+      },
+      {
+        "h2": "Was der Recyclinghof von Betrieben nimmt",
+        "html": "<p>Gewerbebetriebe können auf elf der zwölf Hamburger Recyclinghöfe kleinere Mengen sperriger Abfälle und Sonderabfälle abgeben, darunter Billbrook und Feldstraße. Gewerbliche Kühlgeräte wie Kühltheken nimmt der Hof dagegen nicht an. Wer ein Lokal oder einen Laden mit Kühltechnik aufgibt, braucht dafür einen eigenen Entsorgungsweg. Das besprechen wir bei der Besichtigung, ebenso fest eingebaute Theken oder Maschinen. Für Sonderabfälle aus dem Betrieb stellt der Recyclinghof eine Bescheinigung über die ordnungsgemäße Entsorgung aus. Größere Mengen sind nach schriftlicher Anfrage bei der Stadtreinigung mit Termin möglich.</p>"
+      },
+      {
+        "h2": "Termin, Rechnung, Abmeldung",
+        "html": "<p>Bei Gewerbeflächen zählt meist ein fester Rückgabetermin. Nach der kostenlosen Besichtigung bekommen Sie einen Festpreis und einen Räumungstag, der vor diesem Datum liegt; am Ende erhalten Sie eine Rechnung. Wird der Betrieb ganz eingestellt, gehört auch die Gewerbeabmeldung dazu. Bleibt sie aus, obwohl die Aufgabe feststeht, meldet die Behörde das Gewerbe von Amts wegen ab.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Wir geben unser Restaurant in St. Georg auf. Nehmen Sie auch die Küche mit?",
+        "a": "Möbel, Geschirr, Regale und lose Geräte räumen wir. Kühltheken und fest eingebaute Küchentechnik brauchen eigene Wege und werden vorher besprochen. Bei der Besichtigung sagen wir Ihnen, was der Festpreis enthält."
+      },
+      {
+        "q": "Können Sie eine Lagerhalle in Billbrook räumen, während der Betrieb noch läuft?",
+        "a": "Das hängt davon ab, wie sich Räumung und Betrieb trennen lassen. Wir sehen uns die Halle an und planen mit Ihnen, welcher Bereich wann frei wird. Den Festpreis kennen Sie vorher."
+      },
+      {
+        "q": "Brauche ich für die Buchhaltung einen Beleg über die Räumung?",
+        "a": "Sie bekommen von uns eine Rechnung über den vereinbarten Festpreis. Wie Sie die Kosten verbuchen, klären Sie mit Ihrer Steuerberatung."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Recyclinghöfe in Hamburg – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+      },
+      {
+        "titel": "Preisliste Recyclinghöfe 2026 – Stadtreinigung Hamburg",
+        "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+      },
+      {
+        "titel": "Gewerbe abmelden – hamburg.de",
+        "url": "https://www.hamburg.de/service/info/11258060/n0/"
+      },
+      {
+        "titel": "Stadtteilportrait Bezirk Hamburg-Mitte – hamburg.de",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/mitte/themen/freizeit/stadtteilportrait-67464"
+      },
+      {
+        "titel": "Veddel: Wissens- und Sehenswertes – hamburg.de",
+        "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-mitte/veddel-374176"
+      }
+    ]
+  },
+  {
+    "leistung": "entruempelung-fuer-vermieter-hamburg",
+    "bezirk": "Hamburg-Mitte",
+    "title": "Entrümpelung für Vermieter Hamburg-Mitte ✓ mit Rechnung | Hinnerk",
+    "description": "Entrümpelung für Vermieter im Bezirk Hamburg-Mitte: Wohnungen, Gemeinschaftskeller, Hochhäuser in Billstedt. Kostenlose Besichtigung, Festpreis, Rechnung.",
+    "h1": "Entrümpelung für Vermieter im Bezirk Hamburg-Mitte",
+    "lead": "Zurückgelassene Möbel, ein voller Fahrradkeller, eine Wohnung nach einem Todesfall: Hinnerk räumt für Vermieter und Hausverwaltungen im Bezirk – mit festem Preis und Rechnung.",
+    "abschnitte": [
+      {
+        "h2": "Leerstand im Blick behalten",
+        "html": "<p>Nach dem Hamburgischen Wohnraumschutzgesetz müssen Eigentümer Wohnraum melden, der länger als vier Monate leer steht. Die vier Monate zählen ab dem Auszug des letzten Mieters; gemeldet wird spätestens unmittelbar nach ihrem Ablauf. Die Meldung geht online und ist kostenfrei. Wer die Räumung früh plant, kann die Wohnung eher wieder vermieten. Soll nach dem Ausräumen erst umgebaut werden, zeigen Sie das mit der konkreten Absicht an; widerspricht die Behörde nicht innerhalb von acht Wochen, gilt der Leerstand als genehmigt.</p>"
+      },
+      {
+        "h2": "Viele Einzelhaushalte, viele Nachlässe",
+        "html": "<p>Im Bezirk gibt es rund 152.800 Wohnungen, und in 58,3 Prozent der Haushalte lebt nur eine Person (Statistikamt Nord, Berichtsjahr 2023). Stirbt ein alleinlebender Mieter, bleibt die Wohnung oft voll zurück. Geräumt werden darf erst, wenn rechtlich geklärt ist, wer über die Sachen entscheidet. Haben alle Erben ausgeschlagen, kann die Stadt Hamburg Erbin werden – das stellt das Nachlassgericht aber nur auf Antrag fest. Danach ist die Behörde für Finanzen und Bezirke zuständig. Mehr im Ratgeber <a href=\"erbe-ausgeschlagen-wer-raeumt-wohnung.html\">Erbe ausgeschlagen</a>.</p>"
+      },
+      {
+        "h2": "Gemeinschaftskeller und Sperrmülltage",
+        "html": "<p>In den Wohnblöcken in <a href=\"entruempelung-hamburg-hamm.html\">Hamm</a> und <a href=\"entruempelung-hamburg-horn.html\">Horn</a> oder in den Hochhäusern in <a href=\"entruempelung-hamburg-billstedt.html\">Billstedt</a> sammelt sich in Fahrradkellern und Fluren mit der Zeit Zeug, das keinem mehr gehören will. Für Mieter, die selbst etwas loswerden möchten, können Wohnungsunternehmen bei der Stadtreinigung einen Sperrmüll-Aktionstag buchen: Die Mieter bringen ihre Sachen an einem Vormittag zu einem festen Platz. Was danach übrig bleibt, räumt Hinnerk nach kostenloser Besichtigung zum Festpreis. Sie bekommen eine Rechnung und können uns den Schlüssel übergeben.</p>"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Muss ich eine leerstehende Wohnung im Bezirk melden?",
+        "a": "Ja, wenn sie länger als vier Monate leer steht – so regelt es das Hamburgische Wohnraumschutzgesetz. Die Meldung geht online über hamburg.de und ist kostenfrei. Für Leerstand wegen Umbau oder Neubau gelten eigene Regeln."
+      },
+      {
+        "q": "Ein Mieter in Billstedt ist gestorben, die Erben haben ausgeschlagen. Wer ist jetzt mein Ansprechpartner?",
+        "a": "Gibt es keine Erben, kann das Nachlassgericht auf Antrag feststellen, dass die Stadt Hamburg erbt. Danach ist die Behörde für Finanzen und Bezirke zuständig. Räumen lassen sollten Sie erst, wenn geklärt ist, wer über die Sachen entscheidet."
+      },
+      {
+        "q": "Können Sie regelmäßig für unsere Häuser in Hamm und Horn räumen?",
+        "a": "Ja. Sprechen Sie uns an, dann klären wir, wie Anfragen, Schlüsselübergabe und Rechnung für Ihre Objekte am einfachsten laufen. Jeder Auftrag bekommt nach der Besichtigung einen festen Preis."
+      }
+    ],
+    "quellen": [
+      {
+        "titel": "Leerstehenden Wohnraum melden – hamburg.de",
+        "url": "https://www.hamburg.de/service/info/111050945/n0/"
+      },
+      {
+        "titel": "Fiskalerbschaften – Finanzbehörde Hamburg",
+        "url": "https://www.hamburg.de/politik-und-verwaltung/behoerden/finanzbehoerde/themen/fiskalerbschaften-261940"
+      },
+      {
+        "titel": "Sperrmülltage für die Wohnungswirtschaft – Stadtreinigung Hamburg",
+        "url": "https://files.stadtreinigung.hamburg/SRH_Wohnungswirtschaft_Sperrmuelltage_Flyer250326.pdf"
+      },
+      {
+        "titel": "Hamburger Stadtteil-Profile, Berichtsjahr 2023 – Statistikamt Nord",
+        "url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/183770/pdf/Stadtteil_Profile_HH_BJ_2023.pdf"
+      }
+    ]
+  }
 ]
