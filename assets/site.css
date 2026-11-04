@@ -373,3 +373,7 @@ a.kontakt-zeile:hover{box-shadow:0 0 0 2px var(--blau)}
 @media (max-width:900px){.rechner{grid-template-columns:1fr}}
 .kasten-preis{margin:6px 0 14px;font-weight:600;font-size:15px}
 .kasten-preis a{font-weight:500}
+.wa-box{margin-top:22px;padding:18px 20px;border-radius:18px;background:rgba(37,211,102,.12)}
+.wa-box p{margin:0 0 4px}
+.knopf-wa{display:inline-flex;align-items:center;gap:10px;background:#25D366;color:#0b2e1a;font-weight:600;text-decoration:none}
+.knopf-wa .ic{flex:none}

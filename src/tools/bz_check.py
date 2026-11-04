@@ -26,7 +26,11 @@ def slugify(s):
 for _o in ORTE:
     _o["slug"] = "entruempelung-hamburg-" + slugify(_o["name"].replace("Hamburg-", ""))
 ERLAUBT = {o["slug"] + ".html" for o in ORTE} | {l["slug"] + ".html" for l in LEIST} | {r["slug"] + ".html" for r in RAT} | {
-    "./", "preise.html", "preise.html#rechner", "kontakt.html", "ratgeber.html", "einsatzgebiet.html", "ueber-hinnerk.html", "#anfrage"}
+    "./", "preise.html", "preise.html#rechner", "kontakt.html", "ratgeber.html", "einsatzgebiet.html", "ueber-hinnerk.html", "#anfrage",
+    "tapeten-teppich-entfernen-hamburg.html", "endreinigung-hamburg.html", "umzug-hamburg.html", "einlagerung-hamburg.html"}
+KERN = ["haushaltsaufloesung-hamburg", "wohnungsaufloesung-hamburg", "keller-entruempeln-hamburg", "nachlassaufloesung-hamburg",
+        "messie-wohnung-raeumen-hamburg", "bueroaufloesung-hamburg", "sperrmuell-abholen-hamburg", "hausaufloesung-hamburg",
+        "dachboden-entruempeln-hamburg", "garage-entruempeln-hamburg", "firmenaufloesung-hamburg", "entruempelung-fuer-vermieter-hamburg"]
 VERBOTEN = ["Dosestra", "T&A", "HafenRäumer", "Hafenräumer", "seit Jahren", "jahrelang", "erfahrenes Team", "versichert", "zertifiziert",
             "Bewertung", "Sterne", "aus Altona", "unser Sitz", "unser Büro", "unserem Büro"]
 namen = sorted([o["name"] for o in ORTE] + BEZIRKE + [l["name"] for l in LEIST] + ["Hamburg"], key=len, reverse=True)
@@ -57,7 +61,7 @@ def main(pfad):
         probleme += 1
         print("PROBLEM:", msg)
 
-    slugs = {l["slug"] for l in LEIST}
+    slugs = set(KERN)
     gesehen_l = set()
     for e in daten:
         name = f'{e.get("leistung")}/{e.get("bezirk")}'

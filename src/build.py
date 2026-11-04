@@ -88,6 +88,10 @@ for _f in sorted((SRC / "bezirke").glob("*.json")):
         _e["slug"] = bz_slug(_e["leistung"], _e["bezirk"])
         BZ.append(_e)
 BZ_BY = {(e["leistung"], e["bezirk"]): e for e in BZ}
+UMLAND = []
+for _f in sorted((SRC / "umland").glob("*.json")) if (SRC / "umland").exists() else []:
+    UMLAND += json.loads(_f.read_text(encoding="utf-8"))
+UMLAND.sort(key=lambda u: u["ort"])
 
 
 def pick(key, options):
@@ -108,6 +112,7 @@ def mascot(size=40, label=None):
 
 
 ICONS = {
+    "chat": "M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H9l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM8 10h8M8 13h5",
     "haus": "M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z",
     "lampe": "M8 3h8l3 8H5zM12 11v8M8 21h8",
     "treppe": "M3 20h4v-4h4v-4h4V8h4V4h2",
@@ -151,6 +156,14 @@ def foto(key, cls="", lazy=True, sizes="100vw"):
     c = f' class="{cls}"' if cls else ""
     return (f'<img src="img/{b["datei"]}" width="{b["w"]}" height="{b["h"]}" alt="{E(b["alt"])}"'
             f'{c}{" loading=\"lazy\"" if lazy else " fetchpriority=\"high\""} decoding="async">')
+
+
+def wa_link(text="Hallo Hinnerk, hier sind Fotos von dem, was geräumt werden soll. Ort: "):
+    return f"https://wa.me/{F['telefon_link'].lstrip('+')}?text={quote(text)}"
+
+
+def wa_knopf(cls="knopf knopf-wa"):
+    return f'<a class="{cls}" href="{wa_link()}" target="_blank" rel="noopener">{icon("chat", 22)}<span>Fotos per WhatsApp schicken</span></a>'
 
 
 def tel_link(text=None):
@@ -411,9 +424,10 @@ def anfrage(seite, ort=""):
 <p data-auf>Schreiben Sie kurz, was geräumt werden soll. Hinnerk meldet sich, besichtigt kostenlos und nennt Ihnen einen festen Preis.</p>
 <ul class="haken"><li>{HAKEN}Kostenlose Besichtigung</li><li>{HAKEN}Festpreis vor Beginn</li><li>{HAKEN}Getrennte Entsorgung</li></ul>
 <p class="klein">{('Telefon: ' + tel_link() + '<br>') if F['telefon'] else ''}E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
+<div class="wa-box"><p><b>Schneller mit Fotos:</b> Schicken Sie uns ein paar Bilder der Räume per WhatsApp. Dann können wir den Aufwand vorab einschätzen.</p>{wa_knopf()}</div>
 </div>
 <form id="anfrage-form" data-mail="{F['email']}" data-seite="{E(seite)}">
-<label>Was soll geräumt werden?<select name="was"><option>Ganze Wohnung</option><option>Ganzes Haus</option><option>Haushaltsauflösung</option><option>Nachlass</option><option>Messie-Wohnung</option><option>Büro</option><option>Laden, Lager oder Werkstatt</option><option>Keller</option><option>Dachboden</option><option>Garage oder Schuppen</option><option>Sperrmüll</option></select></label>
+<label>Was soll geräumt werden?<select name="was"><option>Ganze Wohnung</option><option>Ganzes Haus</option><option>Haushaltsauflösung</option><option>Nachlass</option><option>Messie-Wohnung</option><option>Büro</option><option>Laden, Lager oder Werkstatt</option><option>Keller</option><option>Dachboden</option><option>Garage oder Schuppen</option><option>Sperrmüll</option><option>Tapeten oder Teppich entfernen</option><option>Endreinigung</option><option>Umzug</option><option>Einlagerung</option></select></label>
 <label>Ort oder Stadtteil<input name="ort" value="{E(ort)}" autocomplete="address-level2"></label>
 <label>Wunschtermin<input name="termin" placeholder="z. B. Ende November"></label>
 <label class="breit">Kurze Beschreibung<textarea name="nachricht" placeholder="Wie viele Zimmer? Welches Stockwerk? Gibt es einen Aufzug?"></textarea></label>
@@ -509,7 +523,8 @@ def kontakt_karte(frage):
 <div><span class="kreisicon">{mascot(64)}</span><h2 id="kk-h">Fragen Sie Hinnerk direkt</h2>
 <p>Sie möchten wissen, was es bei Ihnen kostet? Schreiben Sie uns kurz, was geräumt werden soll. Die Besichtigung ist kostenlos, danach bekommen Sie einen festen Preis.</p></div>
 <div class="kontakt-wege">
-{tel}<a class="kontakt-zeile" href="{mailto('Frage: ' + frage, ANFRAGE_TEXT)}">{icon("post", 24)}<span><b>E-Mail</b>{F['email']}</span></a>
+{tel}<a class="kontakt-zeile" href="{wa_link()}" target="_blank" rel="noopener">{icon("chat", 24)}<span><b>WhatsApp</b>Fotos schicken</span></a>
+<a class="kontakt-zeile" href="{mailto('Frage: ' + frage, ANFRAGE_TEXT)}">{icon("post", 24)}<span><b>E-Mail</b>{F['email']}</span></a>
 <a class="kontakt-zeile" href="#anfrage">{icon("kalender", 24)}<span><b>Besichtigung anfragen</b>Formular ausfüllen</span></a>
 <div class="kontakt-zeile">{icon("pin", 24)}<span><b>Hinnerk – Entrümpelung Hamburg</b>{E(F['strasse'])}, {F['plz']} {E(F['ort'])}</span></div>
 </div>
@@ -708,6 +723,8 @@ def llms_txt():
             teile = [f"[{L_BY_SLUG[x['leistung']]['name']}]({BASE}{x['slug']}.html)" for x in BZ if x["bezirk"] == b]
             if teile:
                 zeilen.append(f"- Bezirk {b}: " + ", ".join(teile))
+    if UMLAND:
+        zeilen += ["", "## Umland", ""] + [f"- [Entrümpelung {u['ort']}]({BASE}{u['slug']}.html)" for u in UMLAND]
     zeilen.append("")
     write("llms.txt", "\n".join(zeilen))
 
@@ -911,6 +928,42 @@ def bezirksleistung(e):
     write(e["slug"] + ".html", page)
 
 
+def umlandseite(u):
+    k, ld = krumen([("Startseite", "./"), ("Einsatzgebiet", "einsatzgebiet.html"), (f"Entrümpelung {u['ort']}", None)])
+    schema = [ld, faq_schema(u["faq"]), {"@type": "Service", "name": u["h1"], "serviceType": "Entrümpelung", "provider": {"@id": BASE + "#firma"},
+              "areaServed": {"@type": "City", "name": u["ort"], "containedInPlace": {"@type": "AdministrativeArea", "name": u["kreis"]}}}]
+    page = head(u["title"], u["description"], u["slug"] + ".html", schema, preload="transporter") + bar()
+    page += held(E(u["h1"]), u["lead"], "Kostenlos besichtigen lassen", "#anfrage", "transporter", eyebrow=f"{u['kreis']}", klein=True)
+    secs = "".join(f'<h2>{E(a["h2"])}</h2>{a["html"]}' for a in u["abschnitte"])
+    hoefe = "".join(f'<li><b>{E(h["name"])}</b>, {E(h["adresse"])}</li>' for h in u["hoefe"])
+    leist = "".join(f'<li><a href="{l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)
+    nb = "".join(f'<li><a href="{SLUG_BY_NAME[n]}.html">{E(n)}</a></li>' for n in u.get("hh_nachbarn", []) if n in SLUG_BY_NAME)
+    andere = "".join(f'<li><a href="{x["slug"]}.html">{E(x["ort"])}</a></li>' for x in UMLAND if x["slug"] != u["slug"])
+    quellen = "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in u.get("quellen", []))
+    page += f"""<section class="abschnitt" aria-label="Entrümpelung {E(u['ort'])}">
+<div class="lesen"><div class="text">{k}
+{secs}
+<h2>Recycling- und Wertstoffhöfe in der Nähe</h2>
+<ul>{hoefe}</ul>
+<h2>Was Hinnerk in {E(u['ort'])} räumt</h2>
+<ul class="chips">{leist}</ul>
+</div>{seitenkasten('Entrümpelung ' + u['ort'], 'Kostenlos besichtigen lassen')}</div>
+</section>
+"""
+    page += fragen(f"Fragen zur Entrümpelung in {u['ort']}", u["faq"])
+    page += f"""<section class="abschnitt" aria-label="Weitere Orte">
+<div class="umgebung">
+{('<div><h2>Angrenzend in Hamburg</h2><ul class="chips">' + nb + '</ul></div>') if nb else ''}
+<div><h2>Weitere Orte im Umland</h2><ul class="chips">{andere}</ul></div>
+{('<details class="quellen"><summary>Quellen</summary><ul>' + quellen + '</ul></details>') if quellen else ''}
+</div>
+</section>
+"""
+    page += anfrage(f"Entrümpelung {u['ort']}", u["ort"])
+    page += fuss()
+    write(u["slug"] + ".html", page)
+
+
 def bz_pruefen():
     """Warnt bei doppelten Sätzen (ab 10 Wörtern) zwischen Bezirks-Seiten und gegenüber Leistungs- und Stadtteil-Texten."""
     namen = [o["name"] for o in ORTE] + list(BEZ_SLUG) + [l["name"] for l in LEIST] + ["Hamburg"]
@@ -959,6 +1012,9 @@ def einsatzgebiet():
         bz_li = "".join(f'<li><a href="{x["slug"]}.html">{E(L_BY_SLUG[x["leistung"]]["name"])}</a></li>' for x in sorted(bz_b, key=lambda x: [l["slug"] for l in LEIST].index(x["leistung"])))
         bz_teil = f'<h3 class="bz-leist">Leistungen im Bezirk {E(b)}</h3><ul class="chips">{bz_li}</ul>' if bz_li else ""
         rows.append(f'<div class="bezirk" id="{slugify(b)}"><h2>{E(b)}</h2><ul class="chips">{li}</ul>{bz_teil}</div>')
+    if UMLAND:
+        um = "".join(f'<li><a href="{u["slug"]}.html">{E(u["ort"])}</a></li>' for u in UMLAND)
+        rows.append(f'<div class="bezirk" id="umland"><h2>Umland</h2><ul class="chips">{um}</ul></div>')
     page += f"""<section class="abschnitt" id="liste" aria-label="Alle Stadtteile">
 {k}<div class="bezirke">{''.join(rows)}</div>
 </section>
@@ -983,6 +1039,7 @@ def rechtliches():
 <h2>2. Hosting</h2><p>Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seite verarbeitet GitHub technisch notwendige Daten wie Ihre IP-Adresse, Datum und Uhrzeit des Abrufs sowie Browser-Informationen, um die Seite auszuliefern und vor Angriffen zu schützen. Rechtsgrundlage ist unser berechtigtes Interesse an einer sicheren und zuverlässigen Bereitstellung der Website (Art. 6 Abs. 1 lit. f DSGVO). GitHub ist eine Tochter der Microsoft Corporation; Microsoft ist nach dem EU-US Data Privacy Framework zertifiziert, auf dessen Grundlage Daten in die USA übermittelt werden dürfen.</p>
 <h2>3. Schriftarten und Bilder</h2><p>Schriftarten und Bilder dieser Website sind lokal eingebunden. Beim Aufruf werden keine Verbindungen zu Google oder anderen Anbietern aufgebaut.</p>
 <h2>4. Anfrageformular, E-Mail und Telefon</h2><p>Das Anfrageformular speichert keine Daten auf dieser Website, sondern öffnet Ihr E-Mail-Programm mit einer vorbereiteten Nachricht. Wenn Sie uns per E-Mail oder Telefon kontaktieren, verarbeiten wir Ihre Angaben (z. B. Name, Telefonnummer, Beschreibung des Auftrags, Wunschtermin), um Ihre Anfrage zu bearbeiten und ein Angebot zu erstellen. Rechtsgrundlage ist die Anbahnung oder Erfüllung eines Vertrags (Art. 6 Abs. 1 lit. b DSGVO). Wir löschen die Daten, wenn sie nicht mehr benötigt werden und keine gesetzlichen Aufbewahrungspflichten bestehen.</p>
+<h2>4a. WhatsApp</h2><p>Auf dieser Website gibt es einen Link zu WhatsApp. Beim Aufruf der Seite werden dadurch keine Daten an WhatsApp übertragen; erst wenn Sie den Link anklicken, öffnet sich WhatsApp. Schreiben Sie uns dort, verarbeitet auch WhatsApp (WhatsApp Ireland Limited, ein Unternehmen der Meta-Gruppe) Ihre Daten nach den eigenen Datenschutzbestimmungen; dabei können Daten in die USA übermittelt werden. Wir nutzen Ihre Nachricht und Fotos nur, um Ihre Anfrage zu bearbeiten (Art. 6 Abs. 1 lit. b DSGVO). Wenn Sie das nicht möchten, erreichen Sie uns per E-Mail oder Telefon.</p>
 <h2>5. Cookies</h2><p>Diese Website setzt keine Cookies und verwendet keine Analyse- oder Werbedienste.</p>
 <h2>6. Ihre Rechte</h2><p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren, in Hamburg beim Hamburgischen Beauftragten für Datenschutz und Informationsfreiheit.</p>""")
     p = head("Seite nicht gefunden | Hinnerk", "Diese Seite gibt es nicht.", "404.html", robots="noindex,follow") + bar()
@@ -1040,10 +1097,12 @@ if __name__ == "__main__":
         ortsseite(o, [x for x in ORTE if x["bezirk"] == o["bezirk"]])
     for e in BZ:
         bezirksleistung(e)
+    for u in UMLAND:
+        umlandseite(u)
     bz_pruefen()
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["preise.html", "ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE] + [e["slug"] + ".html" for e in BZ]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["preise.html", "ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE] + [e["slug"] + ".html" for e in BZ] + [u["slug"] + ".html" for u in UMLAND]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
