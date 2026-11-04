@@ -389,7 +389,7 @@
    },
    {
     "h2": "Tragen statt an die Straße stellen",
-    "html": "<p>Bei uns muss nichts vorher nach unten. Wir holen Schrank, Matratze oder Bettgestell aus der Wohnung, auch aus dem Altbau ohne Aufzug oder aus einem Mehrfamilienhaus der 1960er-Jahre in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a>. Holz, Metall und Elektrogeräte trennen wir und bringen sie zu den Recyclinghöfen. Nach einer kurzen Besichtigung vor Ort nennen wir einen festen Preis. Farben, Lacke und Batterien zählen nicht zum Sperrmüll; sagen Sie uns, wenn so etwas dabei ist. Wie die Abfuhr der Stadtreinigung im Einzelnen läuft, erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
+    "html": "<p>Bei uns muss nichts vorher nach unten. Wir holen Schrank, Matratze oder Bettgestell aus der Wohnung, auch aus dem Altbau ohne Aufzug oder aus einem Mehrfamilienhaus der 1960er-Jahre in <a href=\"entruempelung-hamburg-stellingen.html\">Stellingen</a>. Holz, Metall und Elektrogeräte trennen wir und bringen sie zu den Recyclinghöfen. Nach einer kurzen Besichtigung vor Ort nennen wir einen festen Preis. Farben, Lacke und Batterien zählen nicht zum Sperrmüll; sagen Sie uns, wenn so etwas dabei ist. Wer selbst zum Hof fährt: Kühlgeräte nimmt der Recyclinghof laut Preisliste 2026 höchstens zu zweit an, größere Mengen nur nach Absprache. Wie die Abfuhr der Stadtreinigung im Einzelnen läuft, erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
    }
   ],
   "faq": [
@@ -420,6 +420,10 @@
     "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
    },
    {
+    "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+   },
+   {
     "titel": "Wikipedia – Hamburg-Stellingen",
     "url": "https://de.wikipedia.org/wiki/Hamburg-Stellingen"
    }
@@ -439,7 +443,7 @@
    },
    {
     "h2": "Drei Haustypen, drei Aufgaben",
-    "html": "<ul><li><b>Siedlungshaus in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a>:</b> In der Lohkampsiedlung stehen kleine Doppelhäuser aus den 1950er-Jahren auf großen Grundstücken. Oft gehören Schuppen und ein früherer Stall dazu, der heute als Garage dient; die Treppe zum Boden ist oft steil.</li><li><b>Reihen- und Einfamilienhaus in Niendorf:</b> viele davon aus den 1960er- und 1970er-Jahren, oft mit Keller, Dachboden und Garage.</li><li><b>Villa in Lokstedt:</b> Im Zylinderviertel sind Villen aus der Zeit um 1900 erhalten, häufig mit Nebengebäuden.</li></ul>"
+    "html": "<ul><li><b>Siedlungshaus in <a href=\"entruempelung-hamburg-eidelstedt.html\">Eidelstedt</a>:</b> In der Lohkampsiedlung stehen kleine Doppelhäuser aus den 1950er-Jahren auf großen Grundstücken. Oft gehören Schuppen und ein früherer Stall dazu, der heute als Garage dient; die Treppe zum Boden ist oft steil.</li><li><b>Reihen- und Einfamilienhaus in Niendorf:</b> viele davon aus den 1960er- und 1970er-Jahren, oft mit Keller, Dachboden und Garage.</li><li><b>Villa in Lokstedt:</b> Im Zylinderviertel sind Villen aus der Zeit um 1900 erhalten, häufig mit Nebengebäuden. Weitere Villen aus Historismus und Jugendstil stehen in Harvestehude, wo ab etwa 1870 gebaut wurde.</li></ul><p>In Niendorf verteilen sich gut 21.000 Wohnungen auf mehr als 8.600 Wohngebäude – ein Zeichen dafür, wie viele Häuser dort für nur eine oder zwei Familien gebaut sind.</p>"
    },
    {
     "h2": "So läuft die Hausauflösung",
@@ -480,6 +484,10 @@
    {
     "titel": "Wikipedia – Hamburg-Lokstedt",
     "url": "https://de.wikipedia.org/wiki/Hamburg-Lokstedt"
+   },
+   {
+    "titel": "Wikipedia – Hamburg-Harvestehude",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Harvestehude"
    }
   ]
  },
@@ -573,7 +581,7 @@
   "faq": [
    {
     "q": "Nehmt ihr Winterreifen und alte Autoteile aus der Garage in Niendorf mit?",
-    "a": "Reifen und Kfz-Teile brauchen eigene Entsorgungswege; Autoteile nimmt der Recyclinghof gar nicht an. Sagen Sie uns vorher, was dabei ist. Wir klären das bei der Besichtigung, bevor Sie einen Preis bekommen."
+    "a": "Reifen und Kfz-Teile brauchen eigene Entsorgungswege; Autoteile nimmt der Recyclinghof gar nicht an. Sagen Sie uns vorher, was dabei ist. Den Weg für jedes Teil besprechen wir bei der Besichtigung, noch vor dem Festpreis."
    },
    {
     "q": "Muss ich bei der Räumung meiner Garage in Lokstedt dabei sein?",

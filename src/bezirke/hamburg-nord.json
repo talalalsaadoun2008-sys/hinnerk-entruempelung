@@ -89,7 +89,7 @@
    },
    {
     "q": "Was kostet eine Wohnungsauflösung im Bezirk Hamburg-Nord?",
-    "a": "Bei Hinnerk ab 690 €. Ob dritter Stock ohne Aufzug in Uhlenhorst oder Neubau mit Aufzug in Barmbek-Nord, macht beim Preis einen Unterschied. Eine erste Schätzung gibt der Kostenrechner, den Festpreis nennen wir nach der Besichtigung."
+    "a": "Bei Hinnerk ab 690 €. Ein dritter Stock ohne Aufzug in Uhlenhorst braucht mehr Tragezeit als ein Neubau mit Aufzug in Barmbek-Nord, das zeigt sich im Preis. Eine erste Schätzung gibt der Kostenrechner, den Festpreis nennen wir nach der Besichtigung."
    }
   ],
   "quellen": [
@@ -100,6 +100,10 @@
    {
     "titel": "hamburg.de – Winterhude",
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/winterhude-375256"
+   },
+   {
+    "titel": "hamburg.de – Uhlenhorst",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/uhlenhorst-375138"
    },
    {
     "titel": "hamburg.de – Hoheluft-Ost",
@@ -125,7 +129,7 @@
   "title": "Keller entrümpeln Hamburg-Nord ✓ ab 290 € ✓ Festpreis | Hinnerk",
   "description": "Keller entrümpeln im Bezirk Hamburg-Nord: Kellerabteile in Barmbeker Nachkriegsbauten und Dulsberger Klinkerhäusern. Kostenlose Besichtigung, Festpreis.",
   "h1": "Keller entrümpeln im Bezirk Hamburg-Nord",
-  "lead": "In vielen Mehrfamilienhäusern zwischen Barmbek und Hoheluft gehört zu jeder Wohnung ein Kellerabteil, und dort landet, was oben keinen Platz mehr hat. Wir räumen Abteil oder ganzen Keller ab 290 €.",
+  "lead": "In vielen Mehrfamilienhäusern zwischen Barmbek und Hoheluft gehört zur Wohnung oft ein Kellerabteil, und dort landet, was oben keinen Platz mehr hat. Wir räumen Abteil oder ganzen Keller ab 290 €.",
   "abschnitte": [
    {
     "h2": "Kellerabteile in Klinker- und Nachkriegsbauten",
@@ -168,6 +172,10 @@
     "url": "https://de.wikipedia.org/wiki/Ohlsdorf_(Hamburg)"
    },
    {
+    "titel": "Verordnung Denkmalschutzensemble Frank’sche Siedlung in Klein Borstel (lexaris.de)",
+    "url": "https://lexaris.de/book/version/documentflat/head/1334611"
+   },
+   {
     "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung",
     "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
    }
@@ -187,7 +195,7 @@
    },
    {
     "h2": "Villen, Gartenstadt, Gründerzeit",
-    "html": "<p>In <a href=\"entruempelung-hamburg-alsterdorf.html\">Alsterdorf</a> entstanden ab 1920 Villengebiete an der Brabandstraße und der Inselstraße, später die Gartenstadt der 1930er-Jahre. Zu solchen Häusern gehören fast immer Keller, Dachboden und Garten, die mit aufgelöst werden. In Klein Borstel im Stadtteil <a href=\"entruempelung-hamburg-ohlsdorf.html\">Ohlsdorf</a> stehen die denkmalgeschützten Reihenhäuser der Frank’schen Siedlung. Dort sind Keller und Boden oft eng, was die Räumung kleinteilig macht.</p><p>In <a href=\"entruempelung-hamburg-uhlenhorst.html\">Uhlenhorst</a> wiederum liegen viele Nachlässe in Gründerzeitwohnungen mit langen Treppenhäusern ohne Aufzug. Das Tragen braucht dort Zeit, und genau das sehen wir uns vorher an. Ähnlich ist es in den Etagenhäusern der 1920er-Jahre in Fuhlsbüttel, etwa am Bergkoppelweg, wo ebenfalls oft kein Aufzug eingebaut ist.</p>"
+    "html": "<p>In <a href=\"entruempelung-hamburg-alsterdorf.html\">Alsterdorf</a> entstanden ab 1920 Villengebiete an der Brabandstraße und der Inselstraße, später die Gartenstadt der 1930er-Jahre. Zu solchen Häusern gehören häufig Keller, Dachboden und Garten, die mit aufgelöst werden. In Klein Borstel im Stadtteil <a href=\"entruempelung-hamburg-ohlsdorf.html\">Ohlsdorf</a> stehen die denkmalgeschützten Reihenhäuser der Frank’schen Siedlung. Dort sind Keller und Boden oft eng, was die Räumung kleinteilig macht.</p><p>In <a href=\"entruempelung-hamburg-uhlenhorst.html\">Uhlenhorst</a> wiederum liegen viele Nachlässe in Gründerzeitwohnungen mit langen Treppenhäusern ohne Aufzug. Das Tragen braucht dort Zeit, und genau das sehen wir uns vorher an. Ähnlich ist es in den Etagenhäusern der 1920er-Jahre in Fuhlsbüttel, etwa am Bergkoppelweg, wo ebenfalls oft kein Aufzug eingebaut ist.</p>"
    },
    {
     "h2": "Unterlagen sichern, den Rest uns überlassen",
@@ -226,8 +234,16 @@
     "url": "https://de.wikipedia.org/wiki/Ohlsdorf_(Hamburg)"
    },
    {
+    "titel": "Verordnung Denkmalschutzensemble Frank’sche Siedlung in Klein Borstel (lexaris.de)",
+    "url": "https://lexaris.de/book/version/documentflat/head/1334611"
+   },
+   {
     "titel": "hamburg.de – Uhlenhorst",
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/uhlenhorst-375138"
+   },
+   {
+    "titel": "hamburg.de – Fuhlsbüttel",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/fuhlsbuettel-374784"
    }
   ]
  },
@@ -282,6 +298,10 @@
    {
     "titel": "hamburg.de – Eppendorf",
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/eppendorf-374746"
+   },
+   {
+    "titel": "hamburg.de – Dulsberg",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/dulsberg-374660"
    }
   ]
  },
@@ -295,7 +315,7 @@
   "abschnitte": [
    {
     "h2": "Von der City Nord bis zum Hinterhof",
-    "html": "<p>Die City Nord in <a href=\"entruempelung-hamburg-winterhude.html\">Winterhude</a> wurde 1974 fertig und besteht auf rund 120 Hektar fast nur aus Büroflächen, heute steht das Ensemble unter Denkmalschutz. Ein weiteres Bürogebiet ist die Alster-City in Barmbek-Süd. Bei Büros in solchen Komplexen sehen wir uns bei der Besichtigung vor allem Etagen, Aufzüge und den Weg bis zum Wagen an.</p><p>Ganz anders in <a href=\"entruempelung-hamburg-hohenfelde.html\">Hohenfelde</a>: An der Lübecker Straße steht das Bürogebäude Hamburger Welle, in den vielen Hinterhöfen arbeiten kleine Dienstleister und Handwerksbetriebe. Lübecker Straße und Sechslingspforte gehören zu den belebtesten Verkehrsachsen der Stadt, Halten ist dort für Transporter schwierig. Auch das fließt in die Planung ein.</p>"
+    "html": "<p>Die City Nord in <a href=\"entruempelung-hamburg-winterhude.html\">Winterhude</a> wurde 1974 fertig und besteht auf rund 120 Hektar fast nur aus Büroflächen, heute steht das Ensemble unter Denkmalschutz. Ein weiteres Bürogebiet ist die Alster-City in Barmbek-Süd. Bei Büros in solchen Komplexen sehen wir uns bei der Besichtigung vor allem Etagen, Aufzüge und den Weg bis zum Wagen an.</p><p>Ganz anders in <a href=\"entruempelung-hamburg-hohenfelde.html\">Hohenfelde</a>: An der Lübecker Straße steht das Bürogebäude Hamburger Welle, in den vielen Hinterhöfen arbeiten kleine Dienstleister und Handwerksbetriebe. Lübecker Straße und Sechslingspforte gehören zu den belebtesten Verkehrsachsen der Stadt, Halten kann dort für Transporter schwierig sein. Auch das fließt in die Planung ein.</p>"
    },
    {
     "h2": "Wohin Büroabfälle aus dem Bezirk gehen",
@@ -330,6 +350,10 @@
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/hohenfelde-374932"
    },
    {
+    "titel": "hamburg.de – Barmbek-Süd",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/barmbek-sued-374578"
+   },
+   {
     "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung",
     "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
    },
@@ -343,7 +367,7 @@
   "leistung": "sperrmuell-abholen-hamburg",
   "bezirk": "Hamburg-Nord",
   "title": "Sperrmüll abholen Hamburg-Nord ✓ ab 129 € ✓ Festpreis | Hinnerk",
-  "description": "Sperrmüll abholen im Bezirk Hamburg-Nord – direkt aus Altbauwohnung, Keller oder Dachboden in Eppendorf und Co. Kostenlose Besichtigung, Festpreis ab 129 €.",
+  "description": "Sperrmüll abholen im Bezirk Hamburg-Nord – direkt aus Altbauwohnung, Keller oder Dachboden, z. B. in Eppendorf. Kostenlose Besichtigung, Festpreis ab 129 €.",
   "h1": "Sperrmüll abholen im Bezirk Hamburg-Nord",
   "lead": "Das alte Sofa steht im dritten Stock eines Eppendorfer Altbaus, und niemand bekommt es die Treppe hinunter? Wir holen Sperrmüll dort ab, wo er steht – ab 129 €.",
   "abschnitte": [
@@ -390,6 +414,14 @@
    {
     "titel": "hamburg.de – Uhlenhorst",
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/uhlenhorst-375138"
+   },
+   {
+    "titel": "hamburg.de – Fuhlsbüttel",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/fuhlsbuettel-374784"
+   },
+   {
+    "titel": "hamburg.de – Langenhorn",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/langenhorn-374994"
    }
   ]
  },
@@ -407,7 +439,7 @@
    },
    {
     "h2": "Was bei einem Haus dazukommt",
-    "html": "<ul><li><b>Nebengebäude:</b> Schuppen, Gartenhaus und Garage gehören bei vielen Siedlungshäusern dazu. Sagen Sie uns, ob sie mit geräumt werden sollen.</li><li><b>Gartenabfälle:</b> Laub und Grünschnitt nehmen die Recyclinghöfe bis zu einem Kubikmeter ohne Gebühr an. Für Langenhorn liegt Hummelsbüttel nach Luftlinie am nächsten.</li><li><b>Denkmalschutz:</b> In geschützten Häusern wie in der Schwarzwaldsiedlung räumen wir nur den Inhalt, an der Bausubstanz ändert sich nichts.</li><li><b>Mehrere Etagen:</b> Erdgeschoss, Obergeschoss und Spitzboden bedeuten mehr Treppen als in einer Etagenwohnung. Das fließt in den Preis ein.</li></ul>"
+    "html": "<ul><li><b>Nebengebäude:</b> Schuppen und Garten gehören bei vielen Siedlungshäusern dazu, manchmal auch Gartenhaus oder Garage. Sagen Sie uns, was davon mit geräumt werden soll.</li><li><b>Gartenabfälle:</b> Laub und Grünschnitt nehmen die Recyclinghöfe bis zu einem Kubikmeter ohne Gebühr an. Für Langenhorn liegt Hummelsbüttel nach Luftlinie am nächsten.</li><li><b>Denkmalschutz:</b> In geschützten Häusern wie in der Schwarzwaldsiedlung räumen wir nur den Inhalt, an der Bausubstanz ändert sich nichts.</li><li><b>Mehrere Etagen:</b> Erdgeschoss, Obergeschoss und Spitzboden bedeuten mehr Treppen als in einer Etagenwohnung. Das fließt in den Preis ein.</li></ul>"
    },
    {
     "h2": "Ablauf der Hausauflösung",
@@ -442,6 +474,14 @@
     "url": "https://de.wikipedia.org/wiki/Hamburg-Alsterdorf"
    },
    {
+    "titel": "hamburg.de – Winterhude",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/winterhude-375256"
+   },
+   {
+    "titel": "hamburg.de – Uhlenhorst",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/uhlenhorst-375138"
+   },
+   {
     "titel": "hamburg.de – Recyclinghöfe der Stadtreinigung",
     "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
    }
@@ -461,11 +501,11 @@
    },
    {
     "h2": "Spitzböden in Siedlungen und Reihenhäusern",
-    "html": "<p>In der Frank’schen Siedlung in <a href=\"entruempelung-hamburg-ohlsdorf.html\">Ohlsdorf</a> mit rund 550 Reihenhäusern sind die Dachböden oft eng. In <a href=\"entruempelung-hamburg-gross-borstel.html\">Groß Borstel</a> stehen alte Reetdach- und Fachwerkhäuser, in Langenhorn die Häuser der Schwarzwaldsiedlung mit Giebeln und Fachwerk. Häufig führt nur eine Bodentreppe oder eine Luke nach oben. Bei der Besichtigung prüfen wir, ob der Zugang sicher ist und was durch die Öffnung passt.</p>"
+    "html": "<p>In der Frank’schen Siedlung in Klein Borstel, Stadtteil <a href=\"entruempelung-hamburg-ohlsdorf.html\">Ohlsdorf</a>, sind die Dachböden der rund 550 Reihenhäuser oft eng. Die Siedlung zwischen Wellingsbütteler Landstraße und der S-Bahn nach Poppenbüttel steht samt Gärten unter Denkmalschutz. In Groß Borstel stehen alte Reetdach- und Fachwerkhäuser, in Langenhorn die Häuser der Schwarzwaldsiedlung mit Satteldach und Fachwerkgiebel, hinter dem ein Spitzboden liegt. Häufig führt nur eine Bodentreppe oder eine Luke nach oben. Bei der Besichtigung prüfen wir, ob der Zugang sicher ist und was durch die Öffnung passt.</p>"
    },
    {
     "h2": "Kosten und was Sie vorher erledigen",
-    "html": "<ul><li>Ab 290 € für einen Dachboden; den Festpreis nennen wir nach der Besichtigung.</li><li>Fotoalben, Briefe und Erbstücke, die Sie suchen, holen Sie vorher selbst herunter oder nennen sie uns beim Rundgang.</li><li>Gehört ein Bodenabteil zu Ihrer Mietwohnung, sagen Sie uns, welches es ist, damit es zur Übergabe leer ist.</li><li>Alte Dachziegel oder Fliesen zählen als Bauschutt. Den nimmt ein Recyclinghof nur gegen Gebühr und höchstens 500 Liter auf einmal an.</li><li>Eine erste Schätzung liefert der <a href=\"preise.html#rechner\">Kostenrechner</a>.</li></ul>"
+    "html": "<ul><li>Ab 290 € für einen Dachboden; den Festpreis nennen wir nach der Besichtigung.</li><li>Fotoalben, Briefe und Erbstücke, die Sie suchen, holen Sie vorher selbst herunter oder nennen sie uns beim Rundgang.</li><li>Gehört ein Bodenabteil zu Ihrer Mietwohnung, sagen Sie uns, welches es ist, damit es zur Übergabe leer ist.</li><li>Liegt Bauschutt auf dem Boden, sagen Sie es uns vorher. Ein Recyclinghof nimmt ihn nur gegen Gebühr und höchstens 500 Liter pro Anlieferung an.</li><li>Eine erste Schätzung liefert der <a href=\"preise.html#rechner\">Kostenrechner</a>.</li></ul>"
    }
   ],
   "faq": [
@@ -492,8 +532,16 @@
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/uhlenhorst-375138"
    },
    {
+    "titel": "hamburg.de – Eppendorf",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/eppendorf-374746"
+   },
+   {
     "titel": "Wikipedia – Hamburg-Ohlsdorf",
     "url": "https://de.wikipedia.org/wiki/Ohlsdorf_(Hamburg)"
+   },
+   {
+    "titel": "Verordnung Denkmalschutzensemble Frank’sche Siedlung in Klein Borstel (lexaris.de)",
+    "url": "https://lexaris.de/book/version/documentflat/head/1334611"
    },
    {
     "titel": "hamburg.de – Groß Borstel",
@@ -502,6 +550,10 @@
    {
     "titel": "hamburg.de – Langenhorn",
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/langenhorn-374994"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026 (PDF)",
+    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
    }
   ]
  },
@@ -519,7 +571,7 @@
    },
    {
     "h2": "Was in Garagen steht und wohin damit",
-    "html": "<ul><li><b>Altreifen:</b> Der Recyclinghof nimmt pro Anlieferung höchstens fünf Pkw-Reifen an, jeweils gegen Gebühr.</li><li><b>Autoteile und Altöl:</b> Dafür gibt es eigene Entsorgungswege, Altöl kostet am Recyclinghof eine Gebühr. Sagen Sie uns vorher, was davon in der Garage liegt.</li><li><b>Fahrräder, Werkzeug, Metallregale:</b> Schrott und Altmetall können Privatleute am Hof kostenlos abgeben. Wir bringen es getrennt vom Sperrmüll weg.</li><li><b>Alte Gefriertruhe:</b> Elektrogeräte aus dem Haushalt nehmen die Höfe kostenlos an. Wir bringen sie gesondert weg.</li><li><b>Grünschnitt aus dem Schuppen:</b> Bis zu einem Kubikmeter kostet er am Recyclinghof nichts.</li></ul>"
+    "html": "<ul><li><b>Altreifen:</b> Der Recyclinghof nimmt pro Anlieferung höchstens fünf Pkw-Reifen an, jeweils gegen Gebühr.</li><li><b>Autoteile und Altöl:</b> Kfz-Teile nehmen die Recyclinghöfe laut Preisliste gar nicht an, Altöl nur gegen Gebühr. Sagen Sie uns vorher, was davon in der Garage liegt.</li><li><b>Fahrräder, Werkzeug, Metallregale:</b> Schrott und Altmetall können Privatleute am Hof kostenlos abgeben. Wir bringen es getrennt vom Sperrmüll weg.</li><li><b>Alte Gefriertruhe:</b> Elektrogeräte aus dem Haushalt nehmen die Höfe kostenlos an. Wir bringen sie gesondert weg.</li><li><b>Grünschnitt aus dem Schuppen:</b> Bis zu einem Kubikmeter kostet er am Recyclinghof nichts.</li></ul>"
    },
    {
     "h2": "Ein Preis für Garage und Schuppen",
@@ -556,6 +608,10 @@
    {
     "titel": "hamburg.de – Langenhorn",
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/langenhorn-374994"
+   },
+   {
+    "titel": "Wikipedia – Hamburg-Alsterdorf",
+    "url": "https://de.wikipedia.org/wiki/Hamburg-Alsterdorf"
    }
   ]
  },
@@ -577,7 +633,7 @@
    },
    {
     "h2": "Entsorgung und Rechnung",
-    "html": "<p>Theken, Regale, Restware und Möbel trennen wir nach Holz, Metall, Sperrmüll und Elektrogeräten und bringen sie zu den Recyclinghöfen. Farben, Öle oder Chemikalien aus Werkstätten sind Sonderabfall: Betriebe können ihn an zugelassenen Recyclinghöfen abgeben und erhalten dort einen Übernahmeschein. Kühltheken aus rein gewerblicher Nutzung nehmen die Recyclinghöfe laut Preisliste gar nicht an. Sprechen Sie solche Reste und Geräte bei der Besichtigung an. Nach der Räumung bekommen Sie eine Rechnung über den vereinbarten Festpreis.</p>"
+    "html": "<p>Theken, Regale, Restware und Möbel trennen wir nach Holz, Metall, Sperrmüll und Elektrogeräten und bringen sie zu den Recyclinghöfen. Farben, Öle oder Chemikalien aus Werkstätten sind Sonderabfall: Betriebe können ihn an zugelassenen Recyclinghöfen abgeben und erhalten dort einen Übernahmeschein. Kühltresen und andere Kühlgeräte, die nur für den gewerblichen Einsatz gebaut wurden, nehmen die Recyclinghöfe laut Preisliste gar nicht an. Sprechen Sie solche Reste und Geräte bei der Besichtigung an. Nach der Räumung bekommen Sie eine Rechnung über den vereinbarten Festpreis.</p>"
    }
   ],
   "faq": [
@@ -608,6 +664,14 @@
     "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/ohlsdorf-375064"
    },
    {
+    "titel": "hamburg.de – Fuhlsbüttel",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/fuhlsbuettel-374784"
+   },
+   {
+    "titel": "hamburg.de – Hohenfelde",
+    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/hohenfelde-374932"
+   },
+   {
     "titel": "hamburg.de – Gewerbe abmelden",
     "url": "https://www.hamburg.de/service/info/11258060/n0/"
    },
@@ -618,10 +682,6 @@
    {
     "titel": "Stadtreinigung Hamburg – Preisliste Recyclinghöfe 2026 (PDF)",
     "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
-   },
-   {
-    "titel": "hamburg.de – Hohenfelde",
-    "url": "https://www.hamburg.de/leben-in-hamburg/bezirke-hamburg/stadtteile-bezirk-hamburg-nord/hohenfelde-374932"
    }
   ]
  },
@@ -635,7 +695,7 @@
   "abschnitte": [
    {
     "h2": "Mietwohnungen zwischen Altbau und Neubau",
-    "html": "<p>In <a href=\"entruempelung-hamburg-dulsberg.html\">Dulsberg</a> gehört ein großer Teil der eher kleinen Klinkerwohnungen der SAGA und Genossenschaften. In <a href=\"entruempelung-hamburg-barmbek-nord.html\">Barmbek-Nord</a> entstehen seit 2016 im Pergolenviertel rund 1.400 neue Wohnungen, auf dem Gelände des alten Krankenhauses Barmbek knapp 600. Am Tarpenbeker Ufer in <a href=\"entruempelung-hamburg-gross-borstel.html\">Groß Borstel</a> waren 750 Wohnungen geplant, mindestens 225 davon gefördert. In den älteren Häusern fehlt oft der Aufzug, in den Neubauten ist meist einer da. Für Dauer und Preis einer Räumung macht das einen deutlichen Unterschied.</p><p>In Teilen von Barmbek-Nord gilt eine städtebauliche Erhaltungsverordnung, die die Backsteinarchitektur der 1920er-Jahre schützen soll. Rückbau, Änderungen und Nutzungsänderungen brauchen dort eine Genehmigung. Planen Sie nach der Räumung einen Umbau, klären Sie das vorher mit dem Bezirksamt.</p>"
+    "html": "<p>In <a href=\"entruempelung-hamburg-dulsberg.html\">Dulsberg</a> gehört ein großer Teil der eher kleinen Klinkerwohnungen der SAGA und Genossenschaften. In <a href=\"entruempelung-hamburg-barmbek-nord.html\">Barmbek-Nord</a> entstehen seit 2016 im Pergolenviertel rund 1.400 neue Wohnungen, auf dem Gelände des alten Krankenhauses Barmbek knapp 600. Am Tarpenbeker Ufer in <a href=\"entruempelung-hamburg-gross-borstel.html\">Groß Borstel</a> waren 750 Wohnungen geplant, mindestens 225 davon als Sozialwohnungen. In den älteren Häusern fehlt oft der Aufzug, in den Neubauten ist meist einer da. Für Dauer und Preis einer Räumung macht das einen deutlichen Unterschied.</p><p>In Teilen von Barmbek-Nord gilt eine städtebauliche Erhaltungsverordnung, die die Backsteinarchitektur der 1920er-Jahre schützen soll. Rückbau, Änderungen und Nutzungsänderungen brauchen dort eine Genehmigung. Planen Sie nach der Räumung einen Umbau, klären Sie das vorher mit dem Bezirksamt.</p>"
    },
    {
     "h2": "Leerstand nach dem Auszug im Blick",
