@@ -39,12 +39,15 @@ L_FOTO = {"hausaufloesung-hamburg": "hero", "dachboden-entruempeln-hamburg": "sp
           "firmenaufloesung-hamburg": "transporter", "entruempelung-fuer-vermieter-hamburg": "kartons","haushaltsaufloesung-hamburg": "haushalt", "wohnungsaufloesung-hamburg": "wohnung",
           "keller-entruempeln-hamburg": "keller", "nachlassaufloesung-hamburg": "nachlass",
           "messie-wohnung-raeumen-hamburg": "messie", "bueroaufloesung-hamburg": "buero",
-          "sperrmuell-abholen-hamburg": "sperrmuell"}
+          "sperrmuell-abholen-hamburg": "sperrmuell", "tapeten-teppich-entfernen-hamburg": "hero", "endreinigung-hamburg": "wohnung",
+          "umzug-hamburg": "transporter", "einlagerung-hamburg": "kartons"}
 L_ICON = {"hausaufloesung-hamburg": "haus", "dachboden-entruempeln-hamburg": "dach", "garage-entruempeln-hamburg": "rad",
           "firmenaufloesung-hamburg": "kisten", "entruempelung-fuer-vermieter-hamburg": "schluessel","haushaltsaufloesung-hamburg": "lampe", "wohnungsaufloesung-hamburg": "haus",
           "keller-entruempeln-hamburg": "treppe", "nachlassaufloesung-hamburg": "rahmen",
           "messie-wohnung-raeumen-hamburg": "kisten", "bueroaufloesung-hamburg": "koffer",
-          "sperrmuell-abholen-hamburg": "sofa"}
+          "sperrmuell-abholen-hamburg": "sofa", "tapeten-teppich-entfernen-hamburg": "rolle", "endreinigung-hamburg": "besen",
+          "umzug-hamburg": "kisten", "einlagerung-hamburg": "koffer"}
+ZUSATZ = {"tapeten-teppich-entfernen-hamburg", "endreinigung-hamburg", "umzug-hamburg", "einlagerung-hamburg"}
 # Talal (27.10.2026): alle 99 Stadtteile bei Google lassen. True = alle indexierbar.
 # False = nur KERN_ORTE indexierbar (Schutz gegen Googles Doorway-Regel, siehe Obsidian „Google-Leitfaden – was Google mag“).
 ALLE_ORTE_INDEXIEREN = True
@@ -271,7 +274,7 @@ def vorteile(ab_preis=False):
     v = [("auge", "Kostenlose Besichtigung", "Hinnerk sieht sich alles vor Ort an. Das kostet nichts und verpflichtet zu nichts."),
          ("euro", f"Ab {PREISE[0][2]} €, fester Preis" if ab_preis else "Fester Preis vorher", "Sie kennen den Preis, bevor jemand eine Kiste anfasst."),
          ("kreis", "Getrennt entsorgt", "Sperrmüll, Holz, Metall und Elektrogeräte gehen getrennt zu den Recyclinghöfen."),
-         ("pin", "Ganz Hamburg", "In allen 99 Stadtteilen und 7 Bezirken unterwegs.")]
+         ("pin", "Ganz Hamburg", "In allen 99 Stadtteilen und im Umland unterwegs." if UMLAND else "In allen 99 Stadtteilen und 7 Bezirken unterwegs.")]
     k = "".join(f'<li data-auf style="--d:{i * 70}ms"><span class="kreisicon">{icon(ic, 46)}</span><h3>{E(t)}</h3><p>{E(p)}</p></li>' for i, (ic, t, p) in enumerate(v))
     return f'<section class="abschnitt vorteile" aria-labelledby="vorteile-h"><h2 id="vorteile-h" class="sr">Was Sie bei Hinnerk bekommen</h2><ul>{k}</ul></section>\n'
 
@@ -787,8 +790,11 @@ def leistungsseite(l):
               "provider": {"@id": BASE + "#firma"}, "areaServed": {"@type": "City", "name": "Hamburg"}}]
     bk = L_FOTO[l["slug"]]
     page = head(l["title"], l["description"], l["slug"] + ".html", schema, preload=bk) + bar()
-    page += held(E(l["name"]) + " in Hamburg", l["lead"], "Kostenlos besichtigen lassen", "#anfrage", bk, eyebrow="Hinnerk räumt", klein=True)
+    page += held(E(l["name"]) + " in Hamburg", l["lead"], "Kostenlos besichtigen lassen", "#anfrage", bk, eyebrow=("Hinnerk hilft" if l["slug"] in ZUSATZ else "Hinnerk räumt"), klein=True)
     secs = "".join(f'<h2>{E(s["h2"])}</h2>{s["html"]}' for s in l["sections"])
+    if l.get("quellen"):
+        secs += '<details class="quellen"><summary>Quellen</summary><ul>' + "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in l["quellen"]) + '</ul></details>'
+
     page += f"""<section class="abschnitt" aria-label="{E(l['name'])}">
 <div class="lesen"><div class="text">{k}{secs}</div>{seitenkasten(l['name'] + ' in Hamburg', 'Kostenlos besichtigen lassen', L_PREIS.get(l['slug']))}</div>
 </section>
@@ -799,7 +805,7 @@ def leistungsseite(l):
         page += f"""<section class="abschnitt" aria-label="{E(l['name'])} nach Bezirk"><div class="lesen"><div class="text"><h2>{E(l['name'])} in Ihrem Bezirk</h2><ul class="chips">{chips}</ul></div></div></section>
 """
     page += vorteile()
-    page += ablauf("So läuft’s", "Erst kostenlos besichtigen, dann ein fester Preis – auch bei einer " + l["name"] + ".")
+    page += ablauf("So läuft’s", "Erst kostenlos besichtigen, dann ein fester Preis" + (" – auch bei einer " + l["name"] + "." if l["name"].endswith("ung") else "."))
     page += leistungs_reihe("Auch das räumt Hinnerk", ausser=l["slug"])
     page += fragen("Häufige Fragen", l["faq"])
     page += weitere_fragen()

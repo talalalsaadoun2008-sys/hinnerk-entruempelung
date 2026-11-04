@@ -92,6 +92,30 @@
       "name": "Für Vermieter & Hausverwaltungen",
       "kurz": "Wohnung nach Auszug, Todesfall oder Sperrmüll im Keller: Hinnerk räumt für Vermieter und Hausverwaltungen.",
       "plakat": "Vermieter"
+    },
+    {
+      "slug": "tapeten-teppich-entfernen-hamburg",
+      "name": "Tapeten & Teppich entfernen",
+      "kurz": "Alte Tapeten und Teppichboden kommen runter und raus – auf Wunsch direkt nach der Räumung.",
+      "plakat": "Teppich"
+    },
+    {
+      "slug": "endreinigung-hamburg",
+      "name": "Endreinigung",
+      "kurz": "Nach der Räumung wird gereinigt – was genau, legen wir bei der Besichtigung gemeinsam fest.",
+      "plakat": "Reinigung"
+    },
+    {
+      "slug": "umzug-hamburg",
+      "name": "Umzüge",
+      "kurz": "Wir tragen und fahren Ihren Hausrat – und nehmen auf Wunsch mit, was nicht mit umziehen soll.",
+      "plakat": "Umzug"
+    },
+    {
+      "slug": "einlagerung-hamburg",
+      "name": "Einlagerung",
+      "kurz": "Möbel und Hausrat werden eingelagert, bis klar ist, wohin sie kommen – den Rest entsorgen wir.",
+      "plakat": "Lager"
     }
   ],
   "profile": [],
