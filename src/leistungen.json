@@ -2,8 +2,8 @@
  {
   "slug": "haushaltsaufloesung-hamburg",
   "name": "Haushaltsauflösung",
-  "title": "Haushaltsauflösung Hamburg ✓ Besichtigung gratis ✓ Festpreis | Hinnerk",
-  "description": "Haushaltsauflösung in Hamburg nach Todesfall, Umzug ins Pflegeheim oder Hausverkauf. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Entsorgung inklusive. Hinnerk.",
+  "title": "Haushaltsauflösung Hamburg ✓ ab 690 € ✓ Festpreis | Hinnerk",
+  "description": "Haushaltsauflösung in Hamburg nach Todesfall oder Umzug ins Pflegeheim: ab 690 €, kostenlose Besichtigung, Festpreis. Mit Checkliste für die Zeit davor.",
   "h1": "Haushaltsauflösung in Hamburg",
   "lead": "Ein ganzer Haushalt muss aufgelöst werden – oft in einer schweren Zeit. Hinnerk nimmt Ihnen die Arbeit ab: in Ruhe besprochen, sorgfältig geräumt, zum festen Preis.",
   "sections": [
@@ -16,6 +16,14 @@
     "html": "<p>Bevor wir räumen, gehen wir mit Ihnen durch die Räume. Papiere, Fotos, Schmuck und Erinnerungsstücke legen Sie vorher beiseite oder sagen uns, wonach wir beim Räumen achten sollen. Was Familie oder Freunde behalten möchten, bleibt stehen.</p><p>Danach bekommen Sie einen festen Preis. Der hängt davon ab, wie viel geräumt wird, in welchem Stockwerk und wie weit der Weg zum Wagen ist.</p>"
    },
    {
+    "h2": "Checkliste: das vor der Räumung erledigen",
+    "html": "<ol><li><b>Wichtiges sichern:</b> Testament, Ausweise, Kontoauszüge, Versicherungs- und Mietunterlagen, Ersatzschlüssel, Fotos und Schmuck an sich nehmen.</li><li><b>Aufteilen:</b> Mit Familie oder Miterben klären, wer welches Stück behält – am besten schriftlich, das beugt Streit vor.</li><li><b>Kündigen und abmelden:</b> Mietvertrag, Strom, Telefon und Internet, Zeitungen, Vereine. Den Rundfunkbeitrag melden Sie beim Beitragsservice ab.</li><li><b>Post umleiten:</b> Ein Nachsendeauftrag sorgt dafür, dass Briefe nicht im leeren Briefkasten liegen bleiben.</li><li><b>Zählerstände festhalten:</b> Strom, Gas und Wasser am Auszugstag ablesen und fotografieren.</li><li><b>Gutes weitergeben:</b> Was noch brauchbar ist, findet oft neue Besitzer – siehe <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</li></ol><p>Welche Kündigungsfristen gelten, erklären die Ratgeber <a href=\"wohnung-nach-todesfall-aufloesen.html\">Wohnung nach Todesfall auflösen</a> und <a href=\"umzug-ins-pflegeheim-wohnung-aufloesen.html\">Umzug ins Pflegeheim</a>.</p>"
+   },
+   {
+    "h2": "Was kostet eine Haushaltsauflösung in Hamburg?",
+    "html": "<p>Bei Hinnerk beginnt eine Haushaltsauflösung <b>bei 690 €</b> für eine kleine Wohnung; für ein ganzes Haus liegt der Einstieg bei 2.490 €. Mehr kostet es, wenn sich über Jahrzehnte viel angesammelt hat, wenn Keller, Dachboden oder Garage dazukommen und wenn ohne Aufzug getragen werden muss. Den festen Preis nennen wir nach der kostenlosen Besichtigung; vorab hilft der <a href=\"preise.html#rechner\">Kostenrechner</a> beim Schätzen.</p><p>Nach einem Todesfall tragen in der Regel die Erben die Kosten, denn die Räumung gehört zu den Nachlassverbindlichkeiten (<a href=\"https://www.gesetze-im-internet.de/bgb/__1967.html\">§ 1967 BGB</a>). Lassen Sie Ihren eigenen Haushalt räumen, können die Arbeitskosten unter Umständen die Steuer senken – mehr im Ratgeber <a href=\"entruempelung-steuerlich-absetzen.html\">Entrümpelung steuerlich absetzen</a>.</p>"
+   },
+   {
     "h2": "Räumung und Entsorgung",
     "html": "<p>Am vereinbarten Tag räumen wir den Haushalt aus und trennen dabei nach Sperrmüll, Holz, Metall, Elektrogeräten und anderen Abfällen. Entsorgt wird über die zugelassenen Wege, zum Beispiel die Recyclinghöfe der Stadtreinigung Hamburg. Welcher Recyclinghof in Ihrer Nähe liegt, steht auf der <a href=\"einsatzgebiet.html\">Seite Ihres Stadtteils</a>.</p>"
    },
@@ -25,6 +33,14 @@
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet eine Haushaltsauflösung in Hamburg?",
+    "a": "Bei Hinnerk ab 690 € für eine kleine Wohnung und ab 2.490 € für ein Haus. Der feste Preis steht nach der kostenlosen Besichtigung."
+   },
+   {
+    "q": "Wer bezahlt die Haushaltsauflösung nach einem Todesfall?",
+    "a": "In der Regel die Erben, denn die Räumungskosten zählen zu den Schulden des Nachlasses. Wer das Erbe ausschlägt, muss auch nicht räumen."
+   },
    {
     "q": "Muss ich bei der Haushaltsauflösung dabei sein?",
     "a": "Nein. Wichtig ist, dass vorher klar ist, was bleiben soll. Den Schlüssel können Sie uns übergeben."
@@ -42,8 +58,8 @@
  {
   "slug": "wohnungsaufloesung-hamburg",
   "name": "Wohnungsauflösung",
-  "title": "Wohnungsauflösung Hamburg ✓ Besichtigung gratis ✓ Festpreis | Hinnerk",
-  "description": "Wohnungsauflösung in Hamburg: Wohnung leer räumen für Übergabe, Renovierung oder Verkauf. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Entsorgung inklusive. Hinnerk.",
+  "title": "Wohnungsauflösung Hamburg ✓ ab 690 € ✓ Festpreis | Hinnerk",
+  "description": "Wohnungsauflösung in Hamburg ab 690 €: Wohnung leer für Übergabe, Renovierung oder Verkauf. Kostenlose Besichtigung, Festpreis, Entsorgung inklusive.",
   "h1": "Wohnungsauflösung in Hamburg",
   "lead": "Die Wohnung muss leer werden – für die Übergabe an den Vermieter, vor einer Renovierung oder vor dem Verkauf. Hinnerk räumt sie zum festen Preis.",
   "sections": [
@@ -52,15 +68,31 @@
     "html": "<p>Ein Mietvertrag endet, eine Wohnung wurde geerbt und soll verkauft werden, oder vor einer Sanierung muss alles raus. In allen Fällen zählt am Ende, dass die Räume leer und übergabebereit sind.</p>"
    },
    {
+    "h2": "Was kostet eine Wohnungsauflösung in Hamburg?",
+    "html": "<p>Diese Richtpreise gelten bei Hinnerk als Einstieg:</p><ul><li><b>1 Zimmer</b> (ca. 30–40 m²): ab 690 €</li><li><b>2 Zimmer</b> (ca. 45–60 m²): ab 890 €</li><li><b>3 Zimmer</b> (ca. 65–80 m²): ab 1.290 €</li><li><b>4 Zimmer</b> (ca. 85–100 m²): ab 1.690 €</li></ul><p>Wo Ihr Preis genau liegt, hängt vor allem von drei Dingen ab: wie voll die Wohnung ist, in welchem Stock sie liegt und ob es einen Aufzug gibt, und ob Keller, Dachboden oder Balkon mit leer werden sollen. Im Festpreis stecken Arbeit, Transport und Entsorgung. Was nach der Besichtigung vereinbart ist, gilt – am Räumungstag kommt nichts dazu. Eine erste Schätzung liefert der <a href=\"preise.html#rechner\">Kostenrechner</a>, Hintergründe stehen im Ratgeber <a href=\"was-kostet-eine-entruempelung-in-hamburg.html\">Was kostet eine Entrümpelung in Hamburg?</a></p>"
+   },
+   {
     "h2": "Hamburger Wohnungen sind verschieden",
     "html": "<p>Im Altbau geht es oft über enge Treppen ohne Aufzug. In Hochhäusern gibt es meist einen Aufzug, dafür lange Flure und Wege zum Wagen. Bei der kostenlosen Besichtigung sehen wir uns genau das an – und nennen danach einen festen Preis, an den sich beide Seiten halten.</p>"
    },
    {
-    "h2": "Was bei der Übergabe wichtig ist",
-    "html": "<p>Welcher Zustand bei der Übergabe verlangt wird, steht in Ihrem Mietvertrag oder Kaufvertrag. Sagen Sie uns vorher, was genau raus muss – zum Beispiel auch Teppiche, Lampen, Einbauküche oder Kellerabteil. Dann ist es im Preis enthalten.</p><p>Soll ein ganzer Hausstand aufgelöst werden, lesen Sie auch unsere Seite zur <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+    "h2": "Rückgabe an den Vermieter: was raus muss",
+    "html": "<p>Endet der Mietvertrag, müssen Sie die Wohnung zurückgeben (<a href=\"https://www.gesetze-im-internet.de/bgb/__546.html\">§ 546 BGB</a>). Dazu gehören auch Kellerabteil und Bodenraum. Was Sie selbst eingebaut haben – etwa eine eigene Küche, Lampen oder Wandregale –, muss in aller Regel ebenfalls raus, wenn mit dem Vermieter nichts anderes vereinbart ist. Will der Nachmieter die Küche übernehmen, lassen Sie sich das vom Vermieter schriftlich bestätigen.</p><p>Sagen Sie uns vorher, was genau raus muss – dann ist es im Preis enthalten. Streichen und Reparaturen gehören nicht zur Räumung. Was „besenrein“ heißt, erklärt der Ratgeber <a href=\"wohnung-besenrein-uebergeben.html\">Wohnung besenrein übergeben</a>. Der Räumungstag sollte ein paar Tage vor dem Übergabetermin liegen, damit Luft für das Übergabeprotokoll bleibt.</p><p>Soll ein ganzer Hausstand aufgelöst werden, lesen Sie auch unsere Seite zur <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+   },
+   {
+    "h2": "Selbst räumen oder räumen lassen?",
+    "html": "<p>Mit Auto, Helfern und genug Zeit lässt sich einiges selbst erledigen: Gut Erhaltenes verschenken oder spenden (<a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>), Sperrmüll bei der Stadtreinigung bestellen und den Rest zum Recyclinghof bringen. Die Abholung kostet bis 8 m³ 35 €, wenn der Sperrmüll draußen bereitsteht, und 50 €, wenn er aus dem Gebäude geholt wird. Wie die Anmeldung läuft, steht im Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p><p>Räumen lassen lohnt sich meist, wenn die Wohnung voll ist, weit oben liegt, die Zeit bis zur Übergabe knapp wird oder Sie nicht in Hamburg wohnen. Dann übernehmen wir Tragen, Fahren und Entsorgen, und Sie geben uns nur den Schlüssel.</p>"
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet eine Wohnungsauflösung in Hamburg?",
+    "a": "Bei Hinnerk ab 690 € für eine 1-Zimmer-Wohnung, ab 890 € für 2 Zimmer und ab 1.290 € für 3 Zimmer. Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
+   {
+    "q": "Muss ich bei der Wohnungsauflösung dabei sein?",
+    "a": "Nein. Wir gehen vorher gemeinsam durch die Wohnung und klären, was bleibt. Am Räumungstag reicht der Schlüssel."
+   },
    {
     "q": "Räumt ihr auch das Kellerabteil mit?",
     "a": "Ja, wenn Sie es uns vorher sagen. Keller, Dachboden und Abstellräume gehören dann mit zum Festpreis."
