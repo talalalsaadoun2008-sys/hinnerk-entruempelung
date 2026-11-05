@@ -415,9 +415,9 @@ def faq_schema(faq):
             "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in faq]}
 
 
-def fragen(titel, faq):
+def fragen(titel, faq, n=6):
     k = "".join(f'<details name="faq"{" open" if i == 0 else ""}><summary>{E(q["q"])}<span class="plus" aria-hidden="true"></span></summary><p>{E(q["a"])}</p></details>'
-                for i, q in enumerate(faq[:6]))
+                for i, q in enumerate(faq[:n]))
     return f"""<section class="abschnitt" id="fragen" aria-labelledby="faq-h">
 <div class="fragen"><div><p class="eyebrow">Gut zu wissen</p><h2 id="faq-h" data-auf>{E(titel)}</h2>
 <p>Ihre Frage ist nicht dabei? <a href="mailto:{F['email']}">Schreiben Sie uns.</a></p></div>
@@ -515,6 +515,9 @@ START_FAQ = [
     {"q": "Wohin kommen die Sachen?", "a": "Sperrmüll, Holz, Metall, Elektrogeräte und andere Abfälle bringen wir getrennt zur Entsorgung, zum Beispiel zu den Recyclinghöfen der Stadtreinigung Hamburg."},
     {"q": "In welchen Stadtteilen ist Hinnerk unterwegs?", "a": "In allen 99 bewohnten Hamburger Stadtteilen. Jeder hat eine eigene Seite mit Infos vor Ort und einem Recyclinghof in der Nähe."},
     {"q": "Haushaltsauflösung oder Wohnungsauflösung – was ist der Unterschied?", "a": "Bei einer Haushaltsauflösung wird ein ganzer Hausstand aufgelöst, oft nach einem Todesfall. Bei einer Wohnungsauflösung geht es darum, die Räume leer zu bekommen, zum Beispiel für die Übergabe."},
+    {"q": "Wie schnell ist alles leer?", "a": "Ein Keller oder eine kleine Wohnung ist oft an einem Tag geräumt, ein ganzes Haus kann mehrere Tage dauern. Es kommt auf die Menge, das Stockwerk und den Weg zum Wagen an. Den Zeitbedarf erfahren Sie bei der Besichtigung, den Räumungstag legen wir passend zu Ihrer Übergabe fest."},
+    {"q": "Kann ich die Entrümpelung von der Steuer absetzen?", "a": "Teilweise. Die Arbeitskosten einer Entrümpelung im eigenen Haushalt können als haushaltsnahe Dienstleistung nach § 35a EStG zählen: Die Einkommensteuer sinkt um 20 % dieser Kosten, höchstens um 4.000 € im Jahr. Dafür brauchen Sie eine Rechnung und müssen überweisen – Barzahlung zählt nicht. Mehr dazu im Ratgeber „Entrümpelung steuerlich absetzen“."},
+    {"q": "Was passiert mit gut erhaltenen Möbeln?", "a": "Was noch gut ist, können Sie vor der Räumung verschenken oder spenden – Anlaufstellen stehen im Ratgeber „Möbel spenden in Hamburg“. Was danach übrig bleibt, nehmen wir mit und entsorgen es getrennt."},
     {"q": "Was passiert mit Dokumenten und Fotos?", "a": "Wichtige Papiere nehmen Sie am besten vorher an sich. Was wir beim Räumen finden und wichtig aussieht, legen wir für Sie zur Seite."},
 ]
 
@@ -783,7 +786,7 @@ def startseite():
     page += ablauf("In fünf Schritten leer", "Vom ersten Satz bis zum leeren Raum. Den Preis kennen Sie, bevor jemand eine Kiste anfasst.")
     page += vergleich()
     page += finder()
-    page += fragen("Häufige Fragen", START_FAQ)
+    page += fragen("Häufige Fragen", START_FAQ, n=len(START_FAQ))
     page += weitere_fragen(titel="Mehr Antworten")
     page += start_ratgeber()
     page += anfrage("Startseite")
