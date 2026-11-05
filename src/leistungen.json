@@ -610,8 +610,8 @@
  {
   "slug": "entruempelung-fuer-vermieter-hamburg",
   "name": "Für Vermieter & Hausverwaltungen",
-  "title": "Entrümpelung für Vermieter & Hausverwaltungen in Hamburg | Hinnerk",
-  "description": "Entrümpelung für Vermieter und Hausverwaltungen in Hamburg: zurückgelassene Möbel nach Auszug, Wohnungen nach Todesfall, Sperrmüll in Keller und Hof. ✓ Festpreis ✓ Rechnung.",
+  "title": "Entrümpelung für Vermieter Hamburg ✓ Festpreis ✓ Rechnung | Hinnerk",
+  "description": "Für Vermieter und Hausverwaltungen in Hamburg: zurückgelassene Möbel, Wohnungen nach Todesfall, Sperrmüll in Keller und Hof räumen. Festpreis und Rechnung.",
   "h1": "Entrümpelung für Vermieter und Hausverwaltungen in Hamburg",
   "lead": "Ein Mieter ist ausgezogen und hat Möbel zurückgelassen? Im Keller steht Sperrmüll, den keiner gehört? Hinnerk räumt zum festen Preis – mit Rechnung.",
   "sections": [
@@ -620,8 +620,20 @@
     "html": "<ul><li>Zurückgelassene Möbel und Sperrmüll nach einem Auszug</li><li>Wohnungen nach einem Todesfall, wenn die Erben räumen lassen</li><li>Gemeinschaftskeller, Dachböden und Fahrradkeller</li><li>Sperrmüll im Hof oder Müllraum</li></ul>"
    },
    {
+    "h2": "Leerstand: in Hamburg nach vier Monaten melden",
+    "html": "<p>Steht eine Wohnung in Hamburg länger als vier Monate leer, muss der Vermieter das dem Bezirksamt melden; das geht kostenlos online (<a href=\"https://www.hamburg.de/service/info/111050945/n0/\">hamburg.de: Leerstand melden</a>). Nach einem Auszug oder Todesfall lohnt es sich deshalb, die Räumung früh zu planen. Wir stimmen den Termin auf Ihre Renovierung oder Neuvermietung ab.</p>"
+   },
+   {
+    "h2": "Sperrmülltag der Stadtreinigung oder Entrümpelung?",
+    "html": "<p>Für Wohnanlagen bietet die Stadtreinigung Hamburg Sperrmüll-Aktionstage an: Laut Flyer kostet ein Tageseinsatz 420 € für bis zu 85 m³. Die Mieter bringen ihren Sperrmüll dann vormittags selbst zur Sammelstelle; eine Halteverbotszone dafür kann man für 150 € dazubuchen (<a href=\"https://files.stadtreinigung.hamburg/SRH_Wohnungswirtschaft_Sperrmuelltage_Flyer250326.pdf\">Flyer der Stadtreinigung</a>).</p><p>Das passt, wenn viele Mieter mitmachen. Liegen dagegen Sachen im Gemeinschaftskeller, die niemandem mehr gehören, oder muss eine einzelne Wohnung leer werden, trägt keiner mit. Dann räumen wir aus Keller, Boden oder Wohnung und bringen alles getrennt zur Entsorgung.</p>"
+   },
+   {
     "h2": "Wichtig: Eigentum klären",
-    "html": "<p>Bevor Sachen eines Mieters entfernt werden, muss rechtlich klar sein, dass Sie das dürfen – zum Beispiel nach Rückgabe der Wohnung oder mit Zustimmung der Erben. Bei Unsicherheit fragen Sie Ihren Anwalt oder Verband. Eine Zwangsräumung läuft über den Gerichtsvollzieher.</p>"
+    "html": "<p>Bevor Sachen eines Mieters entfernt werden, muss rechtlich klar sein, dass Sie das dürfen – zum Beispiel nach Rückgabe der Wohnung oder mit Zustimmung der Erben. Bei Unsicherheit fragen Sie Ihren Anwalt oder Verband. Eine Zwangsräumung läuft über den Gerichtsvollzieher.</p><p>Was Sie tun können, wenn ein Mieter nach dem Auszug Möbel stehen lässt, und warum Einlagern Folgen hat, steht im Ratgeber <a href=\"mieter-hat-sachen-zurueckgelassen.html\">Mieter hat Sachen zurückgelassen</a>.</p>"
+   },
+   {
+    "h2": "Für Hausverwaltungen: Ablauf und Abrechnung",
+    "html": "<ul><li><b>Anfrage:</b> Adresse, Lage im Haus und was weg soll – gern mit Fotos per E-Mail.</li><li><b>Besichtigung:</b> kostenlos, auf Wunsch mit Hausmeister oder ohne Sie, wenn wir den Schlüssel bekommen.</li><li><b>Festpreis:</b> schriftlich, bevor wir anfangen.</li><li><b>Räumung:</b> zum vereinbarten Termin, getrennte Entsorgung.</li><li><b>Rechnung:</b> über den Festpreis, an die Verwaltung oder den Eigentümer.</li></ul>"
    },
    {
     "h2": "So arbeiten wir",
@@ -629,6 +641,14 @@
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet eine Entrümpelung für Vermieter?",
+    "a": "Das hängt von Menge und Lage ab. Ein Kellerabteil beginnt bei 290 €, eine kleine Wohnung bei 690 €. Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
+   {
+    "q": "Muss ich eine leere Wohnung in Hamburg melden?",
+    "a": "Ja, wenn sie länger als vier Monate leer steht. Die Meldung an das Bezirksamt ist kostenlos und geht online."
+   },
    {
     "q": "Arbeitet ihr auch regelmäßig für Hausverwaltungen?",
     "a": "Ja, gern. Schreiben Sie uns, dann besprechen wir, wie Aufträge am einfachsten ablaufen."
@@ -640,6 +660,16 @@
    {
     "q": "Räumt ihr auch, wenn der Mieter noch Sachen in der Wohnung hat?",
     "a": "Nur, wenn rechtlich geklärt ist, dass die Sachen entfernt werden dürfen – zum Beispiel nach der Rückgabe der Wohnung oder mit Zustimmung der Erben."
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "hamburg.de: Leerstand von Wohnraum melden",
+    "url": "https://www.hamburg.de/service/info/111050945/n0/"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg: Sperrmülltage für die Wohnungswirtschaft (Flyer)",
+    "url": "https://files.stadtreinigung.hamburg/SRH_Wohnungswirtschaft_Sperrmuelltage_Flyer250326.pdf"
    }
   ]
  },
