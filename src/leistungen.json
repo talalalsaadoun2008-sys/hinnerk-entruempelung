@@ -162,8 +162,8 @@
  {
   "slug": "nachlassaufloesung-hamburg",
   "name": "Nachlassauflösung",
-  "title": "Nachlassauflösung Hamburg ✓ Besichtigung gratis ✓ Festpreis | Hinnerk",
-  "description": "Nachlassauflösung in Hamburg für Erben, Familien und Nachlassverwalter. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Sorgfältig und diskret. Hinnerk.",
+  "title": "Nachlassauflösung Hamburg ✓ ab 690 € ✓ Festpreis | Hinnerk",
+  "description": "Nachlassauflösung in Hamburg ab 690 €: Wohnung oder Haus nach einem Erbfall räumen lassen. Kostenlose Besichtigung, Festpreis – auch wenn Sie weit weg wohnen.",
   "h1": "Nachlassauflösung in Hamburg",
   "lead": "Nach einem Todesfall bleibt oft eine ganze Wohnung oder ein Haus voller Dinge zurück. Hinnerk räumt den Nachlass sorgfältig – nach Ihren Vorgaben und zum festen Preis.",
   "sections": [
@@ -172,8 +172,16 @@
     "html": "<p>Meist kümmern sich Kinder, Enkel oder andere Erben um den Nachlass. Manchmal wohnen sie nicht in Hamburg oder haben neben Beruf und Trauer keine Zeit für die Räumung. Auch Nachlassverwalter oder Betreuer beauftragen eine Nachlassauflösung.</p>"
    },
    {
+    "h2": "Erst klären, wer erbt – dann räumen",
+    "html": "<p>Bevor geräumt wird, sollte feststehen, wer den Nachlass übernimmt. Für die Entscheidung, ob jemand das Erbe annimmt oder ausschlägt, gilt eine kurze Frist. Wer vorher die Wohnung leer räumen lässt oder Sachen verkauft, riskiert, dass das als Annahme des Erbes zählt. Was in dieser Zeit erlaubt ist und wer räumt, wenn niemand erben will, erklärt der Ratgeber <a href=\"erbe-ausgeschlagen-wer-raeumt-wohnung.html\">Erbe ausgeschlagen – wer räumt die Wohnung?</a></p><p>Gibt es mehrere Erben, verwalten sie den Nachlass gemeinsam (<a href=\"https://www.gesetze-im-internet.de/bgb/__2038.html\">§ 2038 BGB</a>). Praktisch ist es, wenn eine Person den Auftrag gibt und die anderen vorher schriftlich zustimmen. Wohnt niemand aus der Familie in Hamburg, reicht für die Besichtigung auch eine Vertrauensperson vor Ort.</p>"
+   },
+   {
     "h2": "Was vorher geklärt wird",
     "html": "<p>Wichtige Unterlagen wie Testament, Versicherungen, Kontoauszüge oder Grundbuchpapiere sollten die Erben vorher an sich nehmen. Erinnerungsstücke und Dinge, die in der Familie bleiben sollen, markieren Sie oder stellen sie beiseite. Finden wir beim Räumen noch Papiere oder Fotos, legen wir sie für Sie zur Seite.</p>"
+   },
+   {
+    "h2": "Was kostet eine Nachlassauflösung in Hamburg?",
+    "html": "<p>Bei Hinnerk beginnt eine Nachlassauflösung <b>bei 690 €</b> für eine kleine Wohnung. Als Richtwerte gelten außerdem: 2 Zimmer ab 890 €, 3 Zimmer ab 1.290 €, ein Haus ab 2.490 €. Den Ausschlag geben die Menge, das Stockwerk ohne Aufzug und Nebenräume wie Keller oder Boden. Nach der kostenlosen Besichtigung steht ein fester Preis; eine Schätzung vorab bietet der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p><p>Die Räumungskosten zählen zu den Nachlassverbindlichkeiten (<a href=\"https://www.gesetze-im-internet.de/bgb/__1967.html\">§ 1967 BGB</a>). Wer den Auftrag unterschreibt, ist aber zunächst selbst unser Vertragspartner – stimmen Sie die Kosten deshalb vorher mit den Miterben ab. Soll die Wohnung danach gereinigt übergeben werden, buchen Sie die <a href=\"endreinigung-hamburg.html\">Endreinigung</a> dazu.</p>"
    },
    {
     "h2": "Ablauf und Preis",
@@ -181,6 +189,14 @@
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet eine Nachlassauflösung in Hamburg?",
+    "a": "Eine kleine Wohnung räumen wir ab 690 €, ein Haus ab 2.490 €. Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
+   {
+    "q": "Dürfen wir schon räumen, bevor wir das Erbe angenommen haben?",
+    "a": "Vorsicht: Wer vorher räumt oder Sachen verkauft, kann damit das Erbe annehmen. Sichern Sie zunächst nur Wertsachen und Papiere und lassen Sie sich im Zweifel von einem Notar oder Anwalt beraten."
+   },
    {
     "q": "Wer darf eine Nachlassauflösung beauftragen?",
     "a": "In der Regel die Erben oder eine Person, die von ihnen oder vom Gericht dazu befugt ist, zum Beispiel ein Nachlassverwalter. Klären Sie das vorher in der Familie."
@@ -191,7 +207,7 @@
    },
    {
     "q": "Was passiert mit persönlichen Unterlagen?",
-    "a": "Wichtige Papiere nehmen Sie am besten vorher an sich. Was wir beim Räumen finden und wichtig aussieht, legen wir für Sie zur Seite."
+    "a": "Wichtige Papiere nehmen Sie am besten vorher an sich. Was beim Räumen auftaucht und wichtig wirkt, legen wir für Sie beiseite."
    }
   ]
  },
@@ -334,8 +350,8 @@
  {
   "slug": "hausaufloesung-hamburg",
   "name": "Hausauflösung",
-  "title": "Hausauflösung Hamburg ✓ Keller bis Dachboden ✓ Festpreis | Hinnerk",
-  "description": "Hausauflösung in Hamburg: Einfamilienhaus, Reihenhaus oder Doppelhaushälfte komplett räumen – mit Keller, Dachboden, Garage und Gartenhaus. ✓ Kostenlose Besichtigung ✓ Festpreis.",
+  "title": "Hausauflösung Hamburg ✓ ab 2.490 € ✓ Keller bis Dachboden | Hinnerk",
+  "description": "Hausauflösung in Hamburg ab 2.490 €: Einfamilien-, Reihenhaus oder Doppelhaushälfte samt Keller, Dachboden und Garage räumen. Besichtigung gratis, Festpreis.",
   "h1": "Hausauflösung in Hamburg",
   "lead": "Ein ganzes Haus soll leer werden – vom Keller bis zum Dachboden? Hinnerk besichtigt kostenlos und räumt zum festen Preis.",
   "sections": [
@@ -348,11 +364,23 @@
     "html": "<ul><li>Das Haus soll verkauft oder vermietet werden.</li><li>Die Eltern ziehen in eine kleinere Wohnung oder ins Pflegeheim.</li><li>Ein Erbfall: Das Haus muss für die Übergabe leer sein.</li></ul>"
    },
    {
+    "h2": "Was kostet eine Hausauflösung in Hamburg?",
+    "html": "<p>Für ein Haus ab etwa 100 m² beginnt der Preis bei Hinnerk <b>bei 2.490 €</b>. Nach oben geht es, wenn Keller und Dachboden voll sind, Garage, Schuppen oder Gartenhaus dazukommen oder der Wagen nicht nah ans Haus fahren kann. Ein Gartenhaus abzubauen ist keine normale Räumung; das sprechen wir gesondert ab. Den festen Preis bekommen Sie nach der kostenlosen Besichtigung, eine erste Schätzung liefert der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p>"
+   },
+   {
+    "h2": "Vor dem Verkauf: in dieser Reihenfolge",
+    "html": "<ol><li><b>Unterlagen zum Haus sichern:</b> Grundbuchauszug, Baupläne, Rechnungen für Heizung und Dach, Schlüssel. Den Energieausweis brauchen Sie für den Verkauf (<a href=\"https://www.gesetze-im-internet.de/geg/__80.html\">§ 80 GEG</a>).</li><li><b>Mit der Familie aufteilen:</b> Was soll bleiben, was geht an wen?</li><li><b>Räumen lassen:</b> Haus, Keller, Boden und Nebengebäude in einem Termin.</li><li><b>Reinigen:</b> Für Besichtigungen mit Käufern wirkt ein leeres, sauberes Haus besser – die <a href=\"endreinigung-hamburg.html\">Endreinigung</a> lässt sich dazubuchen.</li><li><b>Leerstand melden:</b> Steht das Haus länger leer, fragen Sie bei Ihrer Gebäudeversicherung nach; viele Verträge verlangen, dass Leerstand gemeldet wird.</li></ol>"
+   },
+   {
     "h2": "So gehen wir vor",
     "html": "<p>Bei der kostenlosen Besichtigung gehen wir gemeinsam durch alle Räume, auch Keller, Dachboden und Nebengebäude. Was bleiben soll, wird klar markiert. Danach bekommen Sie einen festen Preis. Am Räumungstag bringen wir alles getrennt zur Entsorgung.</p><p>Mehr dazu: <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>, <a href=\"nachlassaufloesung-hamburg.html\">Nachlassauflösung</a>, <a href=\"umzug-ins-pflegeheim-wohnung-aufloesen.html\">Umzug ins Pflegeheim</a>.</p>"
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet eine Hausauflösung in Hamburg?",
+    "a": "Bei Hinnerk ab 2.490 € für ein Haus ab etwa 100 m². Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
    {
     "q": "Räumt ihr auch Garage und Gartenhaus mit?",
     "a": "Ja, wenn Sie das möchten. Wir sehen uns bei der Besichtigung alle Gebäude an, und alles ist im festen Preis enthalten."
