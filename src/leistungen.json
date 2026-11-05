@@ -214,8 +214,8 @@
  {
   "slug": "messie-wohnung-raeumen-hamburg",
   "name": "Messie-Wohnung räumen",
-  "title": "Messie-Wohnung räumen Hamburg ✓ Diskret ✓ Festpreis | Hinnerk",
-  "description": "Messie-Wohnung räumen in Hamburg: diskret, ohne Vorwürfe und zum festen Preis. ✓ Kostenlose Besichtigung ✓ Entsorgung inklusive. Hinnerk – Entrümpelung Hamburg.",
+  "title": "Messie-Wohnung räumen Hamburg ✓ ab 1.890 € ✓ Diskret | Hinnerk",
+  "description": "Messie-Wohnung räumen in Hamburg ab 1.890 €: diskret, ohne Vorwürfe, zum festen Preis. Mit Hinweisen, wo es im Bezirk kostenlose Beratung gibt.",
   "h1": "Messie-Wohnung räumen in Hamburg",
   "lead": "Wenn eine Wohnung so voll ist, dass man kaum noch durchkommt, braucht es Hilfe ohne Vorwürfe. Hinnerk räumt diskret und zum festen Preis.",
   "sections": [
@@ -228,11 +228,23 @@
     "html": "<p>Bei einer sehr vollen Wohnung ist die Besichtigung besonders wichtig. Wir schauen uns an, wie viel geräumt werden muss, ob es Wege bis zu den Fenstern und zur Tür gibt und ob Abfälle dabei sind, die getrennt entsorgt werden müssen. Danach bekommen Sie einen festen Preis.</p><p>Geht es nur um das Leerräumen, ohne dass der Haushalt aufgelöst wird, finden Sie mehr unter <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a>.</p>"
    },
    {
+    "h2": "Was kostet es, eine Messie-Wohnung räumen zu lassen?",
+    "html": "<p>Bei Hinnerk beginnt die Räumung einer Messie-Wohnung <b>bei 1.890 €</b>. Wie viel es am Ende wird, hängt vom Füllgrad ab, von der Größe der Wohnung, vom Stockwerk und davon, wie viele Abfälle getrennt entsorgt werden müssen. Nach der Besichtigung bekommen Sie einen festen Preis, der sich am Räumungstag nicht mehr ändert. Ist die Wohnung gemietet und soll sie danach zurück an den Vermieter, planen wir die Räumung passend zum Übergabetermin.</p>"
+   },
+   {
+    "h2": "Hilfe, die über das Räumen hinausgeht",
+    "html": "<p>Eine geräumte Wohnung löst das Problem oft nicht auf Dauer. In Hamburg hat jedes Bezirksamt einen Sozialpsychiatrischen Dienst. Er berät kostenlos, und auch Angehörige oder Nachbarn dürfen sich melden. Droht wegen der Wohnung eine Kündigung, helfen die Fachstellen für Wohnungsnotfälle der Bezirke.</p><p>Die Ansprechpartner in Ihrem Bezirk stehen auf unseren Bezirksseiten: <a href=\"messie-wohnung-raeumen-bezirk-hamburg-mitte.html\">Hamburg-Mitte</a>, <a href=\"messie-wohnung-raeumen-bezirk-altona.html\">Altona</a>, <a href=\"messie-wohnung-raeumen-bezirk-eimsbuettel.html\">Eimsbüttel</a>, <a href=\"messie-wohnung-raeumen-bezirk-hamburg-nord.html\">Hamburg-Nord</a>, <a href=\"messie-wohnung-raeumen-bezirk-wandsbek.html\">Wandsbek</a>, <a href=\"messie-wohnung-raeumen-bezirk-bergedorf.html\">Bergedorf</a> und <a href=\"messie-wohnung-raeumen-bezirk-harburg.html\">Harburg</a>.</p>"
+   },
+   {
     "h2": "Was wir nicht machen",
     "html": "<p>Desinfektion und Schädlingsbekämpfung sind eigene Fachgebiete. Wenn so etwas nötig ist, sagen wir es Ihnen bei der Besichtigung, damit Sie einen passenden Fachbetrieb beauftragen können. Eine <a href=\"endreinigung-hamburg.html\">Endreinigung</a> nach der Räumung bieten wir an; ob sie bei starker Verschmutzung reicht, sehen wir vor Ort.</p>"
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet es, eine Messie-Wohnung räumen zu lassen?",
+    "a": "Bei Hinnerk ab 1.890 €, je nachdem, wie voll die Wohnung ist. Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
    {
     "q": "Muss ich vorher aufräumen?",
     "a": "Nein. Genau dafür sind wir da. Sagen Sie uns nur, was Sie behalten möchten."
@@ -244,6 +256,16 @@
    {
     "q": "Kann ich auch für einen Angehörigen anfragen?",
     "a": "Ja. Wichtig ist, dass die betroffene Person oder die zuständige Person einverstanden ist und uns Zugang zur Wohnung gibt."
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "hamburg.de: Sozialpsychiatrischer Dienst Bergedorf",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/bergedorf/themen/gesundheit/sozialpsychatrischer-dienst-34932"
+   },
+   {
+    "titel": "hamburg.de: Sozialpsychiatrischer Dienst Harburg",
+    "url": "https://www.hamburg.de/politik-und-verwaltung/bezirke/harburg/themen/gesundheit/sozialpsychiatrischer-dienst-64394"
    }
   ]
  },
@@ -314,8 +336,8 @@
  {
   "slug": "sperrmuell-abholen-hamburg",
   "name": "Sperrmüll abholen",
-  "title": "Sperrmüll abholen Hamburg ✓ Wir tragen ✓ Festpreis | Hinnerk",
-  "description": "Sperrmüll abholen lassen in Hamburg: Sofa, Schrank, Matratze – wir tragen aus der Wohnung und entsorgen. ✓ Kostenlose Besichtigung ✓ Festpreis. Hinnerk.",
+  "title": "Sperrmüll abholen Hamburg ✓ ab 129 € ✓ Wir tragen | Hinnerk",
+  "description": "Sperrmüll abholen lassen in Hamburg ab 129 €: Sofa, Schrank, Matratze – wir tragen aus Wohnung, Keller oder Dachboden. Fester Preis vorher.",
   "h1": "Sperrmüll abholen lassen in Hamburg",
   "lead": "Ein altes Sofa, ein Schrank oder ein paar Matratzen sollen weg – aber niemand kann sie tragen? Hinnerk holt Sperrmüll direkt aus der Wohnung ab.",
   "sections": [
@@ -324,8 +346,16 @@
     "html": "<p>Bei vielen Abholungen muss der Sperrmüll an die Straße gestellt werden. Wir holen ihn dort ab, wo er steht: aus der Wohnung, dem Keller oder vom Dachboden. Möbel bauen wir dafür bei Bedarf auseinander.</p>"
    },
    {
+    "h2": "Was kostet die Sperrmüll-Abholung?",
+    "html": "<p><b>Bei Hinnerk:</b> ab 129 € für bis zu 2 m³, jeder weitere Kubikmeter 39 €. Dafür tragen wir alles selbst aus Wohnung, Keller oder vom Boden und bauen bei Bedarf auseinander. Den festen Preis kennen Sie vorher.</p><p><b>Bei der Stadtreinigung:</b> Laut Gebührenliste 2026 kostet die Abholung bis 8 m³ 35 €, wenn alles draußen auf dem Grundstück steht, und 50 €, wenn sie es aus dem Gebäude holt; jeder weitere Kubikmeter 5 €. Zerlegen muss man extra bestellen (7,50 € je Mitarbeiter und angefangene Viertelstunde), die Eilabholung kostet 95 € zusätzlich.</p><p>Für ein paar Möbel, die Sie selbst rausstellen können, ist die Stadtreinigung oft günstiger. Hinnerk lohnt sich, wenn niemand tragen kann, viel zerlegt werden muss oder mehr als Sperrmüll dabei ist.</p>"
+   },
+   {
     "h2": "Selbst wegbringen geht auch",
-    "html": "<p>Wer ein passendes Auto und Helfer hat, kann Sperrmüll auch selbst zu einem der zwölf Recyclinghöfe der Stadtreinigung Hamburg bringen. Welcher in Ihrer Nähe liegt, steht auf der <a href=\"einsatzgebiet.html\">Seite Ihres Stadtteils</a>. Die Stadtreinigung bietet außerdem eine eigene Sperrmüllabfuhr an.</p>"
+    "html": "<p>Wer ein passendes Auto und Helfer hat, kann Sperrmüll auch selbst zu einem der zwölf Recyclinghöfe der Stadtreinigung Hamburg bringen. Einzelne Teile dürfen dort höchstens 2 m lang sein. Welcher Hof in Ihrer Nähe liegt, steht auf der <a href=\"einsatzgebiet.html\">Seite Ihres Stadtteils</a>.</p>"
+   },
+   {
+    "h2": "Nicht einfach an die Straße stellen",
+    "html": "<p>Sperrmüll ohne Termin auf den Gehweg zu stellen, ist in Hamburg nicht erlaubt und kann teuer werden – auch mit einem Zettel „Zu verschenken“. Welche Bußgelder gelten, steht im Ratgeber <a href=\"zu-verschenken-an-die-strasse-stellen.html\">Zu verschenken an die Straße stellen</a>. Wie man die städtische Abholung bestellt, erklärt <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
    },
    {
     "h2": "Wenn es mehr wird",
@@ -333,6 +363,10 @@
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet es, Sperrmüll abholen zu lassen?",
+    "a": "Bei Hinnerk ab 129 € für bis zu 2 m³, jeder weitere Kubikmeter 39 €. Wir tragen dafür alles selbst aus der Wohnung."
+   },
    {
     "q": "Lohnt sich das auch für ein einzelnes Möbelstück?",
     "a": "Fragen Sie einfach an und schicken Sie am besten ein Foto mit. Dann sagen wir Ihnen, ob und zu welchem Preis wir es mitnehmen."
@@ -344,6 +378,16 @@
    {
     "q": "Was zählt nicht als Sperrmüll?",
     "a": "Farben, Lacke, Chemikalien und Batterien sind Sonderabfall. Elektrogeräte werden ebenfalls getrennt entsorgt. Sagen Sie uns vorher, was dabei ist."
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "Stadtreinigung Hamburg: Gebühren ab 1. Januar 2026",
+    "url": "https://files.stadtreinigung.hamburg/website/download/PDF/Abfallentsorgungsgebuehren.pdf"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg: Preisliste Recyclinghöfe 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
    }
   ]
  },
@@ -450,8 +494,8 @@
  {
   "slug": "garage-entruempeln-hamburg",
   "name": "Garage entrümpeln",
-  "title": "Garage entrümpeln Hamburg ✓ Schuppen ✓ Gartenhaus ✓ Festpreis | Hinnerk",
-  "description": "Garage, Schuppen oder Gartenhaus entrümpeln in Hamburg. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Getrennte Entsorgung von Holz, Metall und Sperrmüll.",
+  "title": "Garage entrümpeln Hamburg ✓ ab 290 € ✓ Festpreis | Hinnerk",
+  "description": "Garage, Schuppen oder Gartenhaus entrümpeln in Hamburg ab 290 €. Reifen, Metall und Holz getrennt entsorgt. Kostenlose Besichtigung, fester Preis.",
   "h1": "Garage entrümpeln in Hamburg",
   "lead": "Das Auto steht draußen, weil die Garage voll ist? Hinnerk räumt Garage, Schuppen und Gartenhaus – zum festen Preis.",
   "sections": [
@@ -460,15 +504,27 @@
     "html": "<p>Fahrräder, Gartengeräte, alte Möbel, Reifen, Werkzeug, Kartons – die Garage wird schnell zum Lager. Oft ist sie so voll, dass kein Auto mehr hineinpasst.</p>"
    },
    {
-    "h2": "Getrennt entsorgt",
-    "html": "<p>Metall, Holz, Sperrmüll und Elektrogeräte gehen getrennt zur Entsorgung. Einige Dinge haben eigene Wege: Altreifen, Kfz-Teile, Altöl, Farben und Lacke nehmen die Recyclinghöfe nicht wie normalen Sperrmüll an. Sagen Sie uns vorher, was dabei ist – dann klären wir den richtigen Weg, bevor Sie einen Preis bekommen.</p>"
+    "h2": "Was kostet es, eine Garage entrümpeln zu lassen?",
+    "html": "<p>Eine Einzelgarage oder ein Schuppen bis etwa 10 m² kostet bei Hinnerk <b>ab 290 €</b>. Mehr wird es bei einer Doppelgarage, wenn bis unter die Decke gestapelt ist oder wenn Reifen und Werkstattreste dabei sind, die eigene Wege gehen. Den festen Preis nennen wir nach der kostenlosen Besichtigung; vorab hilft der <a href=\"preise.html#rechner\">Kostenrechner</a>.</p>"
+   },
+   {
+    "h2": "Reifen, Öl und Autoteile: wohin damit?",
+    "html": "<ul><li><b>Altreifen:</b> Die Recyclinghöfe nehmen laut Preisliste 2026 Pkw-Reifen für 7 € pro Stück an, höchstens fünf auf einmal.</li><li><b>Kfz-Teile:</b> nehmen die Recyclinghöfe laut Preisliste nicht an.</li><li><b>Altöl:</b> nur gegen Gebühr.</li><li><b>Farben, Lacke, Verdünner:</b> Das ist Sondermüll – siehe <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll entsorgen in Hamburg</a>.</li><li><b>Fahrräder, Werkzeug, Regale aus Metall:</b> gehen als Schrott getrennt zum Hof.</li></ul><p>Sagen Sie uns vorher, was in der Garage steht. Dann klären wir den passenden Weg, bevor Sie einen Preis bekommen.</p>"
    },
    {
     "h2": "Auch Schuppen und Gartenhaus",
-    "html": "<p>Wir räumen auch Schuppen und Gartenhäuser. Ein Gartenhaus selbst abzubauen gehört nicht zu einer normalen Entrümpelung – das besprechen wir bei der Besichtigung. Wird das ganze Haus geräumt? Dann lesen Sie bei der <a href=\"hausaufloesung-hamburg.html\">Hausauflösung</a> weiter.</p>"
+    "html": "<p>Wir räumen auch Schuppen und Gartenhäuser. Ein Gartenhaus selbst abzubauen gehört nicht zu einer normalen Entrümpelung – das besprechen wir bei der Besichtigung.</p>"
+   },
+   {
+    "h2": "Gemietete Garage zurückgeben",
+    "html": "<p>Haben Sie die Garage gemietet, muss sie bei Vertragsende leer zurück an den Vermieter (<a href=\"https://www.gesetze-im-internet.de/bgb/__546.html\">§ 546 BGB</a>). Auch Regale oder Haken, die Sie selbst angebracht haben, gehören meist mit raus. Wir räumen so, dass Sie die Garage zum vereinbarten Termin übergeben können. Wird gleichzeitig das ganze Haus geräumt, lesen Sie bei der <a href=\"hausaufloesung-hamburg.html\">Hausauflösung</a> weiter.</p>"
    }
   ],
   "faq": [
+   {
+    "q": "Was kostet es, eine Garage entrümpeln zu lassen?",
+    "a": "Bei Hinnerk ab 290 € für eine Garage bis etwa 10 m². Den festen Preis nennen wir nach der kostenlosen Besichtigung."
+   },
    {
     "q": "Nehmt ihr auch Altreifen und Autoteile mit?",
     "a": "Altreifen und Kfz-Teile haben eigene Entsorgungswege. Sagen Sie uns vorher Bescheid, dann klären wir das bei der Besichtigung."
@@ -481,13 +537,23 @@
     "q": "Muss ich bei der Räumung dabei sein?",
     "a": "Nein, wenn vorher klar ist, was bleiben soll, und wir Zugang zur Garage haben."
    }
+  ],
+  "quellen": [
+   {
+    "titel": "Stadtreinigung Hamburg: Preisliste Recyclinghöfe 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+   },
+   {
+    "titel": "hamburg.de: Recyclinghöfe in Hamburg",
+    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+   }
   ]
  },
  {
   "slug": "firmenaufloesung-hamburg",
   "name": "Firmenauflösung",
-  "title": "Firmenauflösung Hamburg ✓ Laden ✓ Lager ✓ Werkstatt ✓ Festpreis | Hinnerk",
-  "description": "Firmenauflösung in Hamburg: Laden, Lager, Werkstatt, Praxis oder Gastronomie räumen – passend zum Übergabetermin. ✓ Kostenlose Besichtigung ✓ Festpreis ✓ Rechnung.",
+  "title": "Firmenauflösung Hamburg ✓ Laden, Lager, Werkstatt | Hinnerk",
+  "description": "Firmenauflösung in Hamburg: Laden, Lager, Werkstatt, Praxis oder Gastronomie räumen – passend zum Übergabetermin. Kostenlose Besichtigung, Festpreis, Rechnung.",
   "h1": "Firmenauflösung in Hamburg",
   "lead": "Laden, Lager oder Werkstatt muss bis zu einem festen Termin leer sein? Hinnerk besichtigt kostenlos und räumt zum festen Preis.",
   "sections": [
@@ -500,8 +566,16 @@
     "html": "<p>Bei Gewerbeflächen steht meist ein fester Termin für die Rückgabe an den Vermieter. Wir planen die Räumung so, dass vorher noch Zeit bleibt. Den festen Preis kennen Sie nach der Besichtigung, und Sie bekommen eine Rechnung.</p>"
    },
    {
+    "h2": "Gewerbeabfall: was die Recyclinghöfe annehmen",
+    "html": "<p>Firmen dürfen auf elf der zwölf Hamburger Recyclinghöfe abgeben; der Hof in Steilshoop nimmt keine Gewerbeabfälle an. Gewerblich genutzte Kühltheken und Kühltresen nimmt laut Preisliste 2026 kein Hof an. Bei einer ganzen Ladenfläche oder Werkstatt trennen wir nach Holz, Metall, Sperrmüll und Elektrogeräten und bringen jede Sorte auf dem passenden Weg weg.</p><p>Fest eingebaute Kühlanlagen, Maschinen mit Öl oder Gefahrstoffe wie Farben und Chemikalien brauchen eigene Wege. Das klären wir bei der Besichtigung, bevor Sie einen Preis bekommen.</p>"
+   },
+   {
     "h2": "Was vorher geklärt werden sollte",
     "html": "<ul><li>Unterlagen mit Aufbewahrungspflicht und Datenträger: Die nehmen Sie oder Ihr Steuerberater vorher an sich.</li><li>Geleaste oder gemietete Geräte gehen an den Vermieter zurück.</li><li>Einbauten, Kühlanlagen oder Maschinen: Was abgebaut werden muss, besprechen wir bei der Besichtigung.</li></ul>"
+   },
+   {
+    "h2": "Neben der Räumung: Gewerbe abmelden",
+    "html": "<p>Wer seinen Betrieb aufgibt, muss das dem Gewerbeamt anzeigen (<a href=\"https://www.gesetze-im-internet.de/gewo/__14.html\">§ 14 GewO</a>). Verträge für Strom, Telefon, Versicherungen und Leasing laufen oft länger als der Mietvertrag – prüfen Sie Kündigungsfristen früh. Welche Unterlagen Sie aufbewahren müssen, steht auf der Seite <a href=\"bueroaufloesung-hamburg.html\">Büroauflösung</a>.</p>"
    }
   ],
   "faq": [
@@ -516,6 +590,20 @@
    {
     "q": "Nehmt ihr auch Regale, Theken und Lagerware mit?",
     "a": "Ja, Möbel, Regale, Theken und Restware räumen wir. Gefährliche Stoffe oder fest eingebaute Anlagen besprechen wir vorher."
+   },
+   {
+    "q": "Was kostet eine Firmenauflösung?",
+    "a": "Das hängt stark von Fläche, Menge und Einbauten ab. Deshalb gibt es keinen Pauschalpreis: Nach der kostenlosen Besichtigung bekommen Sie einen festen Preis und eine Rechnung."
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "hamburg.de: Recyclinghöfe in Hamburg",
+    "url": "https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg: Preisliste Recyclinghöfe 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
    }
   ]
  },
