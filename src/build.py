@@ -169,6 +169,14 @@ def wa_knopf(cls="knopf knopf-wa"):
     return f'<a class="{cls}" href="{wa_link()}" target="_blank" rel="noopener">{icon("chat", 22)}<span>Fotos per WhatsApp schicken</span></a>'
 
 
+DS_WHATSAPP = """<h2>4a. WhatsApp</h2><p>Auf dieser Website gibt es einen Link zu WhatsApp. Beim Aufruf der Seite werden dadurch keine Daten an WhatsApp übertragen; erst wenn Sie den Link anklicken, öffnet sich WhatsApp. Schreiben Sie uns dort, verarbeitet auch WhatsApp (WhatsApp Ireland Limited, ein Unternehmen der Meta-Gruppe) Ihre Daten nach den eigenen Datenschutzbestimmungen; dabei können Daten in die USA übermittelt werden. Wir nutzen Ihre Nachricht und Fotos nur, um Ihre Anfrage zu bearbeiten (Art. 6 Abs. 1 lit. b DSGVO). Wenn Sie das nicht möchten, erreichen Sie uns per E-Mail oder Telefon.</p>"""
+
+
+def _wa_box():
+    return ('<div class="wa-box"><p><b>Schneller mit Fotos:</b> Schicken Sie uns ein paar Bilder der Räume per WhatsApp. '
+            'Dann können wir den Aufwand vorab einschätzen.</p>' + wa_knopf() + '</div>')
+
+
 def tel_link(text=None):
     return f'<a href="tel:{F["telefon_link"]}">{E(text or F["telefon"])}</a>' if F["telefon"] else ""
 
@@ -427,7 +435,7 @@ def anfrage(seite, ort=""):
 <p data-auf>Schreiben Sie kurz, was geräumt werden soll. Hinnerk meldet sich, besichtigt kostenlos und nennt Ihnen einen festen Preis.</p>
 <ul class="haken"><li>{HAKEN}Kostenlose Besichtigung</li><li>{HAKEN}Festpreis vor Beginn</li><li>{HAKEN}Getrennte Entsorgung</li></ul>
 <p class="klein">{('Telefon: ' + tel_link() + '<br>') if F['telefon'] else ''}E-Mail: <a href="mailto:{F['email']}">{F['email']}</a></p>
-<div class="wa-box"><p><b>Schneller mit Fotos:</b> Schicken Sie uns ein paar Bilder der Räume per WhatsApp. Dann können wir den Aufwand vorab einschätzen.</p>{wa_knopf()}</div>
+{_wa_box() if F.get("whatsapp") else ""}
 </div>
 <form id="anfrage-form" data-mail="{F['email']}" data-seite="{E(seite)}">
 <label>Was soll geräumt werden?<select name="was"><option>Ganze Wohnung</option><option>Ganzes Haus</option><option>Haushaltsauflösung</option><option>Nachlass</option><option>Messie-Wohnung</option><option>Büro</option><option>Laden, Lager oder Werkstatt</option><option>Keller</option><option>Dachboden</option><option>Garage oder Schuppen</option><option>Sperrmüll</option><option>Tapeten oder Teppich entfernen</option><option>Endreinigung</option><option>Umzug</option><option>Einlagerung</option></select></label>
@@ -526,7 +534,7 @@ def kontakt_karte(frage):
 <div><span class="kreisicon">{mascot(64)}</span><h2 id="kk-h">Fragen Sie Hinnerk direkt</h2>
 <p>Sie möchten wissen, was es bei Ihnen kostet? Schreiben Sie uns kurz, was geräumt werden soll. Die Besichtigung ist kostenlos, danach bekommen Sie einen festen Preis.</p></div>
 <div class="kontakt-wege">
-{tel}<a class="kontakt-zeile" href="{wa_link()}" target="_blank" rel="noopener">{icon("chat", 24)}<span><b>WhatsApp</b>Fotos schicken</span></a>
+{tel}{(f'<a class="kontakt-zeile" href="{wa_link()}" target="_blank" rel="noopener">' + icon("chat", 24) + '<span><b>WhatsApp</b>Fotos schicken</span></a>') if F.get("whatsapp") else ""}
 <a class="kontakt-zeile" href="{mailto('Frage: ' + frage, ANFRAGE_TEXT)}">{icon("post", 24)}<span><b>E-Mail</b>{F['email']}</span></a>
 <a class="kontakt-zeile" href="#anfrage">{icon("kalender", 24)}<span><b>Besichtigung anfragen</b>Formular ausfüllen</span></a>
 <div class="kontakt-zeile">{icon("pin", 24)}<span><b>Hinnerk – Entrümpelung Hamburg</b>{E(F['strasse'])}, {F['plz']} {E(F['ort'])}</span></div>
@@ -1045,7 +1053,7 @@ def rechtliches():
 <h2>2. Hosting</h2><p>Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seite verarbeitet GitHub technisch notwendige Daten wie Ihre IP-Adresse, Datum und Uhrzeit des Abrufs sowie Browser-Informationen, um die Seite auszuliefern und vor Angriffen zu schützen. Rechtsgrundlage ist unser berechtigtes Interesse an einer sicheren und zuverlässigen Bereitstellung der Website (Art. 6 Abs. 1 lit. f DSGVO). GitHub ist eine Tochter der Microsoft Corporation; Microsoft ist nach dem EU-US Data Privacy Framework zertifiziert, auf dessen Grundlage Daten in die USA übermittelt werden dürfen.</p>
 <h2>3. Schriftarten und Bilder</h2><p>Schriftarten und Bilder dieser Website sind lokal eingebunden. Beim Aufruf werden keine Verbindungen zu Google oder anderen Anbietern aufgebaut.</p>
 <h2>4. Anfrageformular, E-Mail und Telefon</h2><p>Das Anfrageformular speichert keine Daten auf dieser Website, sondern öffnet Ihr E-Mail-Programm mit einer vorbereiteten Nachricht. Wenn Sie uns per E-Mail oder Telefon kontaktieren, verarbeiten wir Ihre Angaben (z. B. Name, Telefonnummer, Beschreibung des Auftrags, Wunschtermin), um Ihre Anfrage zu bearbeiten und ein Angebot zu erstellen. Rechtsgrundlage ist die Anbahnung oder Erfüllung eines Vertrags (Art. 6 Abs. 1 lit. b DSGVO). Wir löschen die Daten, wenn sie nicht mehr benötigt werden und keine gesetzlichen Aufbewahrungspflichten bestehen.</p>
-<h2>4a. WhatsApp</h2><p>Auf dieser Website gibt es einen Link zu WhatsApp. Beim Aufruf der Seite werden dadurch keine Daten an WhatsApp übertragen; erst wenn Sie den Link anklicken, öffnet sich WhatsApp. Schreiben Sie uns dort, verarbeitet auch WhatsApp (WhatsApp Ireland Limited, ein Unternehmen der Meta-Gruppe) Ihre Daten nach den eigenen Datenschutzbestimmungen; dabei können Daten in die USA übermittelt werden. Wir nutzen Ihre Nachricht und Fotos nur, um Ihre Anfrage zu bearbeiten (Art. 6 Abs. 1 lit. b DSGVO). Wenn Sie das nicht möchten, erreichen Sie uns per E-Mail oder Telefon.</p>
+{DS_WHATSAPP if F.get("whatsapp") else ""}
 <h2>5. Cookies</h2><p>Diese Website setzt keine Cookies und verwendet keine Analyse- oder Werbedienste.</p>
 <h2>6. Ihre Rechte</h2><p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren, in Hamburg beim Hamburgischen Beauftragten für Datenschutz und Informationsfreiheit.</p>""")
     p = head("Seite nicht gefunden | Hinnerk", "Diese Seite gibt es nicht.", "404.html", robots="noindex,follow") + bar()
