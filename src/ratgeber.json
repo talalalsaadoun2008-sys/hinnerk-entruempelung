@@ -308,7 +308,7 @@
   "abschnitte": [
    {
     "h2": "Möglichkeiten in Hamburg",
-    "html": "<ul><li><b>Stilbruch:</b> Das Gebrauchtwarenkaufhaus ist ein Tochterunternehmen der Stadtreinigung Hamburg. Privatpersonen können gut erhaltene Dinge dort abgeben, etwa in Altona in der Ruhrstraße 51.</li><li><b>Soziale Kaufhäuser und Kleiderkammern:</b> Viele nehmen gut erhaltene Möbel, Kleidung und Hausrat. Fragen Sie vorher, was gerade gebraucht wird.</li><li><b>Verschenken oder verkaufen:</b> Über Kleinanzeigen, Nachbarschafts-Apps oder Aushänge im Haus.</li></ul>"
+    "html": "<ul><li><b>Stilbruch:</b> Das Gebrauchtwarenkaufhaus ist ein Tochterunternehmen der Stadtreinigung Hamburg. Privatpersonen können gut erhaltene Dinge dort abgeben, etwa in Altona in der Ruhrstraße 51.</li><li><b>Soziale Kaufhäuser und Kleiderkammern:</b> Viele nehmen gut erhaltene Möbel, Kleidung und Hausrat. Fragen Sie vorher, was gerade gebraucht wird. Mehr zu Kleidung: <a href=\"alte-kleidung-entsorgen-hamburg.html\">Alte Kleidung entsorgen</a>.</li><li><b>Verschenken oder verkaufen:</b> Über Kleinanzeigen, Nachbarschafts-Apps oder Aushänge im Haus.</li></ul>"
    },
    {
     "h2": "Was sich lohnt – und was nicht",
@@ -386,7 +386,7 @@
   "abschnitte": [
    {
     "h2": "Kostenlos für Hamburger Privathaushalte",
-    "html": "<p>Laut Stadtreinigung in haushaltsüblicher Menge und Art unter anderem:</p><ul><li>Sperrmüll (bis 2 m lang), zum Beispiel eine alte <a href=\"matratze-entsorgen-hamburg.html\">Matratze</a></li><li>Altholz, auch imprägniertes Holz</li><li>Elektro- und Elektronikgeräte</li><li>Schrott, Kabel, Buntmetalle (keine Kfz-Teile)</li><li>Fahrräder</li><li>Kleidung und Textilien (in Säcken), Schuhe (paarweise zusammengebunden)</li><li>Altpapier, Glasflaschen, Verpackungen</li><li>Grünabfälle, Strauch- und Baumschnitt</li><li>Batterien, Leuchtstoffröhren, Energiesparlampen, LED-Leuchten</li><li>Tonerkartuschen und Tintenpatronen</li></ul>"
+    "html": "<p>Laut Stadtreinigung in haushaltsüblicher Menge und Art unter anderem:</p><ul><li>Sperrmüll (bis 2 m lang), zum Beispiel eine alte <a href=\"matratze-entsorgen-hamburg.html\">Matratze</a></li><li>Altholz, auch imprägniertes Holz</li><li>Elektro- und Elektronikgeräte</li><li>Schrott, Kabel, Buntmetalle (keine Kfz-Teile)</li><li>Fahrräder</li><li>Kleidung und Textilien (in Säcken), Schuhe (paarweise zusammengebunden) – mehr unter <a href=\"alte-kleidung-entsorgen-hamburg.html\">Alte Kleidung entsorgen</a></li><li>Altpapier, Glasflaschen, Verpackungen</li><li>Grünabfälle, Strauch- und Baumschnitt</li><li>Batterien, Leuchtstoffröhren, Energiesparlampen, LED-Leuchten</li><li>Tonerkartuschen und Tintenpatronen</li></ul>"
    },
    {
     "h2": "Mit Grenzen oder Gebühr",
@@ -949,6 +949,51 @@
    {
     "titel": "HEG Hamburger Entsorgungsgesellschaft: Dienstleistungsbroschüre",
     "url": "https://files.stadtreinigung.hamburg/website/gewerbekunden/downloads-links/broschueren/HEG_Dienstleistungsbroschuere.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "alte-kleidung-entsorgen-hamburg",
+  "frage": "Wohin mit alter Kleidung in Hamburg?",
+  "kurz_titel": "Alte Kleidung entsorgen",
+  "title": "Alte Kleidung entsorgen in Hamburg: Container, Recyclinghof | Hinnerk",
+  "description": "Wohin mit Altkleidern in Hamburg? Tragbares spenden oder in geprüfte Container, Textilien kostenlos zum Recyclinghof, Kaputtes in den Restmüll. Was seit 2025 gilt.",
+  "foto": "kartons",
+  "kurz": "Tragbare Kleidung geben Sie in Hamburg am besten an Kleiderkammern, Sozialkaufhäuser oder in einen genehmigten Altkleidercontainer. Die Recyclinghöfe der Stadtreinigung nehmen Kleidung und Textilien kostenlos an, Schuhe paarweise zusammengebunden. Stark verschmutzte oder kaputte Textilien gehören laut Verbraucherzentrale Hamburg weiterhin in den Restmüll – auch nach der neuen Regel von 2025.",
+  "abschnitte": [
+   {
+    "h2": "Tragbare Kleidung: spenden",
+    "html": "<p>Saubere, heile Kleidung hilft anderen Menschen weiter. In Hamburg gibt es dafür mehrere Wege:</p><ul><li><b>Kleiderkammern:</b> Sie geben Spenden direkt an Bedürftige weiter, zum Beispiel Hanseatic Help. Weitere Stellen listet hamburg.de. Fragen Sie vorher, was gerade gebraucht wird.</li><li><b>Sozialkaufhäuser und Stilbruch:</b> Viele nehmen neben Möbeln auch Kleidung und Hausrat – mehr im Ratgeber <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</li><li><b>Paketspende:</b> Organisationen wie die Brockensammlung Bethel oder die Deutsche Kleiderstiftung nehmen Kleidung auch per Paket an.</li><li><b>Verkaufen:</b> Gut erhaltene Markenkleidung lässt sich über Secondhand-Läden, Flohmärkte oder Online-Portale verkaufen.</li></ul>"
+   },
+   {
+    "h2": "Altkleidercontainer: auf seriöse Sammler achten",
+    "html": "<p>Altkleidercontainer müssen genehmigt sein. Laut Verbraucherzentrale Hamburg erkennen Sie seriöse Container daran, dass Name, Anschrift und Telefonnummer des Sammlers darauf stehen. Gute Zeichen sind außerdem das FairWertung-Siegel, das DZI-Spendensiegel oder das bvse-Qualitätssiegel für Textilsammlung. Vorsicht: Manche Anbieter nutzen Symbole, die echten Siegeln zum Verwechseln ähnlich sehen.</p><p>Die Stadtreinigung Hamburg selbst stellt keine Sammelcontainer für Textilien auf. Werfen Sie Kleidung in Säcken ein und stellen Sie nichts neben einen vollen Container – das gilt schnell als illegal abgestellter Müll, ähnlich wie beim <a href=\"zu-verschenken-an-die-strasse-stellen.html\">„Zu verschenken“-Karton an der Straße</a>.</p>"
+   },
+   {
+    "h2": "Recyclinghof: kostenlos für Hamburger Haushalte",
+    "html": "<p>Die 12 Recyclinghöfe der Stadtreinigung nehmen Kleidung und Textilien kostenlos an – laut Stadtreinigung in Säcken und hygienisch unbedenklich. Schuhe binden Sie paarweise zusammen. Auch Bettwäsche, Gardinen und Tischdecken können Sie abgeben. Was die Höfe sonst annehmen: <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg – was darf hin?</a></p>"
+   },
+   {
+    "h2": "Kaputt oder verschmutzt: Restmüll",
+    "html": "<p>Seit dem 1. Januar 2025 müssen Alttextilien in Deutschland getrennt gesammelt werden. Viele haben das so verstanden, dass jedes kaputte T-Shirt nicht mehr in die Restmülltonne darf. Die Verbraucherzentrale Hamburg rät trotzdem: Stark verschmutzte oder kaputte Textilien gehören weiterhin in den Restmüll. Für sie gibt es bisher weder passende Sammelsysteme noch großflächige Recyclingverfahren. Auch Lumpen und schmutzige Putzlappen gehören nicht in den Altkleidercontainer.</p><p>Nicht zu den Altkleidern zählen außerdem:</p><ul><li><b>Teppiche und Teppichboden:</b> Sperrmüll – siehe <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden</a>.</li><li><b>Matratzen:</b> ebenfalls Sperrmüll, siehe <a href=\"matratze-entsorgen-hamburg.html\">Matratze entsorgen</a>.</li></ul>"
+   },
+   {
+    "h2": "Ganze Kleiderschränke bei einer Auflösung",
+    "html": "<p>Bei einer Wohnungs- oder Haushaltsauflösung kommen oft viele Säcke Kleidung zusammen. Sortieren Sie zuerst aus, was Sie behalten oder spenden möchten. Den Rest nimmt Hinnerk mit – zusammen mit Möbeln, Hausrat und Elektrogeräten – und bringt alles getrennt zur Entsorgung. Erst kostenlose Besichtigung, dann ein fester Preis. Mehr dazu: <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung in Hamburg</a> und <a href=\"was-nimmt-ein-entruempler-mit.html\">Was nimmt ein Entrümpler mit?</a></p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "Verbraucherzentrale Hamburg: Kleidung entsorgen – wohin mit den alten Klamotten?",
+    "url": "https://www.vzhh.de/themen/umwelt-nachhaltigkeit/kleidung-textilien/kleidung-entsorgen-wohin-den-alten-klamotten"
+   },
+   {
+    "titel": "Verbraucherzentrale Hamburg: Verwirrung um Getrenntsammlungspflicht für Altkleider (20.02.2025)",
+    "url": "https://www.vzhh.de/presse/verwirrung-um-getrenntsammlungspflicht-fuer-altkleider"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg: Preisliste Recyclinghöfe 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
    }
   ]
  }
