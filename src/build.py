@@ -52,6 +52,8 @@ ZUSATZ = {"tapeten-teppich-entfernen-hamburg", "endreinigung-hamburg", "umzug-ha
 # Talal (27.10.2026): alle 99 Stadtteile bei Google lassen. True = alle indexierbar.
 # False = nur KERN_ORTE indexierbar (Schutz gegen Googles Doorway-Regel, siehe Obsidian „Google-Leitfaden – was Google mag“).
 ALLE_ORTE_INDEXIEREN = True
+# Bezirks-Seiten (Leistung × Bezirk): seit 14.11.2026 auf noindex (Talals Entscheidung), bleiben online
+BEZIRKE_INDEXIEREN = False
 KERN_ORTE = ["Altona-Altstadt", "Altona-Nord", "Ottensen", "Bahrenfeld", "Sternschanze", "St. Pauli", "Eimsbüttel", "Eppendorf",
              "Winterhude", "Barmbek-Nord", "Wandsbek", "Rahlstedt", "Blankenese", "Harburg", "Bergedorf"]
 # Ab-Preis je Leistung (aus PREISE, siehe preise()). None = nur Link zum Rechner.
@@ -761,7 +763,7 @@ def llms_txt():
     zeilen += [f"- [Preise und Kostenrechner]({BASE}preise.html)"]
     zeilen += ["", "## Über uns und Kontakt", "", f"- [Über Hinnerk]({BASE}ueber-hinnerk.html)", f"- [Kontakt]({BASE}kontakt.html)"]
     zeilen += ["", "## Stadtteile", "", f"- [Alle 99 Stadtteile mit Recyclinghof in der Nähe]({BASE}einsatzgebiet.html)"]
-    if BZ:
+    if BZ and BEZIRKE_INDEXIEREN:
         zeilen += ["", "## Leistungen nach Bezirk", ""]
         for b in BEZIRKE:
             teile = [f"[{L_BY_SLUG[x['leistung']]['name']}]({BASE}{x['slug']}.html)" for x in BZ if x["bezirk"] == b]
@@ -894,7 +896,7 @@ def ortsseite(o, alle_im_bezirk):
     kurz = (f"<h2>{E(pick(n + 'h2b', H2_KURZ).format(**v))}</h2><p>{E(o['geschichte'])}</p>" if o.get("geschichte") else "")
     nach = "".join(f'<li><a href="{SLUG_BY_NAME[x]}.html">{E(x)}</a></li>' if x in SLUG_BY_NAME else f"<li><span>{E(x)}</span></li>" for x in o.get("nachbarn", []))
     bez = "".join(f'<li><a href="{x["slug"]}.html">{E(x["name"])}</a></li>' for x in alle_im_bezirk if x["slug"] != o["slug"])
-    leist = "".join(f'<li><a href="{BZ_BY[(l["slug"], b)]["slug"] if (l["slug"], b) in BZ_BY else l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)
+    leist = "".join(f'<li><a href="{BZ_BY[(l["slug"], b)]["slug"] if (BEZIRKE_INDEXIEREN and (l["slug"], b) in BZ_BY) else l["slug"]}.html">{E(l["name"])}</a></li>' for l in LEIST)
     quellen = "".join(f'<li><a href="{E(q["url"])}" rel="nofollow noopener">{E(q["titel"])}</a></li>' for q in o.get("quellen", []))
     quellen += '<li><a href="https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf" rel="nofollow noopener">Stadtreinigung Hamburg: INFO-Broschüre 2026</a></li>'
     page += f"""<section class="abschnitt" aria-label="Entrümpelung in {E(n)}">
@@ -942,7 +944,7 @@ def bezirksleistung(e):
     schema = [ld, faq_schema(e["faq"]), {"@type": "Service", "name": e["h1"], "serviceType": n, "provider": {"@id": BASE + "#firma"},
               "areaServed": {"@type": "AdministrativeArea", "name": f"Bezirk {b}", "containedInPlace": {"@type": "City", "name": "Hamburg"}}}]
     bk = L_FOTO[l["slug"]]
-    page = head(e["title"], e["description"], e["slug"] + ".html", schema, preload=bk) + bar()
+    page = head(e["title"], e["description"], e["slug"] + ".html", schema, robots="index,follow" if BEZIRKE_INDEXIEREN else "noindex,follow", preload=bk) + bar()
     page += held(E(e["h1"]), e["lead"], "Kostenlos besichtigen lassen", "#anfrage", bk, eyebrow=f"Bezirk {b}", klein=True)
     secs = "".join(f'<h2>{E(a["h2"])}</h2>{a["html"]}' for a in e["abschnitte"])
     orte = sorted([o for o in ORTE if o["bezirk"] == b], key=lambda x: x["name"])
@@ -1152,6 +1154,6 @@ if __name__ == "__main__":
     einsatzgebiet()
     rechtliches()
     favicon()
-    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["preise.html", "ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE] + [e["slug"] + ".html" for e in BZ] + [u["slug"] + ".html" for u in UMLAND]
+    pfade = ["index.html"] + [l["slug"] + ".html" for l in LEIST] + ["preise.html", "ratgeber.html", "ueber-hinnerk.html", "kontakt.html"] + [r["slug"] + ".html" for r in RAT] + ["einsatzgebiet.html"] + [o["slug"] + ".html" for o in ORTE if ALLE_ORTE_INDEXIEREN or o["name"] in KERN_ORTE] + ([e["slug"] + ".html" for e in BZ] if BEZIRKE_INDEXIEREN else []) + [u["slug"] + ".html" for u in UMLAND]
     sitemap(pfade)
     print(f"Fertig: {len(pfade)} Seiten in der Sitemap, Ausgabe: {OUT}")
