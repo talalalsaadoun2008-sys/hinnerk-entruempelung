@@ -914,7 +914,7 @@
   "abschnitte": [
    {
     "h2": "Was zählt als Bauschutt?",
-    "html": "<p>Bauschutt ist mineralischer Abfall: Steine, Ziegel, Beton, Mörtel, Putz und Fliesen. Er fällt an, wenn Sie Bad, Küche oder Keller renovieren. Wichtig ist, dass er sortenrein ist. Holz, Kunststoff, Folien, Kabel oder Dämmstoffe gehören nicht in den Bauschutt. Einige Dinge, die man dafür halten könnte, sind keiner:</p><ul><li><b>Waschbecken, Toilette, Duschwanne:</b> Sanitärkeramik zählt laut Stadtreinigung zum Sperrmüll – siehe <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden</a>.</li><li><b>Alte Türen, Dielen, Holzverkleidung:</b> Das ist Altholz und darf auf dem Recyclinghof kostenlos abgegeben werden.</li><li><b>Farbeimer mit Resten:</b> Problemstoffe, siehe <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll entsorgen</a>.</li></ul>"
+    "html": "<p>Bauschutt ist mineralischer Abfall: Steine, Ziegel, Beton, Mörtel, Putz und Fliesen. Er fällt an, wenn Sie Bad, Küche oder Keller renovieren. Wichtig ist, dass er sortenrein ist. Holz, Kunststoff, Folien, Kabel oder Dämmstoffe gehören nicht in den Bauschutt. Auch ein altes Waschbecken, eine Toilette oder eine Duschwanne zählen als Bauschutt: Laut Info-Broschüre 2026 nimmt die Sperrmüllabfuhr der Stadtreinigung Sanitärkeramik nicht mit. Einige andere Dinge, die man für Bauschutt halten könnte, sind keiner:</p><ul><li><b>Alte Türen, Dielen, Holzverkleidung:</b> Das ist Altholz und darf auf dem Recyclinghof kostenlos abgegeben werden.</li><li><b>Farbeimer mit Resten:</b> Problemstoffe, siehe <a href=\"sondermuell-entsorgen-hamburg.html\">Sondermüll entsorgen</a>.</li></ul>"
    },
    {
     "h2": "Bis 0,5 m³: Recyclinghof",
@@ -967,11 +967,11 @@
    },
    {
     "h2": "Altkleidercontainer: auf seriöse Sammler achten",
-    "html": "<p>Altkleidercontainer müssen genehmigt sein. Laut Verbraucherzentrale Hamburg erkennen Sie seriöse Container daran, dass Name, Anschrift und Telefonnummer des Sammlers darauf stehen. Gute Zeichen sind außerdem das FairWertung-Siegel, das DZI-Spendensiegel oder das bvse-Qualitätssiegel für Textilsammlung. Vorsicht: Manche Anbieter nutzen Symbole, die echten Siegeln zum Verwechseln ähnlich sehen.</p><p>Die Stadtreinigung Hamburg selbst stellt keine Sammelcontainer für Textilien auf. Werfen Sie Kleidung in Säcken ein und stellen Sie nichts neben einen vollen Container – das gilt schnell als illegal abgestellter Müll, ähnlich wie beim <a href=\"zu-verschenken-an-die-strasse-stellen.html\">„Zu verschenken“-Karton an der Straße</a>.</p>"
+    "html": "<p>Altkleidercontainer müssen genehmigt sein. Laut Verbraucherzentrale Hamburg erkennen Sie seriöse Container daran, dass Name, Anschrift und Telefonnummer des Sammlers darauf stehen. Gute Zeichen sind außerdem das FairWertung-Siegel, das DZI-Spendensiegel oder das bvse-Qualitätssiegel für Textilsammlung. Vorsicht: Manche Anbieter nutzen Symbole, die echten Siegeln zum Verwechseln ähnlich sehen.</p><p>Auch die Stadtreinigung Hamburg hat eigene Altkleidercontainer, laut Info-Broschüre 2026 für Haushalts- und Bekleidungstextilien sowie paarweise gebündelte Schuhe. Werfen Sie Kleidung in Säcken ein und stellen Sie nichts neben einen vollen Container – das gilt schnell als illegal abgestellter Müll, ähnlich wie beim <a href=\"zu-verschenken-an-die-strasse-stellen.html\">„Zu verschenken“-Karton an der Straße</a>.</p>"
    },
    {
     "h2": "Recyclinghof: kostenlos für Hamburger Haushalte",
-    "html": "<p>Die 12 Recyclinghöfe der Stadtreinigung nehmen Kleidung und Textilien kostenlos an – laut Stadtreinigung in Säcken und hygienisch unbedenklich. Schuhe binden Sie paarweise zusammen. Auch Bettwäsche, Gardinen und Tischdecken können Sie abgeben. Was die Höfe sonst annehmen: <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg – was darf hin?</a></p>"
+    "html": "<p>Die 12 Recyclinghöfe der Stadtreinigung nehmen Kleidung und Textilien kostenlos an – laut Stadtreinigung in Säcken oder Tüten, nicht lose, und nur hygienisch unbedenklich und wiederverwendbar. Schuhe binden Sie paarweise zusammen. Auch Bettwäsche, Gardinen und Tischdecken können Sie abgeben. Was die Höfe sonst annehmen: <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg – was darf hin?</a></p>"
    },
    {
     "h2": "Kaputt oder verschmutzt: Restmüll",
@@ -994,6 +994,10 @@
    {
     "titel": "Stadtreinigung Hamburg: Preisliste Recyclinghöfe 2026",
     "url": "https://files.stadtreinigung.hamburg/SRH251008_Preisliste_Recyclinghoefe_2026.pdf"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg: INFO-Broschüre 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf"
    }
   ]
  },
@@ -1008,7 +1012,7 @@
   "abschnitte": [
    {
     "h2": "Gut erhalten: verkaufen oder weitergeben",
-    "html": "<p>Bevor Bücher ins Altpapier gehen, lohnt ein kurzer Blick, ob sie noch jemand lesen möchte:</p><ul><li><b>Verkaufen:</b> Ankaufportale wie Momox oder Rebuy kaufen gebrauchte Bücher über die ISBN an. Neuere Titel bringen auf Online-Marktplätzen oft mehr.</li><li><b>Recyclinghof:</b> Gut erhaltene Bücher sammeln die Recyclinghöfe laut Stadtreinigung für die zwei Gebrauchtwarenkaufhäuser, darunter Stilbruch. Mehr dazu im Ratgeber <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</li><li><b>Sozialkaufhäuser und Bücherschränke:</b> Viele soziale Kaufhäuser nehmen Bücher. Für einzelne Bücher gibt es offene Bücherschränke in vielen Stadtteilen. Fragen Sie vorher, was gebraucht wird.</li></ul><p>Veraltete Reiseführer, Lexika oder Telefonbücher will in der Regel niemand mehr haben – die dürfen direkt ins Altpapier.</p>"
+    "html": "<p>Bevor Bücher ins Altpapier gehen, lohnt ein kurzer Blick, ob sie noch jemand lesen möchte:</p><ul><li><b>Verkaufen:</b> Ankaufportale wie Momox oder Rebuy kaufen gebrauchte Bücher über die ISBN an. Neuere Titel bringen auf Online-Marktplätzen oft mehr.</li><li><b>Recyclinghof:</b> Gut erhaltene Bücher sammeln die Recyclinghöfe laut Stadtreinigung für ihre zwei Gebrauchtwarenkaufhäuser Stilbruch. Mehr dazu im Ratgeber <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</li><li><b>Sozialkaufhäuser und Bücherschränke:</b> Viele soziale Kaufhäuser nehmen Bücher. Für einzelne Bücher gibt es offene Bücherschränke in vielen Stadtteilen. Fragen Sie vorher, was gebraucht wird.</li></ul><p>Veraltete Reiseführer, Lexika oder Telefonbücher will in der Regel niemand mehr haben – die dürfen direkt ins Altpapier.</p>"
    },
    {
     "h2": "Nicht mehr brauchbar: Altpapier",
