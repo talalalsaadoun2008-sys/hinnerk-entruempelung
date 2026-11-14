@@ -377,3 +377,18 @@ a.kontakt-zeile:hover{box-shadow:0 0 0 2px var(--blau)}
 .wa-box p{margin:0 0 4px}
 .knopf-wa{display:inline-flex;align-items:center;gap:10px;background:#25D366;color:#0b2e1a;font-weight:600;text-decoration:none}
 .knopf-wa .ic{flex:none}
+/* Echte Fotos aus Aufträgen */
+.auftraege h2{margin:0 0 24px}
+.vn-liste{display:grid;gap:20px;align-items:start;grid-template-columns:repeat(auto-fill,minmax(min(100%,440px),1fr))}
+.vn{margin:0;background:#fff;border-radius:var(--r);padding:10px;box-shadow:0 1px 0 var(--linie)}
+.vn-paar{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.vn-bild{position:relative;overflow:hidden;border-radius:calc(var(--r) - 8px);background:var(--sand)}
+.vn-paar .vn-bild{aspect-ratio:4/3}
+.vn-paar.hoch .vn-bild{aspect-ratio:3/4}
+.vn.einzel .vn-bild.quer{aspect-ratio:16/10}
+.vn.einzel .vn-bild.hoch{aspect-ratio:1/1}
+.vn.einzel .vn-bild.quadrat{aspect-ratio:1/1}
+.vn-bild img{display:block;width:100%;height:100%;object-fit:cover}
+.vn-label{position:absolute;left:8px;top:8px;background:var(--blau);color:#fff;font:600 12px/1 "Figtree",sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:7px 10px;border-radius:999px}
+.vn-label.nach{background:var(--gelb);color:var(--blau)}
+.vn figcaption{font-size:15px;line-height:1.45;color:var(--leise);margin:10px 4px 2px}

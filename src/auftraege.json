@@ -1,0 +1,165 @@
+{
+ "wohnungsaufloesung-hamburg": [
+  {
+   "vorher": {
+    "datei": "wohnungsaufloesung-hamburg-wohnzimmer-vorher.webp",
+    "w": 1000,
+    "h": 620,
+    "alt": "Volles Wohnzimmer mit Möbeln, Kisten und Pflanzen vor der Wohnungsauflösung"
+   },
+   "nachher": {
+    "datei": "wohnungsaufloesung-hamburg-wohnzimmer-nachher.webp",
+    "w": 1000,
+    "h": 619,
+    "alt": "Dasselbe Wohnzimmer leer geräumt nach der Wohnungsauflösung"
+   },
+   "text": "Wohnzimmer vor und nach der Räumung"
+  },
+  {
+   "vorher": {
+    "datei": "wohnungsaufloesung-hamburg-zimmer-vorher.webp",
+    "w": 560,
+    "h": 545,
+    "alt": "Zimmer mit Kartons, Säcken und Tisch vor der Räumung"
+   },
+   "nachher": {
+    "datei": "wohnungsaufloesung-hamburg-zimmer-nachher.webp",
+    "w": 560,
+    "h": 545,
+    "alt": "Leeres Zimmer mit Laminatboden nach der Räumung"
+   },
+   "text": "Zimmer vor und nach der Räumung"
+  }
+ ],
+ "messie-wohnung-raeumen-hamburg": [
+  {
+   "vorher": {
+    "datei": "messie-wohnung-hamburg-kueche-vorher.webp",
+    "w": 342,
+    "h": 535,
+    "alt": "Vollgestellte Küche mit Dosen, Töpfen und Tüten vor der Räumung"
+   },
+   "nachher": {
+    "datei": "messie-wohnung-hamburg-kueche-nachher.webp",
+    "w": 344,
+    "h": 535,
+    "alt": "Leere Küche nach der Räumung, Boden und Wände noch verschmutzt"
+   },
+   "text": "Küche vor und nach der Räumung. Danach kann gereinigt oder renoviert werden.",
+   "hoch": true
+  },
+  {
+   "bild": {
+    "datei": "messie-wohnung-hamburg-zimmer-vorher.webp",
+    "w": 1000,
+    "h": 750,
+    "alt": "Zimmer voller Tüten, Papier und Möbel vor der Räumung"
+   },
+   "text": "Ein Zimmer vor der Räumung"
+  }
+ ],
+ "dachboden-entruempeln-hamburg": [
+  {
+   "vorher": {
+    "datei": "dachboden-entruempeln-hamburg-vorher-1.webp",
+    "w": 292,
+    "h": 233,
+    "alt": "Dachboden mit Kartons, Säcken und Möbeln zwischen den Stützen"
+   },
+   "nachher": {
+    "datei": "dachboden-entruempeln-hamburg-nachher-1.webp",
+    "w": 293,
+    "h": 233,
+    "alt": "Derselbe Dachboden leer geräumt"
+   },
+   "text": "Dachboden vor und nach der Räumung"
+  },
+  {
+   "vorher": {
+    "datei": "dachboden-entruempeln-hamburg-vorher-2.webp",
+    "w": 293,
+    "h": 352,
+    "alt": "Gestapelte Kartons und Verpackungen unter dem Dach"
+   },
+   "nachher": {
+    "datei": "dachboden-entruempeln-hamburg-nachher-2.webp",
+    "w": 292,
+    "h": 352,
+    "alt": "Leerer Dachboden mit Fenster nach der Räumung"
+   },
+   "text": "Noch ein Teil desselben Dachbodens"
+  }
+ ],
+ "keller-entruempeln-hamburg": [
+  {
+   "bild": {
+    "datei": "keller-entruempeln-hamburg-kellerraum-leer.webp",
+    "w": 1200,
+    "h": 900,
+    "alt": "Leerer Kellerraum mit Heizkörper und kleinem Fenster"
+   },
+   "text": "Kellerraum nach unserem Einsatz"
+  },
+  {
+   "bild": {
+    "datei": "keller-entruempeln-hamburg-kellergang-leer.webp",
+    "w": 900,
+    "h": 1200,
+    "alt": "Leerer Kellergang mit Türen und Rohren an der Decke"
+   },
+   "text": "Kellergang nach unserem Einsatz"
+  }
+ ],
+ "haushaltsaufloesung-hamburg": [
+  {
+   "bild": {
+    "datei": "haushaltsaufloesung-hamburg-saecke-flur.webp",
+    "w": 900,
+    "h": 1200,
+    "alt": "Viele gefüllte Säcke im Flur einer Wohnung während der Haushaltsauflösung"
+   },
+   "text": "Mitten in einer Haushaltsauflösung: Alles ist verpackt und wird abgeholt"
+  }
+ ],
+ "tapeten-teppich-entfernen-hamburg": [
+  {
+   "bild": {
+    "datei": "tapeten-teppich-entfernen-hamburg-laminat.webp",
+    "w": 1200,
+    "h": 678,
+    "alt": "Herausgerissenes Laminat und alter Teppich auf dem Boden einer Wohnung"
+   },
+   "text": "Alter Bodenbelag kommt raus: Laminat und der Teppich darunter"
+  }
+ ],
+ "sperrmuell-abholen-hamburg": [
+  {
+   "bild": {
+    "datei": "sperrmuell-abholen-hamburg-holz-gitterbox.webp",
+    "w": 1000,
+    "h": 450,
+    "alt": "Gitterbox voller Altholz, daneben Paletten und ein Teppich"
+   },
+   "text": "Getrennt sammeln: Holz in die Gitterbox"
+  },
+  {
+   "bild": {
+    "datei": "sperrmuell-abholen-hamburg-metall-gitterbox.webp",
+    "w": 1000,
+    "h": 881,
+    "alt": "Gitterbox voller alter Kupfer- und Metallrohre"
+   },
+   "text": "Metall kommt extra, hier alte Rohre"
+  }
+ ],
+ "_startseite": [
+  [
+   "wohnungsaufloesung-hamburg",
+   0
+  ],
+  [
+   "dachboden-entruempeln-hamburg",
+   0
+  ]
+ ]
+}

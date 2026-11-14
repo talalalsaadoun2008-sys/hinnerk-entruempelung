@@ -25,6 +25,7 @@ BASE = SITE["base_url"]
 ORTE = json.loads((SRC / "stadtteile.json").read_text(encoding="utf-8"))
 LEIST = json.loads((SRC / "leistungen.json").read_text(encoding="utf-8"))
 FOTOS = json.loads((SRC / "fotos.json").read_text(encoding="utf-8"))
+AUFTR = json.loads((SRC / "auftraege.json").read_text(encoding="utf-8"))
 RAT = json.loads((SRC / "ratgeber.json").read_text(encoding="utf-8"))
 _KURZ = {l["slug"]: l for l in SITE["leistungen"]}
 for _l in LEIST:
@@ -159,6 +160,35 @@ def foto(key, cls="", lazy=True, sizes="100vw"):
     c = f' class="{cls}"' if cls else ""
     return (f'<img src="img/{b["datei"]}" width="{b["w"]}" height="{b["h"]}" alt="{E(b["alt"])}"'
             f'{c}{" loading=\"lazy\"" if lazy else " fetchpriority=\"high\""} decoding="async">')
+
+
+# ---------------------------------------------------------------- Echte Fotos aus Aufträgen
+def _vn_img(b, label=None):
+    form = "quer" if b["w"] > b["h"] * 1.1 else ("hoch" if b["h"] > b["w"] * 1.1 else "quadrat")
+    lab = f'<span class="vn-label{" nach" if label == "Nachher" else ""}">{label}</span>' if label else ""
+    return (f'<div class="vn-bild {form}"><img src="img/{b["datei"]}" width="{b["w"]}" height="{b["h"]}" alt="{E(b["alt"])}" '
+            f'loading="lazy" decoding="async">{lab}</div>')
+
+
+def auftrag_figur(e):
+    if "bild" in e:
+        inner = _vn_img(e["bild"])
+        cls = "vn einzel"
+    else:
+        inner = f'<div class="vn-paar{" hoch" if e.get("hoch") else ""}">{_vn_img(e["vorher"], "Vorher")}{_vn_img(e["nachher"], "Nachher")}</div>'
+        cls = "vn"
+    return f'<figure class="{cls}">{inner}<figcaption>{E(e["text"])}</figcaption></figure>'
+
+
+def auftraege(eintraege, titel="Vorher und nachher", hid="auf-h"):
+    if not eintraege:
+        return ""
+    figs = "".join(auftrag_figur(e) for e in eintraege)
+    return f"""<section class="abschnitt auftraege" aria-labelledby="{hid}">
+<p class="eyebrow">Aus unseren Aufträgen</p><h2 id="{hid}" data-auf>{E(titel)}</h2>
+<div class="vn-liste">{figs}</div>
+</section>
+"""
 
 
 def wa_link(text="Hallo Hinnerk, hier sind Fotos von dem, was geräumt werden soll. Ort: "):
@@ -785,6 +815,7 @@ def startseite():
     page += dinge()
     page += ablauf("In fünf Schritten leer", "Vom ersten Satz bis zum leeren Raum. Den Preis kennen Sie, bevor jemand eine Kiste anfasst.")
     page += vergleich()
+    page += auftraege([AUFTR[s][i] for s, i in AUFTR["_startseite"]], "Vorher und nachher", "auf-start")
     page += finder()
     page += fragen("Häufige Fragen", START_FAQ, n=len(START_FAQ))
     page += weitere_fragen(titel="Mehr Antworten")
@@ -810,6 +841,7 @@ def leistungsseite(l):
 <div class="lesen"><div class="text">{k}{secs}</div>{seitenkasten(l['name'] + ' in Hamburg', 'Kostenlos besichtigen lassen', L_PREIS.get(l['slug']))}</div>
 </section>
 """
+    page += auftraege(AUFTR.get(l["slug"], []), "So sieht es bei uns aus" if all("bild" in e for e in AUFTR.get(l["slug"], [])) else "Vorher und nachher")
     bz_l = [x for x in BZ if x["leistung"] == l["slug"]]
     if bz_l:
         chips = "".join(f'<li><a href="{x["slug"]}.html">{E(x["bezirk"])}</a></li>' for x in sorted(bz_l, key=lambda x: BEZIRKE.index(x["bezirk"])))
