@@ -419,7 +419,7 @@
   "abschnitte": [
    {
     "h2": "Wohin mit welchem Gerät?",
-    "html": "<ul><li><b>Große Geräte</b> (Kühlschrank, Waschmaschine, Herd): kostenlos auf dem Recyclinghof oder mit der Sperrmüllabholung der Stadtreinigung. Alles zum Kühlschrank – auch die Rücknahme im Handel: <a href=\"kuehlschrank-entsorgen-hamburg.html\">Kühlschrank entsorgen in Hamburg</a>.</li><li><b>Kleine Geräte</b> (Toaster, Föhn, Handy): Recyclinghof oder Elektrokleingeräte-Container – Geräte bis 50 cm breit und 35 cm hoch.</li><li><b>Nachtspeicheröfen:</b> nur nach telefonischer Beratung und Anmeldung bei der Stadtreinigung.</li><li><b>Gut erhaltene, funktionierende Geräte:</b> können beim Gebrauchtwarenkaufhaus Stilbruch abgegeben werden.</li></ul>"
+    "html": "<ul><li><b>Große Geräte</b> (Kühlschrank, Waschmaschine, Herd): kostenlos auf dem Recyclinghof oder mit der Sperrmüllabholung der Stadtreinigung. Alles zum Kühlschrank – auch die Rücknahme im Handel: <a href=\"kuehlschrank-entsorgen-hamburg.html\">Kühlschrank entsorgen in Hamburg</a> und <a href=\"waschmaschine-entsorgen-hamburg.html\">Waschmaschine entsorgen in Hamburg</a>.</li><li><b>Kleine Geräte</b> (Toaster, Föhn, Handy): Recyclinghof oder Elektrokleingeräte-Container – Geräte bis 50 cm breit und 35 cm hoch.</li><li><b>Nachtspeicheröfen:</b> nur nach telefonischer Beratung und Anmeldung bei der Stadtreinigung.</li><li><b>Gut erhaltene, funktionierende Geräte:</b> können beim Gebrauchtwarenkaufhaus Stilbruch abgegeben werden.</li></ul>"
    },
    {
     "h2": "Was vorher raus muss",
@@ -1077,7 +1077,56 @@
    },
    {
     "h2": "Weg 4: Abholen lassen – wir tragen",
-    "html": "<p>Hinnerk holt Kühlschrank, Gefriertruhe, Waschmaschine und anderen Sperrmüll direkt aus Wohnung oder Keller ab, auch aus oberen Etagen ohne Aufzug. Sie müssen keinen Termin mit der Stadtreinigung abstimmen, und wir bringen alles getrennt zur Entsorgung. Die Abholung kostet bei Hinnerk ab 129 €. Den festen Preis nennen wir vorher. Mehr dazu: <a href=\"sperrmuell-abholen-hamburg.html\">Sperrmüll abholen lassen</a>. Muss eine ganze Küche oder Wohnung leer werden, lohnt sich oft eine <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+    "html": "<p>Hinnerk holt Kühlschrank, Gefriertruhe, <a href=\"waschmaschine-entsorgen-hamburg.html\">Waschmaschine</a> und anderen Sperrmüll direkt aus Wohnung oder Keller ab, auch aus oberen Etagen ohne Aufzug. Sie müssen keinen Termin mit der Stadtreinigung abstimmen, und wir bringen alles getrennt zur Entsorgung. Die Abholung kostet bei Hinnerk ab 129 €. Den festen Preis nennen wir vorher. Mehr dazu: <a href=\"sperrmuell-abholen-hamburg.html\">Sperrmüll abholen lassen</a>. Muss eine ganze Küche oder Wohnung leer werden, lohnt sich oft eine <a href=\"haushaltsaufloesung-hamburg.html\">Haushaltsauflösung</a>.</p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "Stadtreinigung Hamburg: INFO-Broschüre 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg: Gebühren ab 1. Januar 2026",
+    "url": "https://files.stadtreinigung.hamburg/website/download/PDF/Abfallentsorgungsgebuehren.pdf"
+   },
+   {
+    "titel": "Umweltbundesamt: Alte Elektrogeräte richtig entsorgen",
+    "url": "https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/elektrogeraete/alte-elektrogeraete-richtig-entsorgen"
+   }
+  ]
+ },
+ {
+  "slug": "waschmaschine-entsorgen-hamburg",
+  "frage": "Wie entsorgt man eine alte Waschmaschine in Hamburg?",
+  "kurz_titel": "Waschmaschine entsorgen",
+  "title": "Waschmaschine entsorgen in Hamburg 2026: kostenlos oder ab 35 € | Hinnerk",
+  "description": "Alte Waschmaschine oder Trockner loswerden in Hamburg: kostenlos auf dem Recyclinghof, beim Neukauf über den Händler oder per Sperrmüll-Abholung ab 35 €. So bereiten Sie das Gerät vor.",
+  "foto": "transporter",
+  "kurz": "Eine alte Waschmaschine ist Elektroschrott und gehört nicht in den Restmüll. Hamburger Privathaushalte geben sie kostenlos auf den Recyclinghöfen der Stadtreinigung ab. Beim Kauf einer neuen Maschine müssen größere Händler die alte kostenlos zurücknehmen, Versandhändler müssen eine Abholung anbieten. Ohne Auto holt die Stadtreinigung sie als Sperrmüll ab – laut Gebührenliste 2026 für 35 € (draußen bereitgestellt) oder 50 € (aus dem Gebäude geholt).",
+  "abschnitte": [
+   {
+    "h2": "Vorher: Wasser raus, Schläuche ab",
+    "html": "<ul><li><b>Strom und Wasser trennen:</b> Stecker ziehen und den Wasserhahn zudrehen. Dann Zulauf- und Ablaufschlauch abnehmen. Die Stadtreinigung verlangt für die Abholung, dass Geräte mit Wasseranschluss vorher abgeklemmt sind.</li><li><b>Restwasser ablassen:</b> In Trommel, Pumpe und Schläuchen steht fast immer noch Wasser. Bei vielen Maschinen sitzt unten vorne hinter einer Klappe das Flusensieb oder ein kleiner Notentleerungs-Schlauch. Legen Sie Handtücher und eine flache Schale bereit. Wie es bei Ihrem Modell geht, steht in der Bedienungsanleitung.</li><li><b>Trommel leeren:</b> Vergessene Socken, Münzen und Reste aus der Waschmittelschublade herausnehmen.</li><li><b>Tragen planen:</b> Eine Waschmaschine ist schwer, vor allem wegen der Gewichte im Inneren. Tragen Sie sie zu zweit, mit Gurten oder einer Sackkarre, und schützen Sie im Treppenhaus Stufen und Wände.</li></ul>"
+   },
+   {
+    "h2": "Weg 1: Kostenlos zum Recyclinghof",
+    "html": "<p>Auf allen 12 Recyclinghöfen der Stadtreinigung geben Hamburger Privathaushalte Elektrogeräte kostenlos ab – auch Waschmaschinen, Trockner und Spülmaschinen, in haushaltsüblicher Menge. Sie brauchen dafür einen Transporter, einen Anhänger oder einen großen Kombi. Was die Höfe sonst annehmen, steht im Ratgeber <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg: Was darf hin?</a></p>"
+   },
+   {
+    "h2": "Weg 2: Beim Neukauf über den Händler",
+    "html": "<p>Kaufen Sie eine neue Waschmaschine, können Sie die alte oft kostenlos beim Händler lassen. Laut Umweltbundesamt gilt die Rücknahmepflicht für:</p><ul><li>Geschäfte mit mindestens 400 m² Verkaufsfläche für Elektrogeräte,</li><li>Lebensmittelhändler mit mindestens 800 m² Verkaufsfläche, die mehrmals im Jahr Elektrogeräte anbieten,</li><li>Online- und Versandhändler mit mindestens 400 m² Lager- und Versandfläche für Elektrogeräte.</li></ul><p>Große Geräte nimmt der Händler beim Kauf eines Geräts derselben Art zurück – also alte Waschmaschine gegen neue. Für Großgeräte über 50 cm müssen rücknahmepflichtige Versandhändler eine kostenlose Abholung bei Ihnen zu Hause anbieten. Der Händler muss Sie schon beim Kauf nach dem Altgerät fragen. Sagen Sie also gleich Bescheid und stellen Sie die alte Maschine abgeklemmt und leer bereit.</p>"
+   },
+   {
+    "h2": "Weg 3: Sperrmüll-Abholung der Stadtreinigung",
+    "html": "<p>Die Stadtreinigung holt große Elektrogeräte als Sperrmüll ab. Bestellen können Sie telefonisch unter 040/2576-2576 oder online. Laut Gebührenliste ab 1. Januar 2026:</p><ul><li>Bis 8 m³, draußen auf dem Grundstück bereitgestellt: <b>35 €</b></li><li>Bis 8 m³, aus Wohnung, Keller oder Dachboden geholt: <b>50 €</b></li><li>Jeder weitere Kubikmeter: <b>5 €</b></li><li>Eilabholung (SPRINT): <b>zusätzlich 95 €</b></li></ul><p>Die Gebühr gilt pro Abholung. Steht noch ein <a href=\"kuehlschrank-entsorgen-hamburg.html\">alter Kühlschrank</a>, eine <a href=\"matratze-entsorgen-hamburg.html\">Matratze</a> oder ein <a href=\"sofa-entsorgen-hamburg.html\">Sofa</a> herum, melden Sie alles zusammen an. Sie oder eine Vertrauensperson müssen bei der Abholung da sein. Den Ablauf erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
+   },
+   {
+    "h2": "Läuft sie noch?",
+    "html": "<p>Gut erhaltene, funktionierende Geräte nehmen die Gebrauchtwarenkaufhäuser der Stadtreinigung (Stilbruch) an. Fragen Sie vorher nach, ob gerade Platz ist. Weitere Ideen zum Weitergeben: <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</p><p>Die Maschine mit Zettel „zu verschenken“ an den Gehweg zu stellen, ist keine gute Idee. Das gilt schnell als illegal abgestellter Abfall – mehr dazu im Ratgeber <a href=\"zu-verschenken-an-die-strasse-stellen.html\">„Zu verschenken“ an die Straße stellen</a>.</p>"
+   },
+   {
+    "h2": "Weg 4: Abholen lassen – wir tragen",
+    "html": "<p>Hinnerk holt Waschmaschine, Trockner, Kühlschrank und anderen Sperrmüll direkt aus Wohnung, Keller oder Waschküche ab, auch aus oberen Etagen ohne Aufzug. Sie müssen keinen Termin mit der Stadtreinigung abstimmen, und wir bringen alles getrennt zur Entsorgung. Die Abholung kostet bei Hinnerk ab 129 €. Den festen Preis nennen wir vorher. Mehr dazu: <a href=\"sperrmuell-abholen-hamburg.html\">Sperrmüll abholen lassen</a>. Muss der ganze Keller leer werden, lesen Sie weiter bei <a href=\"keller-entruempeln-hamburg.html\">Keller entrümpeln</a>. Andere Geräte: <a href=\"elektrogeraete-entsorgen-hamburg.html\">Elektrogeräte entsorgen in Hamburg</a>.</p>"
    }
   ],
   "quellen": [
