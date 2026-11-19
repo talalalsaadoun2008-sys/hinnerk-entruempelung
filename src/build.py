@@ -621,7 +621,7 @@ def ueber_uns():
     page += f"""<section class="abschnitt" aria-label="Über Hinnerk">
 <div class="lesen"><div class="text">{k}
 <h2>Wer hinter Hinnerk steht</h2>
-<p>Hinnerk ist ein Entrümpelungsbetrieb aus Hamburg. Inhaber ist {E(F['inhaber'])}, der Betrieb sitzt in der {E(F['strasse'])} in Altona. Von hier aus räumen wir in allen sieben Bezirken und allen 99 Hamburger Stadtteilen.</p>
+<p>Hinnerk ist ein Entrümpelungsbetrieb aus Hamburg. Inhaber ist {E(F['inhaber'])}, unsere Anschrift ist {E(F['strasse'])}, {F['plz']} {E(F['ort'])}-Altona. Von hier aus räumen wir in allen sieben Bezirken und allen 99 Hamburger Stadtteilen.</p>
 <h2>Warum „Hinnerk“?</h2>
 <p>Hinnerk ist Plattdeutsch für Heinrich – ein alter norddeutscher Name, so hamburgisch wie Speicher und Fleet. Der freundliche Kerl mit der Schiffermütze in unserem Logo ist unser Maskottchen.</p>
 <h2>Woran wir uns halten</h2>
