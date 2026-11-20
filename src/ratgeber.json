@@ -349,7 +349,7 @@
    },
    {
     "h2": "Was abgeholt wird – und was nicht so einfach",
-    "html": "<p>Sperrmüll ist, was nicht in die Restmülltonne passt: Möbel, <a href=\"matratze-entsorgen-hamburg.html\">Matratzen</a>, <a href=\"sofa-entsorgen-hamburg.html\">Sofas</a>, Schränke, große Elektrogeräte wie Kühlschrank und Waschmaschine, Fahrräder, Teppiche. Die Teile müssen von zwei Personen tragbar sein, sonst müssen sie zerlegt werden. Gefüllte Säcke, Kisten und Kartons nimmt die Stadtreinigung laut Broschüre nur begrenzt und gegen zusätzliche Gebühr mit. Elektrogeräte müssen abgeklemmt und transportfertig sein.</p>"
+    "html": "<p>Sperrmüll ist, was nicht in die Restmülltonne passt: Möbel, <a href=\"matratze-entsorgen-hamburg.html\">Matratzen</a>, <a href=\"sofa-entsorgen-hamburg.html\">Sofas</a>, Schränke, große Elektrogeräte wie Kühlschrank und Waschmaschine, Fahrräder, <a href=\"teppich-entsorgen-hamburg.html\">Teppiche</a>. Die Teile müssen von zwei Personen tragbar sein, sonst müssen sie zerlegt werden. Gefüllte Säcke, Kisten und Kartons nimmt die Stadtreinigung laut Broschüre nur begrenzt und gegen zusätzliche Gebühr mit. Elektrogeräte müssen abgeklemmt und transportfertig sein.</p>"
    },
    {
     "h2": "Wann sich eine Entrümpelungsfirma lohnt",
@@ -390,7 +390,7 @@
    },
    {
     "h2": "Mit Grenzen oder Gebühr",
-    "html": "<ul><li><b>Bauschutt:</b> nur in haushaltsüblicher Menge, höchstens 0,5 m³. Für mehr gibt es den MAXI BAG der Stadtreinigung. Kosten und Wege: <a href=\"bauschutt-entsorgen-hamburg.html\">Bauschutt entsorgen in Hamburg</a>.</li><li><b>Teppichreste:</b> gebührenpflichtig.</li><li><b>Problemstoffe</b> wie Farben, Lacke, Lösemittel, Säuren: viele sind kostenlos, aber nur in geschlossenen, beschrifteten, bruchsicheren Behältern.</li><li><b>Größere Mengen</b> nur in Ausnahmefällen nach schriftlicher Anfrage bei der Stadtreinigung.</li></ul>"
+    "html": "<ul><li><b>Bauschutt:</b> nur in haushaltsüblicher Menge, höchstens 0,5 m³. Für mehr gibt es den MAXI BAG der Stadtreinigung. Kosten und Wege: <a href=\"bauschutt-entsorgen-hamburg.html\">Bauschutt entsorgen in Hamburg</a>.</li><li><b>Teppichreste:</b> als Rolle oder in Bahnen anliefern. Klein geschnittene Stücke bis 50 × 50 cm sind gebührenpflichtig. Mehr: <a href=\"teppich-entsorgen-hamburg.html\">Teppich entsorgen</a>.</li><li><b>Problemstoffe</b> wie Farben, Lacke, Lösemittel, Säuren: viele sind kostenlos, aber nur in geschlossenen, beschrifteten, bruchsicheren Behältern.</li><li><b>Größere Mengen</b> nur in Ausnahmefällen nach schriftlicher Anfrage bei der Stadtreinigung.</li></ul>"
    },
    {
     "h2": "Wird nicht angenommen",
@@ -975,7 +975,7 @@
    },
    {
     "h2": "Kaputt oder verschmutzt: Restmüll",
-    "html": "<p>Seit dem 1. Januar 2025 müssen Alttextilien in Deutschland getrennt gesammelt werden. Viele haben das so verstanden, dass jedes kaputte T-Shirt nicht mehr in die Restmülltonne darf. Die Verbraucherzentrale Hamburg rät trotzdem: Stark verschmutzte oder kaputte Textilien gehören weiterhin in den Restmüll. Für sie gibt es bisher weder passende Sammelsysteme noch großflächige Recyclingverfahren. Auch Lumpen und schmutzige Putzlappen gehören nicht in den Altkleidercontainer.</p><p>Nicht zu den Altkleidern zählen außerdem:</p><ul><li><b>Teppiche und Teppichboden:</b> Sperrmüll – siehe <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden</a>.</li><li><b>Matratzen:</b> ebenfalls Sperrmüll, siehe <a href=\"matratze-entsorgen-hamburg.html\">Matratze entsorgen</a>.</li></ul>"
+    "html": "<p>Seit dem 1. Januar 2025 müssen Alttextilien in Deutschland getrennt gesammelt werden. Viele haben das so verstanden, dass jedes kaputte T-Shirt nicht mehr in die Restmülltonne darf. Die Verbraucherzentrale Hamburg rät trotzdem: Stark verschmutzte oder kaputte Textilien gehören weiterhin in den Restmüll. Für sie gibt es bisher weder passende Sammelsysteme noch großflächige Recyclingverfahren. Auch Lumpen und schmutzige Putzlappen gehören nicht in den Altkleidercontainer.</p><p>Nicht zu den Altkleidern zählen außerdem:</p><ul><li><b>Teppiche und Teppichboden:</b> Sperrmüll – siehe <a href=\"teppich-entsorgen-hamburg.html\">Teppich entsorgen</a>.</li><li><b>Matratzen:</b> ebenfalls Sperrmüll, siehe <a href=\"matratze-entsorgen-hamburg.html\">Matratze entsorgen</a>.</li></ul>"
    },
    {
     "h2": "Ganze Kleiderschränke bei einer Auflösung",
@@ -1141,6 +1141,51 @@
    {
     "titel": "Umweltbundesamt: Alte Elektrogeräte richtig entsorgen",
     "url": "https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/elektrogeraete/alte-elektrogeraete-richtig-entsorgen"
+   }
+  ]
+ },
+ {
+  "slug": "teppich-entsorgen-hamburg",
+  "frage": "Wie entsorgt man einen alten Teppich oder Teppichboden in Hamburg?",
+  "kurz_titel": "Teppich entsorgen",
+  "title": "Teppich entsorgen in Hamburg 2026: Recyclinghof, Sperrmüll | Hinnerk",
+  "description": "Alten Teppich oder Teppichboden loswerden in Hamburg: als Rolle kostenlos zum Recyclinghof, mit der Sperrmüll-Abholung ab 35 € oder abholen lassen. Regeln 2026.",
+  "foto": "sperrmuell",
+  "kurz": "Teppiche und Teppichboden sind in Hamburg Sperrmüll. Am günstigsten bringen Sie sie zum Recyclinghof: Hamburger Privathaushalte geben Sperrmüll bis 2 m Länge in haushaltsüblicher Menge kostenlos ab. Teppichboden liefern Sie dort laut Stadtreinigung als Rolle oder in Bahnen an – kleine Stücke bis 50 × 50 cm kosten Gebühr. Ohne Auto bestellen Sie die Sperrmüll-Abholung der Stadtreinigung für 35 € (draußen bereitgestellt) oder 50 € (aus dem Gebäude geholt).",
+  "abschnitte": [
+   {
+    "h2": "Teppiche sind Sperrmüll",
+    "html": "<p>Die Stadtreinigung Hamburg führt Teppiche in ihrer Info-Broschüre 2026 beim Sperrmüll unter „Sonstiger Hausrat“ – mit dem Zusatz: Auslegeware nur in Rollen oder großen Stücken. Das gilt für den Wohnzimmerteppich genauso wie für Teppichboden, den Sie beim Auszug herausgerissen haben. Sie haben drei Wege: selbst zum Recyclinghof bringen, die Sperrmüll-Abholung bestellen oder eine Firma beauftragen.</p>"
+   },
+   {
+    "h2": "Weg 1: Als Rolle zum Recyclinghof",
+    "html": "<p>Auf den 12 Recyclinghöfen der Stadtreinigung ist Sperrmüll bis 2 m Länge für Hamburger Privathaushalte gebührenfrei – in haushaltsüblicher Menge und solange vor Ort Platz ist. Für Teppiche gibt es eine eigene Regel:</p><ul><li><b>Rollen oder Bahnen:</b> Teppichreste laut Stadtreinigung „als Rollen oder in Bahnen anliefern“.</li><li><b>Kleine Stücke kosten Gebühr:</b> Kleingeschnittene Stücke bis 50 × 50 cm sind am Recyclinghof gebührenpflichtig.</li><li><b>Länge beachten:</b> Rollen Sie den Teppich so, dass die Rolle nicht länger als 2 m ist, und binden Sie sie mit Schnur oder Klebeband zusammen.</li><li><b>Nur für Hamburger:</b> Ein Nachweis kann verlangt werden.</li></ul><p>Was der Recyclinghof sonst annimmt: <a href=\"recyclinghof-hamburg-was-darf-hin.html\">Recyclinghof Hamburg – was darf hin?</a></p>"
+   },
+   {
+    "h2": "Weg 2: Sperrmüll-Abholung der Stadtreinigung",
+    "html": "<p>Ohne passendes Auto bestellen Sie die Abholung bei der Stadtreinigung – telefonisch unter 040/2576-2576 oder online. Laut Preisliste der Stadtreinigung:</p><ul><li>3 bis 8 m³, draußen auf dem Grundstück bereitgestellt: <b>35 €</b></li><li>3 bis 8 m³, aus Wohnung, Keller oder Dachboden geholt: <b>50 €</b></li><li>Jeder weitere angefangene Kubikmeter: <b>5 €</b></li><li>Eilabholung (SPRINT) innerhalb von 24 Stunden: <b>zusätzlich 95 €</b></li></ul><p>Die Gebühr gilt pro Abholung. Melden Sie also gleich alles an, was weg soll – etwa eine alte <a href=\"matratze-entsorgen-hamburg.html\">Matratze</a> oder ein <a href=\"sofa-entsorgen-hamburg.html\">Sofa</a>. Abgeholt werden nur Teile, die zwei Mitarbeitende problemlos tragen können. Ein nasser oder sehr großer Teppich muss deshalb vorher in handliche Rollen geschnitten werden. Den Ablauf erklärt der Ratgeber <a href=\"sperrmuell-anmelden-hamburg.html\">Sperrmüll anmelden in Hamburg</a>.</p>"
+   },
+   {
+    "h2": "Teppichboden selbst herausnehmen",
+    "html": "<ul><li><b>In Bahnen schneiden:</b> Mit einem Cuttermesser von der Rückseite in etwa 1 m breite Streifen schneiden, dann aufrollen.</li><li><b>Kleber und Reste:</b> Verklebter Teppichboden hinterlässt oft Kleberreste und Unterlage. Planen Sie dafür Spachtel und Zeit ein.</li><li><b>Leisten und Nagelleisten</b> sind kein Teppich. Halten Sie Holzleisten getrennt vom Teppich.</li><li><b>Achtung bei alten Böden:</b> Unter sehr alten Bodenbelägen können schadstoffhaltige Kleber oder Platten liegen. Im Zweifel nichts abschleifen und vorher fachlich prüfen lassen.</li></ul><p>Wollen Sie das nicht selbst machen: Wir übernehmen das Herausreißen. Mehr dazu auf der Seite <a href=\"tapeten-teppich-entfernen-hamburg.html\">Tapeten und Teppich entfernen</a>.</p>"
+   },
+   {
+    "h2": "Nicht in den Altkleidercontainer, nicht an die Straße",
+    "html": "<p>Teppiche sind keine Altkleider und gehören nicht in die Textil-Container (mehr im Ratgeber <a href=\"alte-kleidung-entsorgen-hamburg.html\">Alte Kleidung entsorgen</a>). Einen Teppich einfach an den Gehweg zu legen, gilt schnell als illegal abgestellter Sperrmüll – siehe <a href=\"zu-verschenken-an-die-strasse-stellen.html\">„Zu verschenken“ an die Straße stellen</a>. Ein gut erhaltener Teppich findet vielleicht noch einen Abnehmer: <a href=\"moebel-spenden-hamburg.html\">Möbel spenden in Hamburg</a>.</p>"
+   },
+   {
+    "h2": "Weg 3: Abholen lassen – wir tragen",
+    "html": "<p>Hinnerk holt Teppiche, Teppichboden und anderen Sperrmüll direkt aus der Wohnung ab, auch aus oberen Etagen ohne Aufzug. Wir bringen alles getrennt zur Entsorgung. Die Abholung kostet bei Hinnerk ab 129 €, den festen Preis nennen wir vorher. Mehr dazu: <a href=\"sperrmuell-abholen-hamburg.html\">Sperrmüll abholen lassen</a>. Wird die ganze Wohnung geräumt, ist eine <a href=\"wohnungsaufloesung-hamburg.html\">Wohnungsauflösung</a> oft günstiger als viele Einzelwege.</p>"
+   }
+  ],
+  "quellen": [
+   {
+    "titel": "Stadtreinigung Hamburg: INFO-Broschüre 2026",
+    "url": "https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf"
+   },
+   {
+    "titel": "Stadtreinigung Hamburg: Recyclinghöfe",
+    "url": "https://www.stadtreinigung.hamburg/entsorgung-recycling/recyclinghoefe/"
    }
   ]
  }
